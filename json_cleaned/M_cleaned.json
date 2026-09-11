@@ -1,0 +1,792 @@
+{
+  "medicaments": [
+    {
+      "nom": "Maalox",
+      "nom_generique": "Alginate de sodium + Bicarbonate de sodium + Carbonate de calcium",
+      "dosage": "400 mg / 400 mg / 400 mg",
+      "forme": "Comprimé à croquer",
+      "quantite": "30 comprimés",
+      "famille": "Anti-acide - Anti-reflux",
+      "code_cip": "3400962345678",
+      "prix": 6.8,
+      "stock_actuel": 15,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Pyrosis (brûlures d'estomac)",
+        "Reflux gastro-oesophagien",
+        "Acidité gastrique",
+        "Indigestion acide"
+      ],
+      "substituts": [
+        {
+          "nom": "Gaviscon",
+          "dosage": "500 mg / 267 mg / 160 mg",
+          "forme": "Comprimé à croquer",
+          "quantite": "24 comprimés",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.9,
+          "precautions": [
+            "Ne pas dépasser la dose recommandée",
+            "Espacement avec autres médicaments (2h)"
+          ],
+          "instructions": "1 comprimé après les repas",
+          "maladies_associees": [
+            "Pyrosis",
+            "RGO"
+          ]
+        },
+        {
+          "nom": "Rennie",
+          "dosage": "Calcium + Magnésium",
+          "forme": "Comprimé à croquer",
+          "quantite": "24 comprimés",
+          "raison": "Anti-acide différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Ne pas dépasser 6 comprimés par jour",
+            "Surveillance en cas d'insuffisance rénale"
+          ],
+          "instructions": "1 comprimé en cas de besoin",
+          "maladies_associees": [
+            "Pyrosis",
+            "Acidité"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Insuffisance rénale sévère",
+        "Hypercalcémie",
+        "Hyperphosphatémie"
+      ],
+      "effets_secondaires": [
+        "Constipation (rare)",
+        "Sensation de ballonnement",
+        "Flatulences"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)",
+        "Fer (espacement 2h)",
+        "Lévothyroxine (espacement 2h)"
+      ],
+      "posologie_standard": "1 comprimé après les repas (max 6/jour)",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe A - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Macroger",
+      "nom_generique": "Macrogol (polyéthylène glycol)",
+      "dosage": "10 g",
+      "forme": "Poudre pour solution buvable",
+      "quantite": "30 sachets",
+      "famille": "Laxatif (osmose)",
+      "code_cip": "3400963456789",
+      "prix": 14.9,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Constipation chronique",
+        "Constipation sévère",
+        "Préparation coloscopie",
+        "Fécalome"
+      ],
+      "substituts": [
+        {
+          "nom": "Forlax",
+          "dosage": "10 g",
+          "forme": "Poudre",
+          "quantite": "30 sachets",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Dissoudre dans un verre d'eau",
+            "Effet en 24-48h",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 sachet 1 fois par jour",
+          "maladies_associees": [
+            "Constipation chronique"
+          ]
+        },
+        {
+          "nom": "Macrogol (générique)",
+          "dosage": "10 g",
+          "forme": "Poudre",
+          "quantite": "30 sachets",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance électrolytique",
+            "Utilisation à long terme possible"
+          ],
+          "instructions": "1 sachet 1 fois par jour",
+          "maladies_associees": [
+            "Constipation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au macrogol",
+        "Occlusion intestinale",
+        "Perforation intestinale",
+        "Iléus"
+      ],
+      "effets_secondaires": [
+        "Ballonnement",
+        "Douleurs abdominales",
+        "Diarrhée (surdosage)",
+        "Nausées"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 sachet 1-2 fois par jour",
+      "duree_traitement": "Selon besoin",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Magnésium",
+      "nom_generique": "Magnésium (différents sels)",
+      "dosage": "100 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Minéral",
+      "code_cip": "3400964567890",
+      "prix": 9.5,
+      "stock_actuel": 18,
+      "seuil_alerte": 7,
+      "maladies_associees": [
+        "Carence en magnésium",
+        "Fatigue",
+        "Stress",
+        "Troubles du sommeil",
+        "Crampes musculaires",
+        "Palpitations"
+      ],
+      "substituts": [
+        {
+          "nom": "Magnésium marin (générique)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec un repas",
+            "Effet laxatif à forte dose"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en magnésium"
+          ]
+        },
+        {
+          "nom": "Magnésium + Vitamine B6",
+          "dosage": "100 mg / 5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Association synergique",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance en cas d'insuffisance rénale"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Stress",
+            "Fatigue"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au magnésium",
+        "Insuffisance rénale sévère",
+        "Hypermagnésémie",
+        "Bloc auriculo-ventriculaire"
+      ],
+      "effets_secondaires": [
+        "Diarrhée (rare)",
+        "Troubles digestifs",
+        "Selles molles"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)",
+        "Biphosphonates (espacement 2h)",
+        "Lévothyroxine (espacement 2h)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Médiator",
+      "nom_generique": "Benfluorex",
+      "dosage": "150 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Anorexigène - Antidiabétique (RETIRÉ)",
+      "code_cip": "3400965678901",
+      "prix": 0.0,
+      "stock_actuel": 0,
+      "seuil_alerte": 1,
+      "maladies_associees": [
+        "RETIRÉ DU MARCHÉ (2011)",
+        "Risque de valvulopathie",
+        "Hypertriglycéridémie (ancienne indication)"
+      ],
+      "substituts": [
+        {
+          "nom": "Aucun substitut valable",
+          "dosage": "",
+          "forme": "",
+          "quantite": "",
+          "raison": "RETIRÉ - Consultation médicale obligatoire",
+          "confiance": 0.0,
+          "precautions": [
+            "Ne plus utiliser",
+            "Consulter un médecin"
+          ],
+          "instructions": "RETIRÉ - NE PAS UTILISER",
+          "maladies_associees": [
+            "Ne plus prescrire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "RETIRÉ DU MARCHÉ",
+        "Valvulopathie cardiaque",
+        "Hypertension artérielle pulmonaire"
+      ],
+      "effets_secondaires": [
+        "Valvulopathie (toxicité)",
+        "Hypertension pulmonaire",
+        "Fibrose rétropéritonéale"
+      ],
+      "interactions": [
+        "RETIRÉ"
+      ],
+      "posologie_standard": "RETIRÉ",
+      "duree_traitement": "RETIRÉ",
+      "population_specifique": {
+        "personne_agee": "RETIRÉ",
+        "insuffisant_renal": "RETIRÉ",
+        "insuffisant_hepatique": "RETIRÉ"
+      },
+      "grossesse": "RETIRÉ",
+      "allaitement": "RETIRÉ"
+    },
+    {
+      "nom": "Metformine",
+      "nom_generique": "Metformine",
+      "dosage": "500 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "90 comprimés",
+      "famille": "Antidiabétique (biguanide)",
+      "code_cip": "3400966789012",
+      "prix": 14.2,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Diabète de type 2",
+        "Prédiabète",
+        "Syndrome métabolique",
+        "Insulino-résistance",
+        "Syndrome des ovaires polykystiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Glucophage",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "90 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise pendant les repas",
+            "Surveillance rénale",
+            "Risque d'acidose lactique"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        },
+        {
+          "nom": "Metformine LP",
+          "dosage": "500 mg",
+          "forme": "Comprimé libération prolongée",
+          "quantite": "60 comprimés",
+          "raison": "Même principe actif, libération prolongée",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas écraser",
+            "Prise le soir"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la metformine",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Acidose métabolique",
+        "Alcoolisme"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Goût métallique",
+        "Perte d'appétit",
+        "Acidose lactique (rare)"
+      ],
+      "interactions": [
+        "Alcool (risque d'acidose lactique)",
+        "AINS (insuffisance rénale)",
+        "Iode (arrêt 48h avant examen)"
+      ],
+      "posologie_standard": "500 mg 2-3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Methotrexate",
+      "nom_generique": "Méthotrexate",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "25 comprimés",
+      "famille": "Immunosuppresseur - Antimitotique",
+      "code_cip": "3400967890123",
+      "prix": 42.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Polyarthrite rhumatoïde sévère",
+        "Psoriasis sévère",
+        "Maladie de Crohn",
+        "Rectocolite hémorragique",
+        "Cancer (chimiothérapie)"
+      ],
+      "substituts": [
+        {
+          "nom": "Méthotrexate (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "25 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique",
+            "Supplémentation en acide folique"
+          ],
+          "instructions": "1 comprimé 1 fois par semaine",
+          "maladies_associees": [
+            "Polyarthrite rhumatoïde",
+            "Psoriasis"
+          ]
+        },
+        {
+          "nom": "Azathioprine (Imuran)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "50 comprimés",
+          "raison": "Immunosuppresseur différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Maladies auto-immunes"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au méthotrexate",
+        "Grossesse",
+        "Allaitement",
+        "Insuffisance hépatique",
+        "Insuffisance rénale",
+        "Anémie sévère",
+        "Leucopénie"
+      ],
+      "effets_secondaires": [
+        "Myélosuppression",
+        "Hépatotoxicité",
+        "Nausées, vomissements",
+        "Alopécie",
+        "Mucite",
+        "Pneumopathie interstitielle"
+      ],
+      "interactions": [
+        "AINS (toxicité rénale)",
+        "Sulfamides (toxicité)",
+        "Antibiotiques (toxicité)",
+        "Acide folique (diminution toxicité)"
+      ],
+      "posologie_standard": "10-25 mg 1 fois par semaine",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Mopral",
+      "nom_generique": "Oméprazole",
+      "dosage": "20 mg",
+      "forme": "Gélule gastro-résistante",
+      "quantite": "28 gélules",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400968901234",
+      "prix": 19.8,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Reflux gastro-oesophagien",
+        "Ulcère gastroduodénal",
+        "Œsophagite",
+        "Helicobacter pylori",
+        "Syndrome de Zollinger-Ellison"
+      ],
+      "substituts": [
+        {
+          "nom": "Oméprazole (générique)",
+          "dosage": "20 mg",
+          "forme": "Gélule gastro-résistante",
+          "quantite": "28 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser",
+            "Surveillance des fractures à long terme"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        },
+        {
+          "nom": "Inexium (Ésoméprazole)",
+          "dosage": "20 mg",
+          "forme": "Comprimé gastro-résistant",
+          "quantite": "28 comprimés",
+          "raison": "IPP différent, même classe",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avant le repas",
+            "Surveillance des interactions"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'oméprazole",
+        "Allergie aux benzimidazoles"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs",
+        "Carence en vitamine B12",
+        "Fractures (long terme)",
+        "Hypomagnésémie"
+      ],
+      "interactions": [
+        "Clopidogrel (diminution efficacité)",
+        "Diazépam (augmentation)",
+        "Phénytoïne (augmentation)",
+        "Atazanavir (diminution)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "4-8 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance des fractures",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Morphine",
+      "nom_generique": "Morphine",
+      "dosage": "10 mg",
+      "forme": "Comprimé à libération prolongée",
+      "quantite": "30 comprimés",
+      "famille": "Antalgique opioïde (stupéfiant)",
+      "code_cip": "3400969012345",
+      "prix": 55.8,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Douleurs sévères",
+        "Douleurs cancéreuses",
+        "Douleurs post-opératoires",
+        "Douleurs chroniques résistantes"
+      ],
+      "substituts": [
+        {
+          "nom": "Morphine (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Surveillance respiratoire",
+            "Constipation fréquente"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        },
+        {
+          "nom": "Oxycodone (Oxycontin)",
+          "dosage": "10 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Opioïde différent, équivalent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance élevé",
+            "Surveillance respiratoire"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la morphine",
+        "Dépression respiratoire",
+        "Insuffisance hépatique",
+        "Insuffisance rénale",
+        "Ileus",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Constipation (très fréquent)",
+        "Nausées",
+        "Somnolence",
+        "Dépendance",
+        "Dépression respiratoire",
+        "Rétention urinaire"
+      ],
+      "interactions": [
+        "Alcool (dépression respiratoire)",
+        "Benzodiazépines (sédation)",
+        "Antidépresseurs sérotoninergiques (syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "10 mg 2 fois par jour",
+      "duree_traitement": "Selon douleur",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Mucodyne",
+      "nom_generique": "Carbocistéine",
+      "dosage": "750 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Mucolytique",
+      "code_cip": "3400960123456",
+      "prix": 13.2,
+      "stock_actuel": 11,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Bronchite aiguë",
+        "Bronchite chronique",
+        "BPCO",
+        "Encombrement bronchique",
+        "Infections respiratoires"
+      ],
+      "substituts": [
+        {
+          "nom": "Carbocistéine (générique)",
+          "dosage": "750 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un grand verre d'eau",
+            "Utilisation courte (10 jours max)",
+            "Surveillance en cas d'ulcère"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Encombrement bronchique"
+          ]
+        },
+        {
+          "nom": "Exomuc (Acétylcystéine)",
+          "dosage": "600 mg",
+          "forme": "Comprimé effervescent",
+          "quantite": "20 comprimés",
+          "raison": "Mucolytique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Dissoudre dans un verre d'eau",
+            "Risque de troubles digestifs"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Bronchite",
+            "BPCO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la carbocistéine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Nausées",
+        "Diarrhée (rare)"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)"
+      ],
+      "posologie_standard": "750 mg 2-3 fois par jour",
+      "duree_traitement": "5-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Myolastan",
+      "nom_generique": "Tétrazépam",
+      "dosage": "50 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Myorelaxant (benzodiazépine)",
+      "code_cip": "3400961234567",
+      "prix": 17.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Contractures musculaires",
+        "Lombalgie",
+        "Torticolis",
+        "Spasmes musculaires",
+        "Douleurs musculo-squelettiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Tétrazépam (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Somnolence",
+            "Durée limitée (2-3 semaines)"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Contractures"
+          ]
+        },
+        {
+          "nom": "Myorelaxant sans benzodiazépine",
+          "dosage": "Variable",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative sans risque de dépendance",
+          "confiance": 0.7,
+          "precautions": [
+            "Efficacité variable"
+          ],
+          "instructions": "Selon prescription",
+          "maladies_associees": [
+            "Douleurs musculo-squelettiques"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au tétrazépam",
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire",
+        "Insuffisance hépatique",
+        "Myasthénie"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Dépendance",
+        "Sécheresse buccale",
+        "Asthénie"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation)"
+      ],
+      "posologie_standard": "50 mg 2-3 fois par jour",
+      "duree_traitement": "2-3 semaines",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 10
+  }
+}

@@ -1,0 +1,1211 @@
+[
+  {
+    "nom": "Apixaban (Eliquis)",
+    "dosage,": "2.5 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "60 comprimés,",
+    "raison,": "Inhibiteur du facteur Xa, alternative,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,",
+      "Interactions médicamenteuses,",
+      "Ne pas associer à d'autres anticoagulants,"
+    ],
+    "instructions,": "2.5-5 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Fibrillation auriculaire,",
+      "TVP",
+      "Embolie pulmonaire,"
+    ]
+  },
+  {
+    "nom": "Rivaroxaban (Xarelto)",
+    "dosage,": "15 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "42 comprimés,",
+    "raison,": "Inhibiteur du facteur Xa, alternative,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "15-20 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Fibrillation auriculaire,",
+      "TVP",
+      "Embolie pulmonaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose adaptée (110 mg)",
+    "insuffisant_renal,": "Réduire la dose si clairance < 30 mL/min,",
+    "insuffisant_hepatique,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Témozolomide (Temodal)",
+    "dosage,": "250 mg",
+    "forme,": "Gélule,",
+    "quantite,": "5 gélules,",
+    "raison,": "Alternative pour le mélanome, voie orale,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance hématologique,",
+      "Surveillance hépatique,",
+      "Risque d'immunodépression,",
+      "Prendre à jeun,"
+    ],
+    "instructions,": "250 mg 1 fois par jour pendant 5 jours,",
+    "maladies_associees,": [
+      "Mélanome,",
+      "Glioblastome,",
+      "Lymphome,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Surveillance rénale,",
+    "insuffisant_hepatique,": "Surveillance hépatique,"
+  },
+  {
+    "nom": "Codéine 30 mg",
+    "dosage,": "30 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Antalgique opioïde alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Risque de constipation,",
+      "Somnolence possible,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "30-60 mg 3-4 fois par jour,",
+    "maladies_associees,": [
+      "Douleurs modérées,",
+      "Douleurs post-opératoires,",
+      "Douleurs rhumatismales,"
+    ]
+  },
+  {
+    "nom": "Tramadol,",
+    "dosage,": "50 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 gélules,",
+    "raison,": "Antalgique opioïde alternatif, moins de constipation,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Risque de convulsions (fortes doses)",
+      "Interactions avec les IMAO"
+    ],
+    "instructions,": "50-100 mg 3-4 fois par jour,",
+    "maladies_associees,": [
+      "Douleurs sévères,",
+      "Douleurs chroniques,",
+      "Douleurs post-opératoires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 15 mg",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Rutoside (Rutine)",
+    "dosage,": "300 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Vasoprotecteur alternatif,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance des allergies,",
+      "Interactions médicamenteuses,",
+      "Efficacité variable,"
+    ],
+    "instructions,": "300 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Insuffisance veineuse,",
+      "Jambes lourdes,",
+      "Hémorroïdes,"
+    ]
+  },
+  {
+    "nom": "Centella asiatica (Titrated Extract)",
+    "dosage,": "60 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Vasoprotecteur naturel, alternative,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance des allergies,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "60 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Insuffisance veineuse,",
+      "Jambes lourdes,",
+      "Hémorroïdes,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance digestive,",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Sofosbuvir (Sovaldi)",
+    "dosage,": "400 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "28 comprimés,",
+    "raison,": "Alternative antivirale pour l'hépatite C",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance rénale,",
+      "Interactions médicamenteuses,",
+      "Utilisation en association,"
+    ],
+    "instructions,": "400 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Hépatite C chronique,",
+      "Hépatite C avec cirrhose,"
+    ]
+  },
+  {
+    "nom": "Ledipasvir/Sofosbuvir (Harvoni)",
+    "dosage,": "90/400 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "28 comprimés,",
+    "raison,": "Association antivirale pour l'hépatite C",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance rénale,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hépatite C chronique (génotype 1)",
+      "Hépatite C avec cirrhose,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance hépatique,"
+  },
+  {
+    "nom": "Métronidazole (Flagyl)",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Antibiotique pour infections anaérobies,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Interactions avec l'alcool (effet antabuse)",
+      "Surveillance neurologique,",
+      "Risque de neuropathie périphérique,"
+    ],
+    "instructions,": "500 mg 3 fois par jour,",
+    "maladies_associees,": [
+      "Infections anaérobies,",
+      "Infection dentaire,",
+      "Infection ORL"
+    ]
+  },
+  {
+    "nom": "Amoxicilline + Acide clavulanique,",
+    "dosage,": "500/125 mg",
+    "forme,": "Comprimé",
+    "quantite,": "16 comprimés,",
+    "raison,": "Alternative à large spectre,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque de diarrhée,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "500/125 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Infection dentaire,",
+      "Infection ORL",
+      "Infection pulmonaire,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance,",
+    "enfant,": "10-20 mg/kg/jour en 3-4 prises,"
+  },
+  {
+    "nom": "Aucun substitut direct (médicament spécifique)",
+    "dosage,": "N/A",
+    "forme,": "N/A",
+    "quantite,": "N/A",
+    "raison,": "Pas d'alternative directe disponible,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Contacter le neurologue,",
+      "Évaluer le rapport bénéfice/risque,"
+    ],
+    "instructions,": "10 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Sclérose en plaques,",
+      "Troubles de la marche,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Contre-indiqué (clairance < 30 mL/min)",
+    "personne_agee,": "Surveillance rénale,"
+  },
+  {
+    "nom": "Lévonorgestrel (Mirena)",
+    "dosage,": "52 mg",
+    "forme,": "Dispositif intra-utérin,",
+    "quantite,": "1 dispositif,",
+    "raison,": "Alternative pour l'endométriose,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Insertion par un professionnel,",
+      "Surveillance des effets secondaires,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "Dispositif intra-utérin pour 5 ans,",
+    "maladies_associees,": [
+      "Endométriose,",
+      "Ménorragies,",
+      "Contraception,"
+    ]
+  },
+  {
+    "nom": "Gestrinone (Dimetriose)",
+    "dosage,": "2.5 mg",
+    "forme,": "Gélule,",
+    "quantite,": "30 gélules,",
+    "raison,": "Alternative androgène pour l'endométriose,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Risque d'effets androgènes,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "2.5 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Endométriose sévère,",
+      "Mastopathie,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance hépatique,",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Baclofène,",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Myorelaxant alternatif,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Somnolence possible,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "10 mg 3 fois par jour,",
+    "maladies_associees,": [
+      "Spasticité",
+      "Sclérose en plaques,",
+      "Paraparésie,"
+    ]
+  },
+  {
+    "nom": "Tizanidine,",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Myorelaxant alternatif,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Somnolence possible,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "2 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Spasticité",
+      "Douleurs neuropathiques,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 12.5 mg",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Daratumumab + Hyaluronidase,",
+    "dosage,": "1800 mg + 30000 UI",
+    "forme,": "Solution injectable (sous-cutané)",
+    "quantite,": "1 flacon,",
+    "raison,": "Même principe actif, voie sous-cutanée,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Administration sous-cutanée,",
+      "Surveillance des réactions,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "1800 mg en SC 1 fois par semaine,",
+    "maladies_associees,": [
+      "Myélome multiple,",
+      "Myélome multiple récidivant,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Surveillance rénale,",
+    "insuffisant_hepatique,": "Surveillance hépatique,"
+  },
+  {
+    "nom": "Valproate de sodium (Dépamide)",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé à libération prolongée,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage plus fort, une prise par jour,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance hématologique,",
+      "Surveillance des interactions,",
+      "Grossesse (contre-indiqué)"
+    ],
+    "instructions,": "500-1000 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie généralisée,",
+      "Troubles bipolaires,",
+      "Myoclonies,"
+    ]
+  },
+  {
+    "nom": "Carbamazépine (Tégrétol)",
+    "dosage,": "200 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative antiépileptique,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance hématologique,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "200-400 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie partielle,",
+      "Névralgie du trijumeau,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 200 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Valproate de sodium (Dépakine)",
+    "dosage,": "200 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, alternative,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance hématologique,",
+      "Grossesse (contre-indiqué)"
+    ],
+    "instructions,": "200-600 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie généralisée,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 150 mg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Dépakine 200 mg",
+    "dosage,": "200 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage plus faible, 2 prises par jour,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance hématologique,"
+    ],
+    "instructions,": "200-600 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie généralisée,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 250 mg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Dépakine Chrono 500 mg",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé à libération prolongée,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même dosage, libération prolongée,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Surveillance hématologique,"
+    ],
+    "instructions,": "500-1000 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie généralisée,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 250 mg"
+  },
+  {
+    "nom": "Bepanthen,",
+    "dosage,": "N/A",
+    "forme,": "Crème,",
+    "quantite,": "30 g",
+    "raison,": "Alternative cicatrisante (dexpanthénol)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "À usage externe uniquement,",
+      "Ne pas utiliser sur les plaies infectées,"
+    ],
+    "instructions,": "Appliquer 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Cicatrisation,",
+      "Peau irritée,",
+      "Érythème fessier,"
+    ]
+  },
+  {
+    "nom": "Cicalfate+ (Avène)",
+    "dosage,": "N/A",
+    "forme,": "Crème,",
+    "quantite,": "40 ml,",
+    "raison,": "Alternative cicatrisante,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "À usage externe uniquement,",
+      "Surveillance des allergies,"
+    ],
+    "instructions,": "Appliquer 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Cicatrisation,",
+      "Peau irritée,",
+      "Brûlures superficielles,"
+    ]
+  },
+  {
+    "nourrisson,": "Utilisation possible,",
+    "personne_agee,": "Utilisation possible,"
+  },
+  {
+    "nom": "Propranolol (Avlocardyl)",
+    "dosage,": "40 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative prophylactique pour la migraine,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Risque de bradycardie,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "40-80 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Migraine,",
+      "Angine,",
+      "Hypertension,"
+    ]
+  },
+  {
+    "nom": "Amitriptyline (Laroxyl)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative prophylactique pour la migraine,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Somnolence possible,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "25-50 mg le soir,",
+    "maladies_associees,": [
+      "Migraine,",
+      "Dépression,",
+      "Douleurs neuropathiques,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Prednisolone,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Corticostéroïde alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance glycémique,",
+      "Surveillance de la pression artérielle,",
+      "Risque d'ostéoporose,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "5-20 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Maladies auto-immunes,",
+      "Asthme sévère,",
+      "Polyarthrite rhumatoïde,"
+    ]
+  },
+  {
+    "nom": "Bétaméthasone (Célestène)",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Corticostéroïde alternatif,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance glycémique,",
+      "Surveillance de la pression artérielle,",
+      "Risque d'ostéoporose,"
+    ],
+    "instructions,": "0.5-2 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Maladies auto-immunes,",
+      "Asthme sévère,",
+      "Polyarthrite rhumatoïde,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque d'ostéoporose majoré"
+  },
+  {
+    "nom": "Bétaméthasone (collyre)",
+    "dosage,": "0.5 mg/ml,",
+    "forme,": "Collyre,",
+    "quantite,": "5 ml,",
+    "raison,": "Corticostéroïde alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance de la pression intraoculaire,",
+      "Risque d'infection,",
+      "Utilisation limitée dans le temps,"
+    ],
+    "instructions,": "Instiller 1 goutte 2-4 fois par jour,",
+    "maladies_associees,": [
+      "Inflammation oculaire,",
+      "Conjonctivite allergique,"
+    ]
+  },
+  {
+    "nom": "Fluorométholone (collyre)",
+    "dosage,": "0.1%",
+    "forme,": "Collyre,",
+    "quantite,": "5 ml,",
+    "raison,": "Alternative moins puissante, pour inflammations légères,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance de la pression intraoculaire,",
+      "Risque d'infection,",
+      "Utilisation limitée,"
+    ],
+    "instructions,": "Instiller 1 goutte 2-4 fois par jour,",
+    "maladies_associees,": [
+      "Inflammation oculaire légère,",
+      "Conjonctivite allergique,"
+    ]
+  },
+  {
+    "glaucome,": "Surveillance de la pression intraoculaire,",
+    "personne_agee,": "Surveillance de la pression intraoculaire,"
+  },
+  {
+    "nom": "Oméprazole (Mopral)",
+    "dosage,": "20 mg",
+    "forme,": "Gélule,",
+    "quantite,": "28 gélules,",
+    "raison,": "IPP de référence, plus économique,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Utilisation à long terme (risque de carence en B12)",
+      "Interactions médicamenteuses,",
+      "Risque de fracturier (usage prolongé)"
+    ],
+    "instructions,": "20 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Reflux gastro-œsophagien,",
+      "Ulcère,",
+      "Prévention des ulcères,"
+    ]
+  },
+  {
+    "nom": "Ésoméprazole (Inexium)",
+    "dosage,": "20 mg",
+    "forme,": "Gélule,",
+    "quantite,": "28 gélules,",
+    "raison,": "IPP alternatif, bonne efficacité",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Utilisation à long terme (risque de carence en B12)",
+      "Interactions médicamenteuses,",
+      "Risque de fractures (usage prolongé)"
+    ],
+    "instructions,": "20-40 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Reflux gastro-œsophagien,",
+      "Œsophagite,",
+      "Ulcère,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque de carence en B12 majoré",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Codéine 30 mg",
+    "dosage,": "30 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Antalgique opioïde alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Risque de constipation,",
+      "Somnolence possible,"
+    ],
+    "instructions,": "30-60 mg 3-4 fois par jour,",
+    "maladies_associees,": [
+      "Douleurs modérées,",
+      "Douleurs post-opératoires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 15 mg",
+    "insuffisant_renal,": "Réduire la dose,"
+  },
+  {
+    "nom": "Acétazolamide 250 mg",
+    "dosage,": "250 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Surveillance hépatique,",
+      "Surveillance électrolytique,"
+    ],
+    "instructions,": "250 mg 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Glaucome,",
+      "Hypertension oculaire,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "nom": "Dorzolamide (Trusopt)",
+    "dosage,": "2%",
+    "forme,": "Collyre,",
+    "quantite,": "5 ml,",
+    "raison,": "Inhibiteur de l'anhydrase carbonique, voie topique,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance de la pression intraoculaire,",
+      "Risque d'irritation oculaire,"
+    ],
+    "instructions,": "Instiller 1 goutte 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Glaucome,",
+      "Hypertension oculaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque de déshydratation,",
+    "insuffisant_renal,": "Contre-indiqué"
+  },
+  {
+    "nom": "Metformine 850 mg",
+    "dosage,": "850 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage plus élevé, une prise par jour,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque d'acidose lactique (rare)",
+      "Interactions avec l'iode de contraste,"
+    ],
+    "instructions,": "850 mg 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Diabète de type 2,",
+      "Insulinorésistance,"
+    ]
+  },
+  {
+    "nom": "Metformine 1000 mg",
+    "dosage,": "1000 mg",
+    "forme,": "Comprimé à libération prolongée,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage fort, libération prolongée,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque d'acidose lactique (rare)"
+    ],
+    "instructions,": "1000 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Diabète de type 2,",
+      "Insulinorésistance,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Lorazépam (Temesta)",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Benzodiazépine alternative, action plus courte,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Somnolence possible,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "1-2 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Insomnie,",
+      "Angoisse,"
+    ]
+  },
+  {
+    "nom": "Alprazolam (Xanax)",
+    "dosage,": "0.25 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Benzodiazépine alternative,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Interactions avec l'alcool,"
+    ],
+    "instructions,": "0.25-0.5 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Troubles anxieux",
+      "Attaques de panique,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 2 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Ibuprofène (Brufen)",
+    "dosage,": "400 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "AINS alternatif, mieux toléré digestivement,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque d'ulcère gastro-intestinal,",
+      "Ne pas utiliser en cas d'insuffisance rénale,",
+      "Risque cardiovasculaire (fortes doses)"
+    ],
+    "instructions,": "400 mg 3 fois par jour,",
+    "maladies_associees,": [
+      "Arthrose,",
+      "Douleurs rhumatismales,",
+      "Dysménorrhée,"
+    ]
+  },
+  {
+    "nom": "Kétoprofène (Profenid)",
+    "dosage,": "50 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 gélules,",
+    "raison,": "AINS alternatif, bonne efficacité",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque d'ulcère gastro-intestinal,",
+      "Risque cardiovasculaire,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "50-100 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Arthrose,",
+      "Douleurs rhumatismales,",
+      "Douleurs post-opératoires,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque digestif majoré",
+    "insuffisant_renal,": "Contre-indiqué si sévère,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Diclofénac 50 mg",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Dosage moins fort, prendre 1.5 comprimé",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance digestive,",
+      "Surveillance rénale,",
+      "Risque cardiovasculaire,"
+    ],
+    "instructions,": "50-75 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Arthrose,",
+      "Douleurs rhumatismales,",
+      "Dysménorrhée,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque digestif majoré",
+    "insuffisant_renal,": "Contre-indiqué"
+  },
+  {
+    "nom": "Phloroglucinol (Spasfon)",
+    "dosage,": "80 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antispasmodique alternatif, non anticholinergique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance des allergies,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "80 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Spasmes digestifs,",
+      "Colopathie fonctionnelle,",
+      "Coliques,"
+    ]
+  },
+  {
+    "nom": "Mébévérine (Duspataline)",
+    "dosage,": "135 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antispasmodique alternatif, action ciblée,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance digestive,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "135 mg 3 fois par jour,",
+    "maladies_associees,": [
+      "Colopathie fonctionnelle,",
+      "Spasmes digestifs,",
+      "Douleurs abdominales,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 10 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Sumatriptan (Imigrane)",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "6 comprimés,",
+    "raison,": "Triptan de référence, bonne efficacité",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Risque de vasoconstriction,",
+      "Ne pas utiliser en cas de migraine basilaire,"
+    ],
+    "instructions,": "50-100 mg en début de crise,",
+    "maladies_associees,": [
+      "Migraine,",
+      "Céphalées vasculaires,"
+    ]
+  },
+  {
+    "nom": "Zolmitriptan (Zomig)",
+    "dosage,": "2.5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "6 comprimés,",
+    "raison,": "Triptan alternatif, action rapide,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Risque de vasoconstriction,"
+    ],
+    "instructions,": "2.5-5 mg en début de crise,",
+    "maladies_associees,": [
+      "Migraine,",
+      "Céphalées vasculaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance cardiaque,",
+    "insuffisant_renal,": "Contre-indiqué",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Vérapamil (Isoptine)",
+    "dosage,": "40 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Inhibiteur calcique non dihydropyridine alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Risque de bradycardie,",
+      "Interactions avec les bêta-bloquants,"
+    ],
+    "instructions,": "40-80 mg 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angine,",
+      "Troubles du rythme,"
+    ]
+  },
+  {
+    "nom": "Amlodipine,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Inhibiteur calcique dihydropyridine, alternative,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'œdèmes,"
+    ],
+    "instructions,": "5 mg 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angine,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 30 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Trinitrine (Nitro)",
+    "dosage,": "0.3 mg",
+    "forme,": "Comprimé sublingual,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Conserver dans l'emballage d'origine,",
+      "Utiliser en cas de douleur angineuse,",
+      "Consulter un médecin si la douleur persiste,"
+    ],
+    "instructions,": "1 comprimé sous la langue,",
+    "maladies_associees,": [
+      "Angine de poitrine,",
+      "Crise d'angor,"
+    ]
+  },
+  {
+    "nom": "Dinitrate d'isosorbide (Risordan)",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé sublingual,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Vasodilatateur alternatif,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Conserver dans l'emballage d'origine,",
+      "Utiliser en cas de douleur angineuse,"
+    ],
+    "instructions,": "5 mg sous la langue,",
+    "maladies_associees,": [
+      "Angine de poitrine,",
+      "Insuffisance coronaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la pression artérielle,",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Trinitrine 0.3 mg",
+    "dosage,": "0.3 mg",
+    "forme,": "Comprimé sublingual,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage inférieur (prendre 2 comprimés)",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Conserver dans l'emballage d'origine,",
+      "Ne pas dépasser 3 comprimés par crise,"
+    ],
+    "instructions,": "1 comprimé 0.3 mg sous la langue,",
+    "maladies_associees,": [
+      "Angine de poitrine,",
+      "Crise d'angor,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la pression artérielle,"
+  },
+  {
+    "nom": "NaCl 0.9% (solution)",
+    "dosage,": "0.9%",
+    "forme,": "Solution injectable,",
+    "quantite,": "1 flacon,",
+    "raison,": "Solution saline isotonique, alternative,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Surveillance électrolytique,"
+    ],
+    "instructions,": "Perfusion selon prescription,",
+    "maladies_associees,": [
+      "Hydratation,",
+      "Déshydratation,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_cardiaque,": "Surveillance,"
+  },
+  {
+    "nom": "NaCl 0.9% (solution)",
+    "dosage,": "0.9%",
+    "forme,": "Solution injectable,",
+    "quantite,": "1 flacon,",
+    "raison,": "Solution saline isotonique, alternative,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Surveillance électrolytique,"
+    ],
+    "instructions,": "Perfusion selon prescription,",
+    "maladies_associees,": [
+      "Hydratation,",
+      "Déshydratation,"
+    ]
+  },
+  {
+    "nom": "Glucose 10%",
+    "dosage,": "10%",
+    "forme,": "Solution injectable,",
+    "quantite,": "1 flacon,",
+    "raison,": "Concentration plus élevée en glucose,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance de la glycémie,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "Perfusion selon prescription,",
+    "maladies_associees,": [
+      "Hypoglycémie,",
+      "Déshydratation,"
+    ]
+  },
+  {
+    "diabétique,": "Surveillance glycémique,"
+  },
+  {
+    "nom": "Trinitrine 0.3 mg",
+    "dosage,": "0.3 mg",
+    "forme,": "Comprimé sublingual,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Vasodilatateur alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Conserver dans l'emballage d'origine,",
+      "Utiliser en cas de douleur angineuse,"
+    ],
+    "instructions,": "0.3 mg sous la langue,",
+    "maladies_associees,": [
+      "Angine de poitrine,",
+      "Insuffisance coronaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la pression artérielle,"
+  },
+  {
+    "nom": "Trinitrine 0.6 mg",
+    "dosage,": "0.6 mg",
+    "forme,": "Comprimé sublingual,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Vasodilatateur alternatif, plus puissant,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Conserver dans l'emballage d'origine,",
+      "Utiliser en cas de douleur angineuse sévère,"
+    ],
+    "instructions,": "0.6 mg sous la langue,",
+    "maladies_associees,": [
+      "Angine de poitrine sévère,",
+      "Insuffisance coronaire sévère,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la pression artérielle,"
+  },
+  {
+    "version,": "4.0,",
+    "date_generation,": "2024-01-15,",
+    "nombre_medicaments,": 83,
+    "nombre_substituts,": 195,
+    "categories,": [
+      "Antibiotique,",
+      "Anti-inflammatoire,",
+      "Antihypertenseur,",
+      "Hypolipémiant,",
+      "Anxiolytique,",
+      "Antidépresseur,",
+      "Antiviral,",
+      "Diurétique,",
+      "Antiparkinsonien,",
+      "Anticoagulant,",
+      "Antipsychotique,",
+      "Bêta-bloquant,",
+      "Antidiabétique,",
+      "Immunosuppresseur,",
+      "Dermocosmétique,",
+      "Collyre,",
+      "Myorelaxant,",
+      "Corticostéroïde,",
+      "Antiagrégant plaquettaire,",
+      "Bronchodilatateur,",
+      "Antifongique,",
+      "Anti-goutteux",
+      "Vitamine D",
+      "Antinéoplasique,",
+      "Antiandrogène,",
+      "Antispasmodique,",
+      "Antimigraineux",
+      "Vasodilatateur,",
+      "Perfusion,"
+    ],
+    "auteur,": "Assistant Pharmacie - Système RAG",
+    "source,": "Base de données pharmaceutique complète - Médicaments en D",
+    "notes,": "JSON optimisé pour RAG - Médicaments en D (55 nouveaux médicaments)",
+    "taille_totale,": "83 médicaments uniques + 195 substituts,",
+    "mise_a_jour,": "2024-01-15,"
+  }
+]

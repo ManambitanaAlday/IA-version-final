@@ -1,0 +1,1387 @@
+[
+  {
+    "nom": "Clamoxyl,",
+    "dosage,": "500 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif (amoxicilline), dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque de résistance croisée avec les céphalosporines,"
+    ],
+    "instructions,": "Prendre 1 gélule 3 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Angine bactérienne,",
+      "Infection ORL",
+      "Infection pulmonaire,",
+      "Infection urinaire,"
+    ]
+  },
+  {
+    "nom": "Augmentin,",
+    "dosage,": "500 mg / 125 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "16 comprimés,",
+    "raison,": "Même famille, couverture élargie (amoxicilline + acide clavulanique)",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque accru d'effets secondaires digestifs,",
+      "Dose à ajuster en cas d'insuffisance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Sinusite aiguë",
+      "Otite moyenne,",
+      "Infection dentaire,",
+      "Pneumonie communautaire,"
+    ]
+  },
+  {
+    "enfant,": "25-50 mg/kg/jour en 3 prises,",
+    "personne_agee,": "Ajustement en fonction de la clairance rénale,",
+    "insuffisant_renal,": "Réduction de dose si clairance < 30 mL/min,"
+  },
+  {
+    "nom": "Amoxicilline 500 mg",
+    "dosage,": "500 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif, dosage différent (prendre 2 comprimés)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Adapter la posologie (2 comprimés au lieu de 1)"
+    ],
+    "instructions,": "Prendre 2 gélules 2 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Pneumonie sévère,",
+      "Endocardite,",
+      "Méningite,"
+    ]
+  },
+  {
+    "nom": "Aspégic",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé effervescent,",
+    "quantite,": "20 sachets,",
+    "raison,": "Même principe actif, forme différente,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Vérifier les allergies aux salicylés,",
+      "Risque hémorragique,",
+      "Ne pas utiliser chez l'enfant de moins de 12 ans (syndrome de Reye)"
+    ],
+    "instructions,": "Diluer 1 comprimé dans un verre d'eau, 3 fois par jour,",
+    "maladies_associees,": [
+      "Fièvre,",
+      "Douleurs musculaires,",
+      "Arthrite,",
+      "Rhumatisme,"
+    ]
+  },
+  {
+    "nom": "Paracétamol,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Alternative antalgique sans risque hémorragique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Ne pas dépasser 4g par jour,",
+      "Risque hépatique en cas de surdosage,"
+    ],
+    "instructions,": "Prendre 1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Fièvre modérée,",
+      "Douleurs,"
+    ]
+  },
+  {
+    "enfant,": "Contre-indiqué",
+    "personne_agee,": "Risque hémorragique majoré",
+    "insuffisant_renal,": "Risque de surdosage,"
+  },
+  {
+    "nom": "Simvastatine,",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, même dosage,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance des enzymes hépatiques,",
+      "Risque de myopathie,",
+      "Interaction avec les inhibiteurs du CYP3A4,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Hypercholestérolémie,",
+      "Hyperlipidémie,",
+      "Prévention cardiovasculaire,"
+    ]
+  },
+  {
+    "nom": "Rosuvastatine,",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "28 comprimés,",
+    "raison,": "Même famille, dosage équivalent,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque de myopathie,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Hypercholestérolémie sévère,",
+      "Prévention des événements cardiovasculaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 10 mg",
+    "insuffisant_renal,": "Pas d'ajustement nécessaire,"
+  },
+  {
+    "nom": "Nifédipine,",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé à libération prolongée,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, alternative moins chère,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'œdèmes des membres inférieurs,",
+      "Ne pas prendre avec du pamplemousse,"
+    ],
+    "instructions,": "Prendre 1 comprimé matin et soir,",
+    "maladies_associees,": [
+      "Hypertension artérielle,",
+      "Angine de poitrine,",
+      "Maladie coronaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 2.5 mg",
+    "insuffisant_renal,": "Pas d'ajustement nécessaire,"
+  },
+  {
+    "nom": "Furosémide,",
+    "dosage,": "40 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative diurétique plus puissante,",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Surveillance électrolytique,",
+      "Risque d'hypokaliémie,",
+      "Ne pas utiliser en cas d'hyponatrémie sévère,"
+    ],
+    "instructions,": "Prendre 1 comprimé le matin,",
+    "maladies_associees,": [
+      "Hypertension artérielle,",
+      "Insuffisance cardiaque,",
+      "Œdèmes,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque de déshydratation,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Valacyclovir,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Précurseur de l'acyclovir, meilleure biodisponibilité",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Boire abondamment,",
+      "Ne pas utiliser en cas d'insuffisance rénale sévère,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour pendant 5 jours,",
+    "maladies_associees,": [
+      "Herpès labial,",
+      "Herpès génital,",
+      "Varicelle,",
+      "Zona,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Réduire la dose,"
+  },
+  {
+    "nom": "Bromazépam",
+    "dosage,": "6 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, demi-vie intermédiaire,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Interactions avec l'alcool,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Troubles anxieux",
+      "Troubles du sommeil,",
+      "Spasmophilie,"
+    ]
+  },
+  {
+    "nom": "Lorazépam",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même famille, action plus courte,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Somnolence possible,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Insomnie,",
+      "Angoisse,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 0.125 mg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Clomipramine,",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même famille, alternative,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Interactions avec les IMAO",
+      "Risque de sédation,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir au coucher,",
+    "maladies_associees,": [
+      "Dépression sévère,",
+      "Troubles obsessionnels compulsifs,",
+      "Douleurs neuropathiques,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 10-25 mg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Dorzolamide,",
+    "dosage,": "2%",
+    "forme,": "Collyre,",
+    "quantite,": "1 flacon,",
+    "raison,": "Même mécanisme d'action, voie topique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque d'irritation oculaire,",
+      "Surveillance de la pression intraoculaire,"
+    ],
+    "instructions,": "Instiller 1 goutte 3 fois par jour,",
+    "maladies_associees,": [
+      "Glaucome chronique,",
+      "Hypertension oculaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Risque de déshydratation,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Paracétamol,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Alternative antalgique sans risque hémorragique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Ne pas dépasser 4g par jour,",
+      "Risque hépatique en cas de surdosage,"
+    ],
+    "instructions,": "Prendre 1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Fièvre modérée,",
+      "Douleurs légères à modérées,"
+    ]
+  },
+  {
+    "nom": "Ibuprofène,",
+    "dosage,": "400 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Alternative anti-inflammatoire,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque d'ulcère gastro-intestinal,",
+      "Ne pas utiliser en cas d'insuffisance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Inflammation,",
+      "Douleurs rhumatismales,",
+      "Fièvre,"
+    ]
+  },
+  {
+    "enfant,": "Contre-indiqué (moins de 12 ans)",
+    "personne_agee,": "Risque hémorragique majoré",
+    "insuffisant_renal,": "Risque de surdosage,"
+  },
+  {
+    "nom": "Valacyclovir,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Précurseur de l'acyclovir, meilleure biodisponibilité",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Boire abondamment,",
+      "Ne pas utiliser en cas d'insuffisance rénale sévère,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour pendant 5 jours,",
+    "maladies_associees,": [
+      "Herpès labial,",
+      "Herpès génital,",
+      "Zona,"
+    ]
+  },
+  {
+    "nom": "Famciclovir,",
+    "dosage,": "250 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "21 comprimés,",
+    "raison,": "Alternative antivirale efficace,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Peut être pris avec ou sans nourriture,"
+    ],
+    "instructions,": "Prendre 1 comprimé 3 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Herpès,",
+      "Zona,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Réduire la dose,",
+    "personne_agee,": "Surveillance rénale,"
+  },
+  {
+    "nom": "Temsirolimus,",
+    "dosage,": "25 mg",
+    "forme,": "Solution injectable,",
+    "quantite,": "1 flacon,",
+    "raison,": "Même famille (inhibiteur de mTOR)",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Administration IV uniquement,",
+      "Surveillance des paramètres sanguins,",
+      "Protocole d'administration spécifique,"
+    ],
+    "instructions,": "Administration IV hebdomadaire,",
+    "maladies_associees,": [
+      "Cancer du rein avancé",
+      "Lymphome,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Trihexyphénidyle (Artane)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "50 comprimés,",
+    "raison,": "Même mécanisme anticholinergique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de confusion chez la personne âgée,",
+      "Surveillance en cas de glaucome,",
+      "Risque de constipation,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Parkinson,",
+      "Syndrome extrapyramidal,"
+    ]
+  },
+  {
+    "nom": "Procyclidine,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative anticholinergique,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de sécheresse buccale,",
+      "Troubles de l'accommodation,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Parkinson,",
+      "Tremblements,",
+      "Spasmes musculaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 1 mg 2 fois par jour,",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Éplérénone,",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "28 comprimés,",
+    "raison,": "Même mécanisme, meilleure sélectivité",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance de la kaliémie,",
+      "Risque d'hyperkaliémie,",
+      "Pas d'effet anti-androgène,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Insuffisance cardiaque,",
+      "Œdèmes,"
+    ]
+  },
+  {
+    "nom": "Furosémide + Spironolactone,",
+    "dosage,": "40 mg + 25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Association diurétique efficace,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance électrolytique,",
+      "Risque d'hypotension,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé le matin,",
+    "maladies_associees,": [
+      "Insuffisance cardiaque sévère,",
+      "Œdèmes réfractaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 25 mg",
+    "insuffisant_renal,": "Contre-indiqué",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Risédronate,",
+    "dosage,": "35 mg",
+    "forme,": "Comprimé",
+    "quantite,": "4 comprimés,",
+    "raison,": "Même famille, alternative,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Prendre à jeun avec un grand verre d'eau,",
+      "Rester debout 30 minutes,",
+      "Surveillance de la calcémie,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par semaine,",
+    "maladies_associees,": [
+      "Ostéoporose,",
+      "Prévention des fractures,"
+    ]
+  },
+  {
+    "nom": "Zolédronate,",
+    "dosage,": "5 mg",
+    "forme,": "Solution injectable,",
+    "quantite,": "1 flacon,",
+    "raison,": "Bisphosphonate IV, action prolongée,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Administration IV",
+      "Surveillance de la fonction rénale,",
+      "Supplénmentation en calcium/vitamine D"
+    ],
+    "instructions,": "Perfusion IV annuelle,",
+    "maladies_associees,": [
+      "Ostéoporose sévère,",
+      "Maladie de Paget,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Féburixostat,",
+    "dosage,": "80 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Inhibiteur sélectif de la xanthine oxydase,",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Risque cardiovasculaire,",
+      "Surveillance des transaminases,",
+      "Débuter à 40 mg"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Goutte chronique,",
+      "Hyperuricémie sévère,"
+    ]
+  },
+  {
+    "nom": "Colchicine,",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Traitement des crises aiguës de goutte,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Risque de toxicité digestive,",
+      "Interactions médicamenteuses nombreuses,",
+      "Ne pas utiliser en cas d'insuffisance rénale sévère,"
+    ],
+    "instructions,": "1 mg puis 0.5 mg 1 heure après,",
+    "maladies_associees,": [
+      "Crise aiguë de goutte,",
+      "Arthrite goutteuse,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Réduire la dose,",
+    "personne_agee,": "Surveillance rénale,"
+  },
+  {
+    "nom": "Bromazépam",
+    "dosage,": "6 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, demi-vie intermédiaire,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Interactions avec l'alcool,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Troubles du sommeil,"
+    ]
+  },
+  {
+    "nom": "Lorazépam",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même famille, action plus courte,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Somnolence possible,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Insomnie,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 0.125 mg 2 fois par jour,",
+    "insuffisant_renal,": "Pas d'ajustement nécessaire,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Amiodarone IV",
+    "dosage,": "150 mg",
+    "forme,": "Ampoule injectable,",
+    "quantite,": "6 ampoules,",
+    "raison,": "Même principe actif, voie IV pour urgence,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Administration IV lente,",
+      "Surveillance cardiaque continue,",
+      "Risque d'hypotension,"
+    ],
+    "instructions,": "150 mg IV sur 10 minutes,",
+    "maladies_associees,": [
+      "Urgence cardiaque,",
+      "Arrêt cardiaque,"
+    ]
+  },
+  {
+    "nom": "Sotalol,",
+    "dosage,": "80 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Anti-arythmique de classe III avec action bêta-bloquante,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance du QT",
+      "Risque de bradycardie,",
+      "Insuffisance rénale (ajuster la dose)"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Troubles du rythme,",
+      "Tachycardie,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance thyroïdienne,",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Clomipramine,",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même famille, alternative,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Interactions avec les IMAO",
+      "Risque de sédation,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Dépression sévère,",
+      "TOC",
+      "Douleurs neuropathiques,"
+    ]
+  },
+  {
+    "nom": "Duloxétine,",
+    "dosage,": "30 mg",
+    "forme,": "Gélule,",
+    "quantite,": "28 gélules,",
+    "raison,": "Alternative SNRI, moins d'effets secondaires,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'hyponatrémie,",
+      "Interactions avec les IMAO"
+    ],
+    "instructions,": "Prendre 1 gélule 1 fois par jour,",
+    "maladies_associees,": [
+      "Dépression,",
+      "Anxiété",
+      "Douleurs neuropathiques,",
+      "Incontinence urinaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 10-25 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Nifédipine,",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé à libération prolongée,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille, alternative moins chère,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'œdèmes des membres inférieurs,",
+      "Ne pas prendre avec du pamplemousse,"
+    ],
+    "instructions,": "Prendre 1 comprimé matin et soir,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angor,"
+    ]
+  },
+  {
+    "nom": "Lercanidipine,",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative de la même famille,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'œdèmes,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension légère à modérée,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 2.5 mg",
+    "insuffisant_renal,": "Pas d'ajustement nécessaire,",
+    "insuffisant_hepatique,": "Débuter à 2.5 mg"
+  },
+  {
+    "nom": "Clamoxyl,",
+    "dosage,": "500 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque de résistance croisée avec les céphalosporines,"
+    ],
+    "instructions,": "Prendre 1 gélule 3 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Angine,",
+      "Infection ORL",
+      "Infection pulmonaire,",
+      "Infection urinaire,"
+    ]
+  },
+  {
+    "nom": "Augmentin,",
+    "dosage,": "500 mg / 125 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "16 comprimés,",
+    "raison,": "Même famille, couverture élargie,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque accru d'effets secondaires digestifs,",
+      "Dose à ajuster en cas d'insuffisance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Sinusite aiguë",
+      "Otite moyenne,",
+      "Infection dentaire,",
+      "Pneumonie communautaire,"
+    ]
+  },
+  {
+    "enfant,": "25-50 mg/kg/jour en 3 prises,",
+    "personne_agee,": "Ajustement en fonction de la clairance rénale,",
+    "insuffisant_renal,": "Réduction de dose si clairance < 30 mL/min,"
+  },
+  {
+    "nom": "Amoxicilline 500 mg",
+    "dosage,": "500 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif, dosage différent (prendre 2 comprimés)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Adapter la posologie (2 comprimés au lieu de 1)"
+    ],
+    "instructions,": "Prendre 2 gélules 2 fois par jour pendant 7 jours,",
+    "maladies_associees,": [
+      "Pneumonie,",
+      "Infection sévère,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Réduire la dose,",
+    "personne_agee,": "Surveillance rénale,"
+  },
+  {
+    "nom": "Letrozole,",
+    "dosage,": "2.5 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille (inhibiteur de l'aromatase)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance de la densité osseuse,",
+      "Risque d'ostéoporose,",
+      "Supplémentation en calcium/vitamine D"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Cancer du sein hormonodépendant,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la densité osseuse,",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Rivaroxaban,",
+    "dosage,": "15 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "42 comprimés,",
+    "raison,": "Même mécanisme (inhibiteur du facteur Xa)",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,",
+      "Interactions médicamenteuses,",
+      "Ne pas associer à d'autres anticoagulants,"
+    ],
+    "instructions,": "15 mg 2 fois par jour (phase initiale)",
+    "maladies_associees,": [
+      "Fibrillation auriculaire,",
+      "TVP",
+      "Embolie pulmonaire,"
+    ]
+  },
+  {
+    "nom": "Dabigatran,",
+    "dosage,": "110 mg",
+    "forme,": "Gélule,",
+    "quantite,": "60 gélules,",
+    "raison,": "Alternative (inhibiteur direct de la thrombine)",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,",
+      "Garde les gélules dans l'emballage d'origine,"
+    ],
+    "instructions,": "110-150 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Fibrillation auriculaire,",
+      "Thrombose,",
+      "Embolie,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose adaptée,",
+    "insuffisant_renal,": "Réduire la dose si clairance < 30 mL/min,",
+    "insuffisant_hepatique,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Risperidone,",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antipsychotique atypique alternatif,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance métabolique (poids, glycémie, lipides)",
+      "Risque de symptômes extrapyramidaux",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "nom": "Olanzapine,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative antipsychotique atypique,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de prise de poids et de diabète,",
+      "Surveillance métabolique,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 5 mg",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Bisoprolol,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même classe, cardiosélectif, bien toléré",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance de la fréquence cardiaque,",
+      "Risque de bradycardie,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Insuffisance cardiaque,",
+      "Angine,"
+    ]
+  },
+  {
+    "nom": "Métoprolol,",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative cardiosélective,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Ne pas arrêter brutalement,",
+      "Risque de bradycardie,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angine,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 25 mg",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Rosuvastatine,",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "28 comprimés,",
+    "raison,": "Même famille (statine), plus puissante,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Surveillance des enzymes hépatiques,",
+      "Risque de myopathie,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Hypercholestérolémie sévère,",
+      "Prévention cardiovasculaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance des transaminases,",
+    "insuffisant_renal,": "Pas d'ajustement (sauf si sévère)",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Atropine 1 mg",
+    "dosage,": "1 mg",
+    "forme,": "Ampoule injectable,",
+    "quantite,": "10 ampoules,",
+    "raison,": "Dosage plus concentré",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Administration IV lente,",
+      "Surveillance cardiaque,",
+      "Risque de tachycardie,"
+    ],
+    "instructions,": "1 mg IV, renouvelable,",
+    "maladies_associees,": [
+      "Urgence cardiaque,",
+      "Arrêt cardiaque,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "enfant,": "0.02-0.04 mg/kg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Atropine 1 mg",
+    "dosage,": "1 mg",
+    "forme,": "Ampoule injectable,",
+    "quantite,": "10 ampoules,",
+    "raison,": "Dosage plus concentré",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Administration IV lente,",
+      "Surveillance cardiaque,",
+      "Risque de tachycardie,"
+    ],
+    "instructions,": "1 mg IV, renouvelable,",
+    "maladies_associees,": [
+      "Urgence cardiaque,",
+      "Arrêt cardiaque,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "enfant,": "0.02-0.04 mg/kg",
+    "insuffisant_renal,": "Pas d'ajustement,"
+  },
+  {
+    "nom": "Amoxicilline 500 mg",
+    "dosage,": "500 mg",
+    "forme,": "Gélule,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même famille, sans inhibiteur de bêta-lactamase,",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Vérifier les allergies aux pénicillines,",
+      "Risque de résistance si souches productrices de bêta-lactamase,",
+      "Spectre antibactérien plus étroit,"
+    ],
+    "instructions,": "Prendre 1 gélule 3 fois par jour,",
+    "maladies_associees,": [
+      "Infection ORL",
+      "Infection pulmonaire,",
+      "Infection urinaire non compliquée,"
+    ]
+  },
+  {
+    "nom": "Céfuroxime axétil,",
+    "dosage,": "250 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Céphalosporine de 2ème génération,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Vérifier les allergies aux céphalosporines,",
+      "Risque de résistance croisée avec les pénicillines (5-10%)",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Sinusite,",
+      "Otite,",
+      "Infection respiratoire,",
+      "Infection urinaire,"
+    ]
+  },
+  {
+    "enfant,": "25-50 mg/kg/jour en 2-3 prises,",
+    "personne_agee,": "Ajustement en fonction de la clairance rénale,",
+    "insuffisant_renal,": "Réduire la dose si clairance < 30 mL/min,"
+  },
+  {
+    "nom": "Pioglitazone,",
+    "dosage,": "15 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même famille (thiazolidinedione)",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance hépatique,",
+      "Risque d'œdèmes,",
+      "Risque d'insuffisance cardiaque,",
+      "Surveillance de la glycémie,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Diabète de type 2,",
+      "Insulinorésistance,"
+    ]
+  },
+  {
+    "nom": "Metformine,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antidiabétique de première intention, bien toléré",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque d'acidose lactique (rare)",
+      "Interactions avec l'iode de contraste,",
+      "Troubles digestifs possibles,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2-3 fois par jour avec les repas,",
+    "maladies_associees,": [
+      "Diabète de type 2,",
+      "Syndrome métabolique,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale et cardiaque,",
+    "insuffisant_renal,": "Pas d'ajustement (sauf si sévère)",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Lévofloxacine,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Même famille (fluoroquinolone)",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque de tendinopathie,",
+      "Surveillance cardiaque (QT)",
+      "Photosensibilité",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Pneumonie,",
+      "Sinusite,",
+      "Infection urinaire,",
+      "Infection prostatique,"
+    ]
+  },
+  {
+    "nom": "Ciprofloxacine,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Alternative fluoroquinolone à large spectre,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de tendinopathie,",
+      "Photosensibilité",
+      "Ne pas prendre avec les produits laitiers (chélation du calcium)",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Infection urinaire,",
+      "Infection digestive,",
+      "Infection cutanée,",
+      "Infection osseuse,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance cardiaque,",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Bepanthen,",
+    "dosage,": "N/A",
+    "forme,": "Crème,",
+    "quantite,": "30 g",
+    "raison,": "Alternative cicatrisante (dexpanthénol)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "À usage externe uniquement,",
+      "Ne pas utiliser sur les plaies infectées,",
+      "Éviter le contact avec les yeux"
+    ],
+    "instructions,": "Appliquer 1-2 fois par jour sur la zone concernée,",
+    "maladies_associees,": [
+      "Cicatrisation,",
+      "Peau irritée,",
+      "Érythème fessier,"
+    ]
+  },
+  {
+    "nom": "Cicalfate (Laboratoires Avène)",
+    "dosage,": "N/A",
+    "forme,": "Crème,",
+    "quantite,": "30 ml,",
+    "raison,": "Même marque, format réduit,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "À usage externe,",
+      "Pour peaux sensibles,"
+    ],
+    "instructions,": "Appliquer 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Peau lésée,",
+      "Cicatrisation,"
+    ]
+  },
+  {
+    "nourrisson,": "Utilisation possible,",
+    "personne_agee,": "Utilisation possible,",
+    "insuffisant_renal,": "Sans objet (usage externe)"
+  },
+  {
+    "nom": "Mercaptopurine,",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "100 comprimés,",
+    "raison,": "Métabolite actif de l'azathioprine,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance hématologique,",
+      "Risque d'immunodépression,",
+      "Surveillance hépatique,",
+      "Tests génétiques (TPMT)"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Maladies auto-immunes,",
+      "Transplantation,",
+      "Maladie de Crohn,"
+    ]
+  },
+  {
+    "nom": "Mycophénolate mofétil,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "100 comprimés,",
+    "raison,": "Alternative immunosuppressive,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance hématologique,",
+      "Risque d'immunodépression,",
+      "Grossesse (contre-indiqué)",
+      "Surveillance digestive,"
+    ],
+    "instructions,": "500 mg 2 fois par jour,",
+    "maladies_associees,": [
+      "Transplantation,",
+      "Maladies auto-immunes,"
+    ]
+  },
+  {
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Contre-indiqué",
+    "personne_agee,": "Surveillance hématologique renforcée,"
+  },
+  {
+    "nom": "Clarithromycine,",
+    "dosage,": "500 mg",
+    "forme,": "Comprimé pelliculé",
+    "quantite,": "14 comprimés,",
+    "raison,": "Même famille (macrolide)",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Surveillance cardiaque (QT)",
+      "Interactions médicamenteuses (CYP3A4)",
+      "Risque de résistance,"
+    ],
+    "instructions,": "Prendre 1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Infections respiratoires,",
+      "Infections cutanées,",
+      "Infection à Helicobacter pylori"
+    ]
+  },
+  {
+    "nom": "Érythromycine,",
+    "dosage,": "250 mg",
+    "forme,": "Comprimé enrobé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Macrolide de première génération,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Troubles digestifs fréquents,",
+      "Interactions médicamenteuses,",
+      "Surveillance cardiaque (QT)"
+    ],
+    "instructions,": "Prendre 1 comprimé 4 fois par jour,",
+    "maladies_associees,": [
+      "Infections respiratoires,",
+      "Infections cutanées,"
+    ]
+  },
+  {
+    "enfant,": "10-12 mg/kg/jour,",
+    "insuffisant_renal,": "Pas d'ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Dorzolamide (Trusopt)",
+    "dosage,": "2%",
+    "forme,": "Collyre,",
+    "quantite,": "5 ml,",
+    "raison,": "Même famille (inhibiteur de l'anhydrase carbonique)",
+    "confiance,": 0.95,
+    "precautions,": [
+      "Surveillance de la pression intraoculaire,",
+      "Risque d'irritation oculaire,",
+      "Interactions médicamenteuses,"
+    ],
+    "instructions,": "Instiller 1 goutte 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Glaucome,",
+      "Hypertension oculaire,"
+    ]
+  },
+  {
+    "nom": "Timolol (collyre)",
+    "dosage,": "0.5%",
+    "forme,": "Collyre,",
+    "quantite,": "5 ml,",
+    "raison,": "Alternative (bêta-bloquant oculaire)",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de bradycardie,",
+      "Asthme (contre-indiqué)",
+      "Surveillance cardiaque,"
+    ],
+    "instructions,": "Instiller 1 goutte 2 fois par jour,",
+    "maladies_associees,": [
+      "Glaucome,",
+      "Hypertension oculaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la pression intraoculaire,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,"
+  },
+  {
+    "nom": "Olanzapine,",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antipsychotique atypique alternatif,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de prise de poids (significatif)",
+      "Risque de diabète,",
+      "Surveillance métabolique,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé le soir,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles bipolaires,",
+      "Démence,"
+    ]
+  },
+  {
+    "nom": "Aripiprazole,",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alternative antipsychotique atypique, meilleur profil métabolique,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Risque d'akathisie (impatiences)",
+      "Surveillance métabolique,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles bipolaires,",
+      "Troubles autistiques,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 0.5-1 mg",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Atenolol 50 mg",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Dosage inférieur (prendre 2 comprimés)",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance de la fréquence cardiaque,",
+      "Risque de bradycardie,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "Prendre 2 comprimés 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angine,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "personne_agee,": "Débuter à 50 mg",
+    "insuffisant_renal,": "Réduire la dose,"
+  },
+  {
+    "version,": "2.2,",
+    "date_generation,": "2024-01-15,",
+    "nombre_medicaments,": 30,
+    "mise_a_jour,": "2024-01-15,"
+  }
+]

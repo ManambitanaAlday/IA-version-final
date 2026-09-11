@@ -1,0 +1,724 @@
+{
+  "medicaments": [
+    {
+      "nom": "Urgo",
+      "nom_generique": "Acide hyaluronique + Sulfate de chondroïtine",
+      "dosage": "Variable",
+      "forme": "Pansement hydrocolloïde",
+      "quantite": "10 pansements",
+      "famille": "Pansement - Cicatrisation",
+      "code_cip": "3400989012345",
+      "prix": 14.8,
+      "stock_actuel": 15,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Plaies superficielles",
+        "Escarres",
+        "Ulcères de jambe",
+        "Cicatrisation",
+        "Brûlures superficielles"
+      ],
+      "substituts": [
+        {
+          "nom": "Pansement hydrocolloïde (générique)",
+          "dosage": "Variable",
+          "forme": "Pansement",
+          "quantite": "10 pansements",
+          "raison": "Même type de pansement",
+          "confiance": 0.9,
+          "precautions": [
+            "Appliquer sur peau propre et sèche",
+            "Ne pas utiliser sur plaie infectée",
+            "Changer tous les 3-5 jours"
+          ],
+          "instructions": "Appliquer 1 pansement sur la plaie",
+          "maladies_associees": [
+            "Plaies superficielles"
+          ]
+        },
+        {
+          "nom": "Duoderm",
+          "dosage": "Variable",
+          "forme": "Pansement hydrocolloïde",
+          "quantite": "10 pansements",
+          "raison": "Pansement hydrocolloïde différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Ne pas utiliser sur plaie infectée",
+            "Changement selon exsudat"
+          ],
+          "instructions": "Appliquer sur plaie propre",
+          "maladies_associees": [
+            "Escarres",
+            "Ulcères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Plaie infectée",
+        "Plaie nécrotique",
+        "Allergie à l'acide hyaluronique"
+      ],
+      "effets_secondaires": [
+        "Irritation locale (rare)",
+        "Macération cutanée (si excès d'exsudat)"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 pansement sur la plaie",
+      "duree_traitement": "Jusqu'à cicatrisation",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la cicatrisation",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Urcéol",
+      "nom_generique": "Acide urique (homéopathie)",
+      "dosage": "Variable",
+      "forme": "Granulés",
+      "quantite": "1 tube",
+      "famille": "Homéopathie - Drainage",
+      "code_cip": "3400980123456",
+      "prix": 6.9,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Excès d'acide urique",
+        "Goutte",
+        "Hyperuricémie",
+        "Arthrite urique"
+      ],
+      "substituts": [
+        {
+          "nom": "Acide urique (générique)",
+          "dosage": "Variable",
+          "forme": "Granulés",
+          "quantite": "1 tube",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Traitement complémentaire",
+            "Ne pas substituer un traitement médical",
+            "Surveillance de l'acide urique"
+          ],
+          "instructions": "5 granules 3 fois par jour",
+          "maladies_associees": [
+            "Hyperuricémie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Allergie à l'acide urique"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "5 granules 3 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible (avis médical)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Uvestérol",
+      "nom_generique": "Vitamine D3 (cholécalciférol)",
+      "dosage": "50 000 UI",
+      "forme": "Solution buvable",
+      "quantite": "10 ml",
+      "famille": "Vitamine (calciférol)",
+      "code_cip": "3400981234567",
+      "prix": 17.6,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Carence en vitamine D",
+        "Ostéoporose",
+        "Prévention des chutes",
+        "Rachitisme",
+        "Ostéomalacie"
+      ],
+      "substituts": [
+        {
+          "nom": "Vitamine D3 (générique)",
+          "dosage": "50 000 UI",
+          "forme": "Solution buvable",
+          "quantite": "10 ml",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de la calcémie",
+            "Surveillance de la calciurie",
+            "Prise avec un repas"
+          ],
+          "instructions": "1 goutte par jour",
+          "maladies_associees": [
+            "Carence en vitamine D"
+          ]
+        },
+        {
+          "nom": "Vitamine D3 100 000 UI (ampoule)",
+          "dosage": "100 000 UI",
+          "forme": "Ampoule buvable",
+          "quantite": "1 ampoule",
+          "raison": "Dosage différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise 1 fois par mois",
+            "Surveillance de la calcémie"
+          ],
+          "instructions": "1 ampoule par mois",
+          "maladies_associees": [
+            "Carence sévère en vitamine D"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la vitamine D3",
+        "Allergie au cholécalciférol",
+        "Hypercalcémie",
+        "Hypercalciurie",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Hypercalcémie (surdosage)",
+        "Nausées",
+        "Constipation"
+      ],
+      "interactions": [
+        "Diurétiques thiazidiques (hypercalcémie)",
+        "Digitaliques (toxicité cardiaque)",
+        "Corticoïdes (diminution absorption)"
+      ],
+      "posologie_standard": "50 000 UI 1 fois par semaine",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la calcémie",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible (surveillance)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Ultracaine",
+      "nom_generique": "Articaine + Adrénaline",
+      "dosage": "40 mg / 0.01 mg",
+      "forme": "Solution injectable",
+      "quantite": "1 seringue de 2 ml",
+      "famille": "Anesthésique local",
+      "code_cip": "3400982345678",
+      "prix": 12.8,
+      "stock_actuel": 20,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Anesthésie dentaire",
+        "Anesthésie locale",
+        "Soins dentaires",
+        "Chirurgie mineure"
+      ],
+      "substituts": [
+        {
+          "nom": "Articaine (générique)",
+          "dosage": "40 mg",
+          "forme": "Solution injectable",
+          "quantite": "1 seringue de 2 ml",
+          "raison": "Même principe actif (sans adrénaline)",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque d'allergie",
+            "Surveillance des signes d'intoxication",
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "Injection locale selon procédure",
+          "maladies_associees": [
+            "Anesthésie dentaire"
+          ]
+        },
+        {
+          "nom": "Lidocaïne 2% + Adrénaline",
+          "dosage": "20 mg / 0.01 mg",
+          "forme": "Solution injectable",
+          "quantite": "1 seringue de 2 ml",
+          "raison": "Anesthésique local différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Allergie croisée possible",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "Injection locale",
+          "maladies_associees": [
+            "Anesthésie dentaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'articaine",
+        "Allergie aux anesthésiques locaux",
+        "Allergie à l'adrénaline",
+        "Hypertension sévère",
+        "Tachycardie sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Réactions allergiques (rares)",
+        "Tachycardie",
+        "Hypotension",
+        "Palpitations"
+      ],
+      "interactions": [
+        "Bêta-bloquants (hypertension)",
+        "Antidépresseurs (hypertension)",
+        "IMAO (hypertension)"
+      ],
+      "posologie_standard": "1-2 seringues selon procédure",
+      "duree_traitement": "Usage unique",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiovasculaire",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Unasyn",
+      "nom_generique": "Ampicilline + Sulbactam",
+      "dosage": "1 g / 0.5 g",
+      "forme": "Poudre pour injection",
+      "quantite": "1 flacon",
+      "famille": "Antibiotique (pénicilline + inhibiteur de bêta-lactamase)",
+      "code_cip": "3400983456789",
+      "prix": 28.4,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections sévères",
+        "Pneumonie",
+        "Infections abdominales",
+        "Infections gynécologiques",
+        "Infections urinaires sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Ampicilline + Sulbactam (générique)",
+          "dosage": "1 g / 0.5 g",
+          "forme": "Poudre pour injection",
+          "quantite": "1 flacon",
+          "raison": "Même composition, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Allergie croisée avec pénicillines",
+            "Surveillance allergique",
+            "Administration IV ou IM"
+          ],
+          "instructions": "Injection selon prescription",
+          "maladies_associees": [
+            "Infections sévères"
+          ]
+        },
+        {
+          "nom": "Amoxicilline + Acide clavulanique (Augmentin)",
+          "dosage": "1 g / 0.2 g",
+          "forme": "Poudre pour injection",
+          "quantite": "1 flacon",
+          "raison": "Association pénicilline + inhibiteur",
+          "confiance": 0.85,
+          "precautions": [
+            "Allergie croisée",
+            "Surveillance rénale"
+          ],
+          "instructions": "Injection IV",
+          "maladies_associees": [
+            "Infections sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ampicilline",
+        "Allergie aux pénicillines",
+        "Allergie au sulbactam",
+        "Mononucléose infectieuse",
+        "Grossesse (sauf avis médical)"
+      ],
+      "effets_secondaires": [
+        "Allergie (rare)",
+        "Troubles digestifs",
+        "Colite pseudomembraneuse (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Contraceptifs oraux (diminution efficacité)"
+      ],
+      "posologie_standard": "1 g 3-4 fois par jour",
+      "duree_traitement": "5-14 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Urolosine",
+      "nom_generique": "Phosphatidylcholine (complément)",
+      "dosage": "Variable",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Complément alimentaire - Hépatoprotecteur",
+      "code_cip": "3400984567890",
+      "prix": 15.8,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Protection hépatique",
+        "Détoxification",
+        "Fatigue",
+        "Soutien hépatique"
+      ],
+      "substituts": [
+        {
+          "nom": "Phosphatidylcholine (générique)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif",
+          "confiance": 0.95,
+          "precautions": [
+            "Prise avec un repas",
+            "Ne pas dépasser la dose",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Soutien hépatique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la phosphatidylcholine",
+        "Insuffisance hépatique sévère (avis médical)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 gélule 2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Ultra-levure",
+      "nom_generique": "Saccharomyces boulardii",
+      "dosage": "250 mg",
+      "forme": "Gélule",
+      "quantite": "20 gélules",
+      "famille": "Probiotique",
+      "code_cip": "3400985678901",
+      "prix": 8.2,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Diarrhée",
+        "Diarrhée du voyageur",
+        "Troubles digestifs",
+        "Prévention des diarrhées sous antibiotiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Saccharomyces boulardii (générique)",
+          "dosage": "250 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas mélanger avec des boissons chaudes",
+            "Espacement avec antibiotiques (2h)",
+            "Surveillance en cas d'immunodépression"
+          ],
+          "instructions": "2 gélules 2 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        },
+        {
+          "nom": "Lactobacillus (probiotique)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Probiotique différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Espacement avec antibiotiques"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la levure",
+        "Allergie aux probiotiques",
+        "Immunodépression sévère"
+      ],
+      "effets_secondaires": [
+        "Rares - Ballonnement",
+        "Constipation (rare)"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)",
+        "Antifongiques (diminution efficacité)"
+      ],
+      "posologie_standard": "2 gélules 2 fois par jour",
+      "duree_traitement": "5-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance en cas d'immunodépression",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Uridine",
+      "nom_generique": "Uridine",
+      "dosage": "250 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Neuroprotecteur",
+      "code_cip": "3400986789012",
+      "prix": 22.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Soutien neurologique",
+        "Mémoire",
+        "Concentration",
+        "Neuroprotection"
+      ],
+      "substituts": [
+        {
+          "nom": "Uridine (générique)",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Ne pas dépasser la dose",
+            "Effet en 2-4 semaines"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Soutien cognitif"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'uridine",
+        "Grossesse (sauf avis médical)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "250 mg 2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utiliser uniquement si bénéfice > risque",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Urso",
+      "nom_generique": "Chlorhydrate de phénylpropanolamine",
+      "dosage": "25 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Décongestionnant nasal",
+      "code_cip": "3400987890123",
+      "prix": 9.6,
+      "stock_actuel": 11,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Rhinite",
+        "Congestion nasale",
+        "Sinusite",
+        "Rhume"
+      ],
+      "substituts": [
+        {
+          "nom": "Phénylpropanolamine (générique)",
+          "dosage": "25 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'hypertension",
+            "Surveillance cardiovasculaire",
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Rhinite"
+          ]
+        },
+        {
+          "nom": "Oxymétazoline (spray nasal)",
+          "dosage": "0.05 %",
+          "forme": "Spray nasal",
+          "quantite": "10 ml",
+          "raison": "Décongestionnant nasal différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Ne pas utiliser plus de 5 jours",
+            "Risque de rhinite médicamenteuse"
+          ],
+          "instructions": "1 pulvérisation 2 fois par jour",
+          "maladies_associees": [
+            "Congestion nasale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la phénylpropanolamine",
+        "Hypertension sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hypertension",
+        "Tachycardie",
+        "Insomnie",
+        "Nervosité"
+      ],
+      "interactions": [
+        "Antihypertenseurs (diminution effet)",
+        "IMAO (hypertension)"
+      ],
+      "posologie_standard": "25 mg 3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Ulcogant",
+      "nom_generique": "Sucralfate",
+      "dosage": "1 g",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-ulcéreux (panse gastrique)",
+      "code_cip": "3400988901234",
+      "prix": 15.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Ulcère gastroduodénal",
+        "Gastrite",
+        "Œsophagite",
+        "Prévention des ulcères"
+      ],
+      "substituts": [
+        {
+          "nom": "Sucralfate (générique)",
+          "dosage": "1 g",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise à distance des repas (1h avant)",
+            "Espacement avec autres médicaments (2h)",
+            "Ne pas écraser"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Ulcère",
+            "Gastrite"
+          ]
+        },
+        {
+          "nom": "Alginate (Gaviscon)",
+          "dosage": "Variable",
+          "forme": "Comprimé",
+          "quantite": "24 comprimés",
+          "raison": "Protection gastrique différente",
+          "confiance": 0.7,
+          "precautions": [
+            "Prise après les repas",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "RGO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au sucralfate",
+        "Insuffisance rénale sévère",
+        "Dysphagie sévère"
+      ],
+      "effets_secondaires": [
+        "Constipation (fréquent)",
+        "Nausées",
+        "Sécheresse buccale"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)",
+        "Lévothyroxine (espacement 2h)",
+        "Digoxine (espacement 2h)"
+      ],
+      "posologie_standard": "1 g 2-3 fois par jour",
+      "duree_traitement": "4-8 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la constipation",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15"
+  }
+}

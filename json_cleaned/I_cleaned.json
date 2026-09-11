@@ -1,0 +1,934 @@
+{
+  "medicaments": [
+    {
+      "nom": "Ibuprofène",
+      "nom_generique": "Ibuprofène",
+      "dosage": "400 mg",
+      "forme": "Comprimé enrobé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400951234567",
+      "prix": 8.9,
+      "stock_actuel": 25,
+      "seuil_alerte": 10,
+      "maladies_associees": [
+        "Douleurs musculaires",
+        "Arthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Dysménorrhée",
+        "Céphalées",
+        "Fièvre",
+        "Douleurs dentaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Advil",
+          "dosage": "400 mg",
+          "forme": "Comprimé enrobé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Ne pas dépasser 1200 mg par jour",
+            "Surveillance rénale pour traitements longs"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Nurofen",
+          "dosage": "400 mg",
+          "forme": "Comprimé enrobé",
+          "quantite": "24 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque gastro-intestinal",
+            "Contre-indiqué en cas d'ulcère"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Fièvre"
+          ]
+        },
+        {
+          "nom": "Kétoprofène (Kétum)",
+          "dosage": "100 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "AINS différent, même action",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque digestif majoré",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Arthrose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ibuprofène",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (dyspepsie, nausées)",
+        "Ulcère gastro-intestinal (long terme)",
+        "Insuffisance rénale (long terme)",
+        "Éruptions cutanées",
+        "Rétention hydrosodée",
+        "Céphalées (rares)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Aspirine (diminution efficacité)",
+        "Lithium (augmentation de la lithémie)",
+        "Méthotrexate (toxicité majorée)",
+        "Diurétiques (réduction de l'effet)"
+      ],
+      "posologie_standard": "400 mg 3 fois par jour",
+      "duree_traitement": "3-5 jours (sans avis médical)",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème trimestre), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible (faible passage)"
+    },
+    {
+      "nom": "Imodium",
+      "nom_generique": "Lopéramide",
+      "dosage": "2 mg",
+      "forme": "Gélule",
+      "quantite": "12 gélules",
+      "famille": "Antidiarrhéique",
+      "code_cip": "3400952345678",
+      "prix": 7.5,
+      "stock_actuel": 18,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Diarrhée aiguë",
+        "Diarrhée du voyageur",
+        "Diarrhée chronique",
+        "Colopathie fonctionnelle"
+      ],
+      "substituts": [
+        {
+          "nom": "Lopéramide (générique)",
+          "dosage": "2 mg",
+          "forme": "Gélule",
+          "quantite": "12 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser 8 gélules par jour",
+            "Surveiller la réhydratation",
+            "Arrêt en cas d'amélioration"
+          ],
+          "instructions": "1 gélule après chaque selle liquide",
+          "maladies_associees": [
+            "Diarrhée aiguë"
+          ]
+        },
+        {
+          "nom": "Diarsed",
+          "dosage": "2 mg",
+          "forme": "Comprimé orodispersible",
+          "quantite": "10 comprimés",
+          "raison": "Même principe actif, forme orodispersible",
+          "confiance": 0.95,
+          "precautions": [
+            "Dissoudre sur la langue",
+            "Réhydratation indispensable"
+          ],
+          "instructions": "1 comprimé après chaque selle liquide",
+          "maladies_associees": [
+            "Diarrhée aiguë"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au lopéramide",
+        "Diarrhée sanglante",
+        "Diarrhée infectieuse sévère",
+        "Dysenterie",
+        "Colite ulcéreuse aiguë",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires": [
+        "Constipation (surdosage)",
+        "Nausées",
+        "Sécheresse buccale",
+        "Somnolence",
+        "Vertiges",
+        "Ballonnement abdominal"
+      ],
+      "interactions": [
+        "Rifampicine (diminution efficacité)",
+        "Cholestyramine (diminution efficacité)"
+      ],
+      "posologie_standard": "2 gélules d'emblée, puis 1 après chaque selle",
+      "duree_traitement": "2-3 jours maximum",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la déshydratation",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance (premier passage)"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Passage dans le lait - Utilisation possible (faible)"
+    },
+    {
+      "nom": "Imovane",
+      "nom_generique": "Zopiclone",
+      "dosage": "7.5 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "20 comprimés",
+      "famille": "Hypnotique (non benzodiazépine)",
+      "code_cip": "3400953456789",
+      "prix": 16.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Insomnie d'endormissement",
+        "Insomnie de maintien",
+        "Troubles du sommeil",
+        "Insomnie chronique"
+      ],
+      "substituts": [
+        {
+          "nom": "Zopiclone (générique)",
+          "dosage": "7.5 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Arrêt progressif",
+            "Ne pas prendre en cas de consommation d'alcool"
+          ],
+          "instructions": "1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Stilnox (Zolpidem)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Hypnotique différent, action similaire",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance élevé",
+            "Effet rebond à l'arrêt"
+          ],
+          "instructions": "1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie d'endormissement"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la zopiclone",
+        "Insuffisance respiratoire",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Goût métallique (fréquent)",
+        "Somnolence diurne",
+        "Vertiges",
+        "Troubles de mémoire",
+        "Dépendance",
+        "Syndrome de sevrage à l'arrêt"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée - risque vital)",
+        "Benzodiazépines (sédation majorée)",
+        "Morphiniques (sédation majorée)",
+        "Antihistaminiques"
+      ],
+      "posologie_standard": "7.5 mg au coucher",
+      "duree_traitement": "Courte durée (4 semaines max)",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (3.75 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Inexium",
+      "nom_generique": "Ésoméprazole",
+      "dosage": "20 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "28 comprimés",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400954567890",
+      "prix": 21.3,
+      "stock_actuel": 14,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Reflux gastro-oesophagien (RGO)",
+        "Ulcère gastroduodénal",
+        "Syndrome de Zollinger-Ellison",
+        "Œsophagite érosive",
+        "Helicobacter pylori (association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Ésoméprazole (générique)",
+          "dosage": "20 mg",
+          "forme": "Comprimé gastro-résistant",
+          "quantite": "28 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser ou croquer",
+            "Traitement à long terme: surveillance"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        },
+        {
+          "nom": "Oméprazole (Mopral)",
+          "dosage": "20 mg",
+          "forme": "Gélule gastro-résistante",
+          "quantite": "28 gélules",
+          "raison": "IPP différent, même efficacité",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ésoméprazole",
+        "Allergie aux benzimidazoles"
+      ],
+      "effets_secondaires": [
+        "Céphalées (fréquents)",
+        "Troubles digestifs (diarrhée, nausées)",
+        "Carence en vitamine B12 (long terme)",
+        "Augmentation des fractures (long terme)",
+        "Hypomagnésémie"
+      ],
+      "interactions": [
+        "Clopidogrel (diminution de l'efficacité)",
+        "Diazépam (augmentation de la concentration)",
+        "Phénytoïne (augmentation)",
+        "Atazanavir (diminution)",
+        "Méthotrexate (augmentation de la toxicité)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "Variable (4-8 semaines)",
+      "population_specifique": {
+        "personne_agee": "Surveillance des fractures",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Isoptine",
+      "nom_generique": "Vérapamil",
+      "dosage": "40 mg",
+      "forme": "Comprimé",
+      "quantite": "90 comprimés",
+      "famille": "Inhibiteur calcique (anti-arythmique)",
+      "code_cip": "3400955678901",
+      "prix": 32.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Angine de poitrine",
+        "Tachycardie supraventriculaire",
+        "Arythmies",
+        "Migraine (prophylaxie)"
+      ],
+      "substituts": [
+        {
+          "nom": "Vérapamil (générique)",
+          "dosage": "40 mg",
+          "forme": "Comprimé",
+          "quantite": "90 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Surveillance tension artérielle",
+            "Risque de constipation"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine"
+          ]
+        },
+        {
+          "nom": "Diltiazem (Tildiem)",
+          "dosage": "60 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur calcique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance tension",
+            "Risque de bradycardie"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au vérapamil",
+        "Insuffisance cardiaque sévère",
+        "Bradycardie sévère",
+        "Syndrome du QT long",
+        "Hypotension sévère",
+        "Infarctus récent"
+      ],
+      "effets_secondaires": [
+        "Constipation (fréquent)",
+        "Bradycardie",
+        "Hypotension",
+        "Céphalées",
+        "Vertiges",
+        "Œdème des chevilles",
+        "Troubles de la conduction"
+      ],
+      "interactions": [
+        "Amiodarone (risque de bradycardie)",
+        "Bêta-bloquants (risque d'insuffisance cardiaque)",
+        "Digoxine (augmentation de la concentration)",
+        "Lithium (augmentation de la lithémie)",
+        "Pamplemousse (augmentation de la concentration)"
+      ],
+      "posologie_standard": "40-80 mg 3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Passage dans le lait - Surveillance"
+    },
+    {
+      "nom": "Isoptine LP",
+      "nom_generique": "Vérapamil à libération prolongée",
+      "dosage": "240 mg",
+      "forme": "Comprimé à libération prolongée",
+      "quantite": "30 comprimés",
+      "famille": "Inhibiteur calcique (anti-arythmique)",
+      "code_cip": "3400956789012",
+      "prix": 38.9,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Hypertension artérielle sévère",
+        "Angor stable",
+        "Tachycardie supraventriculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Vérapamil LP (générique)",
+          "dosage": "240 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Avaler entier, ne pas croquer",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angor"
+          ]
+        },
+        {
+          "nom": "Diltiazem LP (Tildiem LP)",
+          "dosage": "300 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur calcique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance tension",
+            "Risque de bradycardie"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au vérapamil",
+        "Insuffisance cardiaque",
+        "Bradycardie sévère",
+        "Hypotension"
+      ],
+      "effets_secondaires": [
+        "Constipation",
+        "Bradycardie",
+        "Céphalées",
+        "Vertiges",
+        "Hypotension"
+      ],
+      "interactions": [
+        "Bêta-bloquants (risque d'insuffisance cardiaque)",
+        "Digoxine (augmentation)",
+        "Pamplemousse (augmentation)"
+      ],
+      "posologie_standard": "240 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Surveillance"
+    },
+    {
+      "nom": "Isosorbide Dinitrate",
+      "nom_generique": "Dinitrate d'isosorbide",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "60 comprimés",
+      "famille": "Vasodilatateur coronarien (nitré)",
+      "code_cip": "3400957890123",
+      "prix": 15.2,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Angine de poitrine",
+        "Insuffisance cardiaque",
+        "Infarctus du myocarde (post)"
+      ],
+      "substituts": [
+        {
+          "nom": "Risordan",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'hypotension",
+            "Tolérance à long terme"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Angine"
+          ]
+        },
+        {
+          "nom": "Trinitrine (Nitroglycérine)",
+          "dosage": "2.6 mg",
+          "forme": "Comprimé sublingual",
+          "quantite": "30 comprimés",
+          "raison": "Action rapide, crise d'angine",
+          "confiance": 0.85,
+          "precautions": [
+            "Action immédiate",
+            "Risque d'hypotension"
+          ],
+          "instructions": "1 comprimé sous la langue à la crise",
+          "maladies_associees": [
+            "Angine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux nitrés",
+        "Hypotension sévère",
+        "Infarctus du myocarde aigu",
+        "Insuffisance cardiaque décompensée",
+        "Prise de sildénafil (Viagra)"
+      ],
+      "effets_secondaires": [
+        "Céphalées (fréquentes)",
+        "Hypotension orthostatique",
+        "Flush facial",
+        "Tachycardie réflexe",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Sildénafil (contre-indication formelle)",
+        "Alcool (hypotension)",
+        "Antihypertenseurs (potentialisation)"
+      ],
+      "posologie_standard": "5 mg 3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance tension",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Imuran",
+      "nom_generique": "Azathioprine",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "50 comprimés",
+      "famille": "Immunosuppresseur (antimétabolite)",
+      "code_cip": "3400958901234",
+      "prix": 45.8,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Transplantation d'organes",
+        "Polyarthrite rhumatoïde sévère",
+        "Maladie de Crohn",
+        "Rectocolite hémorragique",
+        "Lupus érythémateux disséminé",
+        "Dermatomyosite"
+      ],
+      "substituts": [
+        {
+          "nom": "Azathioprine (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "50 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique",
+            "Test TPMT avant traitement"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Transplantation",
+            "Maladies auto-immunes"
+          ]
+        },
+        {
+          "nom": "Methotrexate",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "25 comprimés",
+          "raison": "Immunosuppresseur différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance hématologique",
+            "Acide folique en co-prescription"
+          ],
+          "instructions": "1 comprimé 1 fois par semaine",
+          "maladies_associees": [
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'azathioprine",
+        "Allergie à la mercaptopurine",
+        "Grossesse",
+        "Allaitement",
+        "Infection sévère non contrôlée"
+      ],
+      "effets_secondaires": [
+        "Myélosuppression (risque majeur)",
+        "Hépatotoxicité",
+        "Nausées, vomissements",
+        "Alopécie",
+        "Augmentation du risque infectieux",
+        "Augmentation du risque de cancer"
+      ],
+      "interactions": [
+        "Allopurinol (toxicité majorée - réduire dose)",
+        "Warfarine (diminution de l'effet)",
+        "AINS (toxicité hématologique)",
+        "Ribavirine (anémie)"
+      ],
+      "posologie_standard": "1-3 mg/kg/jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Inhép",
+      "nom_generique": "Héparine sodique",
+      "dosage": "5000 UI",
+      "forme": "Solution injectable",
+      "quantite": "1 flacon",
+      "famille": "Anticoagulant",
+      "code_cip": "3400959012345",
+      "prix": 35.9,
+      "stock_actuel": 15,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Thrombose veineuse profonde",
+        "Embolie pulmonaire",
+        "Prophylaxie post-opératoire",
+        "Syndrome coronarien aigu"
+      ],
+      "substituts": [
+        {
+          "nom": "Héparine (générique)",
+          "dosage": "5000 UI",
+          "forme": "Solution injectable",
+          "quantite": "1 flacon",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de l'aptt",
+            "Surveillance plaquettaire"
+          ],
+          "instructions": "Injection SC ou IV selon prescription",
+          "maladies_associees": [
+            "Thrombose",
+            "Embolie"
+          ]
+        },
+        {
+          "nom": "Lovenox (Enoxaparine)",
+          "dosage": "4000 UI",
+          "forme": "Seringue pré-remplie",
+          "quantite": "1 seringue",
+          "raison": "Héparine de bas poids moléculaire",
+          "confiance": 0.9,
+          "precautions": [
+            "Moins de surveillance biologique"
+          ],
+          "instructions": "1 injection SC par jour",
+          "maladies_associees": [
+            "Prophylaxie thromboembolique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'héparine",
+        "Thrombopénie induite",
+        "Hémorragie active",
+        "Insuffisance hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Hémorragie",
+        "Thrombopénie",
+        "Réactions locales",
+        "Ostéoporose (long terme)"
+      ],
+      "interactions": [
+        "AVK (risque hémorragique)",
+        "AINS",
+        "Antiplaquettaires"
+      ],
+      "posologie_standard": "Adaptée selon poids",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Surveillance accrue",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Isoprinosine",
+      "nom_generique": "Inosine pranobex",
+      "dosage": "500 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Immunostimulant antiviral",
+      "code_cip": "3400950123456",
+      "prix": 28.5,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections virales récurrentes",
+        "Herpès labial",
+        "Herpès génital",
+        "Papillomatose",
+        "Déficit immunitaire cellulaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Imunovir",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Traitement d'appoint",
+            "Efficacité variable",
+            "Surveillance urinaire"
+          ],
+          "instructions": "1 comprimé 4 fois par jour",
+          "maladies_associees": [
+            "Infections virales"
+          ]
+        },
+        {
+          "nom": "Zovirax (Aciclovir)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "25 comprimés",
+          "raison": "Antiviral différent, action directe",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Traitement curatif"
+          ],
+          "instructions": "1 comprimé 5 fois par jour",
+          "maladies_associees": [
+            "Herpès"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'inosine pranobex",
+        "Goutte",
+        "Hyperuricémie",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Hyperuricémie (fréquent)",
+        "Troubles digestifs",
+        "Céphalées",
+        "Vertiges",
+        "Réactions cutanées (rares)"
+      ],
+      "interactions": [
+        "Allopurinol (risque d'hyperuricémie)",
+        "Diurétiques (risque d'hyperuricémie)"
+      ],
+      "posologie_standard": "4 comprimés par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Isordil",
+      "nom_generique": "Dinitrate d'isosorbide",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vasodilatateur coronarien (nitré)",
+      "code_cip": "3400951234567",
+      "prix": 18.7,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Angor stable",
+        "Angor instable",
+        "Insuffisance cardiaque"
+      ],
+      "substituts": [
+        {
+          "nom": "Dinitrate d'isosorbide (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de tolérance",
+            "Surveillance tension"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Angor"
+          ]
+        },
+        {
+          "nom": "Trinitrine (Nitroglycérine)",
+          "dosage": "2.6 mg",
+          "forme": "Comprimé sublingual",
+          "quantite": "30 comprimés",
+          "raison": "Action rapide",
+          "confiance": 0.85,
+          "precautions": [
+            "Utilisation à la crise",
+            "Hypotension possible"
+          ],
+          "instructions": "1 comprimé sous la langue",
+          "maladies_associees": [
+            "Crise d'angor"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux nitrés",
+        "Hypotension sévère",
+        "Prise de sildénafil",
+        "Infarctus aigu"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Hypotension",
+        "Flush",
+        "Tachycardie réflexe"
+      ],
+      "interactions": [
+        "Sildénafil (contre-indication)",
+        "Alcool (hypotension)",
+        "Antihypertenseurs"
+      ],
+      "posologie_standard": "10 mg 3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance tension",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 11
+  }
+}

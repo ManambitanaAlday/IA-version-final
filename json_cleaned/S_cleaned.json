@@ -1,0 +1,1192 @@
+{
+  "medicaments": [
+    {
+      "nom": "Smecta",
+      "nom_generique": "Diosmectite",
+      "dosage": "3 g",
+      "forme": "Poudre pour suspension buvable",
+      "quantite": "30 sachets",
+      "famille": "Antidiarrhéique - Adsorbant",
+      "code_cip": "3400981234567",
+      "prix": 9.8,
+      "stock_actuel": 18,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Diarrhée aiguë",
+        "Diarrhée chronique",
+        "Colopathie fonctionnelle",
+        "Troubles digestifs"
+      ],
+      "substituts": [
+        {
+          "nom": "Diosmectite (générique)",
+          "dosage": "3 g",
+          "forme": "Poudre",
+          "quantite": "30 sachets",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Dissoudre dans un verre d'eau",
+            "Espacement avec autres médicaments (2h)",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 sachet 2-3 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        },
+        {
+          "nom": "Kolan (Charbon activé)",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "40 comprimés",
+          "raison": "Adsorbant différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Espacement avec autres médicaments (2h)"
+          ],
+          "instructions": "2 comprimés 3 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la diosmectite",
+        "Occlusion intestinale",
+        "Intolérance au glucose (sucres)"
+      ],
+      "effets_secondaires": [
+        "Constipation (rare)",
+        "Sensation de ballonnement"
+      ],
+      "interactions": [
+        "Tous les médicaments oraux (espacement 2h)"
+      ],
+      "posologie_standard": "1 sachet 2-3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la déshydratation",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Spasfon",
+      "nom_generique": "Phloroglucinol",
+      "dosage": "80 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antispasmodique",
+      "code_cip": "3400982345678",
+      "prix": 9.2,
+      "stock_actuel": 15,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Spasmes digestifs",
+        "Coliques",
+        "Douleurs abdominales",
+        "Spasmes gynécologiques",
+        "Troubles fonctionnels"
+      ],
+      "substituts": [
+        {
+          "nom": "Phloroglucinol (générique)",
+          "dosage": "80 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un verre d'eau",
+            "Ne pas dépasser 6 comprimés/jour"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasmes"
+          ]
+        },
+        {
+          "nom": "Viscéralgine",
+          "dosage": "Variable",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Antispasmodique différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Risque de somnolence"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasmes digestifs"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au phloroglucinol",
+        "Allergie aux antispasmodiques"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "80 mg 3 fois par jour",
+      "duree_traitement": "Selon besoin",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Stilnox",
+      "nom_generique": "Zolpidem",
+      "dosage": "10 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "20 comprimés",
+      "famille": "Hypnotique (non benzodiazépine)",
+      "code_cip": "3400983456789",
+      "prix": 18.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Insomnie d'endormissement",
+        "Troubles du sommeil",
+        "Insomnie transitoire"
+      ],
+      "substituts": [
+        {
+          "nom": "Zolpidem (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Ne pas dépasser 4 semaines",
+            "Ne pas associer à l'alcool"
+          ],
+          "instructions": "1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Imovane (Zopiclone)",
+          "dosage": "7.5 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Hypnotique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Goût métallique possible"
+          ],
+          "instructions": "1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zolpidem",
+        "Insuffisance respiratoire",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence diurne",
+        "Vertiges",
+        "Dépendance",
+        "Troubles de mémoire",
+        "Syndrome de sevrage à l'arrêt"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée - risque vital)",
+        "Benzodiazépines (sédation majorée)",
+        "Morphiniques (sédation majorée)"
+      ],
+      "posologie_standard": "10 mg au coucher",
+      "duree_traitement": "2-4 semaines max",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (5 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sirdalud",
+      "nom_generique": "Tizanidine",
+      "dosage": "2 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Myorelaxant (agoniste alpha2)",
+      "code_cip": "3400984567890",
+      "prix": 19.8,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Spasticité",
+        "Sclérose en plaques",
+        "Lombalgie",
+        "Contractures musculaires",
+        "Traumatisme médullaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Tizanidine (générique)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension artérielle",
+            "Risque d'hypotension",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasticité",
+            "Contractures"
+          ]
+        },
+        {
+          "nom": "Baclofène (Lioresal)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Myorelaxant différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Arrêt progressif",
+            "Surveillance de la spasticité"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasticité"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la tizanidine",
+        "Insuffisance hépatique sévère",
+        "Hypotension sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Hypotension",
+        "Sécheresse buccale",
+        "Asthénie"
+      ],
+      "interactions": [
+        "Alcool (sédation)",
+        "Antihypertenseurs (hypotension)",
+        "Benzodiazépines (sédation)"
+      ],
+      "posologie_standard": "2 mg 3 fois par jour",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Solupred",
+      "nom_generique": "Prednisolone",
+      "dosage": "20 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Corticoïde (corticothérapie)",
+      "code_cip": "3400985678901",
+      "prix": 15.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Maladies inflammatoires",
+        "Asthme sévère",
+        "Polyarthrite rhumatoïde",
+        "Lupus",
+        "Allergies sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisolone (générique)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance glycémie",
+            "Arrêt progressif"
+          ],
+          "instructions": "Dose selon prescription",
+          "maladies_associees": [
+            "Maladies inflammatoires"
+          ]
+        },
+        {
+          "nom": "Prednisone (Cortancyl)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticoïde différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance métabolique",
+            "Arrêt progressif"
+          ],
+          "instructions": "Dose selon prescription",
+          "maladies_associees": [
+            "Maladies inflammatoires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la prednisolone",
+        "Infection systémique non traitée",
+        "Vaccin vivant atténué"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Hyperglycémie",
+        "Hypertension",
+        "Ostéoporose (long terme)",
+        "Insomnie"
+      ],
+      "interactions": [
+        "AINS (risque ulcère)",
+        "Anticoagulants (modification effet)",
+        "Diurétiques (hypokaliémie)"
+      ],
+      "posologie_standard": "20-60 mg par jour",
+      "duree_traitement": "Variable, arrêt progressif",
+      "population_specifique": {
+        "personne_agee": "Surveillance accrue",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Sumatriptan",
+      "nom_generique": "Sumatriptan",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "6 comprimés",
+      "famille": "Triptan (anti-migraineux)",
+      "code_cip": "3400986789012",
+      "prix": 22.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Migraine",
+        "Céphalées vasculaires",
+        "Migraine avec aura",
+        "Céphalées en grappe"
+      ],
+      "substituts": [
+        {
+          "nom": "Sumatriptan (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "6 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre dès les premiers symptômes",
+            "Ne pas dépasser 2 comprimés par jour",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 comprimé à la crise",
+          "maladies_associees": [
+            "Migraine"
+          ]
+        },
+        {
+          "nom": "Zolmitriptan (Zomig)",
+          "dosage": "2.5 mg",
+          "forme": "Comprimé",
+          "quantite": "6 comprimés",
+          "raison": "Triptan différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Prise précoce",
+            "Ne pas dépasser 2 comprimés/jour"
+          ],
+          "instructions": "1 comprimé à la crise",
+          "maladies_associees": [
+            "Migraine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au sumatriptan",
+        "Allergie aux triptans",
+        "Angor instable",
+        "Infarctus récent",
+        "Hypertension sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Sensations de chaleur",
+        "Nausées",
+        "Vertiges",
+        "Palpitations",
+        "Somnolence"
+      ],
+      "interactions": [
+        "Ergotamine (vasoconstriction)",
+        "IMAO (augmentation concentration)",
+        "Antidépresseurs sérotoninergiques (syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "50 mg à la crise",
+      "duree_traitement": "À la demande",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiovasculaire",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sectral",
+      "nom_generique": "Acébutolol",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Bêta-bloquant (cardiosélectif)",
+      "code_cip": "3400987890123",
+      "prix": 23.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Angine de poitrine",
+        "Tachycardie",
+        "Troubles du rythme"
+      ],
+      "substituts": [
+        {
+          "nom": "Acébutolol (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance cardiaque",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        },
+        {
+          "nom": "Aténolol",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Bêta-bloquant différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Surveillance tension"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'acébutolol",
+        "Allergie aux bêta-bloquants",
+        "Bradycardie sévère",
+        "Insuffisance cardiaque",
+        "Asthme sévère"
+      ],
+      "effets_secondaires": [
+        "Bradycardie",
+        "Hypotension",
+        "Fatigue",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Digoxine (bradycardie)",
+        "Amiodarone (bradycardie)",
+        "Antihypertenseurs (hypotension)"
+      ],
+      "posologie_standard": "200 mg 1-2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sevrage",
+      "nom_generique": "Bupropion",
+      "dosage": "150 mg",
+      "forme": "Comprimé LP",
+      "quantite": "30 comprimés",
+      "famille": "Aide au sevrage tabagique",
+      "code_cip": "3400988901234",
+      "prix": 32.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dépendance tabagique",
+        "Sevrage tabagique",
+        "Trouble dépressif (hors AMM)"
+      ],
+      "substituts": [
+        {
+          "nom": "Bupropion LP (générique)",
+          "dosage": "150 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de convulsions",
+            "Ne pas écraser",
+            "Surveillance psychiatrique",
+            "Durée limitée (7-12 semaines)"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Sevrage tabagique"
+          ]
+        },
+        {
+          "nom": "Nicorette (Nicotine)",
+          "dosage": "2 mg",
+          "forme": "Comprimé à sucer",
+          "quantite": "30 comprimés",
+          "raison": "Substitut nicotinique",
+          "confiance": 0.7,
+          "precautions": [
+            "Utilisation en cas d'envie de fumer",
+            "Ne pas dépasser 15 comprimés/jour"
+          ],
+          "instructions": "1 comprimé en cas d'envie",
+          "maladies_associees": [
+            "Sevrage tabagique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au bupropion",
+        "Allergie au bupropion",
+        "Épilepsie",
+        "Antécédents de convulsions",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Insomnie",
+        "Sécheresse buccale",
+        "Nausées",
+        "Agitation",
+        "Perte de poids",
+        "Risque de convulsions"
+      ],
+      "interactions": [
+        "IMAO (risque de convulsions)",
+        "Alcool (risque de convulsions)",
+        "Antipsychotiques (risque de convulsions)"
+      ],
+      "posologie_standard": "150 mg 1-2 fois par jour",
+      "duree_traitement": "7-12 semaines",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Système",
+      "nom_generique": "Losartan",
+      "dosage": "50 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur (ARA II)",
+      "code_cip": "3400989012345",
+      "prix": 19.4,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance cardiaque",
+        "Néphropathie diabétique",
+        "Prévention AVC"
+      ],
+      "substituts": [
+        {
+          "nom": "Losartan (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance kaliémie",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        },
+        {
+          "nom": "Irbesartan (Aprovel)",
+          "dosage": "150 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "ARA II différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance kaliémie"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au losartan",
+        "Allergie aux ARA II",
+        "Grossesse",
+        "Allaitement",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Hypotension",
+        "Hyperkaliémie",
+        "Vertiges",
+        "Fatigue"
+      ],
+      "interactions": [
+        "AINS (diminution effet)",
+        "Diurétiques (hypotension)",
+        "Lithium (augmentation)"
+      ],
+      "posologie_standard": "50 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sifrol",
+      "nom_generique": "Pramipexole",
+      "dosage": "1 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Agoniste dopaminergique",
+      "code_cip": "3400980123456",
+      "prix": 45.6,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Maladie de Parkinson",
+        "Syndrome des jambes sans repos"
+      ],
+      "substituts": [
+        {
+          "nom": "Pramipexole (générique)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance des effets secondaires",
+            "Sommeil diurne excessif",
+            "Surveillance des troubles du contrôle des impulsions"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Maladie de Parkinson"
+          ]
+        },
+        {
+          "nom": "Ropinirole",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Agoniste dopaminergique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance des effets secondaires"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Maladie de Parkinson"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au pramipexole",
+        "Allergie aux agonistes dopaminergiques",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Somnolence",
+        "Vertiges",
+        "Hallucinations",
+        "Troubles du contrôle des impulsions"
+      ],
+      "interactions": [
+        "Antipsychotiques (antagonisme)",
+        "Cimétidine (augmentation concentration)"
+      ],
+      "posologie_standard": "1 mg 3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sotalol",
+      "nom_generique": "Sotalol",
+      "dosage": "80 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anti-arythmique (classe III)",
+      "code_cip": "3400981234568",
+      "prix": 28.7,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Fibrillation auriculaire",
+        "Tachycardie",
+        "Troubles du rythme"
+      ],
+      "substituts": [
+        {
+          "nom": "Sotalol (générique)",
+          "dosage": "80 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance ECG (QT)",
+            "Surveillance tension",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Fibrillation auriculaire"
+          ]
+        },
+        {
+          "nom": "Amiodarone (Cordarone)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anti-arythmique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance thyroïdienne",
+            "Surveillance pulmonaire"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Fibrillation auriculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au sotalol",
+        "Allergie aux bêta-bloquants",
+        "Allongement du QT",
+        "Bradycardie sévère",
+        "Asthme sévère",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Allongement du QT",
+        "Bradycardie",
+        "Fatigue",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Amiodarone (risque de torsade)",
+        "Digoxine (bradycardie)",
+        "Antihypertenseurs (hypotension)"
+      ],
+      "posologie_standard": "80 mg 1-2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sporanox",
+      "nom_generique": "Itraconazole",
+      "dosage": "100 mg",
+      "forme": "Gélule",
+      "quantite": "15 gélules",
+      "famille": "Antifongique (triazolé)",
+      "code_cip": "3400982345679",
+      "prix": 38.9,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Mycoses profondes",
+        "Candidose",
+        "Aspergillose",
+        "Onchomycose (champignon des ongles)",
+        "Histoplasmose"
+      ],
+      "substituts": [
+        {
+          "nom": "Itraconazole (générique)",
+          "dosage": "100 mg",
+          "forme": "Gélule",
+          "quantite": "15 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec les repas (absorption)",
+            "Surveillance hépatique",
+            "Surveillance cardiaque (QT)"
+          ],
+          "instructions": "1 gélule 1-2 fois par jour",
+          "maladies_associees": [
+            "Mycoses profondes"
+          ]
+        },
+        {
+          "nom": "Fluconazole (Triflucan)",
+          "dosage": "150 mg",
+          "forme": "Gélule",
+          "quantite": "1 gélule",
+          "raison": "Antifongique triazolé différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Traitement plus court",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 gélule en dose unique",
+          "maladies_associees": [
+            "Candidose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'itraconazole",
+        "Allergie aux triazolés",
+        "Insuffisance hépatique",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hépatotoxicité",
+        "Troubles digestifs",
+        "Allongement du QT"
+      ],
+      "interactions": [
+        "Anticoagulants (augmentation INR)",
+        "Antihistaminiques (allongement QT)",
+        "Statines (augmentation concentration)"
+      ],
+      "posologie_standard": "100 mg 1-2 fois par jour",
+      "duree_traitement": "Variable selon infection",
+      "population_specifique": {
+        "personne_agee": "Surveillance hépatique",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Simvastatine",
+      "nom_generique": "Simvastatine",
+      "dosage": "20 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Hypolipidémiant (statine)",
+      "code_cip": "3400983456780",
+      "prix": 22.8,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Hypercholestérolémie",
+        "Prévention cardiovasculaire",
+        "Post-infarctus"
+      ],
+      "substituts": [
+        {
+          "nom": "Simvastatine (générique)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise le soir",
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        },
+        {
+          "nom": "Atorvastatine (Tahor)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la simvastatine",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Myalgies",
+        "Augmentation des transaminases",
+        "Rhabdomyolyse (rare)"
+      ],
+      "interactions": [
+        "Fibrates (risque myopathie)",
+        "Anticoagulants (risque hémorragique)",
+        "Pamplemousse (augmentation concentration)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Sulfaméthoxazole + Triméthoprime",
+      "nom_generique": "Co-trimoxazole",
+      "dosage": "400 mg / 80 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Antibiotique (sulfamide)",
+      "code_cip": "3400984567891",
+      "prix": 16.2,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections urinaires",
+        "Infections respiratoires",
+        "Infections digestives",
+        "Pneumocystose"
+      ],
+      "substituts": [
+        {
+          "nom": "Co-trimoxazole (générique)",
+          "dosage": "400 mg / 80 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'allergie aux sulfamides",
+            "Surveillance hématologique",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections urinaires"
+          ]
+        },
+        {
+          "nom": "Ciprofloxacine (Ciflox)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "10 comprimés",
+          "raison": "Antibiotique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de tendinite",
+            "Photosensibilité"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections urinaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux sulfamides",
+        "Allergie au triméthoprime",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Allergie cutanée",
+        "Troubles digestifs",
+        "Anémie hémolytique (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (augmentation INR)",
+        "Méthotrexate (toxicité)",
+        "Diurétiques (hyponatrémie)"
+      ],
+      "posologie_standard": "1 comprimé 2 fois par jour",
+      "duree_traitement": "5-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Surgam",
+      "nom_generique": "Tiaprofénique acide",
+      "dosage": "300 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400985678902",
+      "prix": 13.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Douleurs articulaires",
+        "Polyarthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Lombalgie"
+      ],
+      "substituts": [
+        {
+          "nom": "Acide tiaprofénique (générique)",
+          "dosage": "300 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Risque digestif",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Douleurs"
+          ]
+        },
+        {
+          "nom": "Ibuprofène (Nurofen)",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "AINS différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque digestif"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au tiaprofénique",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Ulcère gastro-intestinal"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)"
+      ],
+      "posologie_standard": "300 mg 2-3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 15,
+    "lettre": "S",
+    "prochaine_lettre": "T"
+  }
+}

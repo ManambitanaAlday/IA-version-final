@@ -1,0 +1,786 @@
+[
+  {
+    "nom": "Minoxidil 5 % (générique)",
+    "dosage,": "5 %",
+    "forme,": "Solution topique,",
+    "quantite,": "60 ml,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Application uniquement sur le cuir chevelu,",
+      "Effet en 3-6 mois,",
+      "Arrêt entraîne reprise de la chute,",
+      "Ne pas utiliser si peau irritée,"
+    ],
+    "instructions,": "Appliquer 1 ml 2 fois par jour,",
+    "maladies_associees,": [
+      "Alopécie androgénétique,"
+    ]
+  },
+  {
+    "nom": "Jolen (Minoxidil 5 %)",
+    "dosage,": "5 %",
+    "forme,": "Solution topique,",
+    "quantite,": "60 ml,",
+    "raison,": "Même principe actif, marque différente,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Application 2 fois par jour,",
+      "Espacement de 12h entre 2 applications,"
+    ],
+    "instructions,": "Appliquer 1 ml 2 fois par jour,",
+    "maladies_associees,": [
+      "Calvitie,"
+    ]
+  },
+  {
+    "nom": "Finastéride (Propecia)",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Traitement systémique différent,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Effet en 3-6 mois,",
+      "Risque de troubles sexuels,",
+      "Ne pas couper les comprimés,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Alopécie androgénétique,"
+    ]
+  },
+  {
+    "personne_agee,": "Efficacité diminuée,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Énalapril (générique)",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise à distance des repas,",
+      "Surveillance de la kaliémie,",
+      "Surveillance de la fonction rénale,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "nom": "Captopril (Lopril)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "IEC différent, action plus rapide,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance kaliémie,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Risperidone (générique)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance extrapyramidale,",
+      "Risque d'hyperprolactinémie,",
+      "Surveillance métabolique,",
+      "Surveillance du poids,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles bipolaires,"
+    ]
+  },
+  {
+    "nom": "Quétiapine (Seroquel)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antipsychotique atypique différent,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance métabolique,",
+      "Risque de sédation,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Clonazépam (générique)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Arrêt progressif,",
+      "Surveillance de la sédation,",
+      "Ne pas arrêter brutalement,"
+    ],
+    "instructions,": "1 comprimé 1-3 fois par jour,",
+    "maladies_associees,": [
+      "Épilepsie,",
+      "Anxiété"
+    ]
+  },
+  {
+    "nom": "Alprazolam (Xanax)",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Benzodiazépine différente,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Action plus courte,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Attaques de panique,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite (0.5-1 mg)",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Céftriaxone (générique)",
+    "dosage,": "1 g",
+    "forme,": "Poudre pour injection,",
+    "quantite,": "1 flacon,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Allergie croisée avec pénicillines,",
+      "Administration IV ou IM",
+      "Surveillance allergique,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "Injection selon prescription médicale,",
+    "maladies_associees,": [
+      "Infections sévères,"
+    ]
+  },
+  {
+    "nom": "Céfixime (Oroken)",
+    "dosage,": "200 mg",
+    "forme,": "Comprimé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Céphalosporine orale de 3ème génération,",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Voie orale seulement,",
+      "Infections moins sévères,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Infections ORL",
+      "Infections urinaires,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Aliskirène (générique)",
+    "dosage,": "150 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance tension artérielle,",
+      "Surveillance rénale,",
+      "Surveillance de la kaliémie,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "nom": "Énalapril (Renitec)",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Antihypertenseur IEC",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance kaliémie,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Galantamine (générique)",
+    "dosage,": "8 mg",
+    "forme,": "Comprimé LP",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Surveillance digestive,",
+      "Prise avec le petit-déjeuner,",
+      "Surveillance du poids,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Maladie d'Alzheimer,"
+    ]
+  },
+  {
+    "nom": "Aricept (Donépézil)",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Anticholinestérasique différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Surveillance digestive,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Maladie d'Alzheimer,"
+    ]
+  },
+  {
+    "personne_agee,": "Aucun ajustement,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Méloxicam (générique)",
+    "dosage,": "7.5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prendre avec de la nourriture,",
+      "Risque digestif,",
+      "Surveillance rénale,",
+      "Durée limitée,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Polyarthrite rhumatoïde,",
+      "Ostéoarthrite,"
+    ]
+  },
+  {
+    "nom": "Diclofénac (Voltarène)",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "AINS différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque digestif,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Douleurs,",
+      "Inflammation,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Contre-indiqué",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Aucun substitut valable,",
+    "dosage,": ",",
+    "forme,": ",",
+    "quantite,": ",",
+    "raison,": "RETIRÉ - Risque cardiovasculaire,",
+    "confiance,": 0.0,
+    "precautions,": [
+      "Ne plus utiliser,",
+      "Consulter un médecin,"
+    ],
+    "instructions,": "RETIRÉ - NE PAS UTILISER",
+    "maladies_associees,": [
+      "Ne plus prescrire,"
+    ]
+  },
+  {
+    "personne_agee,": "RETIRÉ",
+    "insuffisant_renal,": "RETIRÉ",
+    "insuffisant_hepatique,": "RETIRÉ"
+  },
+  {
+    "nom": "Risperidone (générique)",
+    "dosage,": "1 mg/ml,",
+    "forme,": "Solution buvable,",
+    "quantite,": "100 ml,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance extrapyramidale,",
+      "Risque d'hyperprolactinémie,",
+      "Ne pas mélanger avec d'autres liquides,"
+    ],
+    "instructions,": "Dose selon prescription (0.5-2 mg/jour)",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Agitation,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Ramipril (générique)",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance kaliémie,",
+      "Surveillance rénale,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "nom": "Énalapril (Renitec)",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "IEC différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance kaliémie,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Aucun substitut valable,",
+    "dosage,": ",",
+    "forme,": ",",
+    "quantite,": ",",
+    "raison,": "RETIRÉ - Risque cardiovasculaire,",
+    "confiance,": 0.0,
+    "precautions,": [
+      "Ne plus utiliser,",
+      "Consulter un médecin,"
+    ],
+    "instructions,": "RETIRÉ - NE PAS UTILISER",
+    "maladies_associees,": [
+      "Ne plus prescrire,"
+    ]
+  },
+  {
+    "personne_agee,": "RETIRÉ",
+    "insuffisant_renal,": "RETIRÉ",
+    "insuffisant_hepatique,": "RETIRÉ"
+  },
+  {
+    "nom": "Ropinirole (générique)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Effets secondaires dopaminergiques,",
+      "Sommeil diurne excessif,",
+      "Surveillance des troubles du contrôle des impulsions,"
+    ],
+    "instructions,": "1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Maladie de Parkinson,"
+    ]
+  },
+  {
+    "nom": "Pramipexole (Sifrol)",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Agoniste dopaminergique différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance des effets secondaires,",
+      "Sommeil diurne,"
+    ],
+    "instructions,": "1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Maladie de Parkinson,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Propafénone (générique)",
+    "dosage,": "150 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance ECG",
+      "Surveillance cardiaque,",
+      "Surveillance tension,"
+    ],
+    "instructions,": "1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Troubles du rythme,"
+    ]
+  },
+  {
+    "nom": "Amiodarone (Cordarone)",
+    "dosage,": "200 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Anti-arythmique différent,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance thyroïdienne,",
+      "Surveillance pulmonaire,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Fibrillation auriculaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance cardiaque,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Tamsulosine (générique)",
+    "dosage,": "0.4 mg",
+    "forme,": "Gélule LP",
+    "quantite,": "30 gélules,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance tension artérielle,",
+      "Risque d'hypotension orthostatique,",
+      "Prise après le repas,"
+    ],
+    "instructions,": "1 gélule 1 fois par jour,",
+    "maladies_associees,": [
+      "HBP"
+    ]
+  },
+  {
+    "nom": "Alfuzosine (Xatral)",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé LP",
+    "quantite,": "30 comprimés,",
+    "raison,": "Alpha-bloquant différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Hypotension orthostatique,",
+      "Surveillance tension,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "HBP"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance tension,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Vitamine C (générique)",
+    "dosage,": "1000 mg",
+    "forme,": "Comprimé effervescent,",
+    "quantite,": "20 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Dissoudre dans un verre d'eau,",
+      "Prise avec un repas,",
+      "Ne pas dépasser 2000 mg/jour,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Carence en vitamine C"
+    ]
+  },
+  {
+    "nom": "Vitamine C + Zinc",
+    "dosage,": "1000 mg / 15 mg",
+    "forme,": "Comprimé",
+    "quantite,": "20 comprimés,",
+    "raison,": "Association synergique,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Ne pas dépasser la dose,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Immunité"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Budesonide (générique)",
+    "dosage,": "50 µg",
+    "forme,": "Spray nasal,",
+    "quantite,": "120 doses,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Utilisation régulière,",
+      "Ne pas arrêter brutalement,",
+      "Surveillance en cas d'infection,"
+    ],
+    "instructions,": "1 pulvérisation 2 fois par jour,",
+    "maladies_associees,": [
+      "Rhinite allergique,"
+    ]
+  },
+  {
+    "nom": "Avamys (Fluticasone)",
+    "dosage,": "27.5 µg",
+    "forme,": "Spray nasal,",
+    "quantite,": "120 doses,",
+    "raison,": "Corticoïde nasal différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Utilisation régulière,",
+      "Effet en 2-3 jours,"
+    ],
+    "instructions,": "1 pulvérisation 2 fois par jour,",
+    "maladies_associees,": [
+      "Rhinite allergique,"
+    ]
+  },
+  {
+    "personne_agee,": "Aucun ajustement,",
+    "insuffisant_renal,": "Sans objet,",
+    "insuffisant_hepatique,": "Sans objet,"
+  },
+  {
+    "nom": "Roxithromycine (générique)",
+    "dosage,": "150 mg",
+    "forme,": "Comprimé",
+    "quantite,": "10 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Allergie croisée avec autres macrolides,",
+      "Risque d'allongement QT",
+      "Surveillance hépatique,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Infections ORL"
+    ]
+  },
+  {
+    "nom": "Azithromycine (Zithromax)",
+    "dosage,": "250 mg",
+    "forme,": "Comprimé",
+    "quantite,": "6 comprimés,",
+    "raison,": "Macrolide différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Traitement plus court,",
+      "Surveillance cardiaque,"
+    ],
+    "instructions,": "2 comprimés 1 fois par jour (3 jours)",
+    "maladies_associees,": [
+      "Infections ORL",
+      "Infections respiratoires,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance cardiaque,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Métoprolol (générique)",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance cardiaque,",
+      "Arrêt progressif,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Angine,"
+    ]
+  },
+  {
+    "nom": "Aténolol,",
+    "dosage,": "50 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Bêta-bloquant différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance cardiaque,",
+      "Surveillance tension,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Cétirizine (générique)",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Somnolence possible,",
+      "Ne pas dépasser 10 mg/jour,",
+      "Prise le soir si somnolence,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Allergies,"
+    ]
+  },
+  {
+    "nom": "Zyrtec",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, marque originale,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise le soir en cas de somnolence,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Allergies,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Lansoprazole (générique)",
+    "dosage,": "30 mg",
+    "forme,": "Gélule,",
+    "quantite,": "28 gélules,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise avant le repas,",
+      "Ne pas écraser,",
+      "Surveillance des fractures à long terme,"
+    ],
+    "instructions,": "1 gélule 1 fois par jour,",
+    "maladies_associees,": [
+      "RGO"
+    ]
+  },
+  {
+    "nom": "Oméprazole (Mopral)",
+    "dosage,": "20 mg",
+    "forme,": "Gélule,",
+    "quantite,": "28 gélules,",
+    "raison,": "IPP différent,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Prise avant le repas,",
+      "Surveillance des interactions,"
+    ],
+    "instructions,": "1 gélule 1 fois par jour,",
+    "maladies_associees,": [
+      "RGO"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance des fractures,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "version,": "6.0,",
+    "date_generation,": "2024-01-15,",
+    "nombre_medicaments,": 10
+  }
+]

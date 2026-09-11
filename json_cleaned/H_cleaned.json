@@ -1,0 +1,643 @@
+{
+  "medicaments": [
+    {
+      "nom": "Haloperidol",
+      "nom_generique": "Halopéridol",
+      "dosage": "2 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Neuroleptique (antipsychotique typique)",
+      "code_cip": "3400943456789",
+      "prix": 24.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Troubles psychotiques aigus",
+        "Délire",
+        "Hallucinations",
+        "Agitation psychomotrice",
+        "Troubles du comportement"
+      ],
+      "substituts": [
+        {
+          "nom": "Haldol",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance neurologique (effets extrapyramidaux)",
+            "Surveillance cardiaque (QT long)",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles psychotiques"
+          ]
+        },
+        {
+          "nom": "Risperdal",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antipsychotique atypique, meilleure tolérance",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance métabolique",
+            "Risque de prise de poids"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'halopéridol",
+        "Maladie de Parkinson",
+        "Coma",
+        "Dépression du SNC",
+        "Syndrome du QT long"
+      ],
+      "effets_secondaires": [
+        "Effets extrapyramidaux (tremblements, rigidité, akathisie)",
+        "Somnolence",
+        "Bouffées de chaleur",
+        "Hypotension orthostatique",
+        "Prise de poids",
+        "Dyskinésie tardive (long terme)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Morphiniques (sédation majorée)",
+        "Antiparkinsoniens (antagoniste)",
+        "Médicaments allongeant le QT",
+        "Lithium (augmentation des EPS)"
+      ],
+      "posologie_standard": "2-10 mg par jour en fonction de l'indication",
+      "duree_traitement": "Long terme selon indication",
+      "population_specifique": {
+        "personne_agee": "Dose initiale réduite (0.5-1 mg/j)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Héparine",
+      "nom_generique": "Héparine sodique",
+      "dosage": "5000 UI",
+      "forme": "Solution injectable",
+      "quantite": "1 flacon de 5 ml",
+      "famille": "Anticoagulant",
+      "code_cip": "3400944567890",
+      "prix": 35.9,
+      "stock_actuel": 20,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Thrombose veineuse profonde",
+        "Embolie pulmonaire",
+        "Prophylaxie post-opératoire",
+        "Angine instable",
+        "Infarctus du myocarde",
+        "Fibrillation auriculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Inhép",
+          "dosage": "5000 UI",
+          "forme": "Solution injectable",
+          "quantite": "1 flacon de 5 ml",
+          "raison": "Même principe actif, même dosage",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de l'aptt",
+            "Risque hémorragique",
+            "Contrôle de la numération plaquettaire"
+          ],
+          "instructions": "Injection sous-cutanée selon prescription",
+          "maladies_associees": [
+            "Thrombose",
+            "Embolie"
+          ]
+        },
+        {
+          "nom": "Enoxaparine (Lovenox)",
+          "dosage": "4000 UI",
+          "forme": "Solution injectable",
+          "quantite": "1 seringue pré-remplie",
+          "raison": "Héparine de bas poids moléculaire",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque hémorragique",
+            "Surveillance plaquettaire"
+          ],
+          "instructions": "1 injection sous-cutanée par jour",
+          "maladies_associees": [
+            "Prophylaxie thromboembolique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'héparine",
+        "Thrombopénie induite par l'héparine",
+        "Hémorragie active",
+        "Insuffisance hépatique sévère",
+        "Hypertension artérielle sévère"
+      ],
+      "effets_secondaires": [
+        "Hémorragie (risque majeur)",
+        "Thrombopénie",
+        "Réactions allergiques",
+        "Ostéoporose (long terme)",
+        "Hématome au point d'injection",
+        "Hyperkaliémie"
+      ],
+      "interactions": [
+        "AVK (risque hémorragique)",
+        "AINS (risque hémorragique)",
+        "Antiplaquettaires",
+        "Aspirine",
+        "Corticostéroïdes"
+      ],
+      "posologie_standard": "Adaptée selon poids et indication",
+      "duree_traitement": "Variable selon indication",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Hydrocortisone",
+      "nom_generique": "Hydrocortisone",
+      "dosage": "20 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Corticoïde (corticothérapie)",
+      "code_cip": "3400945678901",
+      "prix": 28.5,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Insuffisance surrénale",
+        "Maladie d'Addison",
+        "Asthme sévère",
+        "Polyarthrite rhumatoïde",
+        "Maladies inflammatoires",
+        "Allergies sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Hydrocortancyl",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension artérielle",
+            "Surveillance glycémie",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Insuffisance surrénale"
+          ]
+        },
+        {
+          "nom": "Prednisone",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticoïde synthétique",
+          "confiance": 0.85,
+          "precautions": [
+            "Effets secondaires métaboliques",
+            "Surveillance ophtalmologique"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Maladies inflammatoires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'hydrocortisone",
+        "Infection systémique non contrôlée",
+        "Vaccin vivant atténué",
+        "Herpès oculaire",
+        "Tuberculose évolutive"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Hyperglycémie",
+        "Hypertension artérielle",
+        "Ostéoporose (long terme)",
+        "Insomnie",
+        "Irritabilité",
+        "Rétention hydrosodée"
+      ],
+      "interactions": [
+        "AINS (risque ulcéreux)",
+        "Anticoagulants (modification de l'effet)",
+        "Antiépileptiques (augmentation du métabolisme)",
+        "Diurétiques (hypokaliémie)",
+        "Digitaliques (risque de toxicité)"
+      ],
+      "posologie_standard": "20-40 mg par jour selon indication",
+      "duree_traitement": "Variable, arrêt progressif",
+      "population_specifique": {
+        "personne_agee": "Dose adaptée, surveillance accrue",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Passage dans le lait - Surveillance"
+    },
+    {
+      "nom": "Hydroxyzine",
+      "nom_generique": "Hydroxyzine",
+      "dosage": "25 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anxiolytique - Antihistaminique",
+      "code_cip": "3400946789012",
+      "prix": 12.8,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Anxiété",
+        "Prurit",
+        "Urticaire",
+        "Dermatoses allergiques",
+        "Prémédication chirurgicale",
+        "Insomnie d'origine anxieuse"
+      ],
+      "substituts": [
+        {
+          "nom": "Atarax",
+          "dosage": "25 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de somnolence",
+            "Dépendance (faible)",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Allergies cutanées"
+          ]
+        },
+        {
+          "nom": "Loratadine (Clarityne)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antihistaminique non sédatif",
+          "confiance": 0.7,
+          "precautions": [
+            "Effet antianxiolytique moindre",
+            "Utilisation pour allergies uniquement"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Allergies"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'hydroxyzine",
+        "Glaucoma à angle fermé",
+        "Hypertrophie prostatique",
+        "Allaitement",
+        "Porphyrie"
+      ],
+      "effets_secondaires": [
+        "Somnolence (fréquent)",
+        "Sécheresse buccale",
+        "Vertiges",
+        "Troubles de la coordination",
+        "Troubles visuels",
+        "Prise de poids (rare)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (effet additif)",
+        "Morphiniques (sédation majorée)",
+        "Anticholinergiques (effet additif)"
+      ],
+      "posologie_standard": "25-50 mg 2 à 3 fois par jour",
+      "duree_traitement": "Courte durée (quelques semaines)",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (12.5 mg)",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué au 1er trimestre",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Hygromix",
+      "nom_generique": "Hydrocortisone + Néomycine + Polymyxine B",
+      "dosage": "10 mg / 5 mg / 10000 UI",
+      "forme": "Pommade ophtalmique",
+      "quantite": "5 g",
+      "famille": "Anti-inflammatoire + Antibiotique",
+      "code_cip": "3400947890123",
+      "prix": 19.9,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Conjonctivite infectieuse",
+        "Kératite",
+        "Blépharite",
+        "Infections oculaires",
+        "Inflammation oculaire infectée"
+      ],
+      "substituts": [
+        {
+          "nom": "Cortisporine",
+          "dosage": "10 mg / 5 mg / 10000 UI",
+          "forme": "Pommade ophtalmique",
+          "quantite": "3.5 g",
+          "raison": "Même association, dosage légèrement différent",
+          "confiance": 0.95,
+          "precautions": [
+            "Utilisation exclusivement ophtalmique",
+            "Ne pas utiliser en cas de perforation"
+          ],
+          "instructions": "Appliquer 1-2 fois par jour",
+          "maladies_associees": [
+            "Infections oculaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Kératite herpétique",
+        "Mycoses oculaires",
+        "Tuberculose oculaire"
+      ],
+      "effets_secondaires": [
+        "Irritation oculaire",
+        "Sécheresse oculaire",
+        "Augmentation de la pression intraoculaire (rare)"
+      ],
+      "interactions": [
+        "Autres traitements ophtalmiques (espacement)"
+      ],
+      "posologie_standard": "Appliquer 1-2 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Hysédrine",
+      "nom_generique": "Dihydroergocristine",
+      "dosage": "4 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vasodilatateur cérébral",
+      "code_cip": "3400948901234",
+      "prix": 27.5,
+      "stock_actuel": 2,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Troubles cognitifs de la personne âgée",
+        "Artériopathie des membres inférieurs",
+        "Insuffisance circulatoire cérébrale",
+        "Vertiges"
+      ],
+      "substituts": [
+        {
+          "nom": "Vasobral",
+          "dosage": "4 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance tension artérielle",
+            "Efficacité variable"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Troubles vasculaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ergocristine",
+        "Hypotension",
+        "Insuffisance coronarienne",
+        "Infarctus récent"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs",
+        "Céphalées"
+      ],
+      "interactions": [
+        "Antihypertenseurs (potentialisation)"
+      ],
+      "posologie_standard": "4 mg 3 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Dose identique",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Hypnopril",
+      "nom_generique": "Alprazolam",
+      "dosage": "0.5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Benzodiazépine (anxiolytique)",
+      "code_cip": "3400949012345",
+      "prix": 14.8,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Anxiété sévère",
+        "Attaques de panique",
+        "Insomnie",
+        "Troubles anxieux généralisés"
+      ],
+      "substituts": [
+        {
+          "nom": "Xanax",
+          "dosage": "0.5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Arrêt progressif",
+            "Surveillance du sevrage"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Panique"
+          ]
+        },
+        {
+          "nom": "Bromazepam (Lexomil)",
+          "dosage": "6 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine différente",
+          "confiance": 0.8,
+          "precautions": [
+            "Dépendance",
+            "Effet sédatif"
+          ],
+          "instructions": "1/2 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Anxiété"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire",
+        "Apnée du sommeil",
+        "Ataxie",
+        "Myasthénie",
+        "Grossesse (risque malformatif)"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Ataxie",
+        "Troubles de mémoire",
+        "Dépendance physique",
+        "Syndrome de sevrage à l'arrêt"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée - risque vital)",
+        "Morphiniques (sédation majorée)",
+        "Antihistaminiques",
+        "Autres psychotropes"
+      ],
+      "posologie_standard": "0.5-1 mg 2 à 3 fois par jour",
+      "duree_traitement": "Courte durée (2-4 semaines)",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (0.25 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué (Classe D)",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Hypoloc",
+      "nom_generique": "Irbesartan",
+      "dosage": "150 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur (ARA II)",
+      "code_cip": "3400950123456",
+      "prix": 18.9,
+      "stock_actuel": 11,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance rénale chronique",
+        "Néphropathie diabétique",
+        "Insuffisance cardiaque"
+      ],
+      "substituts": [
+        {
+          "nom": "Aprovel",
+          "dosage": "150 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension artérielle",
+            "Surveillance rénale",
+            "Contrôle de la kaliémie"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        },
+        {
+          "nom": "Losartan (Cozzar)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "ARA II différent, bonne efficacité",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la kaliémie",
+            "Contrôle de la fonction rénale"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'irbesartan",
+        "Allergie aux ARA II",
+        "Grossesse",
+        "Allaitement",
+        "Sténose bilatérale des artères rénales"
+      ],
+      "effets_secondaires": [
+        "Hypotension orthostatique",
+        "Hyperkaliémie",
+        "Insuffisance rénale (aggravation)",
+        "Vertiges",
+        "Fatigue",
+        "Toux (moins que les IEC)"
+      ],
+      "interactions": [
+        "AINS (augmentation de l'effet hypotenseur)",
+        "Diurétiques (hyperkaliémie)",
+        "Lithium (augmentation de la lithémie)",
+        "Kaliurétiques (hyperkaliémie)"
+      ],
+      "posologie_standard": "150 mg une fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué si sévère",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué (Classe D)",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 8
+  }
+}

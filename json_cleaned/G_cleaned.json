@@ -1,0 +1,566 @@
+{
+  "medicaments": [
+    {
+      "nom": "Gabapentine",
+      "nom_generique": "Gabapentine",
+      "dosage": "300 mg",
+      "forme": "Gélule",
+      "quantite": "90 gélules",
+      "famille": "Anticonvulsivant - Antalgique neuropathique",
+      "code_cip": "3400935678901",
+      "prix": 32.5,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Épilepsie partielle",
+        "Douleurs neuropathiques",
+        "Anxiété généralisée",
+        "Neuropathie diabétique",
+        "Névralgie post-herpétique"
+      ],
+      "substituts": [
+        {
+          "nom": "Neurontin",
+          "dosage": "300 mg",
+          "forme": "Gélule",
+          "quantite": "90 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance neurologique",
+            "Risque de somnolence",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 gélule 3 fois par jour, augmenter progressivement",
+          "maladies_associees": [
+            "Épilepsie",
+            "Douleurs neuropathiques"
+          ]
+        },
+        {
+          "nom": "Pregabaline",
+          "dosage": "75 mg",
+          "forme": "Gélule",
+          "quantite": "60 gélules",
+          "raison": "Même classe thérapeutique (analogue)",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance des effets secondaires",
+            "Risque de dépendance"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs neuropathiques",
+            "Anxiété"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la gabapentine",
+        "Insuffisance rénale sévère (clairance < 30 ml/min)",
+        "Myasthénie grave"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Fatigue",
+        "Prise de poids (5-10%)",
+        "Œdème périphérique",
+        "Troubles digestifs",
+        "Troubles visuels"
+      ],
+      "interactions": [
+        "Antiacides (diminution absorption - espacement 2h)",
+        "Morphiniques (potentialisation sédation)",
+        "Alcool (somnolence majorée)",
+        "Antihistaminiques (sédation majorée)",
+        "Coumadines (surveillance INR)"
+      ],
+      "posologie_standard": "300 mg 3 fois par jour (titration progressive)",
+      "duree_traitement": "Selon prescription, généralement long terme",
+      "population_specifique": {
+        "personne_agee": "Dose initiale réduite (100 mg 3x/j)",
+        "insuffisant_renal": "Adapter selon clairance : 300 mg/j si clairance 30-60 ml/min",
+        "insuffisant_hepatique": "Aucun ajustement nécessaire"
+      },
+      "grossesse": "Classe C - À éviter (risque malformatif)",
+      "allaitement": "Contre-indiqué (passe dans le lait maternel)"
+    },
+    {
+      "nom": "Gaviscon",
+      "nom_generique": "Alginate de sodium + Bicarbonate de sodium + Carbonate de calcium",
+      "dosage": "500 mg / 267 mg / 160 mg",
+      "forme": "Comprimé à croquer",
+      "quantite": "24 comprimés",
+      "famille": "Anti-reflux gastro-oesophagien - Anti-acide",
+      "code_cip": "3400936789012",
+      "prix": 6.9,
+      "stock_actuel": 12,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Reflux gastro-oesophagien (RGO)",
+        "Pyrosis (brûlures d'estomac)",
+        "Régurgitations acides",
+        "Hernie hiatale",
+        "Oesophagite acide"
+      ],
+      "substituts": [
+        {
+          "nom": "Maalox",
+          "dosage": "400 mg / 400 mg",
+          "forme": "Comprimé à croquer",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique (anti-acide)",
+          "confiance": 0.8,
+          "precautions": [
+            "Ne pas dépasser 6 comprimés par jour",
+            "Espacement avec autres médicaments (2h)",
+            "Ne pas utiliser en continu > 7 jours"
+          ],
+          "instructions": "1 comprimé après les repas",
+          "maladies_associees": [
+            "Pyrosis",
+            "Acidité gastrique"
+          ]
+        },
+        {
+          "nom": "Topaal",
+          "dosage": "Alginate 500 mg",
+          "forme": "Suspension buvable",
+          "quantite": "200 ml",
+          "raison": "Même principe actif (alginate)",
+          "confiance": 0.95,
+          "precautions": [
+            "Agiter avant emploi",
+            "Espacement avec repas"
+          ],
+          "instructions": "10 ml après les repas",
+          "maladies_associees": [
+            "RGO",
+            "Pyrosis"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux alginates ou carbonates",
+        "Insuffisance rénale sévère",
+        "Hypercalcémie",
+        "Phénylcétonurie (présence d'aspartam)"
+      ],
+      "effets_secondaires": [
+        "Constipation (rare)",
+        "Sensation de ballonnement",
+        "Flatulences",
+        "Nausées (rares)"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement de 2h)",
+        "Fer (espacement de 2h)",
+        "Digitaliques (espacement de 2h)",
+        "Lévothyroxine (espacement de 2h)",
+        "Tétracyclines (espacement de 2h)"
+      ],
+      "posologie_standard": "1 comprimé après les repas et au coucher (max 6/jour)",
+      "duree_traitement": "Jusqu'à 5-7 jours, sinon avis médical",
+      "population_specifique": {
+        "personne_agee": "Adapter si insuffisance rénale",
+        "insuffisant_renal": "Contre-indiqué en cas d'insuffisance sévère",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe A - Utilisation possible sans danger",
+      "allaitement": "Utilisation possible (non absorbé)"
+    },
+    {
+      "nom": "Ginkor Fort",
+      "nom_generique": "Extrait de Ginkgo biloba + Heptaminol",
+      "dosage": "60 mg / 150 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Vasodilatateur - Phlébotonique",
+      "code_cip": "3400937890123",
+      "prix": 8.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Insuffisance veineuse chronique",
+        "Jambes lourdes",
+        "Troubles cognitifs légers",
+        "Acouphènes",
+        "Vertiges d'origine vasculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Tanakan",
+          "dosage": "40 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif (Ginkgo), dosage différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque hémorragique si associé à des anticoagulants",
+            "Dose efficace minimale",
+            "Arrêt avant chirurgie (10 jours)"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Troubles veineux",
+            "Troubles cognitifs"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au Ginkgo biloba",
+        "Troubles de la coagulation",
+        "Grossesse (risque hémorragique)",
+        "Allaitement",
+        "Association avec anticoagulants (sauf avis médical)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs (nausées)",
+        "Céphalées",
+        "Réactions cutanées allergiques",
+        "Risque hémorragique (exceptionnel)"
+      ],
+      "interactions": [
+        "Anticoagulants (AVK) - risque hémorragique majoré",
+        "Antiplaquettaires (aspirine, clopidogrel)",
+        "AINS (risque hémorragique)",
+        "Antiépileptiques (diminution efficacité)"
+      ],
+      "posologie_standard": "1 gélule 3 fois par jour",
+      "duree_traitement": "1 à 3 mois (réévaluation)",
+      "population_specifique": {
+        "personne_agee": "Dose identique",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Glucophage",
+      "nom_generique": "Metformine",
+      "dosage": "500 mg",
+      "forme": "Comprimé enrobé",
+      "quantite": "90 comprimés",
+      "famille": "Antidiabétique (biguanide)",
+      "code_cip": "3400938901234",
+      "prix": 15.2,
+      "stock_actuel": 10,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Diabète de type 2",
+        "Syndrome métabolique",
+        "Prédiabète",
+        "Insulino-résistance",
+        "Syndrome des ovaires polykystiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Metformine (générique)",
+          "dosage": "500 mg",
+          "forme": "Comprimé enrobé",
+          "quantite": "90 comprimés",
+          "raison": "Même principe actif (générique)",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de la fonction rénale (créatinine)",
+            "Risque d'acidose lactique (exceptionnel)",
+            "Arrêt avant examen avec injection d'iode"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour avec les repas",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        },
+        {
+          "nom": "Stagid",
+          "dosage": "500 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "60 comprimés",
+          "raison": "Même principe actif, forme retard",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas écraser ou croquer",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Insuffisance rénale (clairance < 60 ml/min)",
+        "Acidose métabolique",
+        "Insuffisance hépatique sévère",
+        "Insuffisance cardiaque décompensée",
+        "Consommation aiguë d'alcool"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées, douleurs abdominales) - 20%",
+        "Diminution de l'appétit",
+        "Goût métallique",
+        "Acidose lactique (rare mais grave)",
+        "Carence en vitamine B12 (long terme)"
+      ],
+      "interactions": [
+        "Alcool (risque d'acidose lactique)",
+        "AINS (insuffisance rénale)",
+        "Corticostéroïdes (élévation glycémie)",
+        "Iode (arrêt 48h avant examen)",
+        "Diurétiques (risque d'insuffisance rénale)"
+      ],
+      "posologie_standard": "500 mg 2 fois par jour, augmenter jusqu'à 2500 mg/j",
+      "duree_traitement": "Traitement continu à long terme",
+      "population_specifique": {
+        "personne_agee": "Dose adaptée à la fonction rénale",
+        "insuffisant_renal": "Clairance < 60 ml/min : interdiction",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B - Utilisation possible (diabète gestationnel)",
+      "allaitement": "Passage dans le lait - Utilisation possible sous contrôle"
+    },
+    {
+      "nom": "Glucovance",
+      "nom_generique": "Metformine + Glibenclamide",
+      "dosage": "500 mg / 2.5 mg",
+      "forme": "Comprimé",
+      "quantite": "60 comprimés",
+      "famille": "Antidiabétique (biguanide + sulfamide)",
+      "code_cip": "3400939012345",
+      "prix": 18.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Diabète de type 2 non contrôlé",
+        "Diabète de type 2 en échec de monothérapie"
+      ],
+      "substituts": [
+        {
+          "nom": "Metformine 1000 + Glibenclamide 2.5",
+          "dosage": "1000 mg / 2.5 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Dosage différent, même association",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance glycémique stricte",
+            "Risque d'hypoglycémie",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Acidose métabolique",
+        "Hypersensibilité aux sulfamides"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée)",
+        "Hypoglycémie",
+        "Prise de poids",
+        "Réactions allergiques (rares)"
+      ],
+      "interactions": [
+        "Alcool (risque d'acidose lactique)",
+        "AINS (insuffisance rénale)",
+        "Bêta-bloquants (masquent l'hypoglycémie)"
+      ],
+      "posologie_standard": "1 comprimé 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Gynécologie",
+      "nom_generique": "Fostémé",
+      "dosage": "Fostémé",
+      "forme": "Suppositoire",
+      "quantite": "5 suppositoires",
+      "famille": "Antifongique (traitement loco-régional)",
+      "code_cip": "3400940123456",
+      "prix": 14.5,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Candidose vulvo-vaginale",
+        "Mycoses gynécologiques",
+        "Leucorrhées"
+      ],
+      "substituts": [
+        {
+          "nom": "Gyno-Pévaryl",
+          "dosage": "150 mg",
+          "forme": "Ovule",
+          "quantite": "1 ovule",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.9,
+          "precautions": [
+            "Traitement monodose",
+            "Renouvellement si nécessaire"
+          ],
+          "instructions": "1 ovule le soir",
+          "maladies_associees": [
+            "Candidose vulvo-vaginale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux antifongiques imidazolés",
+        "Premier trimestre de grossesse"
+      ],
+      "effets_secondaires": [
+        "Irritation locale (rare)",
+        "Sensation de brûlure (rare)"
+      ],
+      "interactions": [
+        "Sans objet (traitement local)"
+      ],
+      "posologie_standard": "1 suppositoire le soir pendant 5 jours",
+      "duree_traitement": "5 jours",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe B - Utilisation possible (2ème/3ème trimestre)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Gyno-Pévaryl",
+      "nom_generique": "Éconazole",
+      "dosage": "150 mg",
+      "forme": "Ovule",
+      "quantite": "1 ovule",
+      "famille": "Antifongique (imidazolé)",
+      "code_cip": "3400941234567",
+      "prix": 11.9,
+      "stock_actuel": 15,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Candidose vulvo-vaginale",
+        "Mycoses génitales",
+        "Vaginite mycosique"
+      ],
+      "substituts": [
+        {
+          "nom": "Gynécologie (Fostémé)",
+          "dosage": "Fostémé",
+          "forme": "Suppositoire",
+          "quantite": "5 suppositoires",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.9,
+          "precautions": [
+            "Traitement plus long (5 jours)",
+            "Adapter selon évolution"
+          ],
+          "instructions": "1 suppositoire le soir",
+          "maladies_associees": [
+            "Candidose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'éconazole",
+        "Hypersensibilité aux imidazolés"
+      ],
+      "effets_secondaires": [
+        "Irritation locale",
+        "Prurit",
+        "Sensation de brûlure"
+      ],
+      "interactions": [
+        "Sans objet"
+      ],
+      "posologie_standard": "1 ovule le soir (traitement monodose)",
+      "duree_traitement": "1 jour (parfois renouvelé)",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Gynorest",
+      "nom_generique": "Dydrogestérone",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Progestatif (hormonothérapie)",
+      "code_cip": "3400942345678",
+      "prix": 22.3,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dysménorrhée",
+        "Endométriose",
+        "Troubles du cycle menstruel",
+        "Ménopause (traitement substitutif)",
+        "Menstruations abondantes"
+      ],
+      "substituts": [
+        {
+          "nom": "Duphaston",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance des effets secondaires",
+            "Bilan gynécologique régulier"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Troubles gynécologiques"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Antécédents de thrombose",
+        "Cancer du sein",
+        "Allergie à la dydrogestérone",
+        "Maladie hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Maux de tête",
+        "Nausées",
+        "Tensions mammaires",
+        "Rétention d'eau",
+        "Saignements intermenstruels"
+      ],
+      "interactions": [
+        "Barbituriques (diminution efficacité)",
+        "Anticonvulsivants",
+        "Rifampicine"
+      ],
+      "posologie_standard": "10 mg 2 à 3 fois par jour",
+      "duree_traitement": "Variable selon indication",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe A - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 8
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "medicaments": [
+    {
+      "nom": "Naproxène",
+      "nom_generique": "Naproxène",
+      "dosage": "250 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400962345678",
+      "prix": 9.8,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Douleurs articulaires",
+        "Polyarthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Dysménorrhée",
+        "Lombalgie",
+        "Céphalées",
+        "Douleurs dentaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Naprosyne",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Risque digestif",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Ibuprofène",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "AINS différent, même classe",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque digestif",
+            "Contre-indiqué en cas d'asthme"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au naproxène",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Ulcère gastro-intestinal",
+        "Nausées",
+        "Céphalées",
+        "Vertiges",
+        "Rétention hydrosodée"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)",
+        "Méthotrexate (toxicité)",
+        "Diurétiques (réduction effet)"
+      ],
+      "posologie_standard": "250 mg 2-3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible (faible passage)"
+    },
+    {
+      "nom": "Nicorette",
+      "nom_generique": "Nicotine",
+      "dosage": "2 mg",
+      "forme": "Comprimé à sucer",
+      "quantite": "30 comprimés",
+      "famille": "Substitut nicotinique (sevrage tabagique)",
+      "code_cip": "3400963456789",
+      "prix": 15.5,
+      "stock_actuel": 12,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Tabagisme",
+        "Sevrage tabagique",
+        "Dépendance nicotinique"
+      ],
+      "substituts": [
+        {
+          "nom": "Nicotine (générique)",
+          "dosage": "2 mg",
+          "forme": "Comprimé à sucer",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser la dose recommandée",
+            "Arrêt progressif",
+            "Ne pas avaler"
+          ],
+          "instructions": "1 comprimé en cas d'envie de fumer",
+          "maladies_associees": [
+            "Sevrage tabagique"
+          ]
+        },
+        {
+          "nom": "Nicotine patch (Niquitin)",
+          "dosage": "10 mg/24h",
+          "forme": "Patch transdermique",
+          "quantite": "7 patches",
+          "raison": "Substitut nicotinique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Application sur peau saine",
+            "Rotation des sites",
+            "Retirer la nuit si cauchemars"
+          ],
+          "instructions": "1 patch 1 fois par jour",
+          "maladies_associees": [
+            "Sevrage tabagique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la nicotine",
+        "Infarctus récent",
+        "Angor instable",
+        "Accident vasculaire cérébral récent",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Irritation buccale",
+        "Nausées",
+        "Céphalées",
+        "Palpitations",
+        "Hoquet"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 comprimé en cas d'envie (max 15/jour)",
+      "duree_traitement": "3-6 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiovasculaire",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué (sauf avis médical)",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Nifédipine",
+      "nom_generique": "Nifédipine",
+      "dosage": "10 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Inhibiteur calcique (antihypertenseur)",
+      "code_cip": "3400964567890",
+      "prix": 18.3,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Angine de poitrine",
+        "Migraine (prophylaxie)",
+        "Phénomène de Raynaud"
+      ],
+      "substituts": [
+        {
+          "nom": "Nifédipine LP",
+          "dosage": "20 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, libération prolongée",
+          "confiance": 0.95,
+          "precautions": [
+            "Avaler entier, ne pas croquer",
+            "Surveillance tension",
+            "Prise le matin"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        },
+        {
+          "nom": "Amlodipine",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur calcique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance tension",
+            "Œdème des chevilles possible"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la nifédipine",
+        "Hypotension sévère",
+        "Infarctus récent",
+        "Insuffisance cardiaque sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Flush facial",
+        "Œdème des chevilles",
+        "Palpitations",
+        "Hypotension",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Pamplemousse (augmentation concentration)",
+        "Bêta-bloquants (hypotension)",
+        "Digoxine (augmentation)"
+      ],
+      "posologie_standard": "10 mg 2-3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Novorapid",
+      "nom_generique": "Insuline asparte",
+      "dosage": "100 UI/ml",
+      "forme": "Solution injectable (seringue pré-remplie)",
+      "quantite": "3 ml",
+      "famille": "Antidiabétique (insuline rapide)",
+      "code_cip": "3400965678901",
+      "prix": 38.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Diabète de type 1",
+        "Diabète de type 2 insulinodépendant",
+        "Diabète gestationnel"
+      ],
+      "substituts": [
+        {
+          "nom": "Insuline lispro (Humalog)",
+          "dosage": "100 UI/ml",
+          "forme": "Seringue pré-remplie",
+          "quantite": "3 ml",
+          "raison": "Insuline rapide différente",
+          "confiance": 0.9,
+          "precautions": [
+            "Injection immédiatement avant le repas",
+            "Surveillance glycémique stricte",
+            "Ne pas mélanger avec d'autres insulines"
+          ],
+          "instructions": "Injection SC avant le repas",
+          "maladies_associees": [
+            "Diabète"
+          ]
+        },
+        {
+          "nom": "Apidra (Insuline glulisine)",
+          "dosage": "100 UI/ml",
+          "forme": "Seringue pré-remplie",
+          "quantite": "3 ml",
+          "raison": "Insuline rapide différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Injection avant le repas",
+            "Surveillance glycémique"
+          ],
+          "instructions": "Injection SC avant le repas",
+          "maladies_associees": [
+            "Diabète"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'insuline asparte",
+        "Hypoglycémie sévère",
+        "Acidocétose"
+      ],
+      "effets_secondaires": [
+        "Hypoglycémie",
+        "Prise de poids",
+        "Lipodystrophie au point d'injection",
+        "Réactions allergiques (rares)"
+      ],
+      "interactions": [
+        "Sulfamides hypoglycémiants (risque d'hypoglycémie)",
+        "Bêta-bloquants (masquent l'hypoglycémie)",
+        "Alcool (risque d'hypoglycémie)"
+      ],
+      "posologie_standard": "Adaptée par le médecin (2-20 UI/repas)",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance accrue des hypoglycémies",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Nurofen",
+      "nom_generique": "Ibuprofène",
+      "dosage": "400 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400966789012",
+      "prix": 8.9,
+      "stock_actuel": 20,
+      "seuil_alerte": 8,
+      "maladies_associees": [
+        "Douleurs musculaires",
+        "Céphalées",
+        "Dysménorrhée",
+        "Fièvre",
+        "Douleurs dentaires",
+        "Douleurs articulaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Ibuprofène (générique)",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Ne pas dépasser 1200 mg/jour"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Fièvre"
+          ]
+        },
+        {
+          "nom": "Advil",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque digestif",
+            "Contre-indiqué en cas d'ulcère"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Fièvre"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ibuprofène",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Ulcère gastro-intestinal",
+        "Nausées",
+        "Céphalées (rares)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Aspirine (diminution efficacité)",
+        "Lithium (augmentation)",
+        "Diurétiques (réduction effet)"
+      ],
+      "posologie_standard": "400 mg 3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Nystatine",
+      "nom_generique": "Nystatine",
+      "dosage": "100 000 UI",
+      "forme": "Comprimé vaginal",
+      "quantite": "10 comprimés",
+      "famille": "Antifongique (polyène)",
+      "code_cip": "3400967890123",
+      "prix": 16.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Candidose vulvo-vaginale",
+        "Mycoses vaginales",
+        "Leucorrhées",
+        "Infections fongiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Nystatine (générique)",
+          "dosage": "100 000 UI",
+          "forme": "Comprimé vaginal",
+          "quantite": "10 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Traitement local",
+            "Ne pas utiliser pendant les règles",
+            "Continuer le traitement malgré les règles"
+          ],
+          "instructions": "1 comprimé 1 fois par jour au coucher",
+          "maladies_associees": [
+            "Candidose"
+          ]
+        },
+        {
+          "nom": "Gyno-Pévaryl (Éconazole)",
+          "dosage": "150 mg",
+          "forme": "Ovule",
+          "quantite": "1 ovule",
+          "raison": "Antifongique imidazolé",
+          "confiance": 0.85,
+          "precautions": [
+            "Traitement monodose",
+            "Efficacité variable"
+          ],
+          "instructions": "1 ovule le soir",
+          "maladies_associees": [
+            "Candidose vulvo-vaginale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la nystatine",
+        "Grossesse (sauf avis médical)"
+      ],
+      "effets_secondaires": [
+        "Irritation locale",
+        "Prurit",
+        "Sensation de brûlure (rare)"
+      ],
+      "interactions": [
+        "Sans objet (traitement local)"
+      ],
+      "posologie_standard": "1 comprimé vaginal 1 fois par jour",
+      "duree_traitement": "10 jours",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe A - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Nitroglycérine",
+      "nom_generique": "Trinitrine (glycérine trinitrate)",
+      "dosage": "0.15 mg",
+      "forme": "Comprimé sublingual",
+      "quantite": "30 comprimés",
+      "famille": "Vasodilatateur coronarien (nitré)",
+      "code_cip": "3400968901234",
+      "prix": 14.2,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Crise d'angine de poitrine",
+        "Angor instable",
+        "Infarctus (urgence)"
+      ],
+      "substituts": [
+        {
+          "nom": "Trinitrine (générique)",
+          "dosage": "0.15 mg",
+          "forme": "Comprimé sublingual",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Action en 2-3 minutes",
+            "Ne pas dépasser 3 comprimés",
+            "Consulter en urgence si inefficace"
+          ],
+          "instructions": "1 comprimé sous la langue à la crise",
+          "maladies_associees": [
+            "Crise d'angor"
+          ]
+        },
+        {
+          "nom": "Dinitrate d'isosorbide (Risordan)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Nitré à action prolongée",
+          "confiance": 0.8,
+          "precautions": [
+            "Action plus lente",
+            "Prévention des crises"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Angor"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux nitrés",
+        "Hypotension sévère",
+        "Prise de sildénafil (Viagra)",
+        "Infarctus du myocarde aigu",
+        "Insuffisance cardiaque décompensée"
+      ],
+      "effets_secondaires": [
+        "Céphalées (fréquentes)",
+        "Hypotension",
+        "Flush facial",
+        "Tachycardie réflexe",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Sildénafil (contre-indication formelle)",
+        "Alcool (hypotension)",
+        "Antihypertenseurs (potentialisation)"
+      ],
+      "posologie_standard": "1 comprimé à la crise (max 3)",
+      "duree_traitement": "À la demande",
+      "population_specifique": {
+        "personne_agee": "Surveillance tension",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Noxafil",
+      "nom_generique": "Posaconazole",
+      "dosage": "100 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "30 comprimés",
+      "famille": "Antifongique (triazolé)",
+      "code_cip": "3400969012345",
+      "prix": 85.4,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Aspergillose invasive",
+        "Fusariose",
+        "Candidose invasive",
+        "Prophylaxie fongique en hématologie"
+      ],
+      "substituts": [
+        {
+          "nom": "Voriconazole (Vfend)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antifongique triazolé différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance des transaminases",
+            "Surveillance du QT",
+            "Phototoxicité"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Aspergillose",
+            "Candidose invasive"
+          ]
+        },
+        {
+          "nom": "Amphotéricine B (Fungizone)",
+          "dosage": "50 mg",
+          "forme": "Poudre pour perfusion",
+          "quantite": "1 flacon",
+          "raison": "Antifongique systémique différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance rénale",
+            "Surveillance électrolytique"
+          ],
+          "instructions": "Perfusion IV",
+          "maladies_associees": [
+            "Mycoses systémiques"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au posaconazole",
+        "Allergie aux triazolés",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hépatotoxicité",
+        "Troubles digestifs",
+        "Allongement du QT",
+        "Hypokaliémie",
+        "Céphalées"
+      ],
+      "interactions": [
+        "Cyclosporine (augmentation concentration)",
+        "Tacrolimus (augmentation concentration)",
+        "Rifampicine (diminution efficacité)",
+        "Benzodiazépines (augmentation)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour",
+      "duree_traitement": "Variable selon infection",
+      "population_specifique": {
+        "personne_agee": "Surveillance hépatique",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Néoral",
+      "nom_generique": "Ciclosporine",
+      "dosage": "100 mg",
+      "forme": "Gélule",
+      "quantite": "50 gélules",
+      "famille": "Immunosuppresseur",
+      "code_cip": "3400960123456",
+      "prix": 95.6,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Transplantation d'organes",
+        "Polyarthrite rhumatoïde sévère",
+        "Psoriasis sévère",
+        "Dermatite atopique sévère",
+        "Syndrome néphrotique"
+      ],
+      "substituts": [
+        {
+          "nom": "Ciclosporine (générique)",
+          "dosage": "100 mg",
+          "forme": "Gélule",
+          "quantite": "50 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance du taux sanguin",
+            "Surveillance rénale",
+            "Surveillance tension artérielle"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Transplantation",
+            "Maladies auto-immunes"
+          ]
+        },
+        {
+          "nom": "Tacrolimus (Prograf)",
+          "dosage": "1 mg",
+          "forme": "Gélule",
+          "quantite": "50 gélules",
+          "raison": "Immunosuppresseur différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance du taux sanguin",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Transplantation d'organes"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la ciclosporine",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Hypertension non contrôlée",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Néphrotoxicité",
+        "Hypertension artérielle",
+        "Hépatotoxicité",
+        "Hyperlipidémie",
+        "Hirsutisme",
+        "Hypertrophie gingivale",
+        "Tremblements"
+      ],
+      "interactions": [
+        "AINS (toxicité rénale)",
+        "Antibiotiques (augmentation concentration)",
+        "Antifongiques (augmentation concentration)",
+        "Pamplemousse (augmentation concentration)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance accrue",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 9
+  }
+}

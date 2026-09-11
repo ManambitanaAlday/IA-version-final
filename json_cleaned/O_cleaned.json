@@ -1,0 +1,693 @@
+{
+  "medicaments": [
+    {
+      "nom": "Oestrogel",
+      "nom_generique": "Estradiol",
+      "dosage": "0.06 %",
+      "forme": "Gel pour application cutanée",
+      "quantite": "80 g",
+      "famille": "Hormone substitutive (œstrogène)",
+      "code_cip": "3400961234567",
+      "prix": 32.8,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Ménopause",
+        "Traitement hormonal substitutif",
+        "Symptômes de la ménopause",
+        "Bouffées de chaleur",
+        "Sécheresse vaginale",
+        "Ostéoporose post-ménopausique"
+      ],
+      "substituts": [
+        {
+          "nom": "Estradiol (générique)",
+          "dosage": "0.06 %",
+          "forme": "Gel",
+          "quantite": "80 g",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Application sur peau saine",
+            "Rotation des sites d'application",
+            "Surveillance gynécologique régulière"
+          ],
+          "instructions": "1 dose 1 fois par jour",
+          "maladies_associees": [
+            "Ménopause"
+          ]
+        },
+        {
+          "nom": "Ovestin (Estriol)",
+          "dosage": "0.1 %",
+          "forme": "Crème vaginale",
+          "quantite": "15 g",
+          "raison": "Œstrogène vaginal, action locale",
+          "confiance": 0.8,
+          "precautions": [
+            "Application locale",
+            "Surveillance gynécologique"
+          ],
+          "instructions": "Application 1 fois par jour",
+          "maladies_associees": [
+            "Sécheresse vaginale",
+            "Atrophie vulvaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'estradiol",
+        "Cancer du sein",
+        "Cancer de l'endomètre",
+        "Antécédents de thrombose",
+        "Grossesse",
+        "Allaitement",
+        "Tumeurs hépatiques"
+      ],
+      "effets_secondaires": [
+        "Sensibilité mammaire",
+        "Nausées",
+        "Rétention hydrosodée",
+        "Céphalées",
+        "Risque thrombotique",
+        "Irritation cutanée (rare)"
+      ],
+      "interactions": [
+        "Barbituriques (diminution efficacité)",
+        "Anticonvulsivants (diminution efficacité)",
+        "Rifampicine (diminution efficacité)"
+      ],
+      "posologie_standard": "1 dose 1 fois par jour",
+      "duree_traitement": "Variable (selon avis médical)",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Oflocet",
+      "nom_generique": "Ofloxacine",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "10 comprimés",
+      "famille": "Antibiotique (fluoroquinolone)",
+      "code_cip": "3400962345678",
+      "prix": 16.5,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Infections urinaires",
+        "Infections ORL",
+        "Bronchite chronique",
+        "Infections digestives",
+        "Infections gynécologiques",
+        "Infections cutanées"
+      ],
+      "substituts": [
+        {
+          "nom": "Ofloxacine (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "10 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de tendinite",
+            "Photosensibilité",
+            "Surveillance tendineuse"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections urinaires",
+            "Infections ORL"
+          ]
+        },
+        {
+          "nom": "Ciprofloxacine (Ciflox)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "10 comprimés",
+          "raison": "Fluoroquinolone différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de tendinite",
+            "Photosensibilité",
+            "Surveillance tendineuse"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections urinaires",
+            "Infections ORL"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ofloxacine",
+        "Allergie aux fluoroquinolones",
+        "Grossesse",
+        "Allaitement",
+        "Enfant < 18 ans"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (nausées, diarrhée)",
+        "Céphalées",
+        "Vertiges",
+        "Photosensibilité",
+        "Tendinite (rare mais grave)",
+        "Insomnie"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Théophylline (augmentation concentration)",
+        "Caféine (augmentation concentration)"
+      ],
+      "posologie_standard": "200 mg 2 fois par jour",
+      "duree_traitement": "5-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Oméprazole",
+      "nom_generique": "Oméprazole",
+      "dosage": "20 mg",
+      "forme": "Gélule gastro-résistante",
+      "quantite": "28 gélules",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400963456789",
+      "prix": 19.2,
+      "stock_actuel": 11,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Reflux gastro-oesophagien",
+        "Ulcère gastroduodénal",
+        "Œsophagite érosive",
+        "Helicobacter pylori",
+        "Syndrome de Zollinger-Ellison"
+      ],
+      "substituts": [
+        {
+          "nom": "Mopral",
+          "dosage": "20 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser",
+            "Surveillance des fractures à long terme"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        },
+        {
+          "nom": "Inexium (Ésoméprazole)",
+          "dosage": "20 mg",
+          "forme": "Comprimé gastro-résistant",
+          "quantite": "28 comprimés",
+          "raison": "IPP différent, même classe",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avant le repas",
+            "Surveillance des interactions"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "RGO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'oméprazole",
+        "Allergie aux benzimidazoles"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs",
+        "Carence en vitamine B12 (long terme)",
+        "Fractures (long terme)",
+        "Hypomagnésémie"
+      ],
+      "interactions": [
+        "Clopidogrel (diminution efficacité)",
+        "Diazépam (augmentation)",
+        "Phénytoïne (augmentation)",
+        "Atazanavir (diminution)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "4-8 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance des fractures",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Orlistat",
+      "nom_generique": "Orlistat",
+      "dosage": "60 mg",
+      "forme": "Gélule",
+      "quantite": "84 gélules",
+      "famille": "Anti-obésité (inhibiteur de lipases)",
+      "code_cip": "3400964567890",
+      "prix": 34.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Obésité",
+        "Surpoids",
+        "Perte de poids",
+        "Complément d'un régime"
+      ],
+      "substituts": [
+        {
+          "nom": "Xenical",
+          "dosage": "120 mg",
+          "forme": "Gélule",
+          "quantite": "42 gélules",
+          "raison": "Même principe actif, dosage différent (prescription)",
+          "confiance": 0.95,
+          "precautions": [
+            "Prise avec les repas",
+            "Risque de carences en vitamines liposolubles",
+            "Supplémentation en vitamines"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Obésité"
+          ]
+        },
+        {
+          "nom": "Orlistat (générique)",
+          "dosage": "60 mg",
+          "forme": "Gélule",
+          "quantite": "84 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Régime adapté",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Surpoids",
+            "Obésité"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'orlistat",
+        "Malabsorption chronique",
+        "Insuffisance hépatique",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Stéatorrhée (selles grasses)",
+        "Flatulences",
+        "Douleurs abdominales",
+        "Incontinence fécale (rare)",
+        "Carences vitaminiques"
+      ],
+      "interactions": [
+        "Anticoagulants (surveillance INR)",
+        "Lévothyroxine (espacement 4h)",
+        "Vitamines liposolubles (espacement 2h)"
+      ],
+      "posologie_standard": "1 gélule 3 fois par jour",
+      "duree_traitement": "3-6 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance des carences",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Oroken",
+      "nom_generique": "Céfixime",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "10 comprimés",
+      "famille": "Antibiotique (céphalosporine 3ème génération)",
+      "code_cip": "3400965678901",
+      "prix": 22.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections ORL",
+        "Angine",
+        "Sinusite",
+        "Otite moyenne",
+        "Infections urinaires",
+        "Infections digestives"
+      ],
+      "substituts": [
+        {
+          "nom": "Céfixime (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "10 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'allergie croisée avec pénicillines",
+            "Finir le traitement",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections ORL",
+            "Infections urinaires"
+          ]
+        },
+        {
+          "nom": "Céftriaxone (Rocéphine)",
+          "dosage": "1 g",
+          "forme": "Injection",
+          "quantite": "1 flacon",
+          "raison": "Céphalosporine 3ème génération, injectable",
+          "confiance": 0.85,
+          "precautions": [
+            "Utilisation en milieu hospitalier",
+            "Surveillance allergique"
+          ],
+          "instructions": "Injection IM ou IV",
+          "maladies_associees": [
+            "Infections sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux céphalosporines",
+        "Allergie aux pénicillines (allergie croisée)",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée)",
+        "Nausées",
+        "Rash cutané",
+        "Colite pseudomembraneuse (rare)"
+      ],
+      "interactions": [
+        "Probenécide (diminution excrétion)",
+        "Contraceptifs oraux (diminution efficacité)"
+      ],
+      "posologie_standard": "200 mg 2 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Otipax",
+      "nom_generique": "Phenazone + Lidocaïne",
+      "dosage": "44 mg / 11 mg",
+      "forme": "Solution auriculaire",
+      "quantite": "15 ml",
+      "famille": "Antalgique - Antipyrétique local",
+      "code_cip": "3400966789012",
+      "prix": 9.9,
+      "stock_actuel": 13,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Otalgie",
+        "Douleur d'oreille",
+        "Otite moyenne (douleur)",
+        "Inflammation du conduit auditif"
+      ],
+      "substituts": [
+        {
+          "nom": "Lidocaïne + Phenazone (générique)",
+          "dosage": "44 mg / 11 mg",
+          "forme": "Solution auriculaire",
+          "quantite": "15 ml",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas utiliser si le tympan est perforé",
+            "Réchauffer le flacon avant utilisation",
+            "Utilisation limitée à 3-5 jours"
+          ],
+          "instructions": "3-4 gouttes 2-3 fois par jour",
+          "maladies_associees": [
+            "Douleur d'oreille"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Perforation tympanique",
+        "Réaction allergique à la lidocaïne"
+      ],
+      "effets_secondaires": [
+        "Irritation locale (rare)",
+        "Réaction allergique (rare)"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "3-4 gouttes 2-3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Oxycontin",
+      "nom_generique": "Oxycodone",
+      "dosage": "10 mg",
+      "forme": "Comprimé à libération prolongée",
+      "quantite": "30 comprimés",
+      "famille": "Antalgique opioïde (stupéfiant)",
+      "code_cip": "3400967890123",
+      "prix": 62.8,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Douleurs chroniques sévères",
+        "Douleurs cancéreuses",
+        "Douleurs neuropathiques",
+        "Douleurs post-opératoires sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Oxycodone (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Surveillance respiratoire",
+            "Constipation fréquente"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        },
+        {
+          "nom": "Morphine LP (Skenan)",
+          "dosage": "10 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Opioïde différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Constipation",
+            "Surveillance respiratoire"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'oxycodone",
+        "Dépression respiratoire",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Constipation (très fréquent)",
+        "Nausées",
+        "Somnolence",
+        "Dépendance",
+        "Dépression respiratoire",
+        "Rétention urinaire"
+      ],
+      "interactions": [
+        "Alcool (dépression respiratoire)",
+        "Benzodiazépines (sédation)",
+        "Antidépresseurs sérotoninergiques (syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "10 mg 2 fois par jour",
+      "duree_traitement": "Selon douleur",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Oxycort",
+      "nom_generique": "Hydrocortisone + Oxytétracycline",
+      "dosage": "1 % / 3 %",
+      "forme": "Pommade",
+      "quantite": "10 g",
+      "famille": "Corticoïde + Antibiotique topique",
+      "code_cip": "3400968901234",
+      "prix": 14.3,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections cutanées suintantes",
+        "Dermatoses inflammatoires surinfectées",
+        "Eczéma surinfecté",
+        "Lésions cutanées infectées"
+      ],
+      "substituts": [
+        {
+          "nom": "Hydrocortisone + Néomycine (Hygromix)",
+          "dosage": "1 % / 0.5 %",
+          "forme": "Pommade",
+          "quantite": "10 g",
+          "raison": "Association corticoïde + antibiotique",
+          "confiance": 0.85,
+          "precautions": [
+            "Utilisation courte",
+            "Ne pas appliquer sur de grandes surfaces",
+            "Surveillance locale"
+          ],
+          "instructions": "Application 1-2 fois par jour",
+          "maladies_associees": [
+            "Infections cutanées"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Allergie aux tétracyclines",
+        "Herpès cutané",
+        "Infections fongiques",
+        "Acné (certains cas)"
+      ],
+      "effets_secondaires": [
+        "Irritation locale",
+        "Atrophie cutanée (long terme)",
+        "Télangiectasies"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "Application 1-2 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance de l'atrophie cutanée",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Oxyheme",
+      "nom_generique": "Oxybate de sodium",
+      "dosage": "500 mg/ml",
+      "forme": "Solution buvable",
+      "quantite": "50 ml",
+      "famille": "Hypnotique - Stupéfiant",
+      "code_cip": "3400969012345",
+      "prix": 85.2,
+      "stock_actuel": 2,
+      "seuil_alerte": 1,
+      "maladies_associees": [
+        "Narcolepsie avec cataplexie",
+        "Troubles du sommeil",
+        "Narcolepsie sévère"
+      ],
+      "substituts": [
+        {
+          "nom": "Xyrem",
+          "dosage": "500 mg/ml",
+          "forme": "Solution buvable",
+          "quantite": "50 ml",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Stupéfiant - Prescription hospitalière",
+            "Surveillance respiratoire",
+            "Risque de dépendance"
+          ],
+          "instructions": "Dose fractionnée en 2 prises",
+          "maladies_associees": [
+            "Narcolepsie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'oxybate",
+        "Dépression respiratoire",
+        "Insuffisance hépatique",
+        "Insuffisance rénale",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Nausées",
+        "Confusion",
+        "Dépendance",
+        "Dépression respiratoire"
+      ],
+      "interactions": [
+        "Alcool (dépression respiratoire)",
+        "Benzodiazépines (sédation)",
+        "Opioïdes (sédation)"
+      ],
+      "posologie_standard": "4.5-9 g par jour en 2 prises",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 9
+  }
+}

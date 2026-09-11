@@ -1,0 +1,803 @@
+{
+  "medicaments": [
+    {
+      "nom": "Valium",
+      "nom_generique": "Diazépam",
+      "dosage": "10 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anxiolytique (benzodiazépine)",
+      "code_cip": "3400989012345",
+      "prix": 19.8,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Anxiété sévère",
+        "Troubles anxieux généralisés",
+        "Spasmes musculaires",
+        "Épilepsie",
+        "Insomnie",
+        "Sevrage alcoolique"
+      ],
+      "substituts": [
+        {
+          "nom": "Diazépam (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Arrêt progressif",
+            "Surveillance de la somnolence",
+            "Ne pas dépasser 4 semaines"
+          ],
+          "instructions": "1 comprimé 1-3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Spasmes"
+          ]
+        },
+        {
+          "nom": "Clonazépam (Rivotril)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Surveillance de la sédation"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Épilepsie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au diazépam",
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Dépendance",
+        "Troubles de mémoire",
+        "Syndrome de sevrage à l'arrêt",
+        "Ataxie"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée - risque vital)",
+        "Morphiniques (sédation majorée)",
+        "Antihistaminiques (sédation majorée)",
+        "Antidépresseurs (sédation)"
+      ],
+      "posologie_standard": "10 mg 1-3 fois par jour",
+      "duree_traitement": "2-4 semaines max",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (5 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Ventoline",
+      "nom_generique": "Salbutamol",
+      "dosage": "100 µg",
+      "forme": "Aérosol-doseur",
+      "quantite": "200 doses",
+      "famille": "Bronchodilatateur (bêta-2 agoniste)",
+      "code_cip": "3400980123456",
+      "prix": 18.6,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Asthme",
+        "BPCO",
+        "Bronchospasme",
+        "Crise d'asthme",
+        "Bronchite asthmatiforme"
+      ],
+      "substituts": [
+        {
+          "nom": "Salbutamol (générique)",
+          "dosage": "100 µg",
+          "forme": "Aérosol-doseur",
+          "quantite": "200 doses",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Utiliser en cas de besoin",
+            "Ne pas dépasser 8 doses par jour",
+            "Consulter si utilisation trop fréquente"
+          ],
+          "instructions": "1-2 pulvérisations en cas de besoin",
+          "maladies_associees": [
+            "Asthme",
+            "BPCO"
+          ]
+        },
+        {
+          "nom": "Bricanyl (Terbutaline)",
+          "dosage": "500 µg",
+          "forme": "Aérosol-doseur",
+          "quantite": "200 doses",
+          "raison": "Bêta-2 agoniste différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Utilisation en cas de besoin",
+            "Surveillance des effets cardiaques"
+          ],
+          "instructions": "1 pulvérisation en cas de besoin",
+          "maladies_associees": [
+            "Asthme",
+            "BPCO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au salbutamol",
+        "Allergie aux bêta-2 agonistes",
+        "Grossesse (sauf avis médical)"
+      ],
+      "effets_secondaires": [
+        "Tachycardie",
+        "Tremblements",
+        "Palpitations",
+        "Céphalées",
+        "Irritation locale"
+      ],
+      "interactions": [
+        "Bêta-bloquants (antagonisme)",
+        "Corticoïdes (effet additif)",
+        "Diurétiques (hypokaliémie)"
+      ],
+      "posologie_standard": "1-2 pulvérisations en cas de besoin",
+      "duree_traitement": "Selon besoin",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Viagra",
+      "nom_generique": "Sildénafil",
+      "dosage": "50 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "4 comprimés",
+      "famille": "Inhibiteur de la phosphodiestérase (dysfonction érectile)",
+      "code_cip": "3400981234567",
+      "prix": 78.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dysfonction érectile",
+        "Impression sexuelle",
+        "Hypertension pulmonaire (hors AMM)"
+      ],
+      "substituts": [
+        {
+          "nom": "Sildénafil (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre 1h avant le rapport",
+            "Ne pas dépasser 1 comprimé par jour",
+            "Contre-indiqué avec les nitrés",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 comprimé en cas de besoin",
+          "maladies_associees": [
+            "Dysfonction érectile"
+          ]
+        },
+        {
+          "nom": "Tadalafil (Cialis)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Inhibiteur de PDE5 différent, action plus longue",
+          "confiance": 0.85,
+          "precautions": [
+            "Contre-indiqué avec les nitrés",
+            "Effet jusqu'à 36h"
+          ],
+          "instructions": "1 comprimé en cas de besoin",
+          "maladies_associees": [
+            "Dysfonction érectile"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au sildénafil",
+        "Allergie aux inhibiteurs de PDE5",
+        "Prise de nitrés (contre-indication absolue)",
+        "Insuffisance cardiaque sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Bouffées de chaleur",
+        "Troubles digestifs",
+        "Troubles visuels (rares)",
+        "Priapisme (rare)"
+      ],
+      "interactions": [
+        "Nitrés (contre-indication formelle)",
+        "Alpha-bloquants (hypotension)",
+        "Inhibiteurs du CYP3A4 (augmentation concentration)"
+      ],
+      "posologie_standard": "50 mg 1 comprimé",
+      "duree_traitement": "À la demande",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (25 mg)",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Voltarène",
+      "nom_generique": "Diclofénac",
+      "dosage": "50 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "20 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400982345678",
+      "prix": 10.8,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Douleurs articulaires",
+        "Polyarthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Lombalgie",
+        "Sciatique",
+        "Tendinite"
+      ],
+      "substituts": [
+        {
+          "nom": "Diclofénac (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé gastro-résistant",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Risque digestif",
+            "Surveillance rénale",
+            "Durée limitée"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Ibuprofène (Nurofen)",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "AINS différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque digestif",
+            "Contre-indiqué en cas d'asthme"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au diclofénac",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Ulcère gastro-intestinal",
+        "Nausées",
+        "Céphalées"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)",
+        "Méthotrexate (toxicité)",
+        "Diurétiques (réduction effet)"
+      ],
+      "posologie_standard": "50 mg 2-3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Vitamine C",
+      "nom_generique": "Acide ascorbique",
+      "dosage": "1000 mg",
+      "forme": "Comprimé effervescent",
+      "quantite": "20 comprimés",
+      "famille": "Vitamine - Complément alimentaire",
+      "code_cip": "3400983456789",
+      "prix": 7.2,
+      "stock_actuel": 18,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Carence en vitamine C",
+        "Prévention des infections",
+        "Fatigue",
+        "Immunité"
+      ],
+      "substituts": [
+        {
+          "nom": "Acide ascorbique (générique)",
+          "dosage": "1000 mg",
+          "forme": "Comprimé effervescent",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Dissoudre dans un verre d'eau",
+            "Prise avec un repas",
+            "Ne pas dépasser 2000 mg/jour"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamine C"
+          ]
+        },
+        {
+          "nom": "Rédoxon",
+          "dosage": "1000 mg",
+          "forme": "Comprimé effervescent",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamine C"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la vitamine C",
+        "Insuffisance rénale sévère",
+        "Oxalate de calcium (calculs)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (surdosage)",
+        "Diarrhée"
+      ],
+      "interactions": [
+        "Fer (augmentation absorption)",
+        "Aluminium (augmentation absorption)"
+      ],
+      "posologie_standard": "1000 mg 1 fois par jour",
+      "duree_traitement": "Selon besoin",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Vitamine D",
+      "nom_generique": "Cholécalciférol",
+      "dosage": "1000 UI",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vitamine - Complément alimentaire",
+      "code_cip": "3400984567890",
+      "prix": 9.8,
+      "stock_actuel": 13,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Carence en vitamine D",
+        "Prévention de l'ostéoporose",
+        "Immunité",
+        "Fatigue"
+      ],
+      "substituts": [
+        {
+          "nom": "Cholécalciférol (générique)",
+          "dosage": "1000 UI",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Ne pas dépasser 4000 UI/jour",
+            "Surveillance de la calcémie"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamine D"
+          ]
+        },
+        {
+          "nom": "Uvestérol (Vitamine D3)",
+          "dosage": "50 000 UI",
+          "forme": "Solution buvable",
+          "quantite": "10 ml",
+          "raison": "Dosage différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la calcémie"
+          ],
+          "instructions": "1 goutte 1 fois par semaine",
+          "maladies_associees": [
+            "Carence sévère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la vitamine D",
+        "Hypercalcémie",
+        "Hypercalciurie",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Hypercalcémie (surdosage)"
+      ],
+      "interactions": [
+        "Diurétiques thiazidiques (hypercalcémie)"
+      ],
+      "posologie_standard": "1000 UI 1 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la calcémie",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Vogalène",
+      "nom_generique": "Métopimazine",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Antiénétique - Antihistaminique",
+      "code_cip": "3400985678901",
+      "prix": 12.3,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Nausées",
+        "Vomissements",
+        "Mal des transports",
+        "Nausées post-opératoires"
+      ],
+      "substituts": [
+        {
+          "nom": "Métopimazine (générique)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Somnolence possible",
+            "Surveillance chez la personne âgée"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Nausées",
+            "Vomissements"
+          ]
+        },
+        {
+          "nom": "Primpéran (Métoclopramide)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antiénétique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque d'effets extrapyramidaux"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Nausées",
+            "Vomissements"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la métopimazine",
+        "Allergie aux antihistaminiques",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Sécheresse buccale",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation majorée)"
+      ],
+      "posologie_standard": "5 mg 3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Vogalib",
+      "nom_generique": "Métopimazine",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antiénétique - Antihistaminique",
+      "code_cip": "3400986789012",
+      "prix": 11.9,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Nausées",
+        "Vomissements",
+        "Mal des transports",
+        "Nausées post-opératoires"
+      ],
+      "substituts": [
+        {
+          "nom": "Métopimazine (générique)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Somnolence possible",
+            "Surveillance chez la personne âgée"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Nausées"
+          ]
+        },
+        {
+          "nom": "Vogalène",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, présentation différente",
+          "confiance": 1.0,
+          "precautions": [
+            "Somnolence possible"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Nausées"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la métopimazine",
+        "Allergie aux antihistaminiques",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Sécheresse buccale"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation majorée)"
+      ],
+      "posologie_standard": "5 mg 3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Veltin",
+      "nom_generique": "Clindamycine + Trétinoïne",
+      "dosage": "1.2 % / 0.025 %",
+      "forme": "Gel",
+      "quantite": "30 g",
+      "famille": "Antiacnéique (antibiotique + rétinoïde)",
+      "code_cip": "3400987890123",
+      "prix": 32.8,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Acné",
+        "Acné inflammatoire",
+        "Acné rétentionnelle",
+        "Comédons",
+        "Papules"
+      ],
+      "substituts": [
+        {
+          "nom": "Clindamycine (générique)",
+          "dosage": "1 %",
+          "forme": "Gel",
+          "quantite": "30 g",
+          "raison": "Antibiotique seul",
+          "confiance": 0.7,
+          "precautions": [
+            "Risque de résistance",
+            "Traitement local",
+            "Surveillance de la tolérance"
+          ],
+          "instructions": "Application 1 fois par jour",
+          "maladies_associees": [
+            "Acné inflammatoire"
+          ]
+        },
+        {
+          "nom": "Trétinoïne (générique)",
+          "dosage": "0.025 %",
+          "forme": "Crème",
+          "quantite": "30 g",
+          "raison": "Rétinoïde seul",
+          "confiance": 0.7,
+          "precautions": [
+            "Photosensibilité",
+            "Irritation possible",
+            "Utiliser le soir"
+          ],
+          "instructions": "Application 1 fois par jour le soir",
+          "maladies_associees": [
+            "Acné rétentionnelle"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Allergie à la clindamycine",
+        "Allergie à la trétinoïne",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Irritation cutanée",
+        "Sécheresse",
+        "Desquamation",
+        "Photosensibilité"
+      ],
+      "interactions": [
+        "Autres traitements topiques (espacement)",
+        "Soleil (photosensibilité)"
+      ],
+      "posologie_standard": "Application 1 fois par jour",
+      "duree_traitement": "6-12 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la tolérance",
+        "insuffisant_renal": "Sans objet",
+        "insuffisant_hepatique": "Sans objet"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Vasculair",
+      "nom_generique": "Diosmine",
+      "dosage": "600 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Phlébotonique",
+      "code_cip": "3400988901234",
+      "prix": 14.8,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Insuffisance veineuse",
+        "Jambes lourdes",
+        "Varices",
+        "Hémorroïdes",
+        "Œdème"
+      ],
+      "substituts": [
+        {
+          "nom": "Diosmine (générique)",
+          "dosage": "600 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise pendant les repas",
+            "Effet en 2-4 semaines",
+            "Surveillance en cas d'anticoagulants"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Insuffisance veineuse"
+          ]
+        },
+        {
+          "nom": "Daflon",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Phlébotonique différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avec les repas",
+            "Effet en 2-4 semaines"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Insuffisance veineuse"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la diosmine",
+        "Allergie aux phlébotoniques"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Anticoagulants (surveillance)"
+      ],
+      "posologie_standard": "600 mg 2 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 10,
+    "lettre": "V",
+    "prochaine_lettre": "W"
+  }
+}

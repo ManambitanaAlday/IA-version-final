@@ -1,0 +1,1065 @@
+{
+  "medicaments": [
+    {
+      "nom": "Baclofène (Lioresal)",
+      "nom_generique": "Baclofène",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Myorelaxant - Agoniste GABA-B",
+      "code_cip": "3400934569000",
+      "prix": 9.8,
+      "stock_actuel": 10,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Spasticité musculaire (sclérose en plaques)",
+        "Spasticité post-AVC",
+        "Paraparésie spastique",
+        "Tétraplégie spastique",
+        "Douleurs neuropathiques (en association)",
+        "Épilepsie (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Tizanidine",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Myorelaxant alternatif (agoniste alpha-2)",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Risque d'hypotension orthostatique",
+            "Somnolence possible",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "Prendre 1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Spasticité",
+            "Douleurs neuropathiques",
+            "Spasmes musculaires"
+          ]
+        },
+        {
+          "nom": "Dantrolène",
+          "dosage": "25 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Alternative myorelaxante",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance hépatique",
+            "Risque d'hépatotoxicité",
+            "Troubles digestifs fréquents"
+          ],
+          "instructions": "Prendre 1 gélule 3-4 fois par jour",
+          "maladies_associees": [
+            "Spasticité sévère",
+            "Hyperthermie maligne"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au baclofène",
+        "Insuffisance rénale sévère",
+        "Épilepsie non contrôlée",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence (fréquente)",
+        "Asthénie",
+        "Troubles digestifs",
+        "Hypotension orthostatique",
+        "Confusion mentale (personne âgée)",
+        "Céphalées",
+        "Troubles du sommeil"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Antihypertenseurs (hypotension)",
+        "Dépresseurs du SNC",
+        "Antidépresseurs tricycliques (effet majoré)",
+        "Insuline (risque d'hypoglycémie majoré)"
+      ],
+      "posologie_standard": "10 mg 3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 5 mg 3 fois par jour",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Bactrim (Sulfaméthoxazole + Triméthoprime)",
+      "nom_generique": "Sulfaméthoxazole + Triméthoprime",
+      "dosage": "400 mg / 80 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Antibiotique - Sulfamide + inhibiteur de la dihydrofolate réductase",
+      "code_cip": "3400934569010",
+      "prix": 8.5,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Infections urinaires",
+        "Infections respiratoires",
+        "Infections digestives",
+        "Infection à Pneumocystis jirovecii",
+        "Toxoplasmose",
+        "Infection prostatique",
+        "Infection de la peau"
+      ],
+      "substituts": [
+        {
+          "nom": "Cotrimoxazole (Fort)",
+          "dosage": "800 mg / 160 mg",
+          "forme": "Comprimé",
+          "quantite": "14 comprimés",
+          "raison": "Dosage plus fort (pour infections sévères)",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance rénale",
+            "Risque d'hépatotoxicité",
+            "Surveillance hématologique",
+            "Allergie aux sulfamides"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infections urinaires sévères",
+            "Infection à Pneumocystis",
+            "Toxoplasmose"
+          ]
+        },
+        {
+          "nom": "Ciprofloxacine",
+          "dosage": "250 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "20 comprimés",
+          "raison": "Alternative antibiotique pour infections urinaires",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de tendinopathie",
+            "Photosensibilité",
+            "Surveillance rénale",
+            "Ne pas prendre avec les produits laitiers"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infection urinaire",
+            "Infection digestive",
+            "Infection cutanée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux sulfamides",
+        "Allergie au triméthoprime",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Éruptions cutanées",
+        "Photosensibilité",
+        "Anémie (mégaloblastique)",
+        "Leucopénie",
+        "Hyperkaliémie (risque)"
+      ],
+      "interactions": [
+        "Anticoagulants oraux (risque hémorragique)",
+        "Phénytoïne (toxicité majorée)",
+        "Méthotrexate (toxicité majorée)",
+        "Diurétiques (risque d'hyponatrémie)",
+        "Rifampicine (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "400/80 mg 2 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué (1er trimestre)",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Bénévéron (Bétrimol)",
+      "nom_generique": "Bétrimol",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur - Inhibiteur calcique",
+      "code_cip": "3400934569020",
+      "prix": 13.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle légère à modérée",
+        "Angine de poitrine (prévention)",
+        "Insuffisance cardiaque (associé)",
+        "Prévention des AVC (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Félodipine",
+          "dosage": "5 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur calcique alternatif, mieux toléré",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque d'œdèmes des membres inférieurs",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine",
+            "Insuffisance cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux dihydropyridines",
+        "Choc cardiogénique",
+        "Infarctus récent",
+        "Hypotension sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Œdèmes des membres inférieurs",
+        "Céphalées",
+        "Bouffées vasomotrices",
+        "Palpitations",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Pamplemousse (augmentation de l'absorption)",
+        "Bêta-bloquants (risque de bradycardie)",
+        "Diurétiques (hypotension majorée)",
+        "Antihypertenseurs (effet additif)"
+      ],
+      "posologie_standard": "50 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 25 mg",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Benzylpénicilline (Pénicilline G)",
+      "nom_generique": "Benzylpénicilline",
+      "dosage": "5 MU",
+      "forme": "Flacon injectable",
+      "quantite": "1 flacon",
+      "famille": "Antibiotique - Pénicilline",
+      "code_cip": "3400934569030",
+      "prix": 5.6,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Angine streptococcique",
+        "Pneumonie",
+        "Méningite",
+        "Endocardite",
+        "Syphilis",
+        "Gonorrhée",
+        "Infection cutanée sévère"
+      ],
+      "substituts": [
+        {
+          "nom": "Amoxicilline",
+          "dosage": "500 mg",
+          "forme": "Gélule",
+          "quantite": "20 comprimés",
+          "raison": "Pénicilline à large spectre, voie orale",
+          "confiance": 0.95,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Risque de résistance",
+            "Surveillance digestive"
+          ],
+          "instructions": "Prendre 1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Angine",
+            "Infection ORL",
+            "Infection pulmonaire"
+          ]
+        },
+        {
+          "nom": "Amoxicilline + Acide clavulanique",
+          "dosage": "500/125 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Large spectre, efficace sur les germes producteurs de bêta-lactamase",
+          "confiance": 0.9,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Risque de diarrhée",
+            "Surveillance rénale"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infection sévère",
+            "Infection résistante",
+            "Pneumonie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux pénicillines",
+        "Allergie aux céphalosporines",
+        "Mononucléose infectieuse",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Diarrhée",
+        "Éruptions cutanées (1-5%)",
+        "Troubles digestifs",
+        "Candidose",
+        "Colite pseudo-membraneuse (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants oraux (risque hémorragique)",
+        "Méthotrexate (toxicité accrue)",
+        "Allopurinol (risque d'éruption cutanée)",
+        "Contraceptifs oraux (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "5 MU IV 4-6 fois par jour",
+      "duree_traitement": "7-14 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Excrété dans le lait - Surveillance",
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Béprédil (Vascor)",
+      "nom_generique": "Béprédil",
+      "dosage": "100 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-angoreux - Inhibiteur calcique",
+      "code_cip": "3400934569040",
+      "prix": 16.3,
+      "stock_actuel": 2,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Angine de poitrine",
+        "Insuffisance coronaire",
+        "Prévention des crises d'angor",
+        "Traitement de l'angor stable",
+        "Insuffisance cardiaque (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Amlodipine",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur calcique alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque d'œdèmes",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Angine",
+            "Hypertension",
+            "Insuffisance cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au béprédil",
+        "Insuffisance cardiaque décompensée",
+        "Bloc AV",
+        "Bradycardie sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Céphalées",
+        "Vertiges",
+        "Hypotension orthostatique",
+        "Troubles du sommeil"
+      ],
+      "interactions": [
+        "Bêta-bloquants (risque de bradycardie)",
+        "Antihypertenseurs (effet additif)",
+        "Digitaliques (risque de bradycardie)",
+        "Antiarythmiques (troubles du rythme)"
+      ],
+      "posologie_standard": "100 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 50 mg",
+        "insuffisant_renal": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Bétahistine (Vertiserc)",
+      "nom_generique": "Bétahistine",
+      "dosage": "8 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vasodilatateur - Agoniste histaminique",
+      "code_cip": "3400934569050",
+      "prix": 11.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Vertiges",
+        "Syndrome de Ménière",
+        "Nausées",
+        "Troubles de l'équilibre",
+        "Acouphènes (en association)",
+        "Insuffisance vertébro-basilaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Bétahistine 16 mg",
+          "dosage": "16 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Dosage plus élevé pour vertiges sévères",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque de troubles digestifs",
+            "Interactions avec les antihistaminiques"
+          ],
+          "instructions": "Prendre 1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Vertiges sévères",
+            "Syndrome de Ménière"
+          ]
+        },
+        {
+          "nom": "Cinnarizine",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative pour les vertiges",
+          "confiance": 0.8,
+          "precautions": [
+            "Somnolence possible",
+            "Surveillance de la pression artérielle",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "Prendre 1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Vertiges",
+            "Nausées",
+            "Troubles de l'équilibre"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la bétahistine",
+        "Phéochromocytome",
+        "Grossesse",
+        "Allaitement",
+        "Enfant de moins de 15 ans"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (nausées, vomissements)",
+        "Céphalées",
+        "Troubles du sommeil",
+        "Tachycardie (rare)",
+        "Hypotension (rare)"
+      ],
+      "interactions": [
+        "Antihistaminiques (effets antagonistes)",
+        "Anticholinergiques (effets majorés)",
+        "Alcool (sédation majorée)",
+        "Antihypertenseurs (effet hypotenseur majoré)"
+      ],
+      "posologie_standard": "8 mg 3 fois par jour",
+      "duree_traitement": "2-4 semaines",
+      "population_specifique": {
+        "personne_agee": "Débuter à 8 mg 2 fois par jour",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Bétaméthasone (Célestène)",
+      "nom_generique": "Bétaméthasone",
+      "dosage": "0.5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Corticostéroïde - Glucocorticoïde",
+      "code_cip": "3400934569060",
+      "prix": 6.5,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Maladies auto-immunes",
+        "Polyarthrite rhumatoïde",
+        "Lupus érythémateux disséminé",
+        "Sclérose en plaques (poussées)",
+        "Asthme sévère",
+        "Maladie de Crohn",
+        "Rectocolite hémorragique",
+        "Dermatomyosite"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisone",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticostéroïde alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance glycémique",
+            "Surveillance de la pression artérielle",
+            "Risque d'ostéoporose (traitement prolongé)",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "5-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladies auto-immunes",
+            "Asthme",
+            "Polyarthrite rhumatoïde"
+          ]
+        },
+        {
+          "nom": "Méthylprednisolone (Solumédrol)",
+          "dosage": "4 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticostéroïde alternatif, bon rapport efficacité/tolérance",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance glycémique",
+            "Surveillance de la pression artérielle",
+            "Risque d'ostéoporose",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "4-16 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladies auto-immunes",
+            "Asthme sévère",
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux corticostéroïdes",
+        "Infection non contrôlée",
+        "Infection fongique systémique",
+        "Herpès simplex oculaire",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Ostéoporose (traitement prolongé)",
+        "Diabète (hyperglycémie)",
+        "Hypertension artérielle",
+        "Troubles digestifs (ulcère)",
+        "Cataracte (traitement prolongé)",
+        "Insomnie",
+        "Troubles de l'humeur"
+      ],
+      "interactions": [
+        "AINS (risque d'ulcère majoré)",
+        "Antidiabétiques (hyperglycémie)",
+        "Antihypertenseurs (hypotension)",
+        "Anticoagulants (risque hémorragique)",
+        "Rifampicine (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "0.5-2 mg 1 fois par jour",
+      "duree_traitement": "Variable (courte ou longue)",
+      "population_specifique": {
+        "personne_agee": "Risque d'ostéoporose majoré",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Bévarétine (Triflusal)",
+      "nom_generique": "Triflusal",
+      "dosage": "300 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-agrégant plaquettaire",
+      "code_cip": "3400934569070",
+      "prix": 22.4,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Prévention des AVC",
+        "Prévention des infarctus",
+        "Artériopathie périphérique",
+        "Angor instable",
+        "Prévention des thromboses",
+        "Revascularisation coronaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Aspirine",
+          "dosage": "75 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anti-agrégant plaquettaire de référence",
+          "confiance": 0.95,
+          "precautions": [
+            "Risque hémorragique",
+            "Allergie aux salicylés",
+            "Risque d'ulcère gastrique",
+            "Ne pas utiliser chez l'enfant"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire",
+            "Prévention des AVC"
+          ]
+        },
+        {
+          "nom": "Clopidogrel",
+          "dosage": "75 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative pour patients allergiques à l'aspirine",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Interactions médicamenteuses",
+            "Test génétique (CYP2C19) pour certains patients"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention des AVC",
+            "Prévention des infarctus",
+            "Artériopathie périphérique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au triflusal",
+        "Allergie aux salicylés",
+        "Hémorragie active",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Risque hémorragique",
+        "Troubles digestifs",
+        "Nausées",
+        "Éruptions cutanées",
+        "Thrombocytopénie (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique majoré)",
+        "AINS (risque hémorragique majoré)",
+        "Héparine (risque hémorragique majoré)",
+        "Warfarine (risque hémorragique majoré)"
+      ],
+      "posologie_standard": "300 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance hémorragique",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Bisoprolol (Cardensiel)",
+      "nom_generique": "Bisoprolol",
+      "dosage": "5 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Bêta-bloquant - Cardiosélectif",
+      "code_cip": "3400934569080",
+      "prix": 12.3,
+      "stock_actuel": 7,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Insuffisance cardiaque (classe II, III, IV)",
+        "Hypertension artérielle",
+        "Angine de poitrine",
+        "Troubles du rythme (tachycardie)",
+        "Prévention post-infarctus",
+        "Insuffisance cardiaque stable"
+      ],
+      "substituts": [
+        {
+          "nom": "Aténolol",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Bêta-bloquant alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la fréquence cardiaque",
+            "Risque de bradycardie",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine",
+            "Insuffisance cardiaque"
+          ]
+        },
+        {
+          "nom": "Métoprolol (Lopressor)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative cardiosélective",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Ne pas arrêter brutalement",
+            "Risque de bradycardie"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine",
+            "Insuffisance cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux bêta-bloquants",
+        "Bradycardie sinusale",
+        "Bloc AV",
+        "Insuffisance cardiaque décompensée",
+        "Asthme",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Bradycardie",
+        "Fatigue",
+        "Extrémités froides",
+        "Troubles digestifs",
+        "Troubles du sommeil",
+        "Dysfonction érectile",
+        "Dépression (possible)"
+      ],
+      "interactions": [
+        "Antihypertenseurs (effet additif)",
+        "Digitaliques (risque de bradycardie)",
+        "AINS (diminution de l'effet)",
+        "Antiarythmiques (troubles du rythme)"
+      ],
+      "posologie_standard": "5-10 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 2.5 mg",
+        "insuffisant_renal": "Pas d'ajustement (sauf si sévère)",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Bromazepam (Lexomil)",
+      "nom_generique": "Bromazepam",
+      "dosage": "6 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anxiolytique - Benzodiazépine",
+      "code_cip": "3400934569090",
+      "prix": 7.4,
+      "stock_actuel": 4,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Troubles anxieux",
+        "Troubles du sommeil (insomnie)",
+        "Anxiété",
+        "Spasmophilie",
+        "Troubles somatoformes",
+        "Anxiété pré-opératoire"
+      ],
+      "substituts": [
+        {
+          "nom": "Alprazolam (Xanax)",
+          "dosage": "0.25 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine alternative",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de dépendance",
+            "Interactions avec l'alcool",
+            "Ne pas arrêter brutalement",
+            "Effet sédatif"
+          ],
+          "instructions": "Prendre 1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Troubles anxieux",
+            "Attaques de panique"
+          ]
+        },
+        {
+          "nom": "Lorazepam (Temesta)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Alternative à durée d'action plus courte",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Somnolence possible",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "Prendre 1 comprimé le soir",
+          "maladies_associees": [
+            "Anxiété",
+            "Insomnie",
+            "Angoisse"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire sévère",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement",
+        "Alcoolisme"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Troubles de la mémoire",
+        "Dépendance",
+        "Syndrome de sevrage",
+        "Ataxie",
+        "Troubles de la coordination"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Autres dépresseurs du SNC",
+        "Antihistaminiques",
+        "Opiacés",
+        "Antidépresseurs"
+      ],
+      "posologie_standard": "6-12 mg 2-3 fois par jour",
+      "duree_traitement": "4-6 semaines maximum",
+      "population_specifique": {
+        "personne_agee": "Débuter à 3 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Bromure d'Ipratropium (Atrovent)",
+      "nom_generique": "Bromure d'Ipratropium",
+      "dosage": "20 µg",
+      "forme": "Aérosol doseur",
+      "quantite": "200 doses",
+      "famille": "Bronchodilatateur - Anticholinergique",
+      "code_cip": "3400934569100",
+      "prix": 14.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Asthme bronchique",
+        "BPCO (bronchite chronique)",
+        "Bronchospasme",
+        "Insuffisance respiratoire (en association)",
+        "Bronchite aiguë (soulagement)"
+      ],
+      "substituts": [
+        {
+          "nom": "Tiotropium (Spiriva)",
+          "dosage": "18 µg",
+          "forme": "Aérosol doseur",
+          "quantite": "30 doses",
+          "raison": "Anticholinergique à action prolongée",
+          "confiance": 0.9,
+          "precautions": [
+            "Utilisation régulière (1 fois par jour)",
+            "Ne pas utiliser en crise aiguë",
+            "Risque de bouche sèche"
+          ],
+          "instructions": "1 inhalation 1 fois par jour",
+          "maladies_associees": [
+            "BPCO",
+            "Asthme sévère",
+            "Bronchite chronique"
+          ]
+        },
+        {
+          "nom": "Salbutamol (Ventoline)",
+          "dosage": "100 µg",
+          "forme": "Aérosol doseur",
+          "quantite": "200 doses",
+          "raison": "Bronchodilatateur bêta-2 agoniste, action rapide",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas dépasser 8-10 inhalations par jour",
+            "Risque de tachycardie",
+            "Utilisation en crise d'asthme"
+          ],
+          "instructions": "1-2 inhalations en crise",
+          "maladies_associees": [
+            "Asthme",
+            "BPCO",
+            "Crise d'asthme"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ipratropium",
+        "Allergie à l'atropine",
+        "Glaucome à angle fermé",
+        "Hypertrophie prostatique",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires": [
+        "Bouche sèche",
+        "Toux",
+        "Irritation locale",
+        "Céphalées",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Autres anticholinergiques (effets majorés)",
+        "Bêta-2 agonistes (effet additif)",
+        "Antihistaminiques (effets majorés)"
+      ],
+      "posologie_standard": "2-4 inhalations 3-4 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Pas d'effets connus"
+    },
+    {
+      "nom": "Bromuréide (Broméval)",
+      "nom_generique": "Bromuréide",
+      "dosage": "250 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Sédatif - Anxiolytique",
+      "code_cip": "3400934569110",
+      "prix": 6.2,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Troubles du sommeil (insomnie)",
+        "Anxiété",
+        "Spasmophilie",
+        "Troubles nerveux",
+        "Irritabilité",
+        "Troubles de l'humeur"
+      ],
+      "substituts": [
+        {
+          "nom": "Phénytoïne (Dihydan)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative pour l'épilepsie",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique",
+            "Surveillance des interactions"
+          ],
+          "instructions": "100-300 mg 1 fois par jour",
+          "maladies_associees": [
+            "Épilepsie",
+            "Troubles du rythme cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au bromuréide",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Troubles digestifs",
+        "Nausées",
+        "Céphalées",
+        "Rash cutané (rare)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Dépresseurs du SNC",
+        "Antihistaminiques"
+      ],
+      "posologie_standard": "250 mg 1-2 fois par jour",
+      "duree_traitement": "2-3 semaines",
+      "population_specifique": {
+        "personne_agee": "Débuter à 125 mg",
+        "insuffisant_renal": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "2.3",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 41,
+    "nombre_substituts": 95,
+    "categories": [
+      "Antibiotique",
+      "Anti-inflammatoire",
+      "Antihypertenseur",
+      "Hypolipémiant",
+      "Anxiolytique",
+      "Antidépresseur",
+      "Antiviral",
+      "Diurétique",
+      "Antiparkinsonien",
+      "Anticoagulant",
+      "Antipsychotique",
+      "Bêta-bloquant",
+      "Antidiabétique",
+      "Immunosuppresseur",
+      "Dermocosmétique",
+      "Collyre",
+      "Myorelaxant",
+      "Corticostéroïde",
+      "Anti-agrégant plaquettaire",
+      "Bronchodilatateur"
+    ],
+    "auteur": "Assistant Pharmacie - Système RAG",
+    "source": "Base de données pharmaceutique complète",
+    "notes": "JSON optimisé pour RAG - Médicaments en A (complément) et B",
+    "taille_totale": "41 médicaments uniques + 95 substituts",
+    "mise_a_jour": "2024-01-15"
+  }
+}

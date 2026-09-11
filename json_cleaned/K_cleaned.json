@@ -1,0 +1,843 @@
+{
+  "medicaments": [
+    {
+      "nom": "Kardégic",
+      "nom_generique": "Acide acétylsalicylique",
+      "dosage": "100 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antiplaquettaire - AINS",
+      "code_cip": "3400961234567",
+      "prix": 7.8,
+      "stock_actuel": 20,
+      "seuil_alerte": 8,
+      "maladies_associees": [
+        "Prévention cardiovasculaire",
+        "Prévention des AVC",
+        "Syndrome coronarien",
+        "Angine de poitrine",
+        "Post-infarctus",
+        "Prévention thrombose"
+      ],
+      "substituts": [
+        {
+          "nom": "Aspirine 100 mg",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque hémorragique",
+            "Surveillance gastro-intestinale",
+            "Ne pas associer à d'autres AINS"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire"
+          ]
+        },
+        {
+          "nom": "Plavix (Clopidogrel)",
+          "dosage": "75 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antiplaquettaire différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Test de résistance possible"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire",
+            "Antécédents d'AVC"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse (3ème trimestre)",
+        "Hémorragie active"
+      ],
+      "effets_secondaires": [
+        "Troubles gastro-intestinaux",
+        "Risque hémorragique",
+        "Ulcère gastrique",
+        "Nausées",
+        "Acouphènes (surdosage)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Autres AINS (risque ulcère)",
+        "Méthotrexate (toxicité)",
+        "Diurétiques (diminution efficacité)"
+      ],
+      "posologie_standard": "100 mg 1 fois par jour",
+      "duree_traitement": "Long terme (chronique)",
+      "population_specifique": {
+        "personne_agee": "Surveillance hémorragique",
+        "insuffisant_renal": "Contre-indiqué si sévère",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe D (3ème trimestre) - À éviter",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Keforal",
+      "nom_generique": "Céfalexine",
+      "dosage": "500 mg",
+      "forme": "Gélule",
+      "quantite": "16 gélules",
+      "famille": "Antibiotique (céphalosporine 1ère génération)",
+      "code_cip": "3400962345678",
+      "prix": 14.5,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Infections respiratoires",
+        "Infections ORL",
+        "Infections urinaires",
+        "Infections cutanées",
+        "Infections dentaires",
+        "Ostéomyélite"
+      ],
+      "substituts": [
+        {
+          "nom": "Céfalexine (générique)",
+          "dosage": "500 mg",
+          "forme": "Gélule",
+          "quantite": "16 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'allergie croisée avec pénicillines",
+            "Surveillance rénale",
+            "Finir le traitement"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Infections"
+          ]
+        },
+        {
+          "nom": "Amoxicilline",
+          "dosage": "500 mg",
+          "forme": "Gélule",
+          "quantite": "16 gélules",
+          "raison": "Antibiotique différent (pénicilline)",
+          "confiance": 0.75,
+          "precautions": [
+            "Allergie croisée possible (10%)",
+            "Surveillance digestive"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Infections ORL",
+            "Infections respiratoires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux céphalosporines",
+        "Allergie aux pénicillines (allergie croisée)",
+        "Allergie à la céfalexine"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée)",
+        "Nausées",
+        "Rash cutané",
+        "Colite pseudomembraneuse (rare)",
+        "Candidose"
+      ],
+      "interactions": [
+        "Probenécide (diminution excrétion)",
+        "Anticoagulants (risque hémorragique)",
+        "Contraceptifs oraux (diminution efficacité)"
+      ],
+      "posologie_standard": "500 mg 3 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Adapter la dose si insuffisance rénale",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Kétamine",
+      "nom_generique": "Kétamine",
+      "dosage": "50 mg/ml",
+      "forme": "Solution injectable",
+      "quantite": "1 flacon de 10 ml",
+      "famille": "Anesthésique général",
+      "code_cip": "3400963456789",
+      "prix": 65.2,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Anesthésie générale",
+        "Anesthésie d'induction",
+        "Douleur aiguë sévère",
+        "Asthme (bronchodilatation)",
+        "État de choc",
+        "Dépression résistante (hors AMM)"
+      ],
+      "substituts": [
+        {
+          "nom": "Kétalar",
+          "dosage": "50 mg/ml",
+          "forme": "Solution injectable",
+          "quantite": "1 flacon de 10 ml",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Stupéfiant - Prescription obligatoire",
+            "Surveillance anesthésique",
+            "Équipement de réanimation"
+          ],
+          "instructions": "Administration IV ou IM selon prescription",
+          "maladies_associees": [
+            "Anesthésie"
+          ]
+        },
+        {
+          "nom": "Propofol",
+          "dosage": "10 mg/ml",
+          "forme": "Solution injectable",
+          "quantite": "1 flacon de 20 ml",
+          "raison": "Anesthésique différent",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance respiratoire",
+            "Matériel de réanimation"
+          ],
+          "instructions": "Administration IV",
+          "maladies_associees": [
+            "Anesthésie générale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la kétamine",
+        "Hypertension sévère",
+        "Anévrisme cérébral",
+        "Glaucome",
+        "Schizophrénie (risque de psychose)",
+        "Insuffisance cardiaque sévère"
+      ],
+      "effets_secondaires": [
+        "Hallucinations",
+        "Agitation",
+        "Hypertension",
+        "Tachycardie",
+        "Sécrétions salivaires augmentées",
+        "Nausées",
+        "Vomissements",
+        "Dépression respiratoire (rare)"
+      ],
+      "interactions": [
+        "Benzodiazépines (diminution des hallucinations)",
+        "Barbituriques (diminution efficacité)",
+        "Opioïdes (additif)"
+      ],
+      "posologie_standard": "1-2 mg/kg IV, 4-8 mg/kg IM",
+      "duree_traitement": "Selon anesthésie",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Contre-indiqué (passe dans le lait)"
+    },
+    {
+      "nom": "Kétoprofène",
+      "nom_generique": "Kétoprofène",
+      "dosage": "100 mg",
+      "forme": "Gélule",
+      "quantite": "20 gélules",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400964567890",
+      "prix": 11.2,
+      "stock_actuel": 13,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Douleurs articulaires",
+        "Polyarthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Lombalgie",
+        "Sciatique",
+        "Dysménorrhée",
+        "Douleurs dentaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Kétum",
+          "dosage": "100 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Risque digestif",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 gélule 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Ibuprofène",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "AINS différent, même classe",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque digestif",
+            "Contre-indiqué en cas d'asthme"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au kétoprofène",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)",
+        "Asthme à l'aspirine"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Ulcère gastro-intestinal",
+        "Nausées",
+        "Céphalées",
+        "Vertiges",
+        "Photosensibilité (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)",
+        "Méthotrexate (toxicité)",
+        "Diurétiques (réduction effet)"
+      ],
+      "posologie_standard": "100 mg 2-3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Klorovil",
+      "nom_generique": "Chlorophylle",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Déodorant interne",
+      "code_cip": "3400965678901",
+      "prix": 9.8,
+      "stock_actuel": 15,
+      "seuil_alerte": 6,
+      "maladies_associees": [
+        "Halitose (mauvaise haleine)",
+        "Transpiration excessive",
+        "Déodorant interne",
+        "Détoxification"
+      ],
+      "substituts": [
+        {
+          "nom": "Chlorophylle (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas substituer un traitement médical",
+            "Effet lent (2-3 semaines)"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Halitose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la chlorophylle",
+        "Porhyrie (rare)"
+      ],
+      "effets_secondaires": [
+        "Coloration verte des selles",
+        "Diarrhée (rare)",
+        "Sécheresse buccale"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "50 mg 2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Kolan",
+      "nom_generique": "Charbon végétal activé",
+      "dosage": "250 mg",
+      "forme": "Comprimé",
+      "quantite": "40 comprimés",
+      "famille": "Antidiarrhéique - Détoxifiant",
+      "code_cip": "3400966789012",
+      "prix": 6.5,
+      "stock_actuel": 22,
+      "seuil_alerte": 8,
+      "maladies_associees": [
+        "Diarrhée",
+        "Intoxication alimentaire",
+        "Flatulences",
+        "Ballonnement",
+        "Aérophagie"
+      ],
+      "substituts": [
+        {
+          "nom": "Charbon activé (générique)",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "40 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre à distance des repas (2h)",
+            "Espacement avec autres médicaments (2h)",
+            "Coloration noire des selles"
+          ],
+          "instructions": "2 comprimés 3 fois par jour",
+          "maladies_associees": [
+            "Diarrhée",
+            "Intoxication"
+          ]
+        },
+        {
+          "nom": "Smecta (Diosmectite)",
+          "dosage": "3 g",
+          "forme": "Poudre",
+          "quantite": "30 sachets",
+          "raison": "Antidiarrhéique différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Espacement avec autres médicaments"
+          ],
+          "instructions": "1 sachet 3 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au charbon",
+        "Hémorragie digestive",
+        "Occlusion intestinale"
+      ],
+      "effets_secondaires": [
+        "Coloration noire des selles",
+        "Constipation (rare)",
+        "Aspiration (danger)"
+      ],
+      "interactions": [
+        "Tous les médicaments oraux (espacement 2h)",
+        "Contraceptifs oraux (diminution efficacité)"
+      ],
+      "posologie_standard": "2 comprimés 3 fois par jour",
+      "duree_traitement": "2-3 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la déshydratation",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Krestor",
+      "nom_generique": "Rosuvastatine",
+      "dosage": "10 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Hypolipidémiant (statine)",
+      "code_cip": "3400967890123",
+      "prix": 28.4,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypercholestérolémie",
+        "Hyperlipidémie",
+        "Prévention cardiovasculaire",
+        "Post-infarctus",
+        "Artériopathie"
+      ],
+      "substituts": [
+        {
+          "nom": "Crestor",
+          "dosage": "10 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hépatique (transaminases)",
+            "Surveillance musculaire (CPK)",
+            "Prise le soir"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        },
+        {
+          "nom": "Rosuvastatine (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance des enzymes hépatiques",
+            "Surveillance des douleurs musculaires"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Cholestérol"
+          ]
+        },
+        {
+          "nom": "Atorvastatine (Tahor)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine différente",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la rosuvastatine",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement",
+        "Myopathie active"
+      ],
+      "effets_secondaires": [
+        "Myalgies (douleurs musculaires)",
+        "Augmentation des transaminases",
+        "Rhabdomyolyse (rare)",
+        "Céphalées",
+        "Troubles digestifs",
+        "Diabète (augmentation glycémie)"
+      ],
+      "interactions": [
+        "Fibrates (risque de myopathie)",
+        "Cyclosporine (augmentation concentration)",
+        "Anticoagulants (risque hémorragique)",
+        "Colchicine (risque de myopathie)",
+        "Pamplemousse (⚠️ éviter)"
+      ],
+      "posologie_standard": "10 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance accrue",
+        "insuffisant_renal": "Dose adaptée",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué (Classe X)",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Ketonil",
+      "nom_generique": "Nimésulide",
+      "dosage": "100 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400968901234",
+      "prix": 12.6,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Douleurs aiguës",
+        "Inflammations articulaires",
+        "Lombalgie",
+        "Tendinite",
+        "Bursite",
+        "Dysménorrhée"
+      ],
+      "substituts": [
+        {
+          "nom": "Nimésulide (générique)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque hépatique (rare)",
+            "Surveillance hépatique",
+            "Durée limitée (5 jours max)"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Diclofénac (Voltarène)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "AINS différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque gastro-intestinal",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au nimésulide",
+        "Allergie à l'aspirine",
+        "Insuffisance hépatique",
+        "Insuffisance rénale",
+        "Ulcère gastroduodénal",
+        "Grossesse",
+        "Allaitement",
+        "Enfant < 12 ans"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Hépatotoxicité (rare mais grave)",
+        "Nausées",
+        "Vertiges",
+        "Rash cutané"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour",
+      "duree_traitement": "5 jours maximum",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Klipal",
+      "nom_generique": "Paracétamol + Codéine",
+      "dosage": "500 mg / 30 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "16 comprimés",
+      "famille": "Antalgique (analgésique + opioïde)",
+      "code_cip": "3400969012345",
+      "prix": 13.2,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Douleurs modérées à sévères",
+        "Douleurs post-opératoires",
+        "Douleurs cancéreuses",
+        "Migraine sévère",
+        "Douleurs dentaires sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Paracétamol + Codéine (générique)",
+          "dosage": "500 mg / 30 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Constipation fréquente",
+            "Surveillance hépatique (paracétamol)"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        },
+        {
+          "nom": "Dafalgan Codéine",
+          "dosage": "500 mg / 30 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Même association",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Asthme (codéine)",
+        "Dépression respiratoire",
+        "Grossesse",
+        "Allaitement",
+        "Enfant < 12 ans"
+      ],
+      "effets_secondaires": [
+        "Constipation (fréquent)",
+        "Nausées",
+        "Somnolence",
+        "Vertiges",
+        "Dépendance (risque)",
+        "Dépression respiratoire (surdosage)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation)",
+        "Morphiniques (additif)",
+        "Inhibiteurs MAO (risque de crise)"
+      ],
+      "posologie_standard": "1 comprimé 3-4 fois par jour",
+      "duree_traitement": "3-5 jours max",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Kreon",
+      "nom_generique": "Pancréatine (lipase, amylase, protéase)",
+      "dosage": "25000 UI",
+      "forme": "Gélule gastro-résistante",
+      "quantite": "60 gélules",
+      "famille": "Enzyme pancréatique",
+      "code_cip": "3400960123456",
+      "prix": 35.6,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Insuffisance pancréatique exocrine",
+        "Mucoviscidose",
+        "Pancréatite chronique",
+        "Cancer du pancréas",
+        "Malabsorption",
+        "Stéatorrhée"
+      ],
+      "substituts": [
+        {
+          "nom": "Pancréatine (générique)",
+          "dosage": "25000 UI",
+          "forme": "Gélule gastro-résistante",
+          "quantite": "60 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Avaler sans croquer",
+            "Prendre pendant les repas",
+            "Ne pas exposer à la chaleur"
+          ],
+          "instructions": "2 gélules pendant les repas",
+          "maladies_associees": [
+            "Insuffisance pancréatique"
+          ]
+        },
+        {
+          "nom": "Lypase",
+          "dosage": "28000 UI",
+          "forme": "Gélule",
+          "quantite": "50 gélules",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.9,
+          "precautions": [
+            "Adapter la dose selon la lipase"
+          ],
+          "instructions": "1 gélule par repas",
+          "maladies_associees": [
+            "Insuffisance pancréatique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la pancréatine",
+        "Pancréatite aiguë",
+        "Occlusion intestinale"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Douleurs abdominales",
+        "Diarrhée",
+        "Constipation (rare)",
+        "Irritation périanale"
+      ],
+      "interactions": [
+        "Acide folique (diminution absorption)",
+        "Fer (diminution absorption)"
+      ],
+      "posologie_standard": "2 gélules pendant les repas",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 9
+  }
+}

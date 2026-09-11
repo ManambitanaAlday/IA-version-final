@@ -1,0 +1,1526 @@
+{
+  "medicaments": [
+    {
+      "nom": "Ébrantil (Urapidil)",
+      "nom_generique": "Urapidil",
+      "dosage": "30 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur - Alpha-bloquant",
+      "code_cip": "3400934572000",
+      "prix": 12.8,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle essentielle",
+        "Hypertension sévère (en association)",
+        "Crise hypertensive",
+        "Pré-éclampsie (en association)",
+        "Insuffisance cardiaque (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Prazosine (Minipress)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alpha-bloquant alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque d'hypotension orthostatique",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "1-2 mg 2 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Hypertrophie bénigne de la prostate"
+          ]
+        },
+        {
+          "nom": "Doxazosine (Cardura)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alpha-bloquant alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque d'hypotension orthostatique",
+            "Débuter à 1 mg"
+          ],
+          "instructions": "2-4 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Hypertrophie bénigne de la prostate"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'urapidil",
+        "Allergie aux alpha-bloquants",
+        "Hypotension sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hypotension orthostatique",
+        "Vertiges",
+        "Céphalées",
+        "Asthénie (fatigue)",
+        "Palpitations",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Antihypertenseurs (effet additif)",
+        "Diurétiques (effet additif)",
+        "Antidépresseurs (effet majoré)",
+        "Alcool (hypotension majorée)"
+      ],
+      "posologie_standard": "30-60 mg 2 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 15 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Écopirine (Aspirine 100 mg)",
+      "nom_generique": "Acide acétylsalicylique",
+      "dosage": "100 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antiagrégant plaquettaire - Anti-inflammatoire",
+      "code_cip": "3400934572010",
+      "prix": 3.8,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Prévention des AVC",
+        "Prévention des infarctus",
+        "Prévention des thromboses",
+        "Angor instable",
+        "Prévention secondaire cardiovasculaire",
+        "Prévention de la récidive d'AIT"
+      ],
+      "substituts": [
+        {
+          "nom": "Aspirine 75 mg (Cardio)",
+          "dosage": "75 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Dosage plus faible pour la prévention cardiovasculaire",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque hémorragique",
+            "Allergie aux salicylés",
+            "Risque d'ulcère gastrique"
+          ],
+          "instructions": "75-100 mg 1 fois par jour",
+          "maladies_associees": [
+            "Prévention des AVC",
+            "Prévention des infarctus"
+          ]
+        },
+        {
+          "nom": "Clopidogrel (Plavix)",
+          "dosage": "75 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative pour patients allergiques à l'aspirine",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "75 mg 1 fois par jour",
+          "maladies_associees": [
+            "Prévention des AVC",
+            "Prévention des infarctus"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux salicylés",
+        "Allergie à l'aspirine",
+        "Hémorragie active",
+        "Ulcère gastroduodénal évolutif",
+        "Insuffisance hépatique sévère",
+        "Grossesse (3ème trimestre)",
+        "Enfant de moins de 12 ans"
+      ],
+      "effets_secondaires": [
+        "Risque hémorragique (gastro-intestinal)",
+        "Dyspepsie",
+        "Nausées",
+        "Éruptions cutanées",
+        "Bronchospasme (asthmatique)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique majoré)",
+        "AINS (risque hémorragique majoré)",
+        "Antihypertenseurs (diminution de l'effet)",
+        "Méthotrexate (toxicité majorée)"
+      ],
+      "posologie_standard": "100 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Risque hémorragique majoré",
+        "insuffisant_renal": "Surveillance rénale",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué (3ème trimestre)",
+      "allaitement": "Excrété dans le lait - Éviter"
+    },
+    {
+      "nom": "Énalapril (Renitec)",
+      "nom_generique": "Énalapril",
+      "dosage": "20 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur - Inhibiteur de l'enzyme de conversion (IEC)",
+      "code_cip": "3400934572020",
+      "prix": 7.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance cardiaque",
+        "Infarctus du myocarde (post-infarctus)",
+        "Néphropathie diabétique (protection rénale)",
+        "Prévention des AVC (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Ramipril (Triatec)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "IEC alternatif, bonne tolérance",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie",
+            "Risque d'angio-œdème (rare)"
+          ],
+          "instructions": "5-10 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque",
+            "Protection rénale"
+          ]
+        },
+        {
+          "nom": "Captopril (Lopril)",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "IEC alternatif, action plus courte",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie"
+          ],
+          "instructions": "25 mg 2-3 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux IEC",
+        "Antécédent d'angio-œdème",
+        "Grossesse (2ème et 3ème trimestres)",
+        "Allaitement",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Toux sèche (5-10% des patients)",
+        "Hypotension",
+        "Hyperkaliémie",
+        "Troubles du goût",
+        "Éruptions cutanées",
+        "Angio-œdème (rare)"
+      ],
+      "interactions": [
+        "AINS (diminution de l'effet, risque rénal)",
+        "Diurétiques (risque d'hypotension)",
+        "Suppléments de potassium (risque d'hyperkaliémie)",
+        "Lithium (toxicité augmentée)"
+      ],
+      "posologie_standard": "20-40 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 10 mg",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué (2ème et 3ème trimestres)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Entocort (Budesonide)",
+      "nom_generique": "Budesonide",
+      "dosage": "3 mg",
+      "forme": "Gélule à libération prolongée",
+      "quantite": "30 gélules",
+      "famille": "Corticostéroïde - Glucocorticoïde topique",
+      "code_cip": "3400934572030",
+      "prix": 65.4,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Maladie de Crohn (entérite régionale)",
+        "Rectocolite hémorragique",
+        "Colite microscopique",
+        "Maladie de Crohn iléale",
+        "Maladie de Crohn colique"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisone (Cortancyl)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticostéroïde alternatif, voie systémique",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance glycémique",
+            "Surveillance de la pression artérielle",
+            "Risque d'ostéoporose",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "5-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladie de Crohn",
+            "Rectocolite hémorragique"
+          ]
+        },
+        {
+          "nom": "Mésalazine (Pentasa)",
+          "dosage": "500 mg",
+          "forme": "Gélule à libération prolongée",
+          "quantite": "100 gélules",
+          "raison": "Alternative pour la maladie de Crohn",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance rénale",
+            "Surveillance hépatique",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "500 mg 3-4 fois par jour",
+          "maladies_associees": [
+            "Maladie de Crohn",
+            "Rectocolite hémorragique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au budesonide",
+        "Allergie aux corticostéroïdes",
+        "Infection non contrôlée",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Effets systémiques limités (action topique)",
+        "Troubles digestifs",
+        "Céphalées",
+        "Fatigue",
+        "Prise de poids (moindre que les corticostéroïdes systémiques)",
+        "Ostéoporose (usage prolongé - risque réduit)"
+      ],
+      "interactions": [
+        "Antifongiques (augmentation de la concentration)",
+        "Antibiotiques (interactions)",
+        "Anticoagulants (risque hémorragique)"
+      ],
+      "posologie_standard": "3-9 mg 1 fois par jour",
+      "duree_traitement": "8-12 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance de l'ostéoporose",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Passage dans le lait - Éviter",
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Éphédrine (Éphédrine)",
+      "nom_generique": "Éphédrine",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Sympathomimétique - Bronchodilatateur",
+      "code_cip": "3400934572040",
+      "prix": 8.4,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Asthme bronchique (en association)",
+        "Bronchospasme",
+        "Hypotension (en association)",
+        "Congestion nasale (en association)",
+        "Insuffisance respiratoire (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Salbutamol (Ventoline)",
+          "dosage": "100 µg",
+          "forme": "Aérosol doseur",
+          "quantite": "200 doses",
+          "raison": "Bronchodilatateur bêta-2 agoniste, action rapide",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de tachycardie",
+            "Ne pas dépasser 8-10 inhalations par jour",
+            "Utilisation en crise d'asthme"
+          ],
+          "instructions": "1-2 inhalations en crise",
+          "maladies_associees": [
+            "Asthme",
+            "BPCO",
+            "Bronchospasme"
+          ]
+        },
+        {
+          "nom": "Théophylline",
+          "dosage": "200 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "30 comprimés",
+          "raison": "Bronchodilatateur alternatif (xanthine)",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance des concentrations sanguines",
+            "Risque de toxicité",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "200 mg 2 fois par jour",
+          "maladies_associees": [
+            "Asthme sévère",
+            "BPCO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'éphédrine",
+        "Hypertension sévère",
+        "Angor",
+        "Hyperthyroïdie",
+        "Glaucome",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Tachycardie",
+        "Anxiété",
+        "Insomnie",
+        "Céphalées",
+        "Nausées",
+        "Tremblements"
+      ],
+      "interactions": [
+        "IMAO (risque de crise hypertensive)",
+        "Antidépresseurs (risque de tachycardie)",
+        "Bêta-bloquants (antagonisme)",
+        "Alcool (effets majorés)"
+      ],
+      "posologie_standard": "50 mg 3-4 fois par jour",
+      "duree_traitement": "Court terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter",
+      "substance_controlee": true
+    },
+    {
+      "nom": "Éplérénone (Inspra)",
+      "nom_generique": "Éplérénone",
+      "dosage": "25 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "28 comprimés",
+      "famille": "Diurétique épargneur de potassium - Antagoniste de l'aldostérone",
+      "code_cip": "3400934572050",
+      "prix": 42.6,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Insuffisance cardiaque (classe II-IV)",
+        "Hypertension artérielle (en association)",
+        "Post-infarctus du myocarde (en association)",
+        "Œdèmes d'origine cardiaque",
+        "Hyperaldostéronisme primaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Spironolactone (Aldactone)",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antagoniste de l'aldostérone alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la kaliémie",
+            "Risque d'hyperkaliémie",
+            "Effet anti-androgène (gynécomastie)"
+          ],
+          "instructions": "25-50 mg 1 fois par jour",
+          "maladies_associees": [
+            "Insuffisance cardiaque",
+            "Hypertension",
+            "Œdèmes"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'éplérénone",
+        "Hyperkaliémie",
+        "Insuffisance rénale sévère (clairance < 30 mL/min)",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hyperkaliémie (risque)",
+        "Hypotension",
+        "Vertiges",
+        "Céphalées",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Suppléments de potassium (risque d'hyperkaliémie)",
+        "AINS (risque d'insuffisance rénale)",
+        "ACE inhibiteurs (risque d'hyperkaliémie)",
+        "Digoxine (toxicité majorée)"
+      ],
+      "posologie_standard": "25-50 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la kaliémie",
+        "insuffisant_renal": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Eprex (Érythropoïétine)",
+      "nom_generique": "Érythropoïétine",
+      "dosage": "2000 UI",
+      "forme": "Solution injectable",
+      "quantite": "1 seringue pré-remplie",
+      "famille": "Facteur de croissance - Hormone",
+      "code_cip": "3400934572060",
+      "prix": 185.0,
+      "stock_actuel": 2,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Anémie (insuffisance rénale chronique)",
+        "Anémie du patient dialysé",
+        "Anémie du prématuré",
+        "Anémie post-chimiothérapie",
+        "Anémie en cas de maladie chronique",
+        "Anémie sévère"
+      ],
+      "substituts": [
+        {
+          "nom": "Aransesp (Darbépoétine)",
+          "dosage": "50 µg",
+          "forme": "Solution injectable",
+          "quantite": "1 seringue pré-remplie",
+          "raison": "Érythropoïétine à action prolongée, moins d'injections",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance de l'hémoglobine",
+            "Risque d'hypertension",
+            "Surveillance de la pression artérielle"
+          ],
+          "instructions": "50 µg 1 fois par semaine",
+          "maladies_associees": [
+            "Anémie (insuffisance rénale)",
+            "Anémie post-chimiothérapie"
+          ]
+        },
+        {
+          "nom": "NeoRecormon (Érythropoïétine bêta)",
+          "dosage": "2000 UI",
+          "forme": "Solution injectable",
+          "quantite": "1 seringue pré-remplie",
+          "raison": "Érythropoïétine alternative",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de l'hémoglobine",
+            "Risque d'hypertension",
+            "Surveillance de la pression artérielle"
+          ],
+          "instructions": "2000-4000 UI 2-3 fois par semaine",
+          "maladies_associees": [
+            "Anémie (insuffisance rénale)",
+            "Anémie post-chimiothérapie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'érythropoïétine",
+        "Allergie aux protéines de hamster chinois",
+        "Hypertension non contrôlée",
+        "Polyglobulie (hémoglobine > 12 g/dL)",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hypertension (risque - 10-20%)",
+        "Céphalées",
+        "Nausées",
+        "Troubles digestifs",
+        "Réaction au site d'injection",
+        "Thrombose (risque augmenté)"
+      ],
+      "interactions": [
+        "Antihypertenseurs (effets majorés)",
+        "Anticoagulants (risque hémorragique)",
+        "Fer (effets synergiques)"
+      ],
+      "posologie_standard": "2000-4000 UI 2-3 fois par semaine",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "insuffisant_renal": "Surveillance de la fonction rénale",
+        "personne_agee": "Surveillance de la pression artérielle"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Erispan (Flupentixol)",
+      "nom_generique": "Flupentixol",
+      "dosage": "0.5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique - Neuroleptique",
+      "code_cip": "3400934572070",
+      "prix": 5.6,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Troubles bipolaires (phase maniaque)",
+        "Psychose",
+        "Anxiété sévère (faible dose)",
+        "Agitation (faible dose)",
+        "Troubles psychotiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Halopéridol (Haldol)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Neuroleptique alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de syndrome extrapyramidal",
+            "Risque de sédation",
+            "Surveillance cardiaque (QT)"
+          ],
+          "instructions": "2-5 mg 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Psychose",
+            "Agitation sévère"
+          ]
+        },
+        {
+          "nom": "Lévomépromazine (Nozinan)",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Neuroleptique phénothiazine alternatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de sédation",
+            "Risque de syndrome extrapyramidal"
+          ],
+          "instructions": "25-100 mg 2-3 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Psychose",
+            "Agitation sévère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au flupentixol",
+        "Allergie aux neuroleptiques",
+        "Coma",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Syndrome extrapyramidal (parkinsonisme, akathisie)",
+        "Sédation",
+        "Prise de poids",
+        "Hyperprolactinémie",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Antihypertenseurs (hypotension)",
+        "Antiparkinsoniens (effets antagonistes)",
+        "Dépresseurs du SNC"
+      ],
+      "posologie_standard": "0.5-2 mg 2-3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 0.25 mg",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Erythromycine (Érythromycine)",
+      "nom_generique": "Érythromycine",
+      "dosage": "250 mg",
+      "forme": "Comprimé enrobé",
+      "quantite": "20 comprimés",
+      "famille": "Antibiotique - Macrolide",
+      "code_cip": "3400934572080",
+      "prix": 9.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections respiratoires",
+        "Angine bactérienne",
+        "Otite moyenne",
+        "Sinusite",
+        "Infections cutanées (érysipèle, impétigo)",
+        "Infections ORL",
+        "Infections à germes atypiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Azithromycine (Zithromax)",
+          "dosage": "250 mg",
+          "forme": "Gélule",
+          "quantite": "6 gélules",
+          "raison": "Macrolide alternatif, meilleure tolérance digestive",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance cardiaque (QT)",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "250 mg 1 fois par jour pendant 3-5 jours",
+          "maladies_associees": [
+            "Infections respiratoires",
+            "Infections cutanées"
+          ]
+        },
+        {
+          "nom": "Clarithromycine (Zéclar)",
+          "dosage": "500 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "14 comprimés",
+          "raison": "Macrolide alternatif, bonne efficacité",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance cardiaque (QT)",
+            "Interactions médicamenteuses",
+            "Risque de résistance"
+          ],
+          "instructions": "500 mg 2 fois par jour",
+          "maladies_associees": [
+            "Infections respiratoires",
+            "Infections cutanées"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux macrolides",
+        "Insuffisance hépatique sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées, vomissements)",
+        "Céphalées",
+        "Prolongation de l'intervalle QT",
+        "Hépatotoxicité (rare)"
+      ],
+      "interactions": [
+        "Statines (risque de myopathie)",
+        "Anticoagulants oraux (risque hémorragique)",
+        "Digoxine (toxicité majorée)",
+        "Alcool (toxicité hépatique)"
+      ],
+      "posologie_standard": "250-500 mg 4 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Surveillance",
+        "enfant": "30-50 mg/kg/jour en 4 prises"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Excrété dans le lait - Surveillance"
+    },
+    {
+      "nom": "Esméron (Docusate de sodium)",
+      "nom_generique": "Docusate de sodium",
+      "dosage": "50 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Laxatif - Émollient - Ramollissant",
+      "code_cip": "3400934572090",
+      "prix": 5.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Constipation",
+        "Constipation occasionnelle",
+        "Constipation chronique",
+        "Prévention de la constipation",
+        "Constipation post-opératoire",
+        "Constipation médicamenteuse"
+      ],
+      "substituts": [
+        {
+          "nom": "Lactulose (Duphalac)",
+          "dosage": "10 g/15 ml",
+          "forme": "Solution buvable",
+          "quantite": "200 ml",
+          "raison": "Laxatif osmotique alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la glycémie (diabétique)",
+            "Risque de ballonnements",
+            "Effet en 24-48h"
+          ],
+          "instructions": "15-30 ml 1 fois par jour",
+          "maladies_associees": [
+            "Constipation",
+            "Encéphalopathie hépatique"
+          ]
+        },
+        {
+          "nom": "Macrogol (Forlax)",
+          "dosage": "10 g",
+          "forme": "Sachet",
+          "quantite": "20 sachets",
+          "raison": "Laxatif osmotique alternatif, bonne tolérance",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de ballonnements",
+            "Effet en 24-48h",
+            "Surveillance des troubles digestifs"
+          ],
+          "instructions": "1 sachet 1-2 fois par jour",
+          "maladies_associees": [
+            "Constipation",
+            "Constipation chronique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au docusate",
+        "Allergie au sodium",
+        "Obstruction intestinale",
+        "Douleurs abdominales aiguës",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Ballonnements",
+        "Flatulences",
+        "Troubles digestifs",
+        "Douleurs abdominales"
+      ],
+      "interactions": [
+        "Laxatifs (effets majorés)",
+        "Anti-inflammatoires (effets majorés)",
+        "Antibiotiques (interactions)"
+      ],
+      "posologie_standard": "50-100 mg 2 fois par jour",
+      "duree_traitement": "5-7 jours maximum",
+      "population_specifique": {
+        "personne_agee": "Surveillance des électrolytes",
+        "insuffisant_renal": "Surveillance des électrolytes"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Ésoméprazole (Inexium)",
+      "nom_generique": "Ésoméprazole",
+      "dosage": "20 mg",
+      "forme": "Gélule",
+      "quantite": "28 gélules",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400934572100",
+      "prix": 14.8,
+      "stock_actuel": 6,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Reflux gastro-œsophagien (RGO)",
+        "Œsophagite érosive",
+        "Ulcère gastroduodénal (en association)",
+        "Prévention des ulcères (AINS)",
+        "Syndrome de Zollinger-Ellison",
+        "Dyspepsie"
+      ],
+      "substituts": [
+        {
+          "nom": "Oméprazole (Mopral)",
+          "dosage": "20 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "IPP de référence, plus économique",
+          "confiance": 0.95,
+          "precautions": [
+            "Utilisation à long terme (risque de carence en B12)",
+            "Interactions médicamenteuses",
+            "Risque de fractures (usage prolongé)"
+          ],
+          "instructions": "20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Reflux gastro-œsophagien",
+            "Ulcère",
+            "Prévention des ulcères"
+          ]
+        },
+        {
+          "nom": "Lansoprazole (Ogast)",
+          "dosage": "15 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "IPP alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Utilisation à long terme (risque de carence en B12)",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "15-30 mg 1 fois par jour",
+          "maladies_associees": [
+            "Reflux gastro-œsophagien",
+            "Ulcère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ésoméprazole",
+        "Allergie aux IPP",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs (diarrhée, constipation)",
+        "Nausées",
+        "Carence en vitamine B12 (usage prolongé)",
+        "Risque de fractures (usage prolongé)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Antifongiques (diminution de l'absorption)",
+        "Antirétroviraux (diminution de l'efficacité)",
+        "Digoxine (toxicité majorée)"
+      ],
+      "posologie_standard": "20-40 mg 1 fois par jour",
+      "duree_traitement": "4-8 semaines (aigu), maintenance possible",
+      "population_specifique": {
+        "personne_agee": "Risque de carence en B12 majoré",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Estradiol (Oestrogel)",
+      "nom_generique": "Estradiol",
+      "dosage": "0.06%",
+      "forme": "Gel",
+      "quantite": "80 g",
+      "famille": "Hormone - Œstrogène",
+      "code_cip": "3400934572110",
+      "prix": 18.4,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Traitement hormonal substitutif de la ménopause",
+        "Symptômes de la ménopause (bouffées de chaleur, sueurs nocturnes)",
+        "Prévention de l'ostéoporose",
+        "Atrophie vaginale",
+        "Insuffisance ovarienne",
+        "Hypogonadisme"
+      ],
+      "substituts": [
+        {
+          "nom": "Estradiol (Oestrodose)",
+          "dosage": "0.06%",
+          "forme": "Gel",
+          "quantite": "80 g",
+          "raison": "Même principe actif, même dosage",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance gynécologique régulière",
+            "Risque de cancer du sein (usage prolongé)",
+            "Surveillance de la tension artérielle"
+          ],
+          "instructions": "1 pression 1 fois par jour",
+          "maladies_associees": [
+            "Ménopause",
+            "Prévention de l'ostéoporose"
+          ]
+        },
+        {
+          "nom": "Estradiol (Estradiol 17β)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "28 comprimés",
+          "raison": "Œstrogène oral",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance gynécologique",
+            "Risque de cancer du sein (usage prolongé)",
+            "Surveillance de la tension artérielle"
+          ],
+          "instructions": "1-2 mg 1 fois par jour",
+          "maladies_associees": [
+            "Ménopause",
+            "Prévention de l'ostéoporose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'estradiol",
+        "Allergie aux œstrogènes",
+        "Cancer du sein (antécédent ou actuel)",
+        "Cancer de l'endomètre",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement",
+        "Antécédent de thrombose"
+      ],
+      "effets_secondaires": [
+        "Tension mammaire",
+        "Céphalées",
+        "Nausées",
+        "Prise de poids",
+        "Risque de thrombose",
+        "Risque de cancer du sein (usage prolongé)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Antihypertenseurs (effets majorés)",
+        "Anticonvulsivants (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "1 pression 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance gynécologique régulière",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Euthyral (Lévothyroxine + Liotrix)",
+      "nom_generique": "Lévothyroxine + Liotrix",
+      "dosage": "50/12.5 µg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Hormone thyroïdienne",
+      "code_cip": "3400934572120",
+      "prix": 8.2,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypothyroïdie (traitement substitutif)",
+        "Myxoedème",
+        "Prévention de la récidive du goitre",
+        "Prévention des troubles thyroïdiens",
+        "Traitement du goitre simple"
+      ],
+      "substituts": [
+        {
+          "nom": "Lévothyroxine (Lévothyrox)",
+          "dosage": "50 µg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Hormone thyroïdienne de référence",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance de la TSH",
+            "Surveillance de la fonction thyroïdienne",
+            "Prise à jeun"
+          ],
+          "instructions": "50-100 µg 1 fois par jour",
+          "maladies_associees": [
+            "Hypothyroïdie",
+            "Myxoedème",
+            "Goitre"
+          ]
+        },
+        {
+          "nom": "Lévothyroxine + Liotrix (Euthyral)",
+          "dosage": "50/12.5 µg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Association T4/T3",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de la TSH",
+            "Surveillance de la fonction thyroïdienne"
+          ],
+          "instructions": "50/12.5-100/25 µg 1 fois par jour",
+          "maladies_associees": [
+            "Hypothyroïdie",
+            "Myxoedème"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la lévothyroxine",
+        "Allergie au liotrix",
+        "Hyperthyroïdie non contrôlée",
+        "Cardiopathie ischémique non traitée",
+        "Insuffisance surrénale non traitée",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires": [
+        "Palpitations",
+        "Tachycardie",
+        "Nervosité",
+        "Insomnie",
+        "Prise de poids (surdosage)",
+        "Tremblements"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Antidiabétiques (diminution de l'effet)",
+        "Antidépresseurs (effets majorés)",
+        "Alcool (diminution de l'effet)"
+      ],
+      "posologie_standard": "50/12.5-100/25 µg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 25/6.25 µg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Utilisation possible (surveillance)",
+      "allaitement": "Passage dans le lait - Surveillance"
+    },
+    {
+      "nom": "Evoxac (Cévimeline)",
+      "nom_generique": "Cévimeline",
+      "dosage": "30 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Stimulant des glandes salivaires - Agoniste muscarinique",
+      "code_cip": "3400934572130",
+      "prix": 82.4,
+      "stock_actuel": 2,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Sécheresse buccale (xérostomie)",
+        "Syndrome de Sjögren",
+        "Sécheresse oculaire (en association)",
+        "Hyposialie (diminution de la salive)",
+        "Sécheresse des muqueuses"
+      ],
+      "substituts": [
+        {
+          "nom": "Pilocarpine (Salagen)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Stimulant des glandes salivaires alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de sudation excessive",
+            "Risque de troubles digestifs",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "5 mg 3-4 fois par jour",
+          "maladies_associees": [
+            "Sécheresse buccale",
+            "Syndrome de Sjögren"
+          ]
+        },
+        {
+          "nom": "Salivaire (Citrate de salive)",
+          "dosage": "N/A",
+          "forme": "Solution buccale",
+          "quantite": "1 flacon",
+          "raison": "Solution de réhydratation buccale",
+          "confiance": 0.7,
+          "precautions": [
+            "Utilisation fréquente",
+            "Surveillance des allergies"
+          ],
+          "instructions": "Application locale",
+          "maladies_associees": [
+            "Sécheresse buccale",
+            "Hyposialie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la cévimeline",
+        "Allergie aux agonistes muscariniques",
+        "Glaucome à angle fermé",
+        "Asthme sévère",
+        "Insuffisance cardiaque",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Sudation excessive",
+        "Nausées",
+        "Vomissements",
+        "Céphalées",
+        "Troubles digestifs",
+        "Troubles visuels"
+      ],
+      "interactions": [
+        "Anticholinergiques (effets antagonistes)",
+        "Bêta-bloquants (effets majorés)",
+        "Antidépresseurs (effets majorés)"
+      ],
+      "posologie_standard": "30 mg 3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true
+    },
+    {
+      "nom": "Exelon (Rivastigmine)",
+      "nom_generique": "Rivastigmine",
+      "dosage": "4.6 mg",
+      "forme": "Patch transdermique",
+      "quantite": "30 patches",
+      "famille": "Inhibiteur de la cholinestérase - Antidémentiel",
+      "code_cip": "3400934572140",
+      "prix": 145.0,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Maladie d'Alzheimer (démence légère à modérée)",
+        "Démence de type Alzheimer",
+        "Maladie à corps de Lewy (en association)",
+        "Troubles cognitifs (en association)",
+        "Démence à corps de Lewy (symptômes cognitifs)"
+      ],
+      "substituts": [
+        {
+          "nom": "Donepezil (Aricept)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur de la cholinestérase alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Surveillance des troubles digestifs",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "5-10 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladie d'Alzheimer",
+            "Démence"
+          ]
+        },
+        {
+          "nom": "Galantamine (Reminyl)",
+          "dosage": "8 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur de la cholinestérase alternatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Surveillance des troubles digestifs",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "8-16 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladie d'Alzheimer",
+            "Démence"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la rivastigmine",
+        "Allergie aux inhibiteurs de la cholinestérase",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Vomissements (fréquents)",
+        "Diarrhée",
+        "Anorexie",
+        "Tremblements",
+        "Perte de poids",
+        "Troubles du sommeil"
+      ],
+      "interactions": [
+        "Anticholinergiques (effets antagonistes)",
+        "Bêta-bloquants (effets majorés)",
+        "Antidépresseurs (effets majorés)",
+        "AINS (risque digestif majoré)"
+      ],
+      "posologie_standard": "4.6 mg/24h patch transdermique",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Surveillance rénale",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Exforge (Amplodipine + Valsartan)",
+      "nom_generique": "Amplodipine + Valsartan",
+      "dosage": "5 mg + 80 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur - Association fixe (IEC + ARA)",
+      "code_cip": "3400934572150",
+      "prix": 32.6,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance cardiaque (en association)",
+        "Prévention des AVC",
+        "Néphropathie diabétique",
+        "Protection rénale"
+      ],
+      "substituts": [
+        {
+          "nom": "Valsartan (Diovan)",
+          "dosage": "80 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "ARA II de référence",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie",
+            "Risque d'hyperkaliémie"
+          ],
+          "instructions": "80-160 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque"
+          ]
+        },
+        {
+          "nom": "Losartan (Cozaar)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "ARA II alternatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie",
+            "Risque d'hyperkaliémie"
+          ],
+          "instructions": "50-100 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux ARA II",
+        "Allergie aux inhibiteurs calciques",
+        "Grossesse (2ème et 3ème trimestres)",
+        "Allaitement",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Hypotension",
+        "Céphalées",
+        "Vertiges",
+        "Troubles digestifs",
+        "Hyperkaliémie",
+        "Œdèmes"
+      ],
+      "interactions": [
+        "AINS (diminution de l'effet, risque rénal)",
+        "Diurétiques (risque d'hypotension)",
+        "Suppléments de potassium (risque d'hyperkaliémie)"
+      ],
+      "posologie_standard": "5/80 mg - 10/160 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 2.5/40 mg",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué (2ème et 3ème trimestres)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Ezetimibe (Ezetrol)",
+      "nom_generique": "Ezetimibe",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Hypolipémiant - Inhibiteur de l'absorption du cholestérol",
+      "code_cip": "3400934572160",
+      "prix": 28.4,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypercholestérolémie",
+        "Hyperlipidémie",
+        "Prévention cardiovasculaire",
+        "Diabète de type 2 (en association)",
+        "Maladie coronarienne (en association)",
+        "Dyslipidémie mixte"
+      ],
+      "substituts": [
+        {
+          "nom": "Atorvastatine (Tahor)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine de référence, plus puissante",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hépatique",
+            "Risque de myopathie",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "10-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie",
+            "Prévention cardiovasculaire"
+          ]
+        },
+        {
+          "nom": "Rosuvastatine (Crestor)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine alternative, plus puissante",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance rénale",
+            "Risque de myopathie"
+          ],
+          "instructions": "5-10 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie",
+            "Prévention cardiovasculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'ézétimibe",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Céphalées",
+        "Fatigue",
+        "Élévation des transaminases (rare)",
+        "Myalgies (rare)"
+      ],
+      "interactions": [
+        "Statines (effets additifs)",
+        "Anticoagulants (risque hémorragique)",
+        "Antiacides (diminution de l'absorption)",
+        "Fibrates (risque de myopathie)"
+      ],
+      "posologie_standard": "10 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance hépatique",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "5.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 102,
+    "nombre_substituts": 235,
+    "categories": [
+      "Antibiotique",
+      "Anti-inflammatoire",
+      "Antihypertenseur",
+      "Hypolipémiant",
+      "Anxiolytique",
+      "Antidépresseur",
+      "Antiviral",
+      "Diurétique",
+      "Antiparkinsonien",
+      "Anticoagulant",
+      "Antipsychotique",
+      "Bêta-bloquant",
+      "Antidiabétique",
+      "Immunosuppresseur",
+      "Dermocosmétique",
+      "Collyre",
+      "Myorelaxant",
+      "Corticostéroïde",
+      "Antiagrégant plaquettaire",
+      "Bronchodilatateur",
+      "Antifongique",
+      "Anti-goutteux",
+      "Vitamine D",
+      "Antinéoplasique",
+      "Antiandrogène",
+      "Antispasmodique",
+      "Antimigraineux",
+      "Vasodilatateur",
+      "Perfusion",
+      "Hormone",
+      "IPP",
+      "Laxatif",
+      "Antidémentiel"
+    ],
+    "auteur": "Assistant Pharmacie - Système RAG",
+    "source": "Base de données pharmaceutique complète - Médicaments en E",
+    "notes": "JSON optimisé pour RAG - Médicaments en E (19 nouveaux médicaments)",
+    "taille_totale": "102 médicaments uniques + 235 substituts",
+    "mise_a_jour": "2024-01-15",
+    "prochaine_lettre": "F"
+  }
+}

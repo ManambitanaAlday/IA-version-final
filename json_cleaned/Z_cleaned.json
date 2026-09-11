@@ -1,0 +1,802 @@
+{
+  "medicaments": [
+    {
+      "nom": "Zalcitabine",
+      "nom_generique": "Dideoxycytidine",
+      "dosage": "0.75 mg",
+      "forme": "Comprimé",
+      "quantite": "60 comprimés",
+      "famille": "Antirétroviral - Inhibiteur nucléosidique de la transcriptase inverse",
+      "code_cip": "3400935678901",
+      "prix": 45.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infection par le VIH",
+        "SIDA"
+      ],
+      "substituts": [
+        {
+          "nom": "Lamivudine",
+          "dosage": "150 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Même classe thérapeutique, meilleur profil de sécurité",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance rénale"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infection par le VIH"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la zalcitabine",
+        "Insuffisance rénale sévère",
+        "Neuropathie périphérique sévère",
+        "Grossesse (déconseillé)"
+      ],
+      "effets_secondaires": [
+        "Neuropathie périphérique",
+        "Stomatite",
+        "Nausées",
+        "Vomissements",
+        "Anémie",
+        "Thrombopénie"
+      ],
+      "interactions": [
+        "Didanosine (toxicité majorée)",
+        "Ribavirine (toxicité majorée)",
+        "Acyclovir (toxicité majorée)",
+        "Amphotéricine B (toxicité rénale)"
+      ],
+      "posologie_standard": "0.75 mg 3 fois par jour",
+      "duree_traitement": "Traitement continu",
+      "population_specifique": {
+        "personne_agee": "Ajustement en fonction de la fonction rénale",
+        "insuffisant_renal": "Contre-indiqué si clairance < 30 ml/min",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance hépatique sévère"
+      },
+      "grossesse": "Classe C - Déconseillé",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Zaleplon",
+      "nom_generique": "Zaleplon",
+      "dosage": "5 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Hypnotique - Non benzodiazépinique",
+      "code_cip": "3400935678902",
+      "prix": 32.5,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Insomnie",
+        "Troubles du sommeil"
+      ],
+      "substituts": [
+        {
+          "nom": "Zolpidem",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique, efficacité similaire",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de dépendance",
+            "Ne pas associer à l'alcool",
+            "Durée de traitement limitée"
+          ],
+          "instructions": "Prendre 1 gélule au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Zopiclone",
+          "dosage": "7.5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique, alternative valable",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Goût métallique possible"
+          ],
+          "instructions": "Prendre 1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zaleplon",
+        "Insuffisance hépatique sévère",
+        "Apnée du sommeil sévère",
+        "Myasthénie",
+        "Grossesse (déconseillé)"
+      ],
+      "effets_secondaires": [
+        "Somnolence diurne",
+        "Céphalées",
+        "Nausées",
+        "Vertiges",
+        "Amnésie antérograde",
+        "Dépendance (risque)"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Antidépresseurs (sédation majorée)",
+        "Neuroleptiques (sédation majorée)",
+        "Rifampicine (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "5-10 mg au coucher",
+      "duree_traitement": "Maximum 4 semaines",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (5 mg)",
+        "insuffisant_renal": "Ajustement non nécessaire",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Déconseillé",
+      "allaitement": "Déconseillé"
+    },
+    {
+      "nom": "Zanamivir",
+      "nom_generique": "Zanamivir",
+      "dosage": "5 mg",
+      "forme": "Poudre pour inhalation",
+      "quantite": "20 doses",
+      "famille": "Antiviral - Inhibiteur de la neuraminidase",
+      "code_cip": "3400935678903",
+      "prix": 28.75,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Grippe A et B",
+        "Infection par le virus influenza"
+      ],
+      "substituts": [
+        {
+          "nom": "Oseltamivir",
+          "dosage": "75 mg",
+          "forme": "Gélule",
+          "quantite": "10 gélules",
+          "raison": "Même classe thérapeutique, meilleure compliance",
+          "confiance": 0.95,
+          "precautions": [
+            "Débuter dans les 48h suivant l'apparition des symptômes",
+            "Surveillance neurologique chez l'enfant"
+          ],
+          "instructions": "Prendre 1 gélule 2 fois par jour pendant 5 jours",
+          "maladies_associees": [
+            "Grippe A et B"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zanamivir",
+        "Asthme sévère",
+        "Bronchopneumopathie chronique obstructive sévère",
+        "Grossesse (prudence)"
+      ],
+      "effets_secondaires": [
+        "Bronchospasme",
+        "Céphalées",
+        "Nausées",
+        "Diarrhée",
+        "Toux",
+        "Irritation nasale"
+      ],
+      "interactions": [
+        "Vaccin antigrippal (effet potentiellement diminué)",
+        "Corticostéroïdes inhalés (surveillance)"
+      ],
+      "posologie_standard": "2 inhalations (10 mg) 2 fois par jour pendant 5 jours",
+      "duree_traitement": "5 jours",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement nécessaire",
+        "insuffisant_renal": "Aucun ajustement nécessaire",
+        "insuffisant_hepatique": "Aucun ajustement nécessaire"
+      },
+      "grossesse": "Classe B - Utilisable avec prudence",
+      "allaitement": "Utilisable avec prudence"
+    },
+    {
+      "nom": "Zidovudine",
+      "nom_generique": "Azidothymidine",
+      "dosage": "100 mg",
+      "forme": "Gélule",
+      "quantite": "100 gélules",
+      "famille": "Antirétroviral - Inhibiteur nucléosidique de la transcriptase inverse",
+      "code_cip": "3400935678904",
+      "prix": 52.3,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Infection par le VIH",
+        "SIDA",
+        "Prévention de la transmission mère-enfant"
+      ],
+      "substituts": [
+        {
+          "nom": "Lamivudine",
+          "dosage": "150 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Alternative mieux tolérée",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance rénale"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infection par le VIH"
+          ]
+        },
+        {
+          "nom": "Tenofovir",
+          "dosage": "245 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative de première ligne, meilleur profil",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Surveillance de la densité osseuse"
+          ],
+          "instructions": "Prendre 1 comprimé par jour",
+          "maladies_associees": [
+            "Infection par le VIH"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la zidovudine",
+        "Anémie sévère",
+        "Neutropénie sévère",
+        "Insuffisance hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Anémie",
+        "Neutropénie",
+        "Nausées",
+        "Vomissements",
+        "Céphalées",
+        "Insomnie",
+        "Lactatémie (risque)"
+      ],
+      "interactions": [
+        "Ribavirine (anémie majorée)",
+        "Ganciclovir (toxicité hématologique)",
+        "Dapsone (toxicité hématologique)",
+        "Probenecid (augmentation des taux)"
+      ],
+      "posologie_standard": "100 mg toutes les 4 heures (6 fois par jour)",
+      "duree_traitement": "Traitement continu",
+      "population_specifique": {
+        "personne_agee": "Ajustement en fonction de la fonction rénale",
+        "insuffisant_renal": "Réduire la dose si clairance < 50 ml/min",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Utilisable",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Ziprasidone",
+      "nom_generique": "Ziprasidone",
+      "dosage": "40 mg",
+      "forme": "Gélule",
+      "quantite": "60 gélules",
+      "famille": "Antipsychotique atypique",
+      "code_cip": "3400935678905",
+      "prix": 65.4,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Trouble bipolaire",
+        "Dépression (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Risperidone",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Même classe thérapeutique, large utilisation",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance pondérale",
+            "Surveillance glycémique",
+            "Surveillance neurologique"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Trouble bipolaire"
+          ]
+        },
+        {
+          "nom": "Olanzapine",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative efficace",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de prise de poids",
+            "Surveillance métabolique"
+          ],
+          "instructions": "Prendre 1 comprimé par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Trouble bipolaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la ziprasidone",
+        "Allongement de l'intervalle QT",
+        "Infarctus du myocarde récent",
+        "Insuffisance cardiaque",
+        "Grossesse (prudence)"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Céphalées",
+        "Nausées",
+        "Constipation",
+        "Sécheresse buccale",
+        "Akinésie",
+        "Hyperlipidémie (risque)",
+        "Hyperglycémie (risque)"
+      ],
+      "interactions": [
+        "Imao (risque de syndrome sérotoninergique)",
+        "Antihypertenseurs (hypotension)",
+        "Benzodiazépines (sédation majorée)",
+        "Médicaments prolongeant l'intervalle QT (risque majoré)"
+      ],
+      "posologie_standard": "40 mg 2 fois par jour",
+      "duree_traitement": "Traitement continu",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (20 mg 2 fois par jour)",
+        "insuffisant_renal": "Aucun ajustement nécessaire",
+        "insuffisant_hepatique": "Dose réduite en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Prudence",
+      "allaitement": "Déconseillé"
+    },
+    {
+      "nom": "Zoledronate",
+      "nom_generique": "Acide zolédronique",
+      "dosage": "5 mg",
+      "forme": "Solution injectable",
+      "quantite": "1 flacon",
+      "famille": "Bisphosphonate - Antirésorbeur osseux",
+      "code_cip": "3400935678906",
+      "prix": 78.9,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Ostéoporose",
+        "Maladie de Paget",
+        "Hypercalcémie",
+        "Métastases osseuses"
+      ],
+      "substituts": [
+        {
+          "nom": "Alendronate",
+          "dosage": "70 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Alternative orale, même efficacité pour l'ostéoporose",
+          "confiance": 0.9,
+          "precautions": [
+            "Prendre à jeun avec un grand verre d'eau",
+            "Rester debout 30 minutes",
+            "Ne pas s'allonger"
+          ],
+          "instructions": "Prendre 1 comprimé par semaine",
+          "maladies_associees": [
+            "Ostéoporose",
+            "Maladie de Paget"
+          ]
+        },
+        {
+          "nom": "Risedronate",
+          "dosage": "35 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Alternative orale, mieux tolérée",
+          "confiance": 0.85,
+          "precautions": [
+            "Prendre à jeun avec un grand verre d'eau",
+            "Rester debout 30 minutes"
+          ],
+          "instructions": "Prendre 1 comprimé par semaine",
+          "maladies_associees": [
+            "Ostéoporose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zoledronate",
+        "Hypocalcémie",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Syndrome grippal",
+        "Fièvre",
+        "Douleurs osseuses",
+        "Douleurs articulaires",
+        "Myalgies",
+        "Nausées",
+        "Vomissements",
+        "Insuffisance rénale (risque)",
+        "Ostéonécrose de la mâchoire (risque)"
+      ],
+      "interactions": [
+        "Anti-inflammatoires (risque rénal)",
+        "Aminoglycosides (hypocalcémie)",
+        "Diurétiques (hypocalcémie)",
+        "Calcium (interaction avec la pharmacie)"
+      ],
+      "posologie_standard": "5 mg en perfusion IV sur 15 minutes, une fois par an",
+      "duree_traitement": "Traitement continu (annuel)",
+      "population_specifique": {
+        "personne_agee": "Ajustement en fonction de la fonction rénale",
+        "insuffisant_renal": "Contre-indiqué si clairance < 35 ml/min",
+        "insuffisant_hepatique": "Aucun ajustement nécessaire"
+      },
+      "grossesse": "Classe D - Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Zolmitriptan",
+      "nom_generique": "Zolmitriptan",
+      "dosage": "2.5 mg",
+      "forme": "Comprimé",
+      "quantite": "6 comprimés",
+      "famille": "Antimigraineux - Triptan",
+      "code_cip": "3400935678907",
+      "prix": 18.3,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Migraine avec aura",
+        "Migraine sans aura",
+        "Céphalées vasculaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Sumatriptan",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "6 comprimés",
+          "raison": "Même classe thérapeutique, large expérience clinique",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas utiliser en prophylaxie",
+            "Dose maximale de 300 mg par jour",
+            "Ne pas dépasser 2 comprimés par crise"
+          ],
+          "instructions": "Prendre 1 comprimé au début de la crise",
+          "maladies_associees": [
+            "Migraine"
+          ]
+        },
+        {
+          "nom": "Rizatriptan",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "6 comprimés",
+          "raison": "Alternative efficace, action rapide",
+          "confiance": 0.9,
+          "precautions": [
+            "Délai de 2h entre 2 prises",
+            "Dose maximale de 30 mg par jour"
+          ],
+          "instructions": "Prendre 1 comprimé au début de la crise",
+          "maladies_associees": [
+            "Migraine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zolmitriptan",
+        "Coronaropathie",
+        "Antécédent d'infarctus du myocarde",
+        "Angor",
+        "Hypertension artérielle non contrôlée",
+        "Insuffisance hépatique sévère",
+        "Grossesse (prudence)"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Vertiges",
+        "Somnolence",
+        "Paresthésies",
+        "Sensation de chaleur",
+        "Sensation de pression thoracique",
+        "Douleurs musculaires"
+      ],
+      "interactions": [
+        "Imao (risque de syndrome sérotoninergique)",
+        "Antidépresseurs sérotoninergiques (risque)",
+        "Ergotamine (vasospasme)",
+        "Autres triptans (ne pas associer)"
+      ],
+      "posologie_standard": "2.5 mg à répéter si besoin après 2h (max 5 mg/24h)",
+      "duree_traitement": "Traitement des crises",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement nécessaire",
+        "insuffisant_renal": "Aucun ajustement nécessaire",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Prudence",
+      "allaitement": "Déconseillé"
+    },
+    {
+      "nom": "Zolpidem",
+      "nom_generique": "Zolpidem",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Hypnotique - Imidazopyridine",
+      "code_cip": "3400935678908",
+      "prix": 25.2,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Insomnie sévère",
+        "Troubles du sommeil"
+      ],
+      "substituts": [
+        {
+          "nom": "Zopiclone",
+          "dosage": "7.5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même efficacité, alternative classique",
+          "confiance": 0.9,
+          "precautions": [
+            "Durée de traitement limitée",
+            "Goût métallique possible"
+          ],
+          "instructions": "Prendre 1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Zaleplon",
+          "dosage": "5 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Alternative avec demi-vie plus courte",
+          "confiance": 0.85,
+          "precautions": [
+            "Durée de traitement limitée"
+          ],
+          "instructions": "Prendre 1 gélule au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zolpidem",
+        "Insuffisance hépatique sévère",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse (déconseillé)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence diurne",
+        "Céphalées",
+        "Vertiges",
+        "Nausées",
+        "Amnésie antérograde",
+        "Hallucinations (rare)",
+        "Dépendance (risque)",
+        "Syndrome de sevrage"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Benzodiazépines (sédation majorée)",
+        "Antidépresseurs (sédation majorée)",
+        "Antipsychotiques (sédation majorée)",
+        "Rifampicine (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "10 mg au coucher (5 mg chez le sujet âgé)",
+      "duree_traitement": "Maximum 4 semaines",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (5 mg)",
+        "insuffisant_renal": "Aucun ajustement nécessaire",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Déconseillé",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Zonisamide",
+      "nom_generique": "Zonisamide",
+      "dosage": "100 mg",
+      "forme": "Gélule",
+      "quantite": "100 gélules",
+      "famille": "Antiépileptique",
+      "code_cip": "3400935678909",
+      "prix": 72.6,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Épilepsie partielle",
+        "Épilepsie généralisée",
+        "Maladie de Parkinson (hors AMM)"
+      ],
+      "substituts": [
+        {
+          "nom": "Topiramate",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Mécanisme d'action similaire, alternative validée",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de glaucome aigu",
+            "Perte de poids possible",
+            "Surveillance rénale"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Épilepsie"
+          ]
+        },
+        {
+          "nom": "Levetiracetam",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Alternative de première ligne",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance hématologique",
+            "Risque de somnolence"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Épilepsie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au zonisamide",
+        "Allergie aux sulfamides",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse (déconseillé)"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Nausées",
+        "Anorexie",
+        "Perte de poids",
+        "Lithiases rénales (risque)",
+        "Troubles cognitifs",
+        "Diplopie"
+      ],
+      "interactions": [
+        "Carbamazépine (diminution des taux)",
+        "Phénytoïne (diminution des taux)",
+        "Barbituriques (diminution des taux)",
+        "Médicaments favorisant les lithiases (risque)"
+      ],
+      "posologie_standard": "100-200 mg 2 fois par jour (max 600 mg/jour)",
+      "duree_traitement": "Traitement continu",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (50 mg 2 fois par jour)",
+        "insuffisant_renal": "Contre-indiqué si clairance < 50 ml/min",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Déconseillé",
+      "allaitement": "Déconseillé"
+    },
+    {
+      "nom": "Zopiclone",
+      "nom_generique": "Zopiclone",
+      "dosage": "7.5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Hypnotique - Cyclopyrrolone",
+      "code_cip": "3400935678910",
+      "prix": 23.8,
+      "stock_actuel": 11,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Insomnie sévère",
+        "Troubles du sommeil"
+      ],
+      "substituts": [
+        {
+          "nom": "Zolpidem",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe, efficacité similaire",
+          "confiance": 0.9,
+          "precautions": [
+            "Durée de traitement limitée",
+            "Risque de dépendance"
+          ],
+          "instructions": "Prendre 1 comprimé au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Zaleplon",
+          "dosage": "5 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Alternative avec demi-vie plus courte",
+          "confiance": 0.85,
+          "precautions": [
+            "Durée de traitement limitée"
+          ],
+          "instructions": "Prendre 1 gélule au coucher",
+          "maladies_associees": [
+            "Insomnie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la zopiclone",
+        "Insuffisance hépatique sévère",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse (déconseillé)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Goût métallique (fréquent)",
+        "Somnolence diurne",
+        "Céphalées",
+        "Vertiges",
+        "Nausées",
+        "Sécheresse buccale",
+        "Amnésie antérograde",
+        "Dépendance (risque)"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Benzodiazépines (sédation majorée)",
+        "Antidépresseurs (sédation majorée)",
+        "Antipsychotiques (sédation majorée)",
+        "Rifampicine (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "7.5 mg au coucher (3.75 mg chez le sujet âgé)",
+      "duree_traitement": "Maximum 4 semaines",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (3.75 mg)",
+        "insuffisant_renal": "Aucun ajustement nécessaire",
+        "insuffisant_hepatique": "Contre-indiqué en cas d'insuffisance sévère"
+      },
+      "grossesse": "Classe C - Déconseillé",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15"
+  }
+}

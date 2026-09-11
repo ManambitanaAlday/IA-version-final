@@ -1,0 +1,1712 @@
+{
+  "medicaments,": [
+    {
+      "nom": "Famotidine (Pepcid)",
+      "nom_generique,": "Famotidine,",
+      "dosage,": "20 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Anti-H2 - Inhibiteur des récepteurs H2 de l'histamine,",
+      "code_cip": "3400934573000,",
+      "prix": 6.8,
+      "stock_actuel,": 8,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F1 - Étagère 2,",
+      "maladies_associees,": [
+        "Reflux gastro-œsophagien (RGO)",
+        "Ulcère gastroduodénal,",
+        "Œsophagite,",
+        "Dyspepsie,",
+        "Prévention des ulcères (AINS)",
+        "Syndrome de Zollinger-Ellison,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Cimétidine (Tagamet)",
+          "dosage,": "200 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Anti-H2 alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Interactions médicamenteuses (CYP450)",
+            "Risque de gynécomastie (usage prolongé)",
+            "Surveillance rénale,"
+          ],
+          "instructions,": "200-400 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Reflux gastro-œsophagien,",
+            "Ulcère,",
+            "Dyspepsie,"
+          ]
+        },
+        {
+          "nom": "Ranitidine (Zantac)",
+          "dosage,": "150 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Anti-H2 alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Risque de cancer (controversé - retrait du marché dans certains pays)",
+            "Surveillance rénale,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "150 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Reflux gastro-œsophagien,",
+            "Ulcère,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la famotidine,",
+        "Allergie aux anti-H2,",
+        "Grossesse (1er trimestre)",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Céphalées,",
+        "Vertiges,",
+        "Troubles digestifs (constipation, diarrhée)",
+        "Fatigue,",
+        "Éruptions cutanées (rare)"
+      ],
+      "interactions,": [
+        "Anticoagulants (risque hémorragique)",
+        "Antifongiques (diminution de l'absorption)",
+        "Phénytoïne (toxicité majorée)",
+        "Warfarine (risque hémorragique)"
+      ],
+      "posologie_standard": "20-40 mg 1-2 fois par jour,",
+      "duree_traitement,": "4-8 semaines,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance rénale,",
+        "insuffisant_renal,": "Réduire la dose,",
+        "insuffisant_hepatique,": "Pas d'ajustement,"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Fénofibrate (Lipanthyl)",
+      "nom_generique,": "Fénofibrate,",
+      "dosage,": "145 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Hypolipémiant - Fibrate,",
+      "code_cip": "3400934573010,",
+      "prix": 18.6,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F2 - Étagère 1,",
+      "maladies_associees,": [
+        "Hypertriglycéridémie,",
+        "Dyslipidémie mixte,",
+        "Hypercholestérolémie (en association)",
+        "Prévention cardiovasculaire,",
+        "Diabète de type 2 (en association)",
+        "Syndrome métabolique,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Bézafibrate (Befizal)",
+          "dosage,": "200 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Fibrate alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Surveillance hépatique,",
+            "Risque de myopathie,",
+            "Surveillance rénale,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "200 mg 3 fois par jour,",
+          "maladies_associees,": [
+            "Hypertriglycéridémie,",
+            "Dyslipidémie,"
+          ]
+        },
+        {
+          "nom": "Gémfibrozil (Lopid)",
+          "dosage,": "300 mg",
+          "forme,": "Gélule,",
+          "quantite,": "30 gélules,",
+          "raison,": "Fibrate alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance hépatique,",
+            "Risque de myopathie,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "300 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Hypertriglycéridémie,",
+            "Dyslipidémie mixte,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au fénofibrate,",
+        "Allergie aux fibrates,",
+        "Insuffisance hépatique sévère,",
+        "Insuffisance rénale sévère,",
+        "Grossesse,",
+        "Allaitement,",
+        "Maladie de la vésicule biliaire,"
+      ],
+      "effets_secondaires,": [
+        "Troubles digestifs (nausées, diarrhée)",
+        "Élévation des transaminases,",
+        "Myalgies,",
+        "Rhabdomyolyse (rare)",
+        "Lithiase biliaire (risque)"
+      ],
+      "interactions,": [
+        "Statines (risque de myopathie majoré)",
+        "Anticoagulants (risque hémorragique)",
+        "Insuline (effets majorés)",
+        "AINS (risque rénal)"
+      ],
+      "posologie_standard": "145 mg 1 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance hépatique,",
+        "insuffisant_renal,": "Contre-indiqué",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Fentanyl (Durogesic)",
+      "nom_generique,": "Fentanyl,",
+      "dosage,": "25 µg/h",
+      "forme,": "Patch transdermique,",
+      "quantite,": "5 patches,",
+      "famille,": "Antalgique - Opiacé - Analgésique morphinique,",
+      "code_cip": "3400934573020,",
+      "prix": 45.6,
+      "stock_actuel,": 2,
+      "seuil_alerte,": 2,
+      "emplacement,": "Rayon F3 - Étagère 1 (Sous clé, armoire sécurisée)",
+      "maladies_associees,": [
+        "Douleurs chroniques sévères,",
+        "Douleurs cancéreuses,",
+        "Douleurs neuropathiques,",
+        "Douleurs post-opératoires chroniques,",
+        "Douleurs rhumatismales sévères,",
+        "Douleurs réfractaires,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Morphine (Morphine LP)",
+          "dosage,": "10 mg",
+          "forme,": "Comprimé à libération prolongée,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Antalgique opioïde alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Risque de dépendance,",
+            "Risque de constipation (très fréquent)",
+            "Risque de somnolence,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "10-30 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Douleurs chroniques,",
+            "Douleurs cancéreuses,"
+          ]
+        },
+        {
+          "nom": "Oxycodone (Oxynorm)",
+          "dosage,": "10 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Antalgique opioïde alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Risque de dépendance,",
+            "Risque de constipation,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "10-20 mg 2-3 fois par jour,",
+          "maladies_associees,": [
+            "Douleurs chroniques,",
+            "Douleurs cancéreuses,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au fentanyl,",
+        "Allergie aux opiacés,",
+        "Insuffisance respiratoire,",
+        "Asthme sévère,",
+        "Grossesse,",
+        "Allaitement,",
+        "Alcoolisme,"
+      ],
+      "effets_secondaires,": [
+        "Dépendance (risque élevé)",
+        "Constipation (très fréquent)",
+        "Somnolence,",
+        "Nausées,",
+        "Vomissements,",
+        "Dépression respiratoire,",
+        "Syndrome de sevrage,"
+      ],
+      "interactions,": [
+        "Alcool (sédation majorée - RISQUE MORTEL)",
+        "Dépresseurs du SNC (effets majorés)",
+        "Antihistaminiques (effets majorés)",
+        "IMAO (risque de syndrome sérotoninergique)",
+        "Benzodiazépines (risque de dépression respiratoire)"
+      ],
+      "posologie_standard": "25-100 µg/h patch transdermique,",
+      "duree_traitement,": "Traitement au long cours (72h par patch)",
+      "population_specifique,": {
+        "personne_agee,": "Débuter à 12.5 µg/h",
+        "insuffisant_renal,": "Surveillance rénale,",
+        "insuffisant_hepatique,": "Surveillance hépatique,"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué",
+      "substance_controlee,": true,
+      "ordonnance,": "Liste I (Stupéfiant)"
+    },
+    {
+      "nom": "Férédox (Fer + Acide folique)",
+      "nom_generique,": "Fer + Acide folique,",
+      "dosage,": "80 mg + 0.35 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Supplément - Fer,",
+      "code_cip": "3400934573030,",
+      "prix": 4.2,
+      "stock_actuel,": 10,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F4 - Étagère 3,",
+      "maladies_associees,": [
+        "Anémie ferriprive,",
+        "Carence en fer,",
+        "Prévention de l'anémie (grossesse)",
+        "Prévention de l'anémie (post-hémorragique)",
+        "Carence en acide folique,",
+        "Anémie mégaloblastique (en association)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Fer (Férograde)",
+          "dosage,": "80 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Supplément de fer seul,",
+          "confiance,": 0.95,
+          "precautions,": [
+            "Prendre à distance des repas (absorption optimale)",
+            "Risque de constipation,",
+            "Coloration des selles (noir)"
+          ],
+          "instructions,": "80 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Anémie ferriprive,",
+            "Carence en fer,"
+          ]
+        },
+        {
+          "nom": "Fer + Vitamine C (Fer + Vitamine C)",
+          "dosage,": "80 mg + 100 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Suppléméntation avec vitamine C pour améliorer l'absorption,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Prendre à distance des repas,",
+            "Risque de constipation,",
+            "Interactions avec la tétracycline,"
+          ],
+          "instructions,": "80 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Anémie ferriprive,",
+            "Carence en fer,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au fer,",
+        "Allergie à l'acide folique,",
+        "Hémochromatose,",
+        "Surcharge en fer,",
+        "Anémie non ferriprive,",
+        "Thalassémie,"
+      ],
+      "effets_secondaires,": [
+        "Constipation (fréquent)",
+        "Nausées,",
+        "Vomissements,",
+        "Coloration des selles (noir)",
+        "Douleurs abdominales,",
+        "Diarrhée (rare)"
+      ],
+      "interactions,": [
+        "Antiacides (diminution de l'absorption)",
+        "Tétracycline (diminution de l'absorption)",
+        "Lévothyroxine (diminution de l'absorption)",
+        "Aliments (diminution de l'absorption)"
+      ],
+      "posologie_standard": "80 mg + 0.35 mg 1-2 fois par jour,",
+      "duree_traitement,": "3-6 mois,",
+      "population_specifique,": {
+        "grossesse,": "Utilisation possible,",
+        "personne_agee,": "Surveillance digestive,",
+        "insuffisant_renal,": "Pas d'ajustement,"
+      },
+      "grossesse,": "Utilisation possible,",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Ferriné (Sulfate ferreux)",
+      "nom_generique,": "Sulfate ferreux",
+      "dosage,": "50 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Supplément - Fer,",
+      "code_cip": "3400934573040,",
+      "prix": 3.8,
+      "stock_actuel,": 8,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F5 - Étagère 2,",
+      "maladies_associees,": [
+        "Anémie ferriprive,",
+        "Carence en fer,",
+        "Prévention de l'anémie,",
+        "Anémie post-hémorragique,",
+        "Anémie du prématuré"
+      ],
+      "substituts,": [
+        {
+          "nom": "Fer (Férograde)",
+          "dosage,": "80 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Suppléméntation en fer,",
+          "confiance,": 0.95,
+          "precautions,": [
+            "Prendre à distance des repas,",
+            "Risque de constipation,",
+            "Coloration des selles (noir)"
+          ],
+          "instructions,": "80 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Anémie ferriprive,",
+            "Carence en fer,"
+          ]
+        },
+        {
+          "nom": "Férédox (Fer + Acide folique)",
+          "dosage,": "80 mg + 0.35 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Suppléméntation avec acide folique,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Prendre à distance des repas,",
+            "Risque de constipation,"
+          ],
+          "instructions,": "80 mg + 0.35 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Anémie ferriprive,",
+            "Carence en fer,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au fer,",
+        "Hémochromatose,",
+        "Surcharge en fer,",
+        "Anémie non ferriprive,"
+      ],
+      "effets_secondaires,": [
+        "Constipation,",
+        "Nausées,",
+        "Coloration des selles (noir)",
+        "Douleurs abdominales,"
+      ],
+      "interactions,": [
+        "Antiacides (diminution de l'absorption)",
+        "Tétracycline (diminution de l'absorption)",
+        "Lévothyroxine (diminution de l'absorption)"
+      ],
+      "posologie_standard": "50-100 mg 1-2 fois par jour,",
+      "duree_traitement,": "3-6 mois,",
+      "population_specifique,": {
+        "grossesse,": "Utilisation possible,",
+        "personne_agee,": "Surveillance digestive,"
+      },
+      "grossesse,": "Utilisation possible,",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Finastéride (Proscar)",
+      "nom_generique,": "Finastéride,",
+      "dosage,": "5 mg",
+      "forme,": "Comprimé pelliculé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Inhibiteur de la 5-alpha réductase - Traitement de l'hypertrophie bénigne de la prostate,",
+      "code_cip": "3400934573050,",
+      "prix": 28.4,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F6 - Étagère 1 (Sous clé)",
+      "maladies_associees,": [
+        "Hypertrophie bénigne de la prostate (HBP)",
+        "Adénome de la prostate,",
+        "Alopécie androgénétique (à 1 mg)",
+        "Hyperplasie bénigne de la prostate,",
+        "Prévention des complications de l'HBP (rétention urinaire)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Dutastéride (Avodart)",
+          "dosage,": "0.5 mg",
+          "forme,": "Gélule,",
+          "quantite,": "30 gélules,",
+          "raison,": "Inhibiteur de la 5-alpha réductase de type II",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Risque de troubles sexuels (diminution de la libido)",
+            "Risque de gynécomastie,",
+            "Ne pas manipuler par les femmes enceintes,"
+          ],
+          "instructions,": "0.5 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Hypertrophie bénigne de la prostate,",
+            "Alopécie androgénétique,"
+          ]
+        },
+        {
+          "nom": "Tamsulosine (Omex)",
+          "dosage,": "0.4 mg",
+          "forme,": "Gélule,",
+          "quantite,": "30 gélules,",
+          "raison,": "Alpha-bloquant pour l'HBP",
+          "confiance,": 0.8,
+          "precautions,": [
+            "Risque d'hypotension orthostatique,",
+            "Risque de troubles sexuels (éjaculation rétrograde)",
+            "Ne pas utiliser en cas d'insuffisance hépatique sévère,"
+          ],
+          "instructions,": "0.4 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Hypertrophie bénigne de la prostate,",
+            "Symptômes urinaires de l'HBP"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la finastéride,",
+        "Allergie aux inhibiteurs de la 5-alpha réductase,",
+        "Grossesse (contre-indiqué chez la femme enceinte - risque de malformations)",
+        "Allaitement,",
+        "Insuffisance hépatique sévère,"
+      ],
+      "effets_secondaires,": [
+        "Troubles sexuels (diminution de la libido, troubles de l'érection)",
+        "Gynécomastie (1-2%)",
+        "Troubles digestifs,",
+        "Éruption cutanée,",
+        "Céphalées,"
+      ],
+      "interactions,": [
+        "Antihypertenseurs (effets majorés)",
+        "Antibiotiques (interactions)",
+        "Antifongiques (interactions)"
+      ],
+      "posologie_standard": "5 mg 1 fois par jour,",
+      "duree_traitement,": "Traitement au long cours (3-6 mois pour effet complet)",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance des troubles sexuels,",
+        "insuffisant_renal,": "Pas d'ajustement,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué (contraception obligatoire pour les femmes en âge de procréer)",
+      "allaitement,": "Contre-indiqué",
+      "substance_controlee,": true,
+      "ordonnance,": "Liste I"
+    },
+    {
+      "nom": "Flagyl (Métronidazole)",
+      "nom_generique,": "Métronidazole,",
+      "dosage,": "500 mg",
+      "forme,": "Comprimé",
+      "quantite,": "20 comprimés,",
+      "famille,": "Antibiotique - Antiprotozoaire - Nitroimidazole,",
+      "code_cip": "3400934573060,",
+      "prix": 8.2,
+      "stock_actuel,": 6,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F7 - Étagère 2,",
+      "maladies_associees,": [
+        "Infections anaérobies,",
+        "Infections gynécologiques (vaginose bactérienne)",
+        "Infections ORL (sinusite)",
+        "Infections dentaires (abcès)",
+        "Infections digestives (diarrhée infectieuse)",
+        "Infection à Helicobacter pylori (en association)",
+        "Infection à Trichomonas,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Tinidazole (Fasigyne)",
+          "dosage,": "500 mg",
+          "forme,": "Comprimé",
+          "quantite,": "20 comprimés,",
+          "raison,": "Nitroimidazole alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Interactions avec l'alcool (effet antabuse)",
+            "Surveillance neurologique,",
+            "Risque de neuropathie périphérique,"
+          ],
+          "instructions,": "500 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Infections anaérobies,",
+            "Vaginose bactérienne,",
+            "Infections dentaires,"
+          ]
+        },
+        {
+          "nom": "Céfuroxime (Zinnat)",
+          "dosage,": "250 mg",
+          "forme,": "Comprimé",
+          "quantite,": "20 comprimés,",
+          "raison,": "Antibiotique alternatif pour certaines infections,",
+          "confiance,": 0.7,
+          "precautions,": [
+            "Vérifier les allergies aux pénicillines,",
+            "Surveillance rénale,"
+          ],
+          "instructions,": "250 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Sinusite,",
+            "Infection ORL",
+            "Infection urinaire,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au métronidazole,",
+        "Allergie aux nitroimidazoles,",
+        "Grossesse (1er trimestre)",
+        "Allaitement,",
+        "Insuffisance hépatique sévère,"
+      ],
+      "effets_secondaires,": [
+        "Troubles digestifs (nausées, vomissements)",
+        "Goût métallique,",
+        "Céphalées,",
+        "Vertiges,",
+        "Neuropathie périphérique (usage prolongé)",
+        "Effet antabuse (avec l'alcool)"
+      ],
+      "interactions,": [
+        "Alcool (effet antabuse - RISQUE MORTEL)",
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (toxicité majorée)",
+        "Phénytoïne (toxicité majorée)",
+        "Cimétidine (diminution de l'élimination)"
+      ],
+      "posologie_standard": "500 mg 3 fois par jour,",
+      "duree_traitement,": "7-10 jours,",
+      "population_specifique,": {
+        "insuffisant_renal,": "Réduire la dose,",
+        "insuffisant_hepatique,": "Contre-indiqué",
+        "personne_agee,": "Surveillance neurologique,"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Fluconazole (Triflucan)",
+      "nom_generique,": "Fluconazole,",
+      "dosage,": "150 mg",
+      "forme,": "Gélule,",
+      "quantite,": "1 gélule,",
+      "famille,": "Antifongique - Triazolé",
+      "code_cip": "3400934573070,",
+      "prix": 6.4,
+      "stock_actuel,": 12,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F8 - Étagère 1,",
+      "maladies_associees,": [
+        "Candidose vulvo-vaginale,",
+        "Mycose vaginale,",
+        "Candidose oropharyngée (muguet)",
+        "Infections fongiques cutanées,",
+        "Candidose systémique,",
+        "Cryptococcose,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Itraconazole (Sporanox)",
+          "dosage,": "200 mg",
+          "forme,": "Gélule,",
+          "quantite,": "4 gélules,",
+          "raison,": "Antifongique alternatif (triazolé)",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance hépatique,",
+            "Interactions médicamenteuses (CYP3A4)",
+            "Risque d'insuffisance cardiaque (rare)"
+          ],
+          "instructions,": "200 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Candidose,",
+            "Onychomycose,",
+            "Dermatophytose,"
+          ]
+        },
+        {
+          "nom": "Kétoconazole (Nizoral)",
+          "dosage,": "200 mg",
+          "forme,": "Comprimé",
+          "quantite,": "10 comprimés,",
+          "raison,": "Antifongique alternatif (imidazolé)",
+          "confiance,": 0.8,
+          "precautions,": [
+            "Surveillance hépatique (risque d'hépatotoxicité)",
+            "Interactions médicamenteuses,",
+            "Utilisation limitée,"
+          ],
+          "instructions,": "200 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Candidose,",
+            "Dermatophytose,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au fluconazole,",
+        "Allergie aux triazolés,",
+        "Grossesse (1er trimestre)",
+        "Allaitement,",
+        "Insuffisance hépatique sévère,"
+      ],
+      "effets_secondaires,": [
+        "Céphalées,",
+        "Troubles digestifs (nausées, diarrhée)",
+        "Élévation des transaminases,",
+        "Éruptions cutanées,",
+        "Hépatotoxicité (rare)"
+      ],
+      "interactions,": [
+        "Anticoagulants (risque hémorragique)",
+        "Phénytoïne (toxicité majorée)",
+        "Rifampicine (diminution de l'efficacité)",
+        "Cimétidine (diminution de l'efficacité)",
+        "Warfarine (risque hémorragique)"
+      ],
+      "posologie_standard": "150 mg en dose unique,",
+      "duree_traitement,": "Dose unique ou 7-14 jours,",
+      "population_specifique,": {
+        "insuffisant_renal,": "Réduire la dose,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Fluoxétine (Prozac)",
+      "nom_generique,": "Fluoxétine,",
+      "dosage,": "20 mg",
+      "forme,": "Gélule,",
+      "quantite,": "30 gélules,",
+      "famille,": "Antidépresseur - ISRS (Inhibiteur sélectif de la recapture de la sérotonine)",
+      "code_cip": "3400934573080,",
+      "prix": 12.6,
+      "stock_actuel,": 5,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F9 - Étagère 2,",
+      "maladies_associees,": [
+        "Dépression sévère,",
+        "Dépression chronique,",
+        "Troubles obsessionnels compulsifs (TOC)",
+        "Troubles paniques,",
+        "Boulimie,",
+        "Anxiété",
+        "Trouble dysphorique prémenstruel,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Sertraline (Zoloft)",
+          "dosage,": "50 mg",
+          "forme,": "Comprimé pelliculé",
+          "quantite,": "30 comprimés,",
+          "raison,": "ISRS alternatif, bon pour l'anxiété",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Risque d'hyponatrémie (personne âgée)",
+            "Interactions avec les IMAO",
+            "Surveillance de l'anxiété initiale,"
+          ],
+          "instructions,": "50-100 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Dépression,",
+            "Anxiété",
+            "TOC",
+            "Trouble panique,"
+          ]
+        },
+        {
+          "nom": "Paroxétine (Deroxat)",
+          "dosage,": "20 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "ISRS alternatif, bon pour l'anxiété et les TOC",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Risque de syndrome de sevrage (arrêt brutal)",
+            "Risque d'hyponatrémie,",
+            "Interactions avec les IMAO",
+            "Prise de poids,"
+          ],
+          "instructions,": "20-40 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Dépression,",
+            "Anxiété",
+            "TOC",
+            "Trouble panique,",
+            "Trouble dysphorique prémenstruel,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la fluoxétine,",
+        "Allergie aux ISRS",
+        "Grossesse (1er trimestre)",
+        "Allaitement,",
+        "Insuffisance hépatique sévère,",
+        "Prise d'IMAO (risque de syndrome sérotoninergique)"
+      ],
+      "effets_secondaires,": [
+        "Troubles digestifs (nausées, diarrhée)",
+        "Céphalées,",
+        "Insomnie (ou somnolence)",
+        "Anxiété initiale (1-2 semaines)",
+        "Troubles sexuels (diminution de la libido)",
+        "Prise de poids (rare)",
+        "Hyponatrémie (personne âgée)"
+      ],
+      "interactions,": [
+        "IMAO (risque de syndrome sérotoninergique - CONTRE-INDIQUÉ)",
+        "Warfarine (risque hémorragique)",
+        "Phénytoïne (toxicité majorée)",
+        "Alcool (sédation majorée)",
+        "Antidépresseurs (risque de syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "20-40 mg 1 fois par jour,",
+      "duree_traitement,": "4-6 semaines avant effet,",
+      "population_specifique,": {
+        "personne_agee,": "Débuter à 10 mg",
+        "insuffisant_renal,": "Pas d'ajustement,",
+        "insuffisant_hepatique,": "Réduire la dose,"
+      },
+      "grossesse,": "Classe C - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Flurbiprofène (Antadys)",
+      "nom_generique,": "Flurbiprofène,",
+      "dosage,": "100 mg",
+      "forme,": "Comprimé",
+      "quantite,": "20 comprimés,",
+      "famille,": "Anti-inflammatoire non stéroïdien (AINS) - Propionique,",
+      "code_cip": "3400934573090,",
+      "prix": 6.2,
+      "stock_actuel,": 7,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F10 - Étagère 1,",
+      "maladies_associees,": [
+        "Douleurs rhumatismales,",
+        "Arthrose,",
+        "Polyarthrite rhumatoïde,",
+        "Lombalgie aiguë",
+        "Tendinite,",
+        "Douleurs dentaires,",
+        "Dysménorrhée (règles douloureuses)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Ibuprofène (Brufen)",
+          "dosage,": "400 mg",
+          "forme,": "Comprimé",
+          "quantite,": "20 comprimés,",
+          "raison,": "AINS alternatif, mieux toléré digestivement,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Risque d'ulcère gastro-intestinal,",
+            "Ne pas utiliser en cas d'insuffisance rénale,",
+            "Risque cardiovasculaire (fortes doses)"
+          ],
+          "instructions,": "400 mg 3 fois par jour,",
+          "maladies_associees,": [
+            "Arthrose,",
+            "Douleurs rhumatismales,",
+            "Dysménorrhée,"
+          ]
+        },
+        {
+          "nom": "Kétoprofène (Profenid)",
+          "dosage,": "50 mg",
+          "forme,": "Gélule,",
+          "quantite,": "20 gélules,",
+          "raison,": "AINS alternatif, bonne efficacité",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Risque d'ulcère gastro-intestinal,",
+            "Risque cardiovasculaire,",
+            "Surveillance rénale,"
+          ],
+          "instructions,": "50-100 mg 2-3 fois par jour,",
+          "maladies_associees,": [
+            "Arthrose,",
+            "Douleurs rhumatismales,",
+            "Douleurs post-opératoires,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au flurbiprofène,",
+        "Allergie aux AINS",
+        "Ulcère gastroduodénal évolutif,",
+        "Insuffisance rénale sévère,",
+        "Insuffisance cardiaque sévère,",
+        "Grossesse (3ème trimestre)",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Troubles digestifs (douleurs, nausées, ulcère)",
+        "Céphalées,",
+        "Vertiges,",
+        "Risque cardiovasculaire (augmentation)",
+        "Rétention hydrosodée,",
+        "Élévation des transaminases,"
+      ],
+      "interactions,": [
+        "Anticoagulants (risque hémorragique)",
+        "Antihypertenseurs (diminution de l'effet)",
+        "Lithium (toxicité majorée)",
+        "Méthotrexate (toxicité majorée)",
+        "Diurétiques (diminution de l'effet)"
+      ],
+      "posologie_standard": "100 mg 2-3 fois par jour,",
+      "duree_traitement,": "5-7 jours,",
+      "population_specifique,": {
+        "personne_agee,": "Risque digestif majoré",
+        "insuffisant_renal,": "Contre-indiqué si sévère,",
+        "insuffisant_hepatique,": "Surveillance,"
+      },
+      "grossesse,": "Contre-indiqué (3ème trimestre)",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Fluticasone (Flixotide)",
+      "nom_generique,": "Fluticasone,",
+      "dosage,": "50 µg",
+      "forme,": "Aérosol doseur,",
+      "quantite,": "120 doses,",
+      "famille,": "Corticostéroïde inhalé - Anti-inflammatoire,",
+      "code_cip": "3400934573100,",
+      "prix": 18.4,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F11 - Étagère 1,",
+      "maladies_associees,": [
+        "Asthme bronchique,",
+        "BPCO (bronchopneumopathie chronique obstructive)",
+        "Bronchite chronique,",
+        "Asthme léger à modéré",
+        "Prévention des crises d'asthme,",
+        "Dermatite atopique (en association)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Budesonide (Pulmicort)",
+          "dosage,": "200 µg",
+          "forme,": "Aérosol doseur,",
+          "quantite,": "200 doses,",
+          "raison,": "Corticostéroïde inhalé alternatif,",
+          "confiance,": 0.95,
+          "precautions,": [
+            "Rincer la bouche après inhalation (risque de muguet)",
+            "Utilisation régulière,",
+            "Ne pas arrêter brutalement,"
+          ],
+          "instructions,": "200-400 µg 2 fois par jour,",
+          "maladies_associees,": [
+            "Asthme,",
+            "BPCO"
+          ]
+        },
+        {
+          "nom": "Béclométhasone (Becotide)",
+          "dosage,": "100 µg",
+          "forme,": "Aérosol doseur,",
+          "quantite,": "200 doses,",
+          "raison,": "Corticostéroïde inhalé alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Rincer la bouche après inhalation,",
+            "Utilisation régulière,",
+            "Risque de muguet (candidose orale)"
+          ],
+          "instructions,": "100-200 µg 2 fois par jour,",
+          "maladies_associees,": [
+            "Asthme léger à modéré",
+            "BPCO"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la fluticasone,",
+        "Allergie aux corticostéroïdes,",
+        "Infection non contrôlée,",
+        "Grossesse (1er trimestre)",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Muguet (candidose orale - rincer la bouche)",
+        "Toux (irritation locale)",
+        "Enrouement,",
+        "Risque de suppression surrénalienne (fortes doses)",
+        "Céphalées,"
+      ],
+      "interactions,": [
+        "Antifongiques (interactions)",
+        "Antibiotiques (interactions)",
+        "Bêta-2 agonistes (effets additifs)"
+      ],
+      "posologie_standard": "50-250 µg 2 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance de la fonction surrénalienne,",
+        "insuffisant_renal,": "Pas d'ajustement,",
+        "insuffisant_hepatique,": "Pas d'ajustement,"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Utilisation possible,",
+      "instructions_specifiques,": "Rincer la bouche après inhalation,"
+    },
+    {
+      "nom": "Fluticasone + Salmétérol (Seretide)",
+      "nom_generique,": "Fluticasone + Salmétérol,",
+      "dosage,": "50 µg + 25 µg",
+      "forme,": "Aérosol doseur,",
+      "quantite,": "120 doses,",
+      "famille,": "Corticostéroïde + Bêta-2 agoniste,",
+      "code_cip": "3400934573110,",
+      "prix": 38.6,
+      "stock_actuel,": 3,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F12 - Étagère 1,",
+      "maladies_associees,": [
+        "Asthme bronchique sévère,",
+        "BPCO (bronchopneumopathie chronique obstructive)",
+        "Asthme modéré à sévère,",
+        "Bronchite chronique,",
+        "Asthme non contrôlé par corticostéroïde seul,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Budesonide + Formotérol (Symbicort)",
+          "dosage,": "160 µg + 4.5 µg",
+          "forme,": "Aérosol doseur,",
+          "quantite,": "120 doses,",
+          "raison,": "Association corticostéroïde + bêta-2 agoniste,",
+          "confiance,": 0.95,
+          "precautions,": [
+            "Rincer la bouche après inhalation,",
+            "Utilisation régulière,",
+            "Ne pas arrêter brutalement,",
+            "Surveillance cardiaque,"
+          ],
+          "instructions,": "1-2 inhalations 2 fois par jour,",
+          "maladies_associees,": [
+            "Asthme sévère,",
+            "BPCO"
+          ]
+        },
+        {
+          "nom": "Béclométhasone + Formotérol (Foster)",
+          "dosage,": "100 µg + 6 µg",
+          "forme,": "Aérosol doseur,",
+          "quantite,": "120 doses,",
+          "raison,": "Association alternative,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Rincer la bouche après inhalation,",
+            "Utilisation régulière,",
+            "Risque de muguet,"
+          ],
+          "instructions,": "1-2 inhalations 2 fois par jour,",
+          "maladies_associees,": [
+            "Asthme sévère,",
+            "BPCO"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la fluticasone,",
+        "Allergie au salmétérol,",
+        "Allergie aux corticostéroïdes,",
+        "Allergie aux bêta-2 agonistes,",
+        "Asthme non contrôlé",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires,": [
+        "Muguet (candidose orale)",
+        "Toux",
+        "Enrouement,",
+        "Tachycardie (salmétérol)",
+        "Tremblements,",
+        "Céphalées,"
+      ],
+      "interactions,": [
+        "Bêta-bloquants (antagonisme - risque de bronchospasme)",
+        "IMAO (risque de tachycardie)",
+        "Antidépresseurs (interactions)"
+      ],
+      "posologie_standard": "1-2 inhalations 2 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance cardiaque,",
+        "insuffisant_renal,": "Pas d'ajustement,",
+        "insuffisant_hepatique,": "Pas d'ajustement,"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Utilisation possible,",
+      "instructions_specifiques,": "Rincer la bouche après inhalation,"
+    },
+    {
+      "nom": "Fonction (Cilostazol)",
+      "nom_generique,": "Cilostazol,",
+      "dosage,": "100 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Vasodilatateur - Antiagrégant plaquettaire,",
+      "code_cip": "3400934573120,",
+      "prix": 35.2,
+      "stock_actuel,": 3,
+      "seuil_alerte,": 2,
+      "emplacement,": "Rayon F13 - Étagère 2,",
+      "maladies_associees,": [
+        "Artériopathie des membres inférieurs (claudication)",
+        "Claudication intermittente,",
+        "Ischémie des membres inférieurs,",
+        "Prévention des thromboses (en association)",
+        "Prévention des AVC (en association)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Pentoxifylline (Trental)",
+          "dosage,": "400 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Vasodilatateur alternatif,",
+          "confiance,": 0.8,
+          "precautions,": [
+            "Surveillance de la pression artérielle,",
+            "Risque d'hypotension,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "400 mg 3 fois par jour,",
+          "maladies_associees,": [
+            "Artériopathie des membres inférieurs,",
+            "Claudication intermittente,",
+            "Ischémie,"
+          ]
+        },
+        {
+          "nom": "Naflazone (Naphtazoline)",
+          "dosage,": "0.05%",
+          "forme,": "Collyre,",
+          "quantite,": "10 ml,",
+          "raison,": "Vasodilatateur alternatif (ophtalmologique)",
+          "confiance,": 0.6,
+          "precautions,": [
+            "Utilisation locale,",
+            "Risque d'effet rebond",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "1-2 gouttes dans l'œil,",
+          "maladies_associees,": [
+            "Irritation oculaire,",
+            "Sécheresse oculaire,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au cilostazol,",
+        "Insuffisance cardiaque sévère,",
+        "Insuffisance hépatique sévère,",
+        "Grossesse,",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Céphalées,",
+        "Troubles digestifs (diarrhée, nausées)",
+        "Palpitations,",
+        "Hypotension,",
+        "Tachycardie,"
+      ],
+      "interactions,": [
+        "Antihypertenseurs (effets additifs)",
+        "Anticoagulants (risque hémorragique)",
+        "Antifongiques (interactions)",
+        "Antibiotiques (interactions)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance cardiaque,",
+        "insuffisant_renal,": "Pas d'ajustement,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Fondation (Dipyridamole)",
+      "nom_generique,": "Dipyridamole,",
+      "dosage,": "75 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Antiagrégant plaquettaire - Vasodilatateur,",
+      "code_cip": "3400934573130,",
+      "prix": 12.4,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F14 - Étagère 2,",
+      "maladies_associees,": [
+        "Prévention des AVC",
+        "Prévention des récidives d'AIT",
+        "Prévention des thromboses,",
+        "Prévention des occlusions (en association)",
+        "Prévention des accidents ischémiques,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Clopidogrel (Plavix)",
+          "dosage,": "75 mg",
+          "forme,": "Comprimé pelliculé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Antiagrégant alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance hémorragique,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "75 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention des AVC",
+            "Prévention des infarctus,"
+          ]
+        },
+        {
+          "nom": "Aspirine 75 mg",
+          "dosage,": "75 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Antiagrégant de référence,",
+          "confiance,": 0.8,
+          "precautions,": [
+            "Risque hémorragique,",
+            "Allergie aux salicylés,"
+          ],
+          "instructions,": "75 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention cardiovasculaire,",
+            "Prévention des AVC"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au dipyridamole,",
+        "Allergie à l'aspirine (association)",
+        "Hémorragie active,",
+        "Insuffisance rénale sévère,",
+        "Grossesse,",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Céphalées,",
+        "Troubles digestifs,",
+        "Vertiges,",
+        "Nausées,",
+        "Risque hémorragique,"
+      ],
+      "interactions,": [
+        "Anticoagulants (risque hémorragique majoré)",
+        "Antihypertenseurs (effets additifs)",
+        "AINS (risque hémorragique majoré)"
+      ],
+      "posologie_standard": "75 mg 2-3 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance hémorragique,",
+        "insuffisant_renal,": "Surveillance rénale,"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Forlax (Macrogol)",
+      "nom_generique,": "Macrogol,",
+      "dosage,": "10 g",
+      "forme,": "Sachet,",
+      "quantite,": "20 sachets,",
+      "famille,": "Laxatif osmotique,",
+      "code_cip": "3400934573140,",
+      "prix": 6.2,
+      "stock_actuel,": 10,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F15 - Étagère 3,",
+      "maladies_associees,": [
+        "Constipation,",
+        "Constipation chronique,",
+        "Constipation sévère,",
+        "Prévention de la constipation,",
+        "Constipation post-opératoire,",
+        "Constipation médicamenteuse,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Lactulose (Duphalac)",
+          "dosage,": "10 g/15 ml,",
+          "forme,": "Solution buvable,",
+          "quantite,": "200 ml,",
+          "raison,": "Laxatif osmotique alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Surveillance de la glycémie (diabétique)",
+            "Risque de ballonnements,",
+            "Effet en 24-48h"
+          ],
+          "instructions,": "15-30 ml 1 fois par jour,",
+          "maladies_associees,": [
+            "Constipation,",
+            "Encéphalopathie hépatique,"
+          ]
+        },
+        {
+          "nom": "Polyéthylène glycol (Macrogol 4000)",
+          "dosage,": "10 g",
+          "forme,": "Sachet,",
+          "quantite,": "20 sachets,",
+          "raison,": "Laxatif osmotique de référence,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Risque de ballonnements,",
+            "Surveillance des troubles digestifs,"
+          ],
+          "instructions,": "1 sachet 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Constipation,",
+            "Constipation chronique,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au macrogol,",
+        "Allergie au polyéthylène glycol,",
+        "Obstruction intestinale,",
+        "Douleurs abdominales aiguës,",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires,": [
+        "Ballonnements,",
+        "Flatulences,",
+        "Troubles digestifs,",
+        "Douleurs abdominales,",
+        "Nausées,"
+      ],
+      "interactions,": [
+        "Laxatifs (effets majorés)",
+        "Anti-inflammatoires (effets majorés)",
+        "Antibiotiques (interactions)"
+      ],
+      "posologie_standard": "1 sachet 1-2 fois par jour,",
+      "duree_traitement,": "5-7 jours maximum",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance des électrolytes,",
+        "insuffisant_renal,": "Surveillance des électrolytes,"
+      },
+      "grossesse,": "Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Fosfomycine (Monuril)",
+      "nom_generique,": "Fosfomycine,",
+      "dosage,": "3 g",
+      "forme,": "Sachet,",
+      "quantite,": "1 sachet,",
+      "famille,": "Antibiotique - Phosphonique,",
+      "code_cip": "3400934573150,",
+      "prix": 7.8,
+      "stock_actuel,": 8,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F16 - Étagère 2,",
+      "maladies_associees,": [
+        "Cystite aiguë (infection urinaire)",
+        "Infection urinaire non compliquée,",
+        "Bactériurie asymptomatique (en association)",
+        "Infection urinaire récurrente,",
+        "Infection urinaire de la femme enceinte,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Pipemidique (Palin)",
+          "dosage,": "200 mg",
+          "forme,": "Gélule,",
+          "quantite,": "20 gélules,",
+          "raison,": "Antibiotique alternatif pour les infections urinaires,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance rénale,",
+            "Interactions médicamenteuses,",
+            "Risque de résistance,"
+          ],
+          "instructions,": "200 mg 2 fois par jour,",
+          "maladies_associees,": [
+            "Infection urinaire,",
+            "Cystite,"
+          ]
+        },
+        {
+          "nom": "Nitrofurantoïne (Furadantine)",
+          "dosage,": "50 mg",
+          "forme,": "Gélule,",
+          "quantite,": "30 gélules,",
+          "raison,": "Antibiotique de référence pour les infections urinaires,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Surveillance rénale,",
+            "Risque de neuropathie périphérique,",
+            "Interactions médicamenteuses,"
+          ],
+          "instructions,": "50 mg 4 fois par jour,",
+          "maladies_associees,": [
+            "Infection urinaire,",
+            "Cystite,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la fosfomycine,",
+        "Allergie aux phosphoniques,",
+        "Insuffisance rénale sévère (clairance < 10 mL/min)",
+        "Grossesse (1er trimestre)",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Troubles digestifs (nausées, diarrhée)",
+        "Céphalées,",
+        "Vertiges,",
+        "Éruptions cutanées (rare)",
+        "Candidose (vulvo-vaginale)"
+      ],
+      "interactions,": [
+        "Anticoagulants (risque hémorragique)",
+        "Méthotrexate (toxicité majorée)",
+        "Contraceptifs oraux (diminution de l'efficacité)"
+      ],
+      "posologie_standard": "3 g en dose unique,",
+      "duree_traitement,": "Dose unique ou 3 jours,",
+      "population_specifique,": {
+        "insuffisant_renal,": "Contre-indiqué",
+        "personne_agee,": "Surveillance rénale,"
+      },
+      "grossesse,": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Excrété dans le lait - Surveillance,"
+    },
+    {
+      "nom": "Fucidine (Acide fusidique)",
+      "nom_generique,": "Acide fusidique,",
+      "dosage,": "2%",
+      "forme,": "Crème,",
+      "quantite,": "15 g",
+      "famille,": "Antibiotique topique - Stéroïde,",
+      "code_cip": "3400934573160,",
+      "prix": 7.4,
+      "stock_actuel,": 6,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon F17 - Étagère 3,",
+      "maladies_associees,": [
+        "Infections cutanées (impetigo, folliculite)",
+        "Infection bactérienne de la peau,",
+        "Infection des plaies,",
+        "Dermatite infectée,",
+        "Acné (en association)",
+        "Furoncle,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Mupirocine (Bactroban)",
+          "dosage,": "2%",
+          "forme,": "Crème,",
+          "quantite,": "15 g",
+          "raison,": "Antibiotique topique alternatif,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Application locale,",
+            "Ne pas utiliser sur les muqueuses,",
+            "Surveillance des allergies,"
+          ],
+          "instructions,": "Appliquer 2-3 fois par jour,",
+          "maladies_associees,": [
+            "Impetigo",
+            "Infections cutanées,",
+            "Folliculite,"
+          ]
+        },
+        {
+          "nom": "Clindamycine (Dalacine)",
+          "dosage,": "1%",
+          "forme,": "Crème,",
+          "quantite,": "15 g",
+          "raison,": "Antibiotique topique alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Application locale,",
+            "Surveillance des allergies,",
+            "Ne pas utiliser sur les muqueuses,"
+          ],
+          "instructions,": "Appliquer 2 fois par jour,",
+          "maladies_associees,": [
+            "Acné",
+            "Infections cutanées,",
+            "Folliculite,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à l'acide fusidique,",
+        "Allergie à la fusidine,",
+        "Infection fongique (non traitée)",
+        "Grossesse (1er trimestre)",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Irritation locale,",
+        "Prurit,",
+        "Brûlure (application)",
+        "Réaction allergique (rare)"
+      ],
+      "interactions,": [
+        "Autres antibiotiques topiques (effets majorés)",
+        "Corticostéroïdes topiques (effets majorés)"
+      ],
+      "posologie_standard": "Appliquer 2-3 fois par jour,",
+      "duree_traitement,": "7-10 jours,",
+      "population_specifique,": {
+        "enfant,": "Surveillance des allergies,"
+      },
+      "grossesse,": "Utilisation possible (sauf 1er trimestre)",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Furosémide (Lasilix)",
+      "nom_generique,": "Furosémide,",
+      "dosage,": "40 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Diurétique - Diurétique de l'anse,",
+      "code_cip": "3400934573170,",
+      "prix": 4.2,
+      "stock_actuel,": 10,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F18 - Étagère 1,",
+      "maladies_associees,": [
+        "Insuffisance cardiaque (œdèmes)",
+        "Insuffisance rénale,",
+        "Œdèmes d'origine cardiaque,",
+        "Hypertension artérielle (en association)",
+        "Syndrome néphrotique,",
+        "Cirrhose hépatique (ascite)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Torasémide (Torsemide)",
+          "dosage,": "10 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Diurétique de l'anse alternatif, meilleure biodisponibilité",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Surveillance électrolytique,",
+            "Surveillance de la kaliémie,",
+            "Risque d'hypotension,"
+          ],
+          "instructions,": "10 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Insuffisance cardiaque,",
+            "Hypertension,",
+            "Œdèmes,"
+          ]
+        },
+        {
+          "nom": "Bumétanide (Burinex)",
+          "dosage,": "1 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Diurétique de l'anse alternatif,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance électrolytique,",
+            "Surveillance de la kaliémie,",
+            "Risque d'hypotension,"
+          ],
+          "instructions,": "1 mg 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Insuffisance cardiaque,",
+            "Hypertension,",
+            "Œdèmes,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au furosémide,",
+        "Allergie aux sulfamides (risque croisé)",
+        "Insuffisance rénale sévère (anurie)",
+        "Insuffisance hépatique sévère,",
+        "Hypokaliémie sévère,",
+        "Grossesse,",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Hypokaliémie (risque)",
+        "Hypotension,",
+        "Déshydratation,",
+        "Hyperglycémie,",
+        "Hyperuricémie,",
+        "Troubles digestifs,",
+        "Ototoxicité (rare)"
+      ],
+      "interactions,": [
+        "AINS (diminution de l'effet, risque rénal)",
+        "Lithium (toxicité augmentée)",
+        "Antihypertenseurs (effet additif)",
+        "Digoxine (toxicité majorée en cas d'hypokaliémie)",
+        "Corticostéroïdes (risque d'hypokaliémie)"
+      ],
+      "posologie_standard": "40-80 mg 1 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance électrolytique,",
+        "insuffisant_renal,": "Ajustement de la dose,",
+        "insuffisant_hepatique,": "Surveillance,"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    },
+    {
+      "nom": "Furosémide (Lasilix) 20 mg",
+      "nom_generique,": "Furosémide,",
+      "dosage,": "20 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Diurétique - Diurétique de l'anse,",
+      "code_cip": "3400934573180,",
+      "prix": 3.6,
+      "stock_actuel,": 8,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F19 - Étagère 1,",
+      "maladies_associees,": [
+        "Hypertension artérielle légère,",
+        "Insuffisance cardiaque (œdèmes)",
+        "Insuffisance rénale,",
+        "Œdèmes d'origine cardiaque,",
+        "Syndrome néphrotique,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Furosémide 40 mg",
+          "dosage,": "40 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Dosage plus fort, même principe actif,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Surveillance électrolytique,",
+            "Surveillance de la kaliémie,",
+            "Risque d'hypotension,"
+          ],
+          "instructions,": "40 mg 1 fois par jour,",
+          "maladies_associees,": [
+            "Insuffisance cardiaque,",
+            "Hypertension,",
+            "Œdèmes,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au furosémide,",
+        "Allergie aux sulfamides,",
+        "Insuffisance rénale sévère,",
+        "Insuffisance hépatique sévère,",
+        "Hypokaliémie sévère,"
+      ],
+      "effets_secondaires,": [
+        "Hypokaliémie,",
+        "Hypotension,",
+        "Déshydratation,",
+        "Hyperglycémie,",
+        "Hyperuricémie,"
+      ],
+      "interactions,": [
+        "AINS (diminution de l'effet)",
+        "Lithium (toxicité augmentée)",
+        "Antihypertenseurs (effet additif)",
+        "Digoxine (toxicité majorée)"
+      ],
+      "posologie_standard": "20-40 mg 1 fois par jour,",
+      "duree_traitement,": "Traitement au long cours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance électrolytique,",
+        "insuffisant_renal,": "Ajustement de la dose,"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Passage dans le lait - Éviter,"
+    }
+  ],
+  "metadata,": {
+    "version,": "6.0,",
+    "date_generation,": "2024-01-15,",
+    "nombre_medicaments,": 120,
+    "nombre_substituts,": 275,
+    "categories,": [
+      "Anti-H2,",
+      "Hypolipémiant - Fibrate,",
+      "Antalgique - Opiacé",
+      "Supplément - Fer,",
+      "Inhibiteur 5-alpha réductase,",
+      "Antibiotique - Nitroimidazole,",
+      "Antifongique - Triazolé",
+      "Antidépresseur - ISRS",
+      "AINS",
+      "Corticostéroïde inhalé",
+      "Corticostéroïde + Bêta-2 agoniste,",
+      "Vasodilatateur - Antiagrégant,",
+      "Laxatif osmotique,",
+      "Antibiotique - Phosphonique,",
+      "Antibiotique topique,",
+      "Diurétique de l'anse,"
+    ],
+    "auteur,": "Assistant Pharmacie - Système RAG",
+    "source,": "Base de données pharmaceutique complète - Médicaments en F",
+    "notes,": "JSON optimisé pour RAG - Médicaments en F (18 nouveaux médicaments)",
+    "taille_totale,": "120 médicaments uniques + 275 substituts,",
+    "mise_a_jour,": "2024-01-15,"
+  }
+}

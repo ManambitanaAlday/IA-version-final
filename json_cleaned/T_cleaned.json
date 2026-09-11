@@ -1,0 +1,1073 @@
+{
+  "medicaments": [
+    {
+      "nom": "Tahor",
+      "nom_generique": "Atorvastatine",
+      "dosage": "10 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Hypolipidémiant (statine)",
+      "code_cip": "3400986789012",
+      "prix": 24.5,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Hypercholestérolémie",
+        "Prévention cardiovasculaire",
+        "Post-infarctus",
+        "Artériopathie"
+      ],
+      "substituts": [
+        {
+          "nom": "Atorvastatine (générique)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hépatique (transaminases)",
+            "Surveillance musculaire (CPK)",
+            "Prise le soir"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        },
+        {
+          "nom": "Simvastatine",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'atorvastatine",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Myalgies",
+        "Augmentation des transaminases",
+        "Rhabdomyolyse (rare)",
+        "Céphalées",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Fibrates (risque myopathie)",
+        "Anticoagulants (risque hémorragique)",
+        "Pamplemousse (augmentation concentration)"
+      ],
+      "posologie_standard": "10 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tanakan",
+      "nom_generique": "Extrait de Ginkgo biloba",
+      "dosage": "40 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vasodilatateur - Phlébotonique",
+      "code_cip": "3400987890123",
+      "prix": 7.8,
+      "stock_actuel": 12,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Insuffisance veineuse",
+        "Jambes lourdes",
+        "Troubles cognitifs légers",
+        "Acouphènes",
+        "Vertiges d'origine vasculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Ginkgo biloba (générique)",
+          "dosage": "40 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque hémorragique si associé à anticoagulants",
+            "Arrêt avant chirurgie (10 jours)",
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Troubles veineux",
+            "Troubles cognitifs"
+          ]
+        },
+        {
+          "nom": "Ginkor Fort",
+          "dosage": "60 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif, dosage différent",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque hémorragique"
+          ],
+          "instructions": "1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Insuffisance veineuse"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au Ginkgo biloba",
+        "Troubles de la coagulation",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs",
+        "Céphalées",
+        "Risque hémorragique (exceptionnel)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Antiplaquettaires (risque hémorragique)",
+        "AINS (risque hémorragique)"
+      ],
+      "posologie_standard": "1 comprimé 3 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Dose identique",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tégrétol",
+      "nom_generique": "Carbamazépine",
+      "dosage": "200 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Antiépileptique - Anticonvulsivant",
+      "code_cip": "3400988901234",
+      "prix": 26.8,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Épilepsie (crises partielles)",
+        "Épilepsie tonico-clonique",
+        "Névralgie du trijumeau",
+        "Troubles bipolaires",
+        "Douleurs neuropathiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Carbamazépine (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique",
+            "Surveillance de la concentration sanguine",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Épilepsie",
+            "Névralgie du trijumeau"
+          ]
+        },
+        {
+          "nom": "Oxcarbazépine (Trileptal)",
+          "dosage": "300 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Dérivé de la carbamazépine, meilleure tolérance",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance de la natrémie"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Épilepsie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la carbamazépine",
+        "Allergie aux antidépresseurs tricycliques",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Vertiges",
+        "Somnolence",
+        "Nausées",
+        "Rash cutané (syndrome de Stevens-Johnson)",
+        "Agranulocytose (rare)",
+        "Hépatotoxicité (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (diminution effet)",
+        "Antipsychotiques (diminution efficacité)",
+        "Contraceptifs oraux (diminution efficacité)"
+      ],
+      "posologie_standard": "200-600 mg 2-3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Topalgic",
+      "nom_generique": "Tramadol",
+      "dosage": "50 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Antalgique opioïde (analgésique)",
+      "code_cip": "3400989012345",
+      "prix": 15.8,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Douleurs modérées à sévères",
+        "Douleurs post-opératoires",
+        "Douleurs chroniques",
+        "Douleurs cancéreuses",
+        "Douleurs musculo-squelettiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Tramadol (générique)",
+          "dosage": "50 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Risque de convulsions",
+            "Surveillance respiratoire",
+            "Ne pas dépasser 400 mg/jour"
+          ],
+          "instructions": "1 gélule 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        },
+        {
+          "nom": "Tramadol LP",
+          "dosage": "100 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, libération prolongée",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas écraser",
+            "Risque de dépendance"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs chroniques"
+          ]
+        },
+        {
+          "nom": "Paracétamol + Codéine (Klipal)",
+          "dosage": "500 mg / 30 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Antalgique opioïde de palier 2",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de dépendance",
+            "Risque de constipation"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au tramadol",
+        "Allergie aux opioïdes",
+        "Dépression respiratoire",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Constipation (fréquent)",
+        "Vertiges",
+        "Somnolence",
+        "Dépendance",
+        "Convulsions (risque)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation)",
+        "IMAO (syndrome sérotoninergique)",
+        "Antidépresseurs sérotoninergiques"
+      ],
+      "posologie_standard": "50 mg 3-4 fois par jour",
+      "duree_traitement": "Courte durée",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - Utiliser si bénéfice > risque",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tranxène",
+      "nom_generique": "Clorazépate dipotassique",
+      "dosage": "5 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Anxiolytique (benzodiazépine)",
+      "code_cip": "3400980123456",
+      "prix": 17.6,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Anxiété sévère",
+        "Troubles anxieux",
+        "États d'agitation",
+        "Insomnie (faible dose)"
+      ],
+      "substituts": [
+        {
+          "nom": "Clorazépate (générique)",
+          "dosage": "5 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Arrêt progressif",
+            "Surveillance de la somnolence",
+            "Durée limitée (2-4 semaines)"
+          ],
+          "instructions": "1 gélule 2-3 fois par jour",
+          "maladies_associees": [
+            "Anxiété"
+          ]
+        },
+        {
+          "nom": "Bromazépam (Lexomil)",
+          "dosage": "6 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Surveillance de la somnolence"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Anxiété"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au clorazépate",
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire",
+        "Apnée du sommeil",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Dépendance",
+        "Troubles de mémoire",
+        "Syndrome de sevrage à l'arrêt"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée - risque vital)",
+        "Morphiniques (sédation majorée)",
+        "Antihistaminiques (sédation majorée)"
+      ],
+      "posologie_standard": "5 mg 2-3 fois par jour",
+      "duree_traitement": "2-4 semaines max",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (2.5 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Triflucan",
+      "nom_generique": "Fluconazole",
+      "dosage": "150 mg",
+      "forme": "Gélule",
+      "quantite": "1 gélule",
+      "famille": "Antifongique (triazolé)",
+      "code_cip": "3400981234567",
+      "prix": 12.4,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Candidose vulvo-vaginale",
+        "Candidose cutanée",
+        "Mycoses systémiques",
+        "Cryptococcose",
+        "Candidose orale"
+      ],
+      "substituts": [
+        {
+          "nom": "Fluconazole (générique)",
+          "dosage": "150 mg",
+          "forme": "Gélule",
+          "quantite": "1 gélule",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance cardiaque (QT)",
+            "Interactions médicamenteuses nombreuses"
+          ],
+          "instructions": "1 gélule en dose unique",
+          "maladies_associees": [
+            "Candidose"
+          ]
+        },
+        {
+          "nom": "Nystatine",
+          "dosage": "100 000 UI",
+          "forme": "Comprimé vaginal",
+          "quantite": "10 comprimés",
+          "raison": "Antifongique local",
+          "confiance": 0.7,
+          "precautions": [
+            "Traitement local uniquement"
+          ],
+          "instructions": "1 comprimé vaginal par jour",
+          "maladies_associees": [
+            "Candidose vulvo-vaginale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au fluconazole",
+        "Allergie aux triazolés",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs",
+        "Hépatotoxicité (rare)",
+        "Allongement du QT"
+      ],
+      "interactions": [
+        "Anticoagulants (augmentation INR)",
+        "Sulfamides hypoglycémiants (hypoglycémie)",
+        "Ciclosporine (augmentation concentration)"
+      ],
+      "posologie_standard": "150 mg dose unique",
+      "duree_traitement": "1 jour (renouvelable)",
+      "population_specifique": {
+        "personne_agee": "Surveillance hépatique",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tramadol LP",
+      "nom_generique": "Tramadol à libération prolongée",
+      "dosage": "100 mg",
+      "forme": "Comprimé LP",
+      "quantite": "30 comprimés",
+      "famille": "Antalgique opioïde (analgésique)",
+      "code_cip": "3400982345678",
+      "prix": 22.6,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Douleurs chroniques sévères",
+        "Douleurs cancéreuses",
+        "Douleurs neuropathiques",
+        "Douleurs post-opératoires sévères"
+      ],
+      "substituts": [
+        {
+          "nom": "Tramadol LP (générique)",
+          "dosage": "100 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de dépendance",
+            "Ne pas écraser",
+            "Surveillance respiratoire",
+            "Ne pas dépasser la dose prescrite"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs chroniques"
+          ]
+        },
+        {
+          "nom": "Morphine LP (Skenan)",
+          "dosage": "10 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Opioïde de palier 3",
+          "confiance": 0.7,
+          "precautions": [
+            "Risque de dépendance élevé",
+            "Surveillance respiratoire"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au tramadol",
+        "Allergie aux opioïdes",
+        "Dépression respiratoire",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Constipation (fréquent)",
+        "Nausées",
+        "Vertiges",
+        "Somnolence",
+        "Dépendance",
+        "Convulsions (risque)"
+      ],
+      "interactions": [
+        "Alcool (sédation)",
+        "Benzodiazépines (sédation)",
+        "IMAO (syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "100 mg 2 fois par jour",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - Utiliser si bénéfice > risque",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tildiem",
+      "nom_generique": "Diltiazem",
+      "dosage": "60 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Inhibiteur calcique (antihypertenseur)",
+      "code_cip": "3400983456789",
+      "prix": 25.4,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Angine de poitrine",
+        "Tachycardie supraventriculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Diltiazem (générique)",
+          "dosage": "60 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension artérielle",
+            "Surveillance cardiaque",
+            "Ne pas associer aux bêta-bloquants"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine"
+          ]
+        },
+        {
+          "nom": "Vérapamil (Isoptine)",
+          "dosage": "40 mg",
+          "forme": "Comprimé",
+          "quantite": "90 comprimés",
+          "raison": "Inhibiteur calcique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Constipation possible"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Angine"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au diltiazem",
+        "Allergie aux inhibiteurs calciques",
+        "Bradycardie sévère",
+        "Insuffisance cardiaque",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Vertiges",
+        "Œdème des chevilles",
+        "Bradycardie"
+      ],
+      "interactions": [
+        "Bêta-bloquants (bradycardie)",
+        "Digoxine (augmentation)",
+        "Pamplemousse (augmentation concentration)"
+      ],
+      "posologie_standard": "60 mg 3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Triatec",
+      "nom_generique": "Ramipril",
+      "dosage": "2.5 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur (IEC)",
+      "code_cip": "3400984567890",
+      "prix": 18.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance cardiaque",
+        "Post-infarctus"
+      ],
+      "substituts": [
+        {
+          "nom": "Ramipril (générique)",
+          "dosage": "2.5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance kaliémie",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        },
+        {
+          "nom": "Énalapril (Renitec)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "IEC différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance kaliémie"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Hypertension"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au ramipril",
+        "Allergie aux IEC",
+        "Grossesse",
+        "Allaitement",
+        "Angio-œdème"
+      ],
+      "effets_secondaires": [
+        "Toux sèche",
+        "Hypotension",
+        "Hyperkaliémie"
+      ],
+      "interactions": [
+        "AINS (diminution effet)",
+        "Diurétiques (hypotension)",
+        "Lithium (augmentation)"
+      ],
+      "posologie_standard": "2.5 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tropifène",
+      "nom_generique": "Tropatépine",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antiparkinsonien (anticholinergique)",
+      "code_cip": "3400985678901",
+      "prix": 21.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Maladie de Parkinson",
+        "Syndrome extrapyramidal",
+        "Tremblements"
+      ],
+      "substituts": [
+        {
+          "nom": "Tropatépine (générique)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance des effets anticholinergiques",
+            "Risque de confusion chez la personne âgée",
+            "Surveillance de la pression intraoculaire"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Maladie de Parkinson"
+          ]
+        },
+        {
+          "nom": "Biperidène (Akineton)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anticholinergique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance anticholinergique",
+            "Risque de confusion"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Maladie de Parkinson"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la tropatépine",
+        "Allergie aux anticholinergiques",
+        "Glaucoma à angle fermé",
+        "Hypertrophie prostatique",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Sécheresse buccale",
+        "Constipation",
+        "Troubles visuels",
+        "Confusion (personne âgée)",
+        "Tachycardie"
+      ],
+      "interactions": [
+        "Antipsychotiques (antagonisme)",
+        "Antidépresseurs (effets anticholinergiques majorés)",
+        "Alcool (sédation)"
+      ],
+      "posologie_standard": "5 mg 2-3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Toux",
+      "nom_generique": "Dextrométhorphane",
+      "dosage": "15 mg",
+      "forme": "Sirop",
+      "quantite": "200 ml",
+      "famille": "Antitussif (opioïde)",
+      "code_cip": "3400986789013",
+      "prix": 8.9,
+      "stock_actuel": 11,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Toux sèche",
+        "Toux irritative",
+        "Toux non productive"
+      ],
+      "substituts": [
+        {
+          "nom": "Dextrométhorphane (générique)",
+          "dosage": "15 mg",
+          "forme": "Sirop",
+          "quantite": "200 ml",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser la dose",
+            "Risque de somnolence",
+            "Ne pas utiliser en cas de toux productive"
+          ],
+          "instructions": "1 cuillère à soupe 3 fois par jour",
+          "maladies_associees": [
+            "Toux sèche"
+          ]
+        },
+        {
+          "nom": "Oxomémazine (Toplexil)",
+          "dosage": "0.1 %",
+          "forme": "Sirop",
+          "quantite": "200 ml",
+          "raison": "Antitussif antihistaminique",
+          "confiance": 0.7,
+          "precautions": [
+            "Somnolence",
+            "Effet anticholinergique"
+          ],
+          "instructions": "1 cuillère à soupe 3 fois par jour",
+          "maladies_associees": [
+            "Toux sèche"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au dextrométhorphane",
+        "Allergie aux opioïdes",
+        "Insuffisance respiratoire",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Nausées"
+      ],
+      "interactions": [
+        "IMAO (syndrome sérotoninergique)",
+        "Alcool (sédation)",
+        "Antidépresseurs sérotoninergiques"
+      ],
+      "posologie_standard": "15 mg 3 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Truxal",
+      "nom_generique": "Chlorprothixène",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Neuroleptique (antipsychotique)",
+      "code_cip": "3400987890124",
+      "prix": 24.8,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Troubles psychotiques",
+        "Agitation",
+        "Troubles du comportement"
+      ],
+      "substituts": [
+        {
+          "nom": "Chlorprothixène (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance extrapyramidale",
+            "Surveillance cardiaque",
+            "Risque de photosensibilité"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie"
+          ]
+        },
+        {
+          "nom": "Haloperidol (Haldol)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Neuroleptique typique",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance extrapyramidale",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au chlorprothixène",
+        "Allergie aux neuroleptiques",
+        "Coma",
+        "Dépression médullaire",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Syndrome extrapyramidal",
+        "Somnolence",
+        "Prise de poids",
+        "Photosensibilité"
+      ],
+      "interactions": [
+        "Alcool (sédation)",
+        "Lithium (augmentation des EPS)"
+      ],
+      "posologie_standard": "50-150 mg par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Tylenol",
+      "nom_generique": "Paracétamol",
+      "dosage": "500 mg",
+      "forme": "Comprimé",
+      "quantite": "16 comprimés",
+      "famille": "Antalgique - Antipyrétique",
+      "code_cip": "3400988901235",
+      "prix": 4.5,
+      "stock_actuel": 20,
+      "seuil_alerte": 8,
+      "maladies_associees": [
+        "Fièvre",
+        "Douleurs légères à modérées",
+        "Céphalées",
+        "Douleurs dentaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Paracétamol (générique)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser 4g par jour",
+            "Risque hépatique en cas de surdosage"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Fièvre",
+            "Douleurs"
+          ]
+        },
+        {
+          "nom": "Doliprane",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Fièvre",
+            "Douleurs"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au paracétamol",
+        "Insuffisance hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Rares à doses thérapeutiques",
+        "Hépatotoxicité (surdosage)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Alcool (risque hépatique)"
+      ],
+      "posologie_standard": "500 mg 3-4 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite si insuffisance rénale",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe A - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 13
+  }
+}

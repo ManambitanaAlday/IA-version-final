@@ -1,0 +1,713 @@
+{
+  "medicaments": [
+    {
+      "nom": "Quétiapine",
+      "nom_generique": "Quétiapine",
+      "dosage": "25 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique atypique",
+      "code_cip": "3400972345678",
+      "prix": 28.5,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Troubles bipolaires (épisodes maniaques)",
+        "Troubles bipolaires (épisodes dépressifs)",
+        "Trouble dépressif majeur (adjuvant)",
+        "Troubles psychotiques",
+        "Insomnie (à faible dose)"
+      ],
+      "substituts": [
+        {
+          "nom": "Quétiapine 25 mg (générique)",
+          "dosage": "25 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique (glycémie, lipides)",
+            "Surveillance tension artérielle",
+            "Risque de prise de poids",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        },
+        {
+          "nom": "Seroquel",
+          "dosage": "25 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, marque originale",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique",
+            "Surveillance cardiaque (QT)",
+            "Surveillance des signes extrapyramidaux"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        },
+        {
+          "nom": "Risperidone (Risperdal)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antipsychotique atypique différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque d'hyperprolactinémie",
+            "Surveillance extrapyramidale",
+            "Prise de poids modérée"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quétiapine",
+        "Allergie aux antipsychotiques atypiques",
+        "Allaitement",
+        "Grossesse (sauf avis médical)",
+        "Insuffisance hépatique sévère",
+        "Coma",
+        "Dépression du SNC"
+      ],
+      "effets_secondaires": [
+        "Somnolence (très fréquent)",
+        "Prise de poids (fréquent)",
+        "Augmentation du cholestérol",
+        "Hyperglycémie (risque de diabète)",
+        "Hypotension orthostatique",
+        "Sécheresse buccale",
+        "Constipation",
+        "Syndrome extrapyramidal (rare)",
+        "Allongement du QT (surveillance)",
+        "Neuroleptic Malignant Syndrome (rare)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Benzodiazépines (sédation majorée)",
+        "Morphiniques (sédation majorée)",
+        "Antihypertenseurs (hypotension)",
+        "Anticholinergiques (sécheresse buccale)",
+        "Anticonvulsivants (diminution efficacité)",
+        "Carbamazépine (diminution concentration)",
+        "Kétoconazole (augmentation concentration)"
+      ],
+      "posologie_standard": "25-100 mg 1-2 fois par jour (dose progressive)",
+      "duree_traitement": "Long terme selon indication",
+      "population_specifique": {
+        "personne_agee": "Dose initiale réduite (12.5 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Dose réduite"
+      },
+      "grossesse": "Classe C - Utiliser uniquement si bénéfice > risque",
+      "allaitement": "Contre-indiqué (passe dans le lait)"
+    },
+    {
+      "nom": "Quétiapine 100 mg",
+      "nom_generique": "Quétiapine",
+      "dosage": "100 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique atypique",
+      "code_cip": "3400973456789",
+      "prix": 38.7,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Schizophrénie sévère",
+        "Troubles bipolaires (manie sévère)",
+        "Psychose",
+        "Trouble bipolaire avec cycles rapides"
+      ],
+      "substituts": [
+        {
+          "nom": "Quétiapine 100 mg (générique)",
+          "dosage": "100 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique",
+            "Surveillance cardiaque",
+            "Risque de sédation",
+            "Arrêt progressif"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        },
+        {
+          "nom": "Seroquel 100 mg",
+          "dosage": "100 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, marque originale",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique",
+            "Surveillance tension",
+            "Surveillance des effets secondaires"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quétiapine",
+        "Allergie aux antipsychotiques atypiques",
+        "Grossesse",
+        "Allaitement",
+        "Insuffisance hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Prise de poids",
+        "Hyperglycémie",
+        "Hyperlipidémie",
+        "Hypotension orthostatique",
+        "Sécheresse buccale",
+        "Constipation",
+        "Allongement du QT"
+      ],
+      "interactions": [
+        "Alcool (sédation)",
+        "Benzodiazépines (sédation)",
+        "Antihypertenseurs (hypotension)"
+      ],
+      "posologie_standard": "100-200 mg 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe C - Utiliser uniquement si bénéfice > risque",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Quétiapine 300 mg",
+      "nom_generique": "Quétiapine",
+      "dosage": "300 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique atypique",
+      "code_cip": "3400974567890",
+      "prix": 52.3,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Schizophrénie sévère",
+        "Troubles bipolaires sévères",
+        "Psychose résistante",
+        "Schizophrénie chronique"
+      ],
+      "substituts": [
+        {
+          "nom": "Quétiapine 300 mg (générique)",
+          "dosage": "300 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique",
+            "Surveillance cardiaque",
+            "Risque d'hypotension",
+            "Arrêt progressif",
+            "Surveillance des EPS"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie sévère"
+          ]
+        },
+        {
+          "nom": "Seroquel 300 mg",
+          "dosage": "300 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, marque originale",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance métabolique",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie sévère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quétiapine",
+        "Allergie aux antipsychotiques atypiques",
+        "Grossesse",
+        "Allaitement",
+        "Insuffisance hépatique sévère"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Prise de poids (important)",
+        "Hyperglycémie",
+        "Diabète (risque)",
+        "Hypotension orthostatique",
+        "Allongement du QT"
+      ],
+      "interactions": [
+        "Alcool (sédation)",
+        "Benzodiazépines (sédation)",
+        "Antihypertenseurs (hypotension)"
+      ],
+      "posologie_standard": "300-600 mg 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe C - Utiliser uniquement si bénéfice > risque",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Qutenza",
+      "nom_generique": "Capsaïcine",
+      "dosage": "8 %",
+      "forme": "Patch cutané",
+      "quantite": "1 patch",
+      "famille": "Antalgique topique (désensibilisant)",
+      "code_cip": "3400975678901",
+      "prix": 95.8,
+      "stock_actuel": 2,
+      "seuil_alerte": 1,
+      "maladies_associees": [
+        "Douleurs neuropathiques",
+        "Névralgie post-herpétique",
+        "Neuropathie diabétique",
+        "Douleurs neuropathiques chroniques"
+      ],
+      "substituts": [
+        {
+          "nom": "Capsaïcine 8% (générique)",
+          "dosage": "8 %",
+          "forme": "Patch",
+          "quantite": "1 patch",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Application par professionnel de santé",
+            "Protection du personnel",
+            "Espacement des sites d'application",
+            "Surveillance de la douleur"
+          ],
+          "instructions": "1 patch 1 fois par jour (application professionnelle)",
+          "maladies_associees": [
+            "Douleurs neuropathiques"
+          ]
+        },
+        {
+          "nom": "Lidocaïne 5% (patch)",
+          "dosage": "5 %",
+          "forme": "Patch",
+          "quantite": "1 patch",
+          "raison": "Antalgique local différent (anesthésique)",
+          "confiance": 0.7,
+          "precautions": [
+            "Application sur peau saine",
+            "Ne pas dépasser 3 patches par jour"
+          ],
+          "instructions": "1 patch par zone douloureuse",
+          "maladies_associees": [
+            "Douleurs neuropathiques"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la capsaïcine",
+        "Allergie aux piments",
+        "Grossesse",
+        "Allaitement",
+        "Peau lésée",
+        "Infection cutanée"
+      ],
+      "effets_secondaires": [
+        "Sensation de brûlure (fréquent)",
+        "Érythème cutané",
+        "Irritation locale",
+        "Augmentation transitoire de la douleur (2-3 jours)",
+        "Réactions allergiques (rares)"
+      ],
+      "interactions": [
+        "Autres traitements topiques (espacement)"
+      ],
+      "posologie_standard": "1 patch sur la zone douloureuse",
+      "duree_traitement": "Selon douleur",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la tolérance",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Quinine",
+      "nom_generique": "Quinine",
+      "dosage": "250 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Antimalarique",
+      "code_cip": "3400976789012",
+      "prix": 15.4,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Paludisme",
+        "Malaria",
+        "Accès palustre",
+        "Crampes musculaires (hors AMM)"
+      ],
+      "substituts": [
+        {
+          "nom": "Quinine (générique)",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance cardiaque (allongement QT)",
+            "Surveillance hématologique",
+            "Surveillance de la glycémie",
+            "Traitement hospitalier recommandé"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Paludisme"
+          ]
+        },
+        {
+          "nom": "Artéméther (Riamet)",
+          "dosage": "20 mg / 120 mg",
+          "forme": "Comprimé",
+          "quantite": "24 comprimés",
+          "raison": "Antimalarique de 2ème génération",
+          "confiance": 0.85,
+          "precautions": [
+            "Traitement combiné",
+            "Surveillance de la tolérance",
+            "Efficacité supérieure sur les résistances"
+          ],
+          "instructions": "1 comprimé 2 fois par jour (3 jours)",
+          "maladies_associees": [
+            "Paludisme"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quinine",
+        "Hypersensibilité aux alcaloïdes",
+        "Grossesse (sauf avis médical)",
+        "Allaitement",
+        "Hémoglobinurie",
+        "Myasthénie grave"
+      ],
+      "effets_secondaires": [
+        "Cinchonisme (acouphènes, céphalées, troubles visuels)",
+        "Troubles digestifs (nausées)",
+        "Hypoglycémie",
+        "Allongement du QT",
+        "Thrombopénie (rare)",
+        "Réactions allergiques"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Digoxine (augmentation)",
+        "Antiacides (diminution absorption)",
+        "Rifampicine (diminution efficacité)"
+      ],
+      "posologie_standard": "250 mg 3-4 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe D - Utiliser uniquement si bénéfice > risque",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Quinidine",
+      "nom_generique": "Quinidine",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-arythmique (classe Ia)",
+      "code_cip": "3400977890123",
+      "prix": 35.9,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Tachycardie",
+        "Troubles du rythme",
+        "Fibrillation auriculaire",
+        "Flutter auriculaire",
+        "Tachycardie ventriculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Quinidine (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance ECG",
+            "Surveillance tension artérielle",
+            "Surveillance de la numération formule sanguine"
+          ],
+          "instructions": "1 comprimé 2-3 fois par jour",
+          "maladies_associees": [
+            "Troubles du rythme"
+          ]
+        },
+        {
+          "nom": "Amiodarone (Cordarone)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anti-arythmique de classe III",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance thyroïdienne",
+            "Surveillance pulmonaire",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Tachycardie",
+            "Fibrillation auriculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quinidine",
+        "Allergie aux alcaloïdes",
+        "Allongement du QT",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Cinchonisme (acouphènes)",
+        "Allongement du QT",
+        "Troubles digestifs",
+        "Thrombopénie",
+        "Hypotension",
+        "Céphalées"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Digoxine (augmentation)",
+        "Bêta-bloquants (bradycardie)",
+        "Pamplemousse (augmentation concentration)"
+      ],
+      "posologie_standard": "200 mg 2-3 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Quinidine SR",
+      "nom_generique": "Quinidine à libération prolongée",
+      "dosage": "300 mg",
+      "forme": "Comprimé LP",
+      "quantite": "30 comprimés",
+      "famille": "Anti-arythmique (classe Ia)",
+      "code_cip": "3400978901234",
+      "prix": 42.3,
+      "stock_actuel": 2,
+      "seuil_alerte": 1,
+      "maladies_associees": [
+        "Fibrillation auriculaire chronique",
+        "Troubles du rythme sévères",
+        "Tachycardie chronique"
+      ],
+      "substituts": [
+        {
+          "nom": "Quinidine SR (générique)",
+          "dosage": "300 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas écraser",
+            "Surveillance ECG",
+            "Surveillance tension",
+            "Surveillance hématologique"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Fibrillation auriculaire"
+          ]
+        },
+        {
+          "nom": "Amiodarone LP",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anti-arythmique de classe III",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance thyroïdienne",
+            "Surveillance pulmonaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Fibrillation auriculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la quinidine",
+        "Allongement du QT",
+        "Myasthénie",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Cinchonisme",
+        "Allongement du QT",
+        "Troubles digestifs",
+        "Thrombopénie"
+      ],
+      "interactions": [
+        "Anticoagulants",
+        "Digoxine",
+        "Bêta-bloquants"
+      ],
+      "posologie_standard": "300 mg 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Quinoral",
+      "nom_generique": "Hydroxychloroquine",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antipaludique - Immunosuppresseur",
+      "code_cip": "3400979012345",
+      "prix": 36.2,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Lupus érythémateux disséminé",
+        "Polyarthrite rhumatoïde",
+        "Paludisme",
+        "Lupus discoïde"
+      ],
+      "substituts": [
+        {
+          "nom": "Plaquenil",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance ophtalmologique (examen annuel)",
+            "Surveillance cardiaque (QT)",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Lupus",
+            "Polyarthrite rhumatoïde"
+          ]
+        },
+        {
+          "nom": "Hydroxychloroquine (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance ophtalmologique",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Lupus",
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'hydroxychloroquine",
+        "Rétinopathie",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Céphalées",
+        "Rétinopathie (risque)",
+        "Allongement du QT",
+        "Dépigmentation cutanée"
+      ],
+      "interactions": [
+        "Digoxine (augmentation)",
+        "Antiacides (diminution absorption)",
+        "Insuline (hypoglycémie)"
+      ],
+      "posologie_standard": "200 mg 1-2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance ophtalmologique",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 8
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "medicaments": [
+    {
+      "nom": "Yerban",
+      "nom_generique": "Yerba mate (complément alimentaire)",
+      "dosage": "Variable",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Complément alimentaire - Stimulant",
+      "code_cip": "3400989012345",
+      "prix": 12.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Fatigue",
+        "Stimulation",
+        "Concentration",
+        "Perte de poids (complément)",
+        "Antioxydant"
+      ],
+      "substituts": [
+        {
+          "nom": "Yerba mate (générique)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser la dose",
+            "Risque d'insomnie",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Fatigue",
+            "Concentration"
+          ]
+        },
+        {
+          "nom": "Caféine + Taurine",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Stimulant différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Risque d'insomnie",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Stimulation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la yerba mate",
+        "Insomnie sévère",
+        "Troubles cardiovasculaires",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Insomnie",
+        "Palpitations",
+        "Nervosité",
+        "Troubles digestifs (rare)"
+      ],
+      "interactions": [
+        "Caféine (effet additif)",
+        "Stimulants (effet additif)",
+        "Antidépresseurs (interaction possible)"
+      ],
+      "posologie_standard": "1 gélule 1 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiovasculaire",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Yohimbine",
+      "nom_generique": "Yohimbine",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Aphrodisiaque",
+      "code_cip": "3400980123456",
+      "prix": 18.5,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dysfonction érectile",
+        "Baisse de libido",
+        "Fatigue",
+        "Perte de poids (complément)"
+      ],
+      "substituts": [
+        {
+          "nom": "Yohimbine (générique)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque d'hypertension",
+            "Risque de tachycardie",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Dysfonction érectile"
+          ]
+        },
+        {
+          "nom": "Sildénafil (Viagra)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Traitement pharmacologique",
+          "confiance": 0.8,
+          "precautions": [
+            "Contre-indiqué avec les nitrés",
+            "Surveillance cardiovasculaire"
+          ],
+          "instructions": "1 comprimé 1h avant le rapport",
+          "maladies_associees": [
+            "Dysfonction érectile"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la yohimbine",
+        "Hypertension sévère",
+        "Troubles cardiaques",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hypertension",
+        "Tachycardie",
+        "Anxiété",
+        "Insomnie",
+        "Tremblements",
+        "Nausées"
+      ],
+      "interactions": [
+        "Antidépresseurs (hypertension)",
+        "Stimulants (effet additif)",
+        "Caféine (effet additif)"
+      ],
+      "posologie_standard": "5 mg 1-2 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiovasculaire",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Yves",
+      "nom_generique": "Levure de bière (complément)",
+      "dosage": "1000 mg",
+      "forme": "Comprimé",
+      "quantite": "60 comprimés",
+      "famille": "Complément alimentaire - Probiotique",
+      "code_cip": "3400981234567",
+      "prix": 8.9,
+      "stock_actuel": 12,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Carence en vitamines B",
+        "Fatigue",
+        "Soutien immunitaire",
+        "Soutien digestif"
+      ],
+      "substituts": [
+        {
+          "nom": "Levure de bière (générique)",
+          "dosage": "1000 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Hydratation suffisante",
+            "Effet en 2-4 semaines"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamines B"
+          ]
+        },
+        {
+          "nom": "Vitamine B complexe",
+          "dosage": "Variable",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Apport vitaminique B",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance des dosages"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Carence vitaminique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la levure",
+        "Allergie au gluten (certaines levures)",
+        "Hypervitaminose B (rare)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs",
+        "Ballonnement"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1000 mg 2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Yoga",
+      "nom_generique": "Extrait de plante (relaxant)",
+      "dosage": "Variable",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Complément alimentaire - Relaxant",
+      "code_cip": "3400982345678",
+      "prix": 14.9,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Stress",
+        "Anxiété légère",
+        "Fatigue",
+        "Troubles du sommeil (léger)",
+        "Relaxation"
+      ],
+      "substituts": [
+        {
+          "nom": "Plante (générique)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même principe actif",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise le soir",
+            "Effet en 2-4 semaines",
+            "Ne pas associer à d'autres sédatifs"
+          ],
+          "instructions": "1 gélule 1 fois par jour le soir",
+          "maladies_associees": [
+            "Stress",
+            "Anxiété légère"
+          ]
+        },
+        {
+          "nom": "Valériane (complément)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Plante relaxante différente",
+          "confiance": 0.8,
+          "precautions": [
+            "Somnolence possible",
+            "Prise le soir"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Stress",
+            "Insomnie légère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Rares - Somnolence",
+        "Troubles digestifs (rare)"
+      ],
+      "interactions": [
+        "Benzodiazépines (sédation majorée)",
+        "Alcool (sédation majorée)"
+      ],
+      "posologie_standard": "1 gélule 1 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la somnolence",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Ypsilon",
+      "nom_generique": "L-tyrosine",
+      "dosage": "500 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Acide aminé",
+      "code_cip": "3400983456789",
+      "prix": 15.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Fatigue",
+        "Stress",
+        "Concentration",
+        "Mémoire",
+        "Synthèse des neurotransmetteurs"
+      ],
+      "substituts": [
+        {
+          "nom": "L-tyrosine (générique)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Ne pas dépasser la dose",
+            "Surveillance de la tension artérielle"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Fatigue",
+            "Stress"
+          ]
+        },
+        {
+          "nom": "L-phénylalanine",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Acide aminé précurseur",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance tension"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Fatigue"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la tyrosine",
+        "Allergie aux acides aminés",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs",
+        "Nervosité",
+        "Insomnie (si pris le soir)"
+      ],
+      "interactions": [
+        "Antidépresseurs (interaction possible)",
+        "Lévodopa (diminution efficacité)"
+      ],
+      "posologie_standard": "500 mg 1-2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance tension",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Yeux",
+      "nom_generique": "Lutéine + Zéaxanthine",
+      "dosage": "10 mg / 2 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Complément alimentaire - Santé oculaire",
+      "code_cip": "3400984567890",
+      "prix": 22.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dégénérescence maculaire liée à l'âge",
+        "Cataracte (prévention)",
+        "Fatigue visuelle",
+        "Protection oculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Lutéine + Zéaxanthine (générique)",
+          "dosage": "10 mg / 2 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Effet en 2-3 mois"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Dégénérescence maculaire"
+          ]
+        },
+        {
+          "nom": "Vitamine A + Lutéine",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Protection oculaire différente",
+          "confiance": 0.7,
+          "precautions": [
+            "Ne pas dépasser la dose de vitamine A"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Santé oculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la lutéine",
+        "Allergie à la zéaxanthine",
+        "Allergie aux caroténoïdes"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 gélule 1 fois par jour",
+      "duree_traitement": "3-6 mois",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Yogourmet",
+      "nom_generique": "Probiotique (mélange)",
+      "dosage": "Variable",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Probiotique - Complément alimentaire",
+      "code_cip": "3400985678901",
+      "prix": 16.8,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Troubles digestifs",
+        "Diarrhée",
+        "Immunité",
+        "Équilibre de la flore intestinale"
+      ],
+      "substituts": [
+        {
+          "nom": "Probiotique (générique)",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Même type de probiotiques",
+          "confiance": 0.9,
+          "precautions": [
+            "Ne pas dépasser la dose",
+            "Conservation au réfrigérateur",
+            "Espacement avec antibiotiques (2h)"
+          ],
+          "instructions": "1 gélule 1-2 fois par jour",
+          "maladies_associees": [
+            "Troubles digestifs"
+          ]
+        },
+        {
+          "nom": "Ultra-levure",
+          "dosage": "250 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Probiotique différent (levure)",
+          "confiance": 0.7,
+          "precautions": [
+            "Espacement avec antibiotiques"
+          ],
+          "instructions": "2 gélules 2 fois par jour",
+          "maladies_associees": [
+            "Diarrhée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux probiotiques",
+        "Immunodépression sévère"
+      ],
+      "effets_secondaires": [
+        "Ballonnement (rare)",
+        "Troubles digestifs (rare)"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)"
+      ],
+      "posologie_standard": "1 gélule 1-2 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance en cas d'immunodépression",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Yacult",
+      "nom_generique": "Probiotique (souche spécifique)",
+      "dosage": "Variable",
+      "forme": "Solution buvable",
+      "quantite": "30 ml x 7",
+      "famille": "Probiotique - Complément alimentaire",
+      "code_cip": "3400986789012",
+      "prix": 6.8,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Troubles digestifs",
+        "Immunité",
+        "Équilibre de la flore intestinale",
+        "Prévention des infections"
+      ],
+      "substituts": [
+        {
+          "nom": "Probiotique (générique)",
+          "dosage": "Variable",
+          "forme": "Solution buvable",
+          "quantite": "30 ml x 7",
+          "raison": "Même type de probiotique",
+          "confiance": 0.85,
+          "precautions": [
+            "Conservation au réfrigérateur",
+            "Consommer dans les 24h"
+          ],
+          "instructions": "1 flacon par jour",
+          "maladies_associees": [
+            "Troubles digestifs"
+          ]
+        },
+        {
+          "nom": "Yogourmet",
+          "dosage": "Variable",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Probiotique sous forme de gélule",
+          "confiance": 0.7,
+          "precautions": [
+            "Espacement avec antibiotiques"
+          ],
+          "instructions": "1 gélule 1-2 fois par jour",
+          "maladies_associees": [
+            "Digestion"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux probiotiques",
+        "Allergie au lait (dans la formulation)"
+      ],
+      "effets_secondaires": [
+        "Rares - Ballonnement"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)"
+      ],
+      "posologie_standard": "1 flacon par jour",
+      "duree_traitement": "7 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance en cas d'immunodépression",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Yves",
+      "nom_generique": "Levure de bière + Chrome",
+      "dosage": "1000 mg / 200 µg",
+      "forme": "Comprimé",
+      "quantite": "60 comprimés",
+      "famille": "Complément alimentaire",
+      "code_cip": "3400987890123",
+      "prix": 12.9,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Carence en vitamines B",
+        "Carence en chrome",
+        "Contrôle du poids",
+        "Métabolisme glucidique"
+      ],
+      "substituts": [
+        {
+          "nom": "Levure de bière + Chrome (générique)",
+          "dosage": "1000 mg / 200 µg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Surveillance en cas de diabète"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamines B"
+          ]
+        },
+        {
+          "nom": "Levure de bière simple",
+          "dosage": "1000 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "Sans chrome",
+          "confiance": 0.85,
+          "precautions": [
+            "Apport en chrome moindre"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en vitamines B"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la levure",
+        "Insuffisance rénale sévère (chrome)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 comprimé 2 fois par jour",
+      "duree_traitement": "3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible (avis médical)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Yom",
+      "nom_generique": "Magnésium + Vitamine B6",
+      "dosage": "100 mg / 5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire - Minéral",
+      "code_cip": "3400988901234",
+      "prix": 11.8,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Carence en magnésium",
+        "Fatigue",
+        "Stress",
+        "Crampes musculaires",
+        "Troubles du sommeil"
+      ],
+      "substituts": [
+        {
+          "nom": "Magnésium + Vitamine B6 (générique)",
+          "dosage": "100 mg / 5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avec un repas",
+            "Effet laxatif à forte dose",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en magnésium"
+          ]
+        },
+        {
+          "nom": "Magnésium seul",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Sans vitamine B6",
+          "confiance": 0.85,
+          "precautions": [
+            "Absorption moindre sans B6"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Carence en magnésium"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au magnésium",
+        "Insuffisance rénale sévère",
+        "Hypermagnésémie"
+      ],
+      "effets_secondaires": [
+        "Diarrhée (rare)",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Antibiotiques (espacement 2h)",
+        "Lévothyroxine (espacement 2h)"
+      ],
+      "posologie_standard": "1 comprimé 2 fois par jour",
+      "duree_traitement": "1-3 mois",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15"
+  }
+}

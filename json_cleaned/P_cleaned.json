@@ -1,0 +1,890 @@
+{
+  "medicaments": [
+    {
+      "nom": "Pantoprazole",
+      "nom_generique": "Pantoprazole",
+      "dosage": "20 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "28 comprimés",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400971234567",
+      "prix": 18.5,
+      "stock_actuel": 14,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Reflux gastro-oesophagien",
+        "Ulcère gastroduodénal",
+        "Œsophagite érosive",
+        "Syndrome de Zollinger-Ellison",
+        "Helicobacter pylori"
+      ],
+      "substituts": [
+        {
+          "nom": "Pantoprazole (générique)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "28 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser",
+            "Surveillance des fractures à long terme"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "RGO",
+            "Ulcère"
+          ]
+        },
+        {
+          "nom": "Oméprazole",
+          "dosage": "20 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "IPP différent, même classe",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avant le repas",
+            "Surveillance des interactions"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "RGO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au pantoprazole",
+        "Allergie aux benzimidazoles"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs",
+        "Carence en vitamine B12 (long terme)",
+        "Fractures (long terme)"
+      ],
+      "interactions": [
+        "Atazanavir (diminution)",
+        "Clopidogrel (diminution - moins qu'oméprazole)",
+        "Diazépam (augmentation)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "4-8 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance des fractures",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Paracétamol",
+      "nom_generique": "Paracétamol",
+      "dosage": "500 mg",
+      "forme": "Comprimé",
+      "quantite": "16 comprimés",
+      "famille": "Antalgique - Antipyrétique",
+      "code_cip": "3400972345678",
+      "prix": 4.8,
+      "stock_actuel": 35,
+      "seuil_alerte": 15,
+      "maladies_associees": [
+        "Fièvre",
+        "Douleurs légères à modérées",
+        "Céphalées",
+        "Douleurs dentaires",
+        "Douleurs post-opératoires",
+        "Douleurs musculaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Doliprane",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Ne pas dépasser 4g par jour",
+            "Risque hépatique en cas de surdosage",
+            "Éviter en cas de maladie hépatique"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Fièvre",
+            "Douleurs"
+          ]
+        },
+        {
+          "nom": "Efferalgan",
+          "dosage": "500 mg",
+          "forme": "Comprimé effervescent",
+          "quantite": "16 comprimés",
+          "raison": "Même principe actif, forme effervescente",
+          "confiance": 1.0,
+          "precautions": [
+            "Dissoudre dans un verre d'eau",
+            "Ne pas dépasser la dose"
+          ],
+          "instructions": "1 comprimé 3-4 fois par jour",
+          "maladies_associees": [
+            "Fièvre",
+            "Douleurs"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au paracétamol",
+        "Insuffisance hépatique sévère",
+        "Alcoolisme chronique"
+      ],
+      "effets_secondaires": [
+        "Rares à doses thérapeutiques",
+        "Hépatotoxicité (surdosage)",
+        "Réactions allergiques (rares)"
+      ],
+      "interactions": [
+        "Anticoagulants oraux (risque hémorragique)",
+        "Alcool (risque hépatique)",
+        "Barbituriques (toxicité majorée)"
+      ],
+      "posologie_standard": "500 mg 3-4 fois par jour",
+      "duree_traitement": "3-5 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite en cas d'insuffisance rénale",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe A - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Plavix",
+      "nom_generique": "Clopidogrel",
+      "dosage": "75 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antiplaquettaire",
+      "code_cip": "3400973456789",
+      "prix": 45.8,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Prévention des AVC",
+        "Syndrome coronarien aigu",
+        "Post-infarctus",
+        "Angor instable",
+        "Artériopathie périphérique"
+      ],
+      "substituts": [
+        {
+          "nom": "Clopidogrel (générique)",
+          "dosage": "75 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Test de résistance possible"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire"
+          ]
+        },
+        {
+          "nom": "Kardégic (Aspirine 100mg)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antiplaquettaire différent",
+          "confiance": 0.75,
+          "precautions": [
+            "Risque hémorragique",
+            "Risque gastrique"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au clopidogrel",
+        "Hémorragie active",
+        "Insuffisance hépatique sévère",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hémorragie (risque)",
+        "Troubles digestifs",
+        "Rash cutané",
+        "Purpura"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "AINS (risque hémorragique)",
+        "IPP (diminution efficacité avec oméprazole)"
+      ],
+      "posologie_standard": "75 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance hémorragique",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Prednisone",
+      "nom_generique": "Prednisone",
+      "dosage": "5 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Corticoïde (corticothérapie)",
+      "code_cip": "3400974567890",
+      "prix": 8.2,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Maladies inflammatoires",
+        "Asthme sévère",
+        "Polyarthrite rhumatoïde",
+        "Lupus",
+        "Maladies auto-immunes"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisone (générique)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Surveillance glycémie",
+            "Arrêt progressif"
+          ],
+          "instructions": "Dose selon prescription (5-60 mg/jour)",
+          "maladies_associees": [
+            "Maladies inflammatoires"
+          ]
+        },
+        {
+          "nom": "Cortisone (Hydrocortisone)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticoïde naturel",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance métabolique",
+            "Arrêt progressif"
+          ],
+          "instructions": "Dose selon prescription",
+          "maladies_associees": [
+            "Insuffisance surrénale"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la prednisone",
+        "Allergie aux corticoïdes",
+        "Infection systémique non traitée",
+        "Vaccin vivant atténué"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Hyperglycémie",
+        "Hypertension",
+        "Ostéoporose (long terme)",
+        "Insomnie",
+        "Irritabilité"
+      ],
+      "interactions": [
+        "AINS (risque ulcère)",
+        "Anticoagulants (modification effet)",
+        "Diurétiques (hypokaliémie)"
+      ],
+      "posologie_standard": "5-60 mg par jour",
+      "duree_traitement": "Variable, arrêt progressif",
+      "population_specifique": {
+        "personne_agee": "Surveillance accrue",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Pradaxa",
+      "nom_generique": "Dabigatran",
+      "dosage": "150 mg",
+      "forme": "Gélule",
+      "quantite": "60 gélules",
+      "famille": "Anticoagulant (anti-IIa direct)",
+      "code_cip": "3400975678901",
+      "prix": 68.4,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Prévention des AVC",
+        "Thrombose veineuse profonde",
+        "Embolie pulmonaire",
+        "Fibrillation auriculaire non valvulaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Dabigatran (générique)",
+          "dosage": "150 mg",
+          "forme": "Gélule",
+          "quantite": "60 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Fonction rénale à surveiller"
+          ],
+          "instructions": "1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Prévention AVC"
+          ]
+        },
+        {
+          "nom": "Xarelto (Rivaroxaban)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Anticoagulant direct différent (anti-Xa)",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Fonction rénale"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Prévention AVC",
+            "Thrombose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au dabigatran",
+        "Hémorragie active",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hémorragie (risque)",
+        "Dyspepsie",
+        "Nausées",
+        "Douleurs abdominales"
+      ],
+      "interactions": [
+        "Antiplaquettaires (risque hémorragique)",
+        "AINS (risque hémorragique)",
+        "Amiodarone (augmentation concentration)",
+        "Rifampicine (diminution efficacité)"
+      ],
+      "posologie_standard": "150 mg 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué si sévère",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Prozac",
+      "nom_generique": "Fluoxétine",
+      "dosage": "20 mg",
+      "forme": "Gélule",
+      "quantite": "28 gélules",
+      "famille": "Antidépresseur (ISRS)",
+      "code_cip": "3400976789012",
+      "prix": 28.9,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Dépression",
+        "Troubles obsessionnels compulsifs",
+        "Boulimie",
+        "Trouble panique",
+        "Dépression post-partum"
+      ],
+      "substituts": [
+        {
+          "nom": "Fluoxétine (générique)",
+          "dosage": "20 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Effet en 2-4 semaines",
+            "Risque de syndrome sérotoninergique",
+            "Surveillance du sevrage"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Dépression"
+          ]
+        },
+        {
+          "nom": "Sertraline (Zoloft)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "ISRS différent",
+          "confiance": 0.85,
+          "precautions": [
+            "Effet plus rapide",
+            "Risque sérotoninergique"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Dépression"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la fluoxétine",
+        "Allergie aux ISRS",
+        "Allaitement",
+        "Grossesse (sauf avis médical)",
+        "Syndrome sérotoninergique"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Insomnie",
+        "Agitation",
+        "Anxiété initiale",
+        "Baisse de la libido",
+        "Prise de poids"
+      ],
+      "interactions": [
+        "IMAO (syndrome sérotoninergique)",
+        "AINS (risque hémorragique)",
+        "Lithium (augmentation)",
+        "Triptans (syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "6-12 mois",
+      "population_specifique": {
+        "personne_agee": "Dose réduite (10 mg)",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Classe C - À éviter",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Pantoprazole 40 mg",
+      "nom_generique": "Pantoprazole",
+      "dosage": "40 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "28 comprimés",
+      "famille": "Inhibiteur de la pompe à protons (IPP)",
+      "code_cip": "3400977890123",
+      "prix": 23.4,
+      "stock_actuel": 9,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Ulcère gastroduodénal sévère",
+        "Œsophagite sévère",
+        "Syndrome de Zollinger-Ellison",
+        "RGO sévère"
+      ],
+      "substituts": [
+        {
+          "nom": "Pantoprazole (générique)",
+          "dosage": "40 mg",
+          "forme": "Comprimé",
+          "quantite": "28 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Prise avant le repas",
+            "Ne pas écraser"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Ulcère",
+            "RGO sévère"
+          ]
+        },
+        {
+          "nom": "Oméprazole 40 mg",
+          "dosage": "40 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "IPP différent, même dose",
+          "confiance": 0.9,
+          "precautions": [
+            "Prise avant le repas"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Ulcère",
+            "RGO"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au pantoprazole",
+        "Allergie aux benzimidazoles"
+      ],
+      "effets_secondaires": [
+        "Céphalées",
+        "Troubles digestifs",
+        "Fractures (long terme)"
+      ],
+      "interactions": [
+        "Atazanavir (diminution)",
+        "Diazépam (augmentation)"
+      ],
+      "posologie_standard": "40 mg 1 fois par jour",
+      "duree_traitement": "4-8 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance des fractures",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Percutalgine",
+      "nom_generique": "Bupropion",
+      "dosage": "150 mg",
+      "forme": "Comprimé à libération prolongée",
+      "quantite": "30 comprimés",
+      "famille": "Antidépresseur (inhibiteur de la recapture de dopamine)",
+      "code_cip": "3400978901234",
+      "prix": 32.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Dépression",
+        "Sevrage tabagique",
+        "Trouble affectif saisonnier"
+      ],
+      "substituts": [
+        {
+          "nom": "Bupropion LP (générique)",
+          "dosage": "150 mg",
+          "forme": "Comprimé LP",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Risque de convulsions",
+            "Ne pas écraser",
+            "Surveillance psychiatrique"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Dépression",
+            "Sevrage tabagique"
+          ]
+        },
+        {
+          "nom": "Fluoxétine (Prozac)",
+          "dosage": "20 mg",
+          "forme": "Gélule",
+          "quantite": "28 gélules",
+          "raison": "Antidépresseur ISRS",
+          "confiance": 0.7,
+          "precautions": [
+            "Effet différent",
+            "Risque sérotoninergique"
+          ],
+          "instructions": "1 gélule 1 fois par jour",
+          "maladies_associees": [
+            "Dépression"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au bupropion",
+        "Épilepsie",
+        "Antécédents de convulsions",
+        "Grossesse",
+        "Allaitement",
+        "Allergie à l'alcool"
+      ],
+      "effets_secondaires": [
+        "Insomnie",
+        "Agitation",
+        "Sécheresse buccale",
+        "Nausées",
+        "Perte de poids",
+        "Risque de convulsions (rare)"
+      ],
+      "interactions": [
+        "IMAO (risque de convulsions)",
+        "Alcool (risque de convulsions)",
+        "Antipsychotiques (risque de convulsions)"
+      ],
+      "posologie_standard": "150 mg 1-2 fois par jour",
+      "duree_traitement": "6-12 mois",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Plaquenil",
+      "nom_generique": "Hydroxychloroquine",
+      "dosage": "200 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antimalarique - Immunosuppresseur",
+      "code_cip": "3400979012345",
+      "prix": 38.2,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Lupus érythémateux disséminé",
+        "Polyarthrite rhumatoïde",
+        "Paludisme",
+        "Lupus discoïde"
+      ],
+      "substituts": [
+        {
+          "nom": "Hydroxychloroquine (générique)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance ophtalmologique",
+            "Surveillance cardiaque",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 1-2 fois par jour",
+          "maladies_associees": [
+            "Lupus",
+            "Polyarthrite rhumatoïde"
+          ]
+        },
+        {
+          "nom": "Methotrexate",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "25 comprimés",
+          "raison": "Immunosuppresseur différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique"
+          ],
+          "instructions": "1 comprimé 1 fois par semaine",
+          "maladies_associees": [
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'hydroxychloroquine",
+        "Rétinopathie",
+        "Insuffisance rénale sévère",
+        "Grossesse"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Céphalées",
+        "Rétinopathie (risque)",
+        "Allongement du QT",
+        "Dépigmentation cutanée"
+      ],
+      "interactions": [
+        "Digoxine (augmentation)",
+        "Antiacides (diminution absorption)",
+        "Insuline (hypoglycémie)"
+      ],
+      "posologie_standard": "200 mg 1-2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance ophtalmologique",
+        "insuffisant_renal": "Surveillance",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Pravastatine",
+      "nom_generique": "Pravastatine",
+      "dosage": "20 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Hypolipidémiant (statine)",
+      "code_cip": "3400970123456",
+      "prix": 25.6,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Hypercholestérolémie",
+        "Prévention cardiovasculaire",
+        "Post-infarctus"
+      ],
+      "substituts": [
+        {
+          "nom": "Pravastatine (générique)",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        },
+        {
+          "nom": "Atorvastatine (Tahor)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Statine différente",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance musculaire"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypercholestérolémie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la pravastatine",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Myalgies",
+        "Augmentation des transaminases",
+        "Céphalées",
+        "Troubles digestifs",
+        "Rhabdomyolyse (rare)"
+      ],
+      "interactions": [
+        "Fibrates (risque myopathie)",
+        "Anticoagulants (risque hémorragique)",
+        "Colchicine (risque myopathie)"
+      ],
+      "posologie_standard": "20 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Propecia",
+      "nom_generique": "Finastéride",
+      "dosage": "1 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Anti-androgène - Traitement calvitie",
+      "code_cip": "3400971234568",
+      "prix": 42.8,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Alopécie androgénétique",
+        "Calvitie masculine",
+        "Hyperplasie bénigne de la prostate (5mg)"
+      ],
+      "substituts": [
+        {
+          "nom": "Finastéride 1 mg (générique)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "Effet en 3-6 mois",
+            "Ne pas couper les comprimés",
+            "Contre-indiqué chez la femme enceinte"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Alopécie"
+          ]
+        },
+        {
+          "nom": "Minoxidil (Jolen)",
+          "dosage": "5%",
+          "forme": "Solution topique",
+          "quantite": "60 ml",
+          "raison": "Traitement topique différent",
+          "confiance": 0.7,
+          "precautions": [
+            "Application locale",
+            "Effet en 3-6 mois"
+          ],
+          "instructions": "Application 2 fois par jour",
+          "maladies_associees": [
+            "Alopécie androgénétique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au finastéride",
+        "Femmes enceintes",
+        "Allaitement",
+        "Enfants"
+      ],
+      "effets_secondaires": [
+        "Baisse de la libido",
+        "Dysfonction érectile",
+        "Troubles de l'éjaculation",
+        "Gynécomastie",
+        "Rare"
+      ],
+      "interactions": [
+        "Aucune interaction majeure"
+      ],
+      "posologie_standard": "1 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 11
+  }
+}

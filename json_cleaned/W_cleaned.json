@@ -1,0 +1,770 @@
+{
+  "medicaments,": [
+    {
+      "nom": "Warfarine,",
+      "nom_generique,": "Warfarine,",
+      "dosage,": "5 mg",
+      "forme,": "Comprimé sécable,",
+      "quantite,": "30 comprimés,",
+      "famille,": "Anticoagulant (AVK)",
+      "code_cip": "3400989012345,",
+      "prix": 12.8,
+      "stock_actuel,": 8,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon C1 - Étagère 24,",
+      "maladies_associees,": [
+        "Prévention des AVC",
+        "Thrombose veineuse profonde,",
+        "Embolie pulmonaire,",
+        "Fibrillation auriculaire,",
+        "Prothèses valvulaires,",
+        "Post-infarctus,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Warfarine (générique)",
+          "dosage,": "5 mg",
+          "forme,": "Comprimé sécable,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage identique,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Surveillance de l'INR (régulière)",
+            "Surveillance hémorragique,",
+            "Interactions nombreuses,",
+            "Prise à heure fixe,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention thromboembolique,"
+          ]
+        },
+        {
+          "nom": "Pradaxa (Dabigatran)",
+          "dosage,": "150 mg",
+          "forme,": "Gélule,",
+          "quantite,": "60 gélules,",
+          "raison,": "Anticoagulant direct (pas de surveillance INR)",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance rénale,",
+            "Risque hémorragique,"
+          ],
+          "instructions,": "1 gélule 2 fois par jour,",
+          "maladies_associees,": [
+            "Prévention AVC",
+            "Fibrillation auriculaire,"
+          ]
+        },
+        {
+          "nom": "Xarelto (Rivaroxaban)",
+          "dosage,": "20 mg",
+          "forme,": "Comprimé",
+          "quantite,": "30 comprimés,",
+          "raison,": "Anticoagulant direct (anti-Xa)",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Surveillance rénale,",
+            "Risque hémorragique,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention AVC",
+            "Thrombose,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la warfarine,",
+        "Hémorragie active,",
+        "Insuffisance hépatique sévère,",
+        "Insuffisance rénale sévère,",
+        "Grossesse,",
+        "Allaitement,",
+        "Hypertension sévère,"
+      ],
+      "effets_secondaires,": [
+        "Hémorragie (risque majeur)",
+        "Écchymoses,",
+        "Nécrose cutanée (rare)",
+        "Réactions allergiques (rares)",
+        "Alopécie (rare)"
+      ],
+      "interactions,": [
+        "AINS (risque hémorragique)",
+        "Antibiotiques (modification INR)",
+        "Antifongiques (modification INR)",
+        "Amiodarone (modification INR)",
+        "Alcool (modification INR)",
+        "Aliments riches en vitamine K (diminution effet)"
+      ],
+      "posologie_standard": "5 mg 1 fois par jour (adaptée à l'INR)",
+      "duree_traitement,": "Long terme,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance INR rapprochée,",
+        "insuffisant_renal,": "Surveillance,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Warfarine 2 mg",
+      "nom_generique,": "Warfarine,",
+      "dosage,": "2 mg",
+      "forme,": "Comprimé sécable,",
+      "quantite,": "30 comprimés,",
+      "famille,": "Anticoagulant (AVK)",
+      "code_cip": "3400980123456,",
+      "prix": 12.8,
+      "stock_actuel,": 6,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon C1 - Étagère 24,",
+      "maladies_associees,": [
+        "Prévention des AVC",
+        "Thrombose veineuse profonde,",
+        "Embolie pulmonaire,",
+        "Fibrillation auriculaire,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Warfarine 2 mg (générique)",
+          "dosage,": "2 mg",
+          "forme,": "Comprimé sécable,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage identique,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Surveillance INR",
+            "Surveillance hémorragique,",
+            "Interactions nombreuses,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention thromboembolique,"
+          ]
+        },
+        {
+          "nom": "Warfarine 5 mg",
+          "dosage,": "5 mg",
+          "forme,": "Comprimé sécable,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage différent,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Dosage à adapter selon INR"
+          ],
+          "instructions,": "Dose selon INR",
+          "maladies_associees,": [
+            "Prévention thromboembolique,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la warfarine,",
+        "Hémorragie active,",
+        "Insuffisance hépatique sévère,",
+        "Grossesse,"
+      ],
+      "effets_secondaires,": [
+        "Hémorragie,",
+        "Écchymoses,"
+      ],
+      "interactions,": [
+        "AINS (risque hémorragique)",
+        "Antibiotiques (modification INR)",
+        "Aliments riches en vitamine K"
+      ],
+      "posologie_standard": "2 mg 1 fois par jour (adaptée à l'INR)",
+      "duree_traitement,": "Long terme,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance INR rapprochée,",
+        "insuffisant_renal,": "Surveillance,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Warfarine 10 mg",
+      "nom_generique,": "Warfarine,",
+      "dosage,": "10 mg",
+      "forme,": "Comprimé sécable,",
+      "quantite,": "30 comprimés,",
+      "famille,": "Anticoagulant (AVK)",
+      "code_cip": "3400981234567,",
+      "prix": 12.8,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 2,
+      "emplacement,": "Rayon C1 - Étagère 24,",
+      "maladies_associees,": [
+        "Prévention des AVC",
+        "Thrombose veineuse profonde sévère,",
+        "Embolie pulmonaire sévère,",
+        "Fibrillation auriculaire à haut risque,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Warfarine 10 mg (générique)",
+          "dosage,": "10 mg",
+          "forme,": "Comprimé sécable,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage identique,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Surveillance INR",
+            "Surveillance hémorragique,",
+            "Risque majoré d'hémorragie,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Prévention thromboembolique,"
+          ]
+        },
+        {
+          "nom": "Warfarine 5 mg",
+          "dosage,": "5 mg",
+          "forme,": "Comprimé sécable,",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage différent,",
+          "confiance,": 0.9,
+          "precautions,": [
+            "Dosage à adapter selon INR"
+          ],
+          "instructions,": "Dose selon INR",
+          "maladies_associees,": [
+            "Prévention thromboembolique,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie à la warfarine,",
+        "Hémorragie active,",
+        "Insuffisance hépatique sévère,",
+        "Grossesse,"
+      ],
+      "effets_secondaires,": [
+        "Hémorragie (risque accru)",
+        "Écchymoses,"
+      ],
+      "interactions,": [
+        "AINS (risque hémorragique)",
+        "Antibiotiques (modification INR)",
+        "Aliments riches en vitamine K"
+      ],
+      "posologie_standard": "10 mg 1 fois par jour (adaptée à l'INR)",
+      "duree_traitement,": "Long terme,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance INR rapprochée,",
+        "insuffisant_renal,": "Surveillance,",
+        "insuffisant_hepatique,": "Contre-indiqué"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Wash",
+      "nom_generique,": "Lactulose,",
+      "dosage,": "10 g",
+      "forme,": "Sirop",
+      "quantite,": "200 ml,",
+      "famille,": "Laxatif (osmose)",
+      "code_cip": "3400982345678,",
+      "prix": 8.9,
+      "stock_actuel,": 11,
+      "seuil_alerte,": 4,
+      "emplacement,": "Rayon D3 - Étagère 5,",
+      "maladies_associees,": [
+        "Constipation,",
+        "Troubles du transit,",
+        "Encéphalopathie hépatique (hors AMM)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Lactulose (générique)",
+          "dosage,": "10 g",
+          "forme,": "Sirop",
+          "quantite,": "200 ml,",
+          "raison,": "Même principe actif,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Effet en 24-48h",
+            "Hydratation suffisante,",
+            "Ne pas dépasser la dose,"
+          ],
+          "instructions,": "1 cuillère à soupe 2 fois par jour,",
+          "maladies_associees,": [
+            "Constipation,"
+          ]
+        },
+        {
+          "nom": "Macroger (Macrogol)",
+          "dosage,": "10 g",
+          "forme,": "Poudre,",
+          "quantite,": "30 sachets,",
+          "raison,": "Laxatif osmotique différent,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Dissoudre dans un verre d'eau,",
+            "Effet en 24-48h"
+          ],
+          "instructions,": "1 sachet 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Constipation chronique,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au lactulose,",
+        "Occlusion intestinale,",
+        "Allergie au galactose,",
+        "Allergie au lactose,"
+      ],
+      "effets_secondaires,": [
+        "Ballonnement,",
+        "Flatulences,",
+        "Douleurs abdominales,",
+        "Diarrhée (surdosage)"
+      ],
+      "interactions,": [
+        "Aucune interaction majeure,"
+      ],
+      "posologie_standard": "10 g 2 fois par jour,",
+      "duree_traitement,": "Selon besoin,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance de la déshydratation,",
+        "insuffisant_renal,": "Aucun ajustement,",
+        "insuffisant_hepatique,": "Aucun ajustement,"
+      },
+      "grossesse,": "Utilisation possible,",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Witamin,",
+      "nom_generique,": "Multivitamines (complexe)",
+      "dosage,": "Variable,",
+      "forme,": "Comprimé effervescent,",
+      "quantite,": "20 comprimés,",
+      "famille,": "Complément alimentaire - Multivitamines,",
+      "code_cip": "3400983456789,",
+      "prix": 8.5,
+      "stock_actuel,": 14,
+      "seuil_alerte,": 5,
+      "emplacement,": "Rayon F2 - Étagère 14,",
+      "maladies_associees,": [
+        "Carence vitaminique,",
+        "Fatigue,",
+        "Immunité",
+        "Convalescence,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Multivitamines (générique)",
+          "dosage,": "Variable,",
+          "forme,": "Comprimé effervescent,",
+          "quantite,": "20 comprimés,",
+          "raison,": "Même composition,",
+          "confiance,": 0.95,
+          "precautions,": [
+            "Dissoudre dans un verre d'eau,",
+            "Prise avec un repas,",
+            "Ne pas dépasser la dose,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Carence vitaminique,"
+          ]
+        },
+        {
+          "nom": "Vitamine C + Multivitamines,",
+          "dosage,": "Variable,",
+          "forme,": "Comprimé",
+          "quantite,": "20 comprimés,",
+          "raison,": "Autre complexe vitaminique,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Ne pas dépasser la dose,"
+          ],
+          "instructions,": "1 comprimé 1 fois par jour,",
+          "maladies_associees,": [
+            "Fatigue,",
+            "Immunité"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie aux composants,",
+        "Hypervitaminose,"
+      ],
+      "effets_secondaires,": [
+        "Rares - Troubles digestifs,"
+      ],
+      "interactions,": [
+        "Aucune interaction majeure,"
+      ],
+      "posologie_standard": "1 comprimé 1 fois par jour,",
+      "duree_traitement,": "1-3 mois,",
+      "population_specifique,": {
+        "personne_agee,": "Aucun ajustement,",
+        "insuffisant_renal,": "Surveillance,",
+        "insuffisant_hepatique,": "Aucun ajustement,"
+      },
+      "grossesse,": "Utilisation possible,",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "White,",
+      "nom_generique,": "Peroxyde de benzoyle,",
+      "dosage,": "5 %",
+      "forme,": "Gel,",
+      "quantite,": "30 g",
+      "famille,": "Antiacnéique,",
+      "code_cip": "3400984567890,",
+      "prix": 12.4,
+      "stock_actuel,": 9,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon D1 - Étagère 8,",
+      "maladies_associees,": [
+        "Acné",
+        "Acné inflammatoire,",
+        "Comédons,",
+        "Points noirs,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Peroxyde de benzoyle (générique)",
+          "dosage,": "5 %",
+          "forme,": "Gel,",
+          "quantite,": "30 g",
+          "raison,": "Même principe actif, dosage identique,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Application sur peau propre,",
+            "Débuter progressivement,",
+            "Risque de sécheresse,",
+            "Photosensibilité"
+          ],
+          "instructions,": "Application 1 fois par jour (augmenter progressivement)",
+          "maladies_associees,": [
+            "Acné"
+          ]
+        },
+        {
+          "nom": "Trétinoïne (Veltin)",
+          "dosage,": "0.025 %",
+          "forme,": "Crème,",
+          "quantite,": "30 g",
+          "raison,": "Rétinoïde topique,",
+          "confiance,": 0.7,
+          "precautions,": [
+            "Photosensibilité",
+            "Utiliser le soir,"
+          ],
+          "instructions,": "Application 1 fois par jour le soir,",
+          "maladies_associees,": [
+            "Acné rétentionnelle,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au peroxyde de benzoyle,",
+        "Allergie aux benzoyl peroxides,",
+        "Peau lésée,",
+        "Grossesse,"
+      ],
+      "effets_secondaires,": [
+        "Sécheresse cutanée,",
+        "Irritation,",
+        "Desquamation,",
+        "Photosensibilité"
+      ],
+      "interactions,": [
+        "Autres traitements topiques (espacement)",
+        "Soleil (photosensibilité)"
+      ],
+      "posologie_standard": "Application 1-2 fois par jour,",
+      "duree_traitement,": "6-12 semaines,",
+      "population_specifique,": {
+        "personne_agee,": "Sans objet,",
+        "insuffisant_renal,": "Sans objet,",
+        "insuffisant_hepatique,": "Sans objet,"
+      },
+      "grossesse,": "Classe C - À éviter,",
+      "allaitement,": "Contre-indiqué"
+    },
+    {
+      "nom": "Winstrol,",
+      "nom_generique,": "Stanozolol,",
+      "dosage,": "2 mg",
+      "forme,": "Comprimé",
+      "quantite,": "30 comprimés,",
+      "famille,": "Anabolisant - RETIRÉ",
+      "code_cip": "3400985678901,",
+      "prix": 0.0,
+      "stock_actuel,": 0,
+      "seuil_alerte,": 1,
+      "emplacement,": "Rangée retiré",
+      "maladies_associees,": [
+        "RETIRÉ DU MARCHÉ (marché noir)",
+        "Usage détourné (dopage)",
+        "Anémie (ancienne indication)"
+      ],
+      "substituts,": [
+        {
+          "nom": "Aucun substitut valable,",
+          "dosage,": ",",
+          "forme,": ",",
+          "quantite,": ",",
+          "raison,": "RETIRÉ - Substance dopante,",
+          "confiance,": 0.0,
+          "precautions,": [
+            "Ne plus utiliser,",
+            "Consulter un médecin,"
+          ],
+          "instructions,": "RETIRÉ - NE PAS UTILISER",
+          "maladies_associees,": [
+            "Ne plus prescrire,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "RETIRÉ DU MARCHÉ",
+        "Usage détourné interdit,"
+      ],
+      "effets_secondaires,": [
+        "Hépatotoxicité",
+        "Troubles cardiovasculaires,",
+        "Effets androgènes,"
+      ],
+      "interactions,": [
+        "RETIRÉ"
+      ],
+      "posologie_standard": "RETIRÉ",
+      "duree_traitement,": "RETIRÉ",
+      "population_specifique,": {
+        "personne_agee,": "RETIRÉ",
+        "insuffisant_renal,": "RETIRÉ",
+        "insuffisant_hepatique,": "RETIRÉ"
+      },
+      "grossesse,": "RETIRÉ",
+      "allaitement,": "RETIRÉ"
+    },
+    {
+      "nom": "Weber,",
+      "nom_generique,": "Hydrocortisone 1 % + Néomycine,",
+      "dosage,": "1 % / 0.5 %",
+      "forme,": "Pommade,",
+      "quantite,": "10 g",
+      "famille,": "Corticoïde + Antibiotique topique,",
+      "code_cip": "3400986789012,",
+      "prix": 14.8,
+      "stock_actuel,": 7,
+      "seuil_alerte,": 3,
+      "emplacement,": "Rayon D1 - Étagère 9,",
+      "maladies_associees,": [
+        "Eczéma surinfecté",
+        "Infections cutanées,",
+        "Dermatoses inflammatoires surinfectées,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Hydrocortisone + Néomycine (générique)",
+          "dosage,": "1 % / 0.5 %",
+          "forme,": "Pommade,",
+          "quantite,": "10 g",
+          "raison,": "Même composition,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Application courte (5-7 jours)",
+            "Ne pas utiliser sur de grandes surfaces,",
+            "Surveillance locale,"
+          ],
+          "instructions,": "Application 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Eczéma surinfecté"
+          ]
+        },
+        {
+          "nom": "Oxycort (Hydrocortisone + Oxytétracycline)",
+          "dosage,": "1 % / 3 %",
+          "forme,": "Pommade,",
+          "quantite,": "10 g",
+          "raison,": "Association corticoïde + antibiotique,",
+          "confiance,": 0.85,
+          "precautions,": [
+            "Utilisation courte,",
+            "Surveillance locale,"
+          ],
+          "instructions,": "Application 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Infections cutanées,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie aux composants,",
+        "Allergie à l'hydrocortisone,",
+        "Allergie à la néomycine,",
+        "Herpès cutané",
+        "Infections fongiques,"
+      ],
+      "effets_secondaires,": [
+        "Irritation locale,",
+        "Atrophie cutanée (long terme)"
+      ],
+      "interactions,": [
+        "Aucune interaction majeure,"
+      ],
+      "posologie_standard": "Application 1-2 fois par jour,",
+      "duree_traitement,": "5-7 jours,",
+      "population_specifique,": {
+        "personne_agee,": "Surveillance de l'atrophie cutanée,",
+        "insuffisant_renal,": "Sans objet,",
+        "insuffisant_hepatique,": "Sans objet,"
+      },
+      "grossesse,": "Classe B - Utilisation possible,",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Wood",
+      "nom_generique,": "Bois de santal (homéopathie)",
+      "dosage,": "Variable,",
+      "forme,": "Granulés,",
+      "quantite,": "1 tube,",
+      "famille,": "Homéopathie - Drainage,",
+      "code_cip": "3400987890123,",
+      "prix": 6.5,
+      "stock_actuel,": 10,
+      "seuil_alerte,": 4,
+      "emplacement,": "Rayon F2 - Étagère 15,",
+      "maladies_associees,": [
+        "Drainage hépatique,",
+        "Détoxification,",
+        "Fatigue,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Bois de santal (générique)",
+          "dosage,": "Variable,",
+          "forme,": "Granulés,",
+          "quantite,": "1 tube,",
+          "raison,": "Même principe actif,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Ne pas substituer un traitement médical,",
+            "Avis médical recommandé"
+          ],
+          "instructions,": "5 granules 3 fois par jour,",
+          "maladies_associees,": [
+            "Drainage hépatique,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie aux composants,"
+      ],
+      "effets_secondaires,": [
+        "Rares,"
+      ],
+      "interactions,": [
+        "Aucune interaction majeure,"
+      ],
+      "posologie_standard": "5 granules 3 fois par jour,",
+      "duree_traitement,": "3 mois,",
+      "population_specifique,": {
+        "personne_agee,": "Aucun ajustement,",
+        "insuffisant_renal,": "Aucun ajustement,",
+        "insuffisant_hepatique,": "Aucun ajustement,"
+      },
+      "grossesse,": "Utilisation possible (avis médical)",
+      "allaitement,": "Utilisation possible,"
+    },
+    {
+      "nom": "Wellbutrin,",
+      "nom_generique,": "Bupropion,",
+      "dosage,": "150 mg",
+      "forme,": "Comprimé LP",
+      "quantite,": "30 comprimés,",
+      "famille,": "Antidépresseur (inhibiteur de la recapture de dopamine)",
+      "code_cip": "3400988901234,",
+      "prix": 35.6,
+      "stock_actuel,": 4,
+      "seuil_alerte,": 2,
+      "emplacement,": "Rayon A3 - Étagère 3,",
+      "maladies_associees,": [
+        "Dépression,",
+        "Trouble dépressif majeur,",
+        "Trouble affectif saisonnier,",
+        "Sevrage tabagique,"
+      ],
+      "substituts,": [
+        {
+          "nom": "Bupropion LP (générique)",
+          "dosage,": "150 mg",
+          "forme,": "Comprimé LP",
+          "quantite,": "30 comprimés,",
+          "raison,": "Même principe actif, dosage identique,",
+          "confiance,": 1.0,
+          "precautions,": [
+            "Risque de convulsions,",
+            "Ne pas écraser,",
+            "Surveillance psychiatrique,",
+            "Surveillance de la pression artérielle,"
+          ],
+          "instructions,": "1 comprimé 1-2 fois par jour,",
+          "maladies_associees,": [
+            "Dépression,"
+          ]
+        },
+        {
+          "nom": "Fluoxétine (Prozac)",
+          "dosage,": "20 mg",
+          "forme,": "Gélule,",
+          "quantite,": "28 gélules,",
+          "raison,": "Antidépresseur ISRS",
+          "confiance,": 0.7,
+          "precautions,": [
+            "Effet en 2-4 semaines,",
+            "Risque sérotoninergique,"
+          ],
+          "instructions,": "1 gélule 1 fois par jour,",
+          "maladies_associees,": [
+            "Dépression,"
+          ]
+        }
+      ],
+      "contre_indications,": [
+        "Allergie au bupropion,",
+        "Épilepsie,",
+        "Antécédents de convulsions,",
+        "Grossesse,",
+        "Allaitement,"
+      ],
+      "effets_secondaires,": [
+        "Insomnie,",
+        "Agitation,",
+        "Sécheresse buccale,",
+        "Nausées,",
+        "Risque de convulsions,"
+      ],
+      "interactions,": [
+        "IMAO (risque de convulsions)",
+        "Alcool (risque de convulsions)",
+        "Antipsychotiques (risque de convulsions)"
+      ],
+      "posologie_standard": "150 mg 1-2 fois par jour,",
+      "duree_traitement,": "6-12 mois,",
+      "population_specifique,": {
+        "personne_agee,": "Dose réduite,",
+        "insuffisant_renal,": "Surveillance,",
+        "insuffisant_hepatique,": "Surveillance,"
+      },
+      "grossesse,": "Contre-indiqué",
+      "allaitement,": "Contre-indiqué"
+    }
+  ],
+  "metadata,": {
+    "version,": "6.0,",
+    "date_generation,": "2024-01-15,"
+  }
+}

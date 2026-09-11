@@ -1,0 +1,419 @@
+[
+  {
+    "nom": "Alprazolam (générique)",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Arrêt progressif,",
+      "Surveillance de la somnolence,",
+      "Ne pas dépasser 4-6 semaines,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Attaques de panique,"
+    ]
+  },
+  {
+    "nom": "Bromazépam (Lexomil)",
+    "dosage,": "6 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Benzodiazépine différente,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Surveillance de la somnolence,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété"
+    ]
+  },
+  {
+    "nom": "Clonazépam (Rivotril)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Benzodiazépine différente,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Surveillance de la sédation,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Attaques de panique,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite (0.25 mg)",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Alprazolam 0.25 mg (générique)",
+    "dosage,": "0.25 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Arrêt progressif,",
+      "Surveillance de la somnolence,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété"
+    ]
+  },
+  {
+    "nom": "Xanax 0.5 mg",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage différent,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Dosage à adapter selon réponse,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété sévère,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Rivaroxaban (générique)",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,",
+      "Surveillance hépatique,",
+      "Ne pas interrompre sans avis,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Prévention AVC",
+      "Thrombose,"
+    ]
+  },
+  {
+    "nom": "Pradaxa (Dabigatran)",
+    "dosage,": "150 mg",
+    "forme,": "Gélule,",
+    "quantite,": "60 gélules,",
+    "raison,": "Anticoagulant direct différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,"
+    ],
+    "instructions,": "1 gélule 2 fois par jour,",
+    "maladies_associees,": [
+      "Prévention AVC"
+    ]
+  },
+  {
+    "nom": "Warfarine (Coumadin)",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Anticoagulant AVK",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Surveillance INR",
+      "Interactions nombreuses,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Prévention AVC"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Rivaroxaban 15 mg (générique)",
+    "dosage,": "15 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance rénale,",
+      "Risque hémorragique,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour (phase initiale)",
+    "maladies_associees,": [
+      "Thrombose,",
+      "Embolie,"
+    ]
+  },
+  {
+    "nom": "Xarelto 20 mg",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage différent,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Dosage selon phase de traitement,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Prévention AVC"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance rénale,",
+    "insuffisant_renal,": "Contre-indiqué si sévère,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Lidocaïne 2 % (générique)",
+    "dosage,": "2 %",
+    "forme,": "Gel,",
+    "quantite,": "30 g",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Application sur peau saine,",
+      "Ne pas utiliser sur plaie ouverte,",
+      "Surveillance en cas d'usage prolongé"
+    ],
+    "instructions,": "Application 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anesthésie locale,"
+    ]
+  },
+  {
+    "nom": "Ultracaine (Articaine)",
+    "dosage,": "40 mg",
+    "forme,": "Solution injectable,",
+    "quantite,": "2 ml,",
+    "raison,": "Anesthésique local injectable,",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Usage professionnel,",
+      "Surveillance cardiovasculaire,"
+    ],
+    "instructions,": "Injection locale,",
+    "maladies_associees,": [
+      "Anesthésie dentaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la tolérance,",
+    "insuffisant_renal,": "Sans objet,",
+    "insuffisant_hepatique,": "Sans objet,"
+  },
+  {
+    "nom": "Lidocaïne 5 % (générique)",
+    "dosage,": "5 %",
+    "forme,": "Pommade,",
+    "quantite,": "30 g",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Application limitée,",
+      "Ne pas utiliser sur plaie ouverte,"
+    ],
+    "instructions,": "Application 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Anesthésie locale,"
+    ]
+  },
+  {
+    "nom": "Xylocaine 2 %",
+    "dosage,": "2 %",
+    "forme,": "Gel,",
+    "quantite,": "30 g",
+    "raison,": "Même principe actif, dosage inférieur,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Dosage moins fort,"
+    ],
+    "instructions,": "Application 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anesthésie locale,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la tolérance,",
+    "insuffisant_renal,": "Sans objet,",
+    "insuffisant_hepatique,": "Sans objet,"
+  },
+  {
+    "nom": "Alfuzosine LP (générique)",
+    "dosage,": "5 mg",
+    "forme,": "Comprimé LP",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise après le repas,",
+      "Surveillance tension artérielle,",
+      "Risque d'hypotension orthostatique,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "HBP"
+    ]
+  },
+  {
+    "nom": "Tamsulosine (Radiostérone)",
+    "dosage,": "0.4 mg",
+    "forme,": "Gélule LP",
+    "quantite,": "30 gélules,",
+    "raison,": "Alpha-bloquant différent,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance tension,",
+      "Risque d'hypotension,"
+    ],
+    "instructions,": "1 gélule 1 fois par jour,",
+    "maladies_associees,": [
+      "HBP"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance tension,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Orlistat 120 mg (générique)",
+    "dosage,": "120 mg",
+    "forme,": "Gélule,",
+    "quantite,": "42 gélules,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise avec les repas (3 fois par jour)",
+      "Risque de carences vitaminiques,",
+      "Supplémentation en vitamines liposolubles,",
+      "Surveillance des selles,"
+    ],
+    "instructions,": "1 gélule 3 fois par jour,",
+    "maladies_associees,": [
+      "Obésité"
+    ]
+  },
+  {
+    "nom": "Orlistat 60 mg (OTC)",
+    "dosage,": "60 mg",
+    "forme,": "Gélule,",
+    "quantite,": "84 gélules,",
+    "raison,": "Même principe actif, dosage réduit (OTC)",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Prise avec les repas,",
+      "Risque de carences,"
+    ],
+    "instructions,": "1 gélule 3 fois par jour,",
+    "maladies_associees,": [
+      "Surpoids,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance des carences,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Contre-indiqué"
+  },
+  {
+    "nom": "Xylitol (générique)",
+    "dosage,": "Variable,",
+    "forme,": "Pastille,",
+    "quantite,": "30 pastilles,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Utiliser après les repas,",
+      "Ne pas dépasser la dose,",
+      "Risque de troubles digestifs en cas de surdosage,"
+    ],
+    "instructions,": "1 pastille 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Prévention des caries,"
+    ]
+  },
+  {
+    "nom": "Chewing-gum sans sucre,",
+    "dosage,": "Variable,",
+    "forme,": "Chewing-gum",
+    "quantite,": "1 boîte,",
+    "raison,": "Alternative pour la prévention des caries,",
+    "confiance,": 0.7,
+    "precautions,": [
+      "Effet moins ciblé"
+    ],
+    "instructions,": "Mâcher 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Hygiène bucco-dentaire,"
+    ]
+  },
+  {
+    "personne_agee,": "Aucun ajustement,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Alprazolam 1 mg (générique)",
+    "dosage,": "1 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de dépendance élevé",
+      "Arrêt progressif,",
+      "Surveillance de la somnolence,",
+      "Risque de sevrage,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété sévère,"
+    ]
+  },
+  {
+    "nom": "Xanax 0.5 mg",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage inférieur,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Dosage à adapter,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite (0.5 mg)",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "version,": "6.0,",
+    "date_generation,": "2024-01-15,"
+  }
+]

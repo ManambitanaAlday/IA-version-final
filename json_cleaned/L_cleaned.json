@@ -1,0 +1,401 @@
+[
+  {
+    "nom": "Toujeo (Insuline glargine U300)",
+    "dosage,": "300 UI/ml,",
+    "forme,": "Seringue pré-remplie,",
+    "quantite,": "1.5 ml,",
+    "raison,": "Même principe actif, concentration différente,",
+    "confiance,": 0.9,
+    "precautions,": [
+      "Dose ajustée par le médecin,",
+      "Surveillance glycémique stricte,",
+      "Ne pas mélanger avec d'autres insulines,"
+    ],
+    "instructions,": "1 injection sous-cutanée par jour,",
+    "maladies_associees,": [
+      "Diabète de type 1,",
+      "Diabète de type 2,"
+    ]
+  },
+  {
+    "nom": "Levemir (Insuline détémir)",
+    "dosage,": "100 UI/ml,",
+    "forme,": "Seringue pré-remplie,",
+    "quantite,": "3 ml,",
+    "raison,": "Insuline longue action différente,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance glycémique,",
+      "Ajustement posologique,"
+    ],
+    "instructions,": "1-2 injections sous-cutanées par jour,",
+    "maladies_associees,": [
+      "Diabète de type 1,",
+      "Diabète de type 2,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance accrue des hypoglycémies,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Chlorpromazine (générique)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance des effets extrapyramidaux",
+      "Risque de photosensibilité",
+      "Surveillance cardiaque,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Troubles psychotiques,"
+    ]
+  },
+  {
+    "nom": "Haloperidol (Haldol)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Neuroleptique différent,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance neurologique,",
+      "Risque de syndrome extrapyramidal,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Schizophrénie,",
+      "Psychose,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Furosémide (générique)",
+    "dosage,": "40 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Surveillance de la kaliémie,",
+      "Surveillance de la fonction rénale,",
+      "Prise le matin,"
+    ],
+    "instructions,": "1 comprimé 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Œdème,",
+      "Hypertension,"
+    ]
+  },
+  {
+    "nom": "Hydrochlorothiazide (Esidrex)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Diurétique thiazidique différent,",
+    "confiance,": 0.75,
+    "precautions,": [
+      "Surveillance de la kaliémie,",
+      "Surveillance de la glycémie,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Œdème,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Adaptation,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Euthyrox",
+    "dosage,": "100 µg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif, dosage identique,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise à jeun (30 min avant petit-déjeuner)",
+      "Surveillance TSH",
+      "Ne pas interrompre le traitement,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypothyroïdie,"
+    ]
+  },
+  {
+    "nom": "Lévothyroxine (générique)",
+    "dosage,": "100 µg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Même posologie,",
+      "Surveillance TSH"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypothyroïdie,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose adaptée selon TSH",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Bromazépam (générique)",
+    "dosage,": "6 mg",
+    "forme,": "Comprimé sécable,",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de dépendance,",
+      "Arrêt progressif,",
+      "Ne pas dépasser 4 semaines,"
+    ],
+    "instructions,": "1 comprimé 2 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété"
+    ]
+  },
+  {
+    "nom": "Alprazolam (Xanax)",
+    "dosage,": "0.5 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Benzodiazépine différente,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Risque de dépendance élevé",
+      "Action plus courte,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Anxiété",
+      "Attaques de panique,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite (3 mg)",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Réduire la dose,"
+  },
+  {
+    "nom": "Fer + Acide folique (générique)",
+    "dosage,": "100 mg / 0.35 mg",
+    "forme,": "Gélule,",
+    "quantite,": "30 gélules,",
+    "raison,": "Même composition,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prendre pendant les repas,",
+      "Espacement avec le thé/café (2h)",
+      "Coloration noire des selles,"
+    ],
+    "instructions,": "1 gélule 1-2 fois par jour,",
+    "maladies_associees,": [
+      "Anémie,"
+    ]
+  },
+  {
+    "nom": "Tardyféron,",
+    "dosage,": "80 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Fer seul, libération prolongée,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Tolérance gastrique améliorée,",
+      "Effet retard"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Carence martiale,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la ferritine,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Baclofène (générique)",
+    "dosage,": "10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Arrêt progressif,",
+      "Risque d'hypertension à l'arrêt brutal,",
+      "Surveillance de la spasticité"
+    ],
+    "instructions,": "1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Spasticité"
+    ]
+  },
+  {
+    "nom": "Sirdalud (Tizanidine)",
+    "dosage,": "2 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Myorelaxant différent,",
+    "confiance,": 0.8,
+    "precautions,": [
+      "Surveillance de la pression artérielle,",
+      "Risque d'hypotension,"
+    ],
+    "instructions,": "1 comprimé 3 fois par jour,",
+    "maladies_associees,": [
+      "Spasticité",
+      "Douleurs musculo-squelettiques,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Imodium",
+    "dosage,": "2 mg",
+    "forme,": "Gélule,",
+    "quantite,": "12 gélules,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Ne pas dépasser 6 gélules/jour,",
+      "Réhydratation nécessaire,",
+      "Ne pas utiliser en cas de fièvre,"
+    ],
+    "instructions,": "1 gélule après chaque selle liquide,",
+    "maladies_associees,": [
+      "Diarrhée,"
+    ]
+  },
+  {
+    "nom": "Lopéramide (générique)",
+    "dosage,": "2 mg",
+    "forme,": "Gélule,",
+    "quantite,": "12 gélules,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Risque de constipation,",
+      "Surveillance de la déshydratation,"
+    ],
+    "instructions,": "1 gélule après chaque selle liquide,",
+    "maladies_associees,": [
+      "Diarrhée,"
+    ]
+  },
+  {
+    "personne_agee,": "Surveillance de la déshydratation,",
+    "insuffisant_renal,": "Aucun ajustement,",
+    "insuffisant_hepatique,": "Surveillance,"
+  },
+  {
+    "nom": "Lysine (générique)",
+    "dosage,": "1000 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise avec un repas,",
+      "Hydratation suffisante,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Herpès,"
+    ]
+  },
+  {
+    "personne_agee,": "Aucun ajustement,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Lysine + Zinc",
+    "dosage,": "1000 mg / 10 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Association sans sélénium",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Ne pas dépasser 1 comprimé/jour,"
+    ],
+    "instructions,": "1 comprimé par jour,",
+    "maladies_associees,": [
+      "Immunité",
+      "Herpès,"
+    ]
+  },
+  {
+    "personne_agee,": "Aucun ajustement,",
+    "insuffisant_renal,": "Surveillance,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "nom": "Captopril (générique)",
+    "dosage,": "25 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "Même principe actif,",
+    "confiance,": 1.0,
+    "precautions,": [
+      "Prise à distance des repas (1h avant)",
+      "Surveillance de la kaliémie,",
+      "Surveillance de la fonction rénale,"
+    ],
+    "instructions,": "1 comprimé 2-3 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "nom": "Renitec (Énalapril)",
+    "dosage,": "20 mg",
+    "forme,": "Comprimé",
+    "quantite,": "30 comprimés,",
+    "raison,": "IEC différent, action prolongée,",
+    "confiance,": 0.85,
+    "precautions,": [
+      "Surveillance tension,",
+      "Surveillance kaliémie,"
+    ],
+    "instructions,": "1 comprimé 1 fois par jour,",
+    "maladies_associees,": [
+      "Hypertension,",
+      "Insuffisance cardiaque,"
+    ]
+  },
+  {
+    "personne_agee,": "Dose réduite,",
+    "insuffisant_renal,": "Réduire la dose,",
+    "insuffisant_hepatique,": "Aucun ajustement,"
+  },
+  {
+    "version,": "6.0,",
+    "date_generation,": "2024-01-15,",
+    "nombre_medicaments,": 11
+  }
+]

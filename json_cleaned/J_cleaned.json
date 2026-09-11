@@ -1,0 +1,727 @@
+{
+  "medicaments": [
+    {
+      "nom": "Jardiance",
+      "nom_generique": "Empagliflozine",
+      "dosage": "10 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antidiabétique (inhibiteur SGLT2)",
+      "code_cip": "3400952345678",
+      "prix": 52.4,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Diabète de type 2",
+        "Insuffisance cardiaque",
+        "Maladie rénale chronique",
+        "Diabète avec obésité"
+      ],
+      "substituts": [
+        {
+          "nom": "Forxiga (Dapagliflozine)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique (SGLT2)",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la fonction rénale",
+            "Risque d'infections urinaires",
+            "Surveillance de la glycémie"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2",
+            "Insuffisance cardiaque"
+          ]
+        },
+        {
+          "nom": "Invokana (Canagliflozine)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Risque d'amputation augmenté (doigts/pieds)"
+          ],
+          "instructions": "1 comprimé 1 fois par jour avant le repas",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'empagliflozine",
+        "Diabète de type 1",
+        "Acidocétose diabétique",
+        "Insuffisance rénale sévère (DFG < 30)",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Infections urinaires (fréquentes)",
+        "Mycoses génitales (fréquentes)",
+        "Polyurie",
+        "Déshydratation",
+        "Hypotension orthostatique",
+        "Acidocétose (rare)",
+        "Nécrose du pénis ou périnée (très rare)"
+      ],
+      "interactions": [
+        "Diurétiques (risque de déshydratation)",
+        "Insuline (risque d'hypoglycémie)",
+        "IEC (risque d'hypotension)",
+        "AINS (insuffisance rénale)"
+      ],
+      "posologie_standard": "10 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué si DFG < 30",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jardiance 25 mg",
+      "nom_generique": "Empagliflozine",
+      "dosage": "25 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antidiabétique (inhibiteur SGLT2)",
+      "code_cip": "3400953456789",
+      "prix": 58.9,
+      "stock_actuel": 4,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Diabète de type 2 sévère",
+        "Diabète de type 2 non contrôlé",
+        "Insuffisance cardiaque",
+        "Maladie rénale chronique"
+      ],
+      "substituts": [
+        {
+          "nom": "Jardiance 10 mg",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même principe actif, dosage inférieur",
+          "confiance": 0.95,
+          "precautions": [
+            "Dosage à augmenter selon contrôle glycémique",
+            "Surveillance de la glycémie"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        },
+        {
+          "nom": "Forxiga 10 mg",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même classe thérapeutique",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Risque de déshydratation"
+          ],
+          "instructions": "1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à l'empagliflozine",
+        "Diabète de type 1",
+        "Acidocétose",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Infections urinaires",
+        "Mycoses génitales",
+        "Déshydratation",
+        "Hypotension",
+        "Acidocétose (rare)"
+      ],
+      "interactions": [
+        "Diurétiques (déshydratation)",
+        "Insuline (hypoglycémie)",
+        "AINS (insuffisance rénale)"
+      ],
+      "posologie_standard": "25 mg 1 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué si DFG < 30",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jasmine",
+      "nom_generique": "Drospirénone + Éthinylestradiol",
+      "dosage": "3 mg / 0.03 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "21 comprimés",
+      "famille": "Contraceptif hormonal (estroprogestatif)",
+      "code_cip": "3400954567890",
+      "prix": 18.7,
+      "stock_actuel": 8,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Contraception",
+        "Acné",
+        "Syndrome prémenstruel sévère",
+        "Endométriose",
+        "Règles douloureuses"
+      ],
+      "substituts": [
+        {
+          "nom": "Yasminelle",
+          "dosage": "3 mg / 0.02 mg",
+          "forme": "Comprimé",
+          "quantite": "21 comprimés",
+          "raison": "Même principe actif, dosage d'éthinylestradiol inférieur",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance des facteurs de risque thrombotique",
+            "Ne pas fumer",
+            "Surveillance tension artérielle"
+          ],
+          "instructions": "1 comprimé par jour pendant 21 jours, arrêt 7 jours",
+          "maladies_associees": [
+            "Contraception",
+            "Acné"
+          ]
+        },
+        {
+          "nom": "Diane 35",
+          "dosage": "2 mg / 0.035 mg",
+          "forme": "Comprimé",
+          "quantite": "21 comprimés",
+          "raison": "Contraceptif différent, également anti-androgénique",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance thrombotique",
+            "Contrôle de la tension"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Contraception",
+            "Acné sévère"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Thrombose veineuse",
+        "Antécédents d'accident thromboembolique",
+        "Cancer du sein",
+        "Tumeurs hépatiques",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Nausées (premiers mois)",
+        "Sensibilité mammaire",
+        "Prise de poids (rare)",
+        "Modification de l'humeur",
+        "Céphalées",
+        "Rétention d'eau",
+        "Risque thrombotique (augmenté)"
+      ],
+      "interactions": [
+        "Antibiotiques (risque de grossesse)",
+        "Barbituriques (diminution efficacité)",
+        "Rifampicine (diminution efficacité)",
+        "Anticonvulsivants (diminution efficacité)"
+      ],
+      "posologie_standard": "1 comprimé par jour pendant 21 jours",
+      "duree_traitement": "Long terme ou selon besoin",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Surveillance (potassium)",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jauline",
+      "nom_generique": "Désogestrel + Éthinylestradiol",
+      "dosage": "0.15 mg / 0.02 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "21 comprimés",
+      "famille": "Contraceptif hormonal (estroprogestatif)",
+      "code_cip": "3400955678901",
+      "prix": 16.9,
+      "stock_actuel": 10,
+      "seuil_alerte": 4,
+      "maladies_associees": [
+        "Contraception",
+        "Contrôle du cycle",
+        "Acné légère",
+        "Dysménorrhée"
+      ],
+      "substituts": [
+        {
+          "nom": "Mercilon",
+          "dosage": "0.15 mg / 0.02 mg",
+          "forme": "Comprimé",
+          "quantite": "21 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance des risques thrombotiques",
+            "Ne pas fumer si > 35 ans"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Contraception"
+          ]
+        },
+        {
+          "nom": "Varnoline",
+          "dosage": "0.15 mg / 0.02 mg",
+          "forme": "Comprimé",
+          "quantite": "21 comprimés",
+          "raison": "Même dosage, même composition",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance tension",
+            "Contrôle du poids"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Contraception"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Thrombose",
+        "Cancer du sein",
+        "Grossesse",
+        "Allaitement",
+        "Tumeurs hépatiques"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Céphalées",
+        "Tension mammaire",
+        "Modification du poids",
+        "Troubles de l'humeur"
+      ],
+      "interactions": [
+        "Antibiotiques",
+        "Barbituriques",
+        "Rifampicine"
+      ],
+      "posologie_standard": "1 comprimé par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Sans objet",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jentadueto",
+      "nom_generique": "Linagliptine + Metformine",
+      "dosage": "2.5 mg / 850 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "60 comprimés",
+      "famille": "Antidiabétique (DPP-4 + biguanide)",
+      "code_cip": "3400956789012",
+      "prix": 42.8,
+      "stock_actuel": 5,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Diabète de type 2",
+        "Diabète non contrôlé par metformine seule"
+      ],
+      "substituts": [
+        {
+          "nom": "Janumet",
+          "dosage": "50 mg / 850 mg",
+          "forme": "Comprimé",
+          "quantite": "56 comprimés",
+          "raison": "Même classe thérapeutique (DPP-4 + metformine)",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la fonction rénale",
+            "Surveillance glycémique"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        },
+        {
+          "nom": "Eucreas",
+          "dosage": "50 mg / 850 mg",
+          "forme": "Comprimé",
+          "quantite": "60 comprimés",
+          "raison": "DPP-4 + metformine, vildagliptine",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Risque d'hypoglycémie"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Diabète de type 2"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Insuffisance rénale sévère",
+        "Acidose métabolique",
+        "Insuffisance hépatique",
+        "Diabète de type 1"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée)",
+        "Hypoglycémie (rare)",
+        "Céphalées",
+        "Rhinite"
+      ],
+      "interactions": [
+        "Alcool (risque d'acidose lactique)",
+        "AINS (insuffisance rénale)"
+      ],
+      "posologie_standard": "1 comprimé 2 fois par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jolen",
+      "nom_generique": "Minoxidil",
+      "dosage": "5 %",
+      "forme": "Solution topique",
+      "quantite": "60 ml",
+      "famille": "Traitement de la calvitie (vasodilatateur)",
+      "code_cip": "3400957890123",
+      "prix": 34.5,
+      "stock_actuel": 7,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Alopécie androgénétique",
+        "Chute de cheveux",
+        "Calvitie masculine",
+        "Calvitie féminine"
+      ],
+      "substituts": [
+        {
+          "nom": "Minoxidil (générique)",
+          "dosage": "5 %",
+          "forme": "Solution topique",
+          "quantite": "60 ml",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Application uniquement sur le cuir chevelu",
+            "Effet en 3-6 mois",
+            "Risque de repousse après arrêt"
+          ],
+          "instructions": "Appliquer 1 ml 2 fois par jour",
+          "maladies_associees": [
+            "Calvitie"
+          ]
+        },
+        {
+          "nom": "Regaine",
+          "dosage": "5 %",
+          "forme": "Mousse",
+          "quantite": "60 g",
+          "raison": "Même principe actif, forme mousse",
+          "confiance": 0.95,
+          "precautions": [
+            "Appliquer sur cheveux secs",
+            "Massage léger"
+          ],
+          "instructions": "Appliquer 2 fois par jour",
+          "maladies_associees": [
+            "Calvitie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au minoxidil",
+        "Grossesse",
+        "Allaitement",
+        "Scalp endommagé ou irrité"
+      ],
+      "effets_secondaires": [
+        "Irritation locale (fréquent)",
+        "Prurit",
+        "Hypertrichose localisée",
+        "Céphalées (rares)",
+        "Tachycardie (rares)",
+        "Chute de cheveux initiale (normale)"
+      ],
+      "interactions": [
+        "Autres traitements topiques (espacement)",
+        "Corticostéroïdes topiques"
+      ],
+      "posologie_standard": "1 ml 2 fois par jour",
+      "duree_traitement": "6 mois minimum",
+      "population_specifique": {
+        "personne_agee": "Efficacité diminuée",
+        "insuffisant_renal": "Aucun ajustement",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Jouvence",
+      "nom_generique": "Acide hyaluronique + Vitamine C",
+      "dosage": "20 mg / 100 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Complément alimentaire (anti-âge)",
+      "code_cip": "3400958901234",
+      "prix": 12.9,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Prévention du vieillissement cutané",
+        "Sécheresse cutanée",
+        "Rides",
+        "Perte d'élasticité de la peau",
+        "Articulations (soutien)"
+      ],
+      "substituts": [
+        {
+          "nom": "Hyaluronate + Vitamine C",
+          "dosage": "20 mg / 100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Même composition",
+          "confiance": 0.95,
+          "precautions": [
+            "Prise avec un repas",
+            "Ne pas dépasser la dose",
+            "Hydratation suffisante"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Prévention vieillissement"
+          ]
+        },
+        {
+          "nom": "Hyaluronique + Collagène",
+          "dosage": "20 mg / 1000 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Association différente",
+          "confiance": 0.7,
+          "precautions": [
+            "Ne pas substituer un traitement médicamenteux"
+          ],
+          "instructions": "1 comprimé par jour",
+          "maladies_associees": [
+            "Peau",
+            "Articulations"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Hypervitaminose C",
+        "Oxalate de calcium (calculs)"
+      ],
+      "effets_secondaires": [
+        "Rares - Troubles digestifs",
+        "Diarrhée (surdosage)",
+        "Irritation gastrique"
+      ],
+      "interactions": [
+        "Fer (augmentation de l'absorption)",
+        "Aluminium (augmentation de l'absorption)"
+      ],
+      "posologie_standard": "1 comprimé par jour",
+      "duree_traitement": "3 mois renouvelables",
+      "population_specifique": {
+        "personne_agee": "Aucun ajustement",
+        "insuffisant_renal": "Surveillance en cas de calculs rénaux",
+        "insuffisant_hepatique": "Aucun ajustement"
+      },
+      "grossesse": "Utilisation possible (dose adaptée)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Joxer",
+      "nom_generique": "Diclofénac",
+      "dosage": "50 mg",
+      "forme": "Comprimé gastro-résistant",
+      "quantite": "20 comprimés",
+      "famille": "Anti-inflammatoire non stéroïdien (AINS)",
+      "code_cip": "3400959012345",
+      "prix": 9.8,
+      "stock_actuel": 11,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Douleurs musculaires",
+        "Douleurs articulaires",
+        "Polyarthrite rhumatoïde",
+        "Ostéoarthrite",
+        "Lombalgie",
+        "Sciatique"
+      ],
+      "substituts": [
+        {
+          "nom": "Voltarène",
+          "dosage": "50 mg",
+          "forme": "Comprimé gastro-résistant",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif, dosage identique",
+          "confiance": 1.0,
+          "precautions": [
+            "Prendre avec de la nourriture",
+            "Risque gastro-intestinal",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé 2 à 3 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Inflammation"
+          ]
+        },
+        {
+          "nom": "Diclofénac (générique)",
+          "dosage": "50 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Même principe actif",
+          "confiance": 1.0,
+          "precautions": [
+            "À prendre avec les repas",
+            "Risque d'ulcère"
+          ],
+          "instructions": "1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Douleurs",
+            "Arthrose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au diclofénac",
+        "Allergie à l'aspirine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale",
+        "Insuffisance hépatique",
+        "Grossesse (3ème trimestre)"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (dyspepsie)",
+        "Ulcère gastro-intestinal",
+        "Nausées",
+        "Céphalées",
+        "Vertiges"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Lithium (augmentation)",
+        "Méthotrexate (toxicité)"
+      ],
+      "posologie_standard": "50 mg 2-3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Dose réduite",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Classe B (1er/2ème), D (3ème) - À éviter",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Juvisync",
+      "nom_generique": "Sitagliptine + Simvastatine",
+      "dosage": "100 mg / 20 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antidiabétique + Hypolipidémiant",
+      "code_cip": "3400950123456",
+      "prix": 48.7,
+      "stock_actuel": 3,
+      "seuil_alerte": 2,
+      "maladies_associees": [
+        "Diabète de type 2",
+        "Hypercholestérolémie",
+        "Syndrome métabolique"
+      ],
+      "substituts": [
+        {
+          "nom": "Janumet + Simvastatine",
+          "dosage": "50 mg / 850 mg + 20 mg",
+          "forme": "Comprimés séparés",
+          "quantite": "Variable",
+          "raison": "Même association de classes thérapeutiques",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique (simvastatine)",
+            "Surveillance rénale"
+          ],
+          "instructions": "1 comprimé de chaque par jour",
+          "maladies_associees": [
+            "Diabète",
+            "Cholestérol"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux composants",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs",
+        "Myalgies (simvastatine)",
+        "Atteinte hépatique",
+        "Céphalées",
+        "Rhabdomyolyse (rare)"
+      ],
+      "interactions": [
+        "Fibrates (risque de myopathie)",
+        "AINS (insuffisance rénale)",
+        "Alcool (hépatotoxicité)"
+      ],
+      "posologie_standard": "1 comprimé par jour",
+      "duree_traitement": "Long terme",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    }
+  ],
+  "metadata": {
+    "version": "6.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 9
+  }
+}

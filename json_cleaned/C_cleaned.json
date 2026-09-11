@@ -1,0 +1,2775 @@
+{
+  "medicaments": [
+    {
+      "nom": "Caféine (Caféine Citrate)",
+      "nom_generique": "Caféine",
+      "dosage": "20 mg/ml",
+      "forme": "Solution injectable",
+      "quantite": "3 ampoules",
+      "famille": "Psychostimulant - Analeptique respiratoire",
+      "code_cip": "3400934570000",
+      "prix": 18.5,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Apnée du prématuré",
+        "Troubles respiratoires du nouveau-né",
+        "Insuffisance respiratoire",
+        "Asthénie (fatigue chronique)",
+        "Hypotension orthostatique",
+        "Céphalées (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Doxapram",
+          "dosage": "20 mg/ml",
+          "forme": "Solution injectable",
+          "quantite": "5 ampoules",
+          "raison": "Alternative analeptique respiratoire",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance de la pression artérielle",
+            "Risque d'hypertension",
+            "Risque d'arythmie",
+            "Utilisation en milieu hospitalier"
+          ],
+          "instructions": "Perfusion IV continue",
+          "maladies_associees": [
+            "Dépression respiratoire",
+            "Apnée du prématuré",
+            "Insuffisance respiratoire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la caféine",
+        "Allergie à la théophylline",
+        "Troubles du rythme cardiaque sévères",
+        "Hypertension sévère",
+        "Grossesse (1er trimestre)"
+      ],
+      "effets_secondaires": [
+        "Tachycardie",
+        "Anxiété",
+        "Insomnie",
+        "Nausées",
+        "Céphalées",
+        "Tremblements"
+      ],
+      "interactions": [
+        "Antidépresseurs (risque de syndrome sérotoninergique)",
+        "Bêta-bloquants (antagonisme)",
+        "Antibiotiques (diminution de l'élimination)",
+        "Cimétidine (augmentation de la concentration)"
+      ],
+      "posologie_standard": "20 mg/kg en dose de charge",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "nouveau-ne": "20 mg/kg puis 5-10 mg/kg/jour",
+        "premature": "Dose adaptée au poids"
+      },
+      "grossesse": "Contre-indiqué (1er trimestre)",
+      "allaitement": "Passage dans le lait - Éviter",
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Calcitonine (Miacalcic)",
+      "nom_generique": "Calcitonine",
+      "dosage": "200 UI",
+      "forme": "Solution injectable",
+      "quantite": "5 ampoules",
+      "famille": "Régulateur du métabolisme calcique",
+      "code_cip": "3400934570010",
+      "prix": 52.3,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Ostéoporose sévère",
+        "Maladie de Paget",
+        "Hypercalcémie",
+        "Douleurs osseuses (soulagement)",
+        "Algodystrophie (dystrophie sympathique réflexe)"
+      ],
+      "substituts": [
+        {
+          "nom": "Calcitonine (nasale)",
+          "dosage": "200 UI",
+          "forme": "Solution nasale",
+          "quantite": "1 flacon",
+          "raison": "Même principe actif, voie nasale (moins invasive)",
+          "confiance": 1.0,
+          "precautions": [
+            "Surveillance de la calcémie",
+            "Risque de rhinorrhée",
+            "Utilisation régulière"
+          ],
+          "instructions": "1 pulvérisation 1 fois par jour",
+          "maladies_associees": [
+            "Ostéoporose",
+            "Douleurs osseuses"
+          ]
+        },
+        {
+          "nom": "Alendronate",
+          "dosage": "70 mg",
+          "forme": "Comprimé",
+          "quantite": "4 comprimés",
+          "raison": "Alternative pour l'ostéoporose (bisphosphonate)",
+          "confiance": 0.85,
+          "precautions": [
+            "Prendre à jeun avec un grand verre d'eau",
+            "Rester debout 30 minutes",
+            "Surveillance de la calcémie"
+          ],
+          "instructions": "1 comprimé par semaine",
+          "maladies_associees": [
+            "Ostéoporose",
+            "Maladie de Paget"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la calcitonine",
+        "Allergie au saumon (protéine de poisson)",
+        "Hypocalcémie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Nausées",
+        "Vomissements",
+        "Bouffées vasomotrices",
+        "Réactions allergiques (urticaire, angio-œdème)",
+        "Hypercalcémie paradoxale (rare)"
+      ],
+      "interactions": [
+        "Suppléments calciques (interfèrent avec l'absorption)",
+        "Vitamine D (effets majorés)",
+        "Corticostéroïdes (diminution de l'effet)"
+      ],
+      "posologie_standard": "100-200 UI 1 fois par jour",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la calcémie",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Calcipotriol (Daivonex)",
+      "nom_generique": "Calcipotriol",
+      "dosage": "50 µg/g",
+      "forme": "Crème",
+      "quantite": "30 g",
+      "famille": "Dermocorticoïde - Dérivé de la vitamine D",
+      "code_cip": "3400934570020",
+      "prix": 24.8,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Psoriasis en plaques",
+        "Psoriasis du cuir chevelu",
+        "Psoriasis des ongles",
+        "Psoriasis modéré à sévère",
+        "Lichen plan (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Calcitriol (Silkis)",
+          "dosage": "3 µg/g",
+          "forme": "Onguent",
+          "quantite": "30 g",
+          "raison": "Alternative dérivée de la vitamine D",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la calcémie (utilisation à large surface)",
+            "Ne pas utiliser sur les muqueuses",
+            "Éviter le contact avec les yeux"
+          ],
+          "instructions": "Appliquer 1-2 fois par jour",
+          "maladies_associees": [
+            "Psoriasis",
+            "Lichen plan"
+          ]
+        },
+        {
+          "nom": "Daivonex (Calcipotriol)",
+          "dosage": "50 µg/g",
+          "forme": "Solution capillaire",
+          "quantite": "30 ml",
+          "raison": "Même principe actif, forme adaptée au cuir chevelu",
+          "confiance": 1.0,
+          "precautions": [
+            "Application locale uniquement",
+            "Ne pas utiliser sur les muqueuses",
+            "Éviter le contact avec les yeux"
+          ],
+          "instructions": "Appliquer 1-2 fois par jour",
+          "maladies_associees": [
+            "Psoriasis du cuir chevelu",
+            "Psoriasis des ongles"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au calcipotriol",
+        "Allergie à la vitamine D",
+        "Hypercalcémie",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Irritation locale",
+        "Prurit",
+        "Brûlure (application)",
+        "Hypercalcémie (usage prolongé à large surface)",
+        "Pustulose (rare)"
+      ],
+      "interactions": [
+        "Corticostéroïdes topiques (effets majorés)",
+        "Calcium (suppléments - risque d'hypercalcémie)",
+        "Vitamine D (effets majorés)"
+      ],
+      "posologie_standard": "Appliquer 1-2 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance de la calcémie"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Utilisation possible (surface limitée)"
+    },
+    {
+      "nom": "Captopril (Lopril)",
+      "nom_generique": "Captopril",
+      "dosage": "25 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Antihypertenseur - Inhibiteur de l'enzyme de conversion (IEC)",
+      "code_cip": "3400934570030",
+      "prix": 7.8,
+      "stock_actuel": 10,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Insuffisance cardiaque",
+        "Infarctus du myocarde (post-infarctus)",
+        "Néphropathie diabétique",
+        "Protection rénale",
+        "Prévention des AVC"
+      ],
+      "substituts": [
+        {
+          "nom": "Énalapril",
+          "dosage": "20 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "IEC alternatif, action plus longue",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie",
+            "Risque d'angio-œdème (rare)",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque",
+            "Protection rénale"
+          ]
+        },
+        {
+          "nom": "Ramipril",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "IEC de choix, bonne tolérance",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la tension artérielle",
+            "Surveillance de la kaliémie",
+            "Risque d'angio-œdème (rare)"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Insuffisance cardiaque",
+            "Prévention cardiovasculaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux IEC",
+        "Allergie à l'énalapril",
+        "Antécédent d'angio-œdème",
+        "Grossesse (2ème et 3ème trimestres)",
+        "Allaitement",
+        "Insuffisance rénale sévère"
+      ],
+      "effets_secondaires": [
+        "Toux sèche (5-10% des patients)",
+        "Hypotension",
+        "Hyperkaliémie",
+        "Altération du goût",
+        "Éruptions cutanées",
+        "Angio-œdème (rare, mais sérieux)"
+      ],
+      "interactions": [
+        "AINS (diminution de l'effet, risque rénal)",
+        "Diurétiques (risque d'hypotension)",
+        "Suppléments de potassium (risque d'hyperkaliémie)",
+        "Lithium (toxicité augmentée)",
+        "Antidiabétiques (effets majorés)"
+      ],
+      "posologie_standard": "25-50 mg 2-3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 12.5 mg",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué (2ème et 3ème trimestres)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Carbamazépine (Tégrétol)",
+      "nom_generique": "Carbamazépine",
+      "dosage": "200 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anticonvulsivant - Antiépileptique",
+      "code_cip": "3400934570040",
+      "prix": 9.4,
+      "stock_actuel": 7,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Épilepsie (crises partielles, généralisées)",
+        "Névralgie du trijumeau",
+        "Troubles bipolaires (phase maniaque)",
+        "Douleurs neuropathiques",
+        "Alcoolisme (sevrage)",
+        "Tremblements (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Oxcarbazépine (Trileptal)",
+          "dosage": "300 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative (dérivé de la carbamazépine, mieux toléré)",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance hématologique",
+            "Risque d'hyponatrémie",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "300-600 mg 2 fois par jour",
+          "maladies_associees": [
+            "Épilepsie",
+            "Névralgie du trijumeau",
+            "Troubles bipolaires"
+          ]
+        },
+        {
+          "nom": "Phénytoïne (Dihydan)",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative antiépileptique",
+          "confiance": 0.8,
+          "precautions": [
+            "Surveillance hématologique",
+            "Surveillance hépatique",
+            "Surveillance des interactions",
+            "Utilisation en milieu spécialisé"
+          ],
+          "instructions": "100-300 mg 1 fois par jour",
+          "maladies_associees": [
+            "Épilepsie",
+            "Troubles du rythme cardiaque"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la carbamazépine",
+        "Allergie aux tricycliques",
+        "Bloc AV",
+        "Antécédent de dépression médullaire",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Vertiges",
+        "Troubles digestifs",
+        "Éruptions cutanées (syndrome de Stevens-Johnson - 1%)",
+        "Hyponatrémie (10-20%)",
+        "Leucopénie (rare)",
+        "Troubles du mouvement"
+      ],
+      "interactions": [
+        "Warfarine (risque hémorragique)",
+        "Contraceptifs oraux (diminution de l'efficacité)",
+        "Antidépresseurs (effets majorés)",
+        "Antipsychotiques (effets majorés)",
+        "Alcool (sédation majorée)"
+      ],
+      "posologie_standard": "200-400 mg 2 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 100 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Carbocistéine (Mucodyne)",
+      "nom_generique": "Carbocistéine",
+      "dosage": "375 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Mucolytique - Fluidifiant bronchique",
+      "code_cip": "3400934570050",
+      "prix": 6.9,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Bronchite aiguë",
+        "Bronchite chronique",
+        "BPCO",
+        "Encombrement bronchique",
+        "Sinucéite",
+        "Toux grasse",
+        "Infection respiratoire"
+      ],
+      "substituts": [
+        {
+          "nom": "Acétylcystéine (Mucomyst)",
+          "dosage": "200 mg",
+          "forme": "Sachet",
+          "quantite": "30 sachets",
+          "raison": "Mucolytique alternatif, action antioxydante",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de bronchospasme (asthmatiques)",
+            "Ne pas mélanger avec d'autres médicaments dans le même verre",
+            "Surveillance respiratoire"
+          ],
+          "instructions": "1 sachet 2 fois par jour",
+          "maladies_associees": [
+            "Bronchite",
+            "BPCO",
+            "Encombrement bronchique"
+          ]
+        },
+        {
+          "nom": "Bromhexine (Bisolvon)",
+          "dosage": "8 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative mucolytique",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de troubles digestifs",
+            "Surveillance en cas d'asthme"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Bronchite",
+            "Encombrement bronchique",
+            "Toux grasse"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la carbocistéine",
+        "Ulcère gastroduodénal",
+        "Insuffisance rénale sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (nausées, diarrhée)",
+        "Céphalées",
+        "Éruptions cutanées (rare)",
+        "Saignements digestifs (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Antibiotiques (absorption diminuée)",
+        "AINS (risque d'ulcère)"
+      ],
+      "posologie_standard": "375 mg 3 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Réduire la dose"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Passage dans le lait - Surveillance"
+    },
+    {
+      "nom": "Carboplatine (Paraplatin)",
+      "nom_generique": "Carboplatine",
+      "dosage": "150 mg",
+      "forme": "Solution injectable",
+      "quantite": "1 flacon",
+      "famille": "Antinéoplasique - Agent alkylant",
+      "code_cip": "3400934570060",
+      "prix": 385.0,
+      "stock_actuel": 2,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Cancer de l'ovaire",
+        "Cancer du poumon (à petites cellules)",
+        "Cancer du testicule",
+        "Cancer de la tête et du cou",
+        "Cancer du col de l'utérus",
+        "Mésothéliome"
+      ],
+      "substituts": [
+        {
+          "nom": "Cisplatine (Platino)",
+          "dosage": "50 mg",
+          "forme": "Solution injectable",
+          "quantite": "1 flacon",
+          "raison": "Platine alternatif, plus puissant mais plus toxique",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale (néphrotoxicité)",
+            "Surveillance hématologique",
+            "Hydratation abondante",
+            "Utilisation en milieu spécialisé"
+          ],
+          "instructions": "Perfusion IV toutes les 3-4 semaines",
+          "maladies_associees": [
+            "Cancer de l'ovaire",
+            "Cancer du poumon",
+            "Cancer des testicules"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au carboplatine",
+        "Allergie au cisplatine",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Myélosuppression (leucopénie, thrombocytopénie, anémie)",
+        "Nausées et vomissements",
+        "Néphrotoxicité (moindre que le cisplatine)",
+        "Ototoxicité (rare)",
+        "Neuropathie périphérique",
+        "Alopécie"
+      ],
+      "interactions": [
+        "Aminoglycosides (toxicité rénale majorée)",
+        "Anticonvulsivants (effets majorés)",
+        "Diurétiques (toxicité rénale majorée)"
+      ],
+      "posologie_standard": "AUC 5-6 IV toutes les 3-4 semaines",
+      "duree_traitement": "6 cycles",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose (calcul AUC)",
+        "personne_agee": "Surveillance rénale"
+      },
+      "grossesse": "Contre-indiqué (contraception obligatoire)",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Carisoprodol (Somadril)",
+      "nom_generique": "Carisoprodol",
+      "dosage": "350 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Myorelaxant - Sédatif",
+      "code_cip": "3400934570070",
+      "prix": 8.3,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Spasmes musculaires",
+        "Douleurs musculaires (lombalgie, cervicalgie)",
+        "Contracture musculaire",
+        "Torticolis",
+        "Sciatique (en association)",
+        "Rhumatisme musculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Méphénésine (Décontractyl)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Myorelaxant alternatif, sans effet sédatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de troubles digestifs",
+            "Interactions médicamenteuses",
+            "Surveillance chez la personne âgée"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasmes musculaires",
+            "Douleurs musculaires",
+            "Contracture"
+          ]
+        },
+        {
+          "nom": "Thiocolchicoside (Colchicine)",
+          "dosage": "4 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Myorelaxant alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance digestive",
+            "Risque de diarrhée",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Spasmes musculaires",
+            "Douleurs rhumatismales",
+            "Contracture"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au carisoprodol",
+        "Allergie à la méprobamate (métabolite)",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence (fréquente)",
+        "Vertiges",
+        "Céphalées",
+        "Troubles digestifs",
+        "Dépendance (usage prolongé)",
+        "Syndrome de sevrage"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Dépresseurs du SNC",
+        "Antihistaminiques",
+        "Opiacés",
+        "Antidépresseurs"
+      ],
+      "posologie_standard": "350 mg 3-4 fois par jour",
+      "duree_traitement": "5-7 jours maximum",
+      "population_specifique": {
+        "personne_agee": "Débuter à 175 mg",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true
+    },
+    {
+      "nom": "Céfalexine (Keforal)",
+      "nom_generique": "Céfalexine",
+      "dosage": "500 mg",
+      "forme": "Gélule",
+      "quantite": "16 gélules",
+      "famille": "Antibiotique - Céphalosporine de 1ère génération",
+      "code_cip": "3400934570080",
+      "prix": 10.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Infections ORL (sinusite, otite)",
+        "Infections respiratoires (bronchite)",
+        "Infections urinaires (cystite)",
+        "Infections cutanées (érysipèle, impétigo)",
+        "Infections dentaires",
+        "Prophylaxie d'endocardite"
+      ],
+      "substituts": [
+        {
+          "nom": "Céfadroxil (Oracefal)",
+          "dosage": "500 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Céphalosporine de 1ère génération, alternative",
+          "confiance": 0.95,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Surveillance rénale",
+            "Risque de résistance croisée"
+          ],
+          "instructions": "Prendre 1 gélule 2 fois par jour",
+          "maladies_associees": [
+            "Infections ORL",
+            "Infections urinaires",
+            "Infections cutanées"
+          ]
+        },
+        {
+          "nom": "Amoxicilline",
+          "dosage": "500 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Alternative antibactérienne (pénicilline)",
+          "confiance": 0.85,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Risque de résistance",
+            "Surveillance digestive"
+          ],
+          "instructions": "Prendre 1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Angine",
+            "Infection ORL",
+            "Infection pulmonaire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux céphalosporines",
+        "Allergie aux pénicillines (5-10% de résistance croisée)",
+        "Insuffisance rénale sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Éruptions cutanées",
+        "Candidose (vulvo-vaginale)",
+        "Colite pseudo-membraneuse (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants oraux (risque hémorragique)",
+        "Méthotrexate (toxicité accrue)",
+        "Contraceptifs oraux (diminution de l'efficacité)",
+        "Probenecide (augmentation de la concentration)"
+      ],
+      "posologie_standard": "500 mg 2-3 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose",
+        "personne_agee": "Surveillance rénale"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Excrété dans le lait - Surveillance"
+    },
+    {
+      "nom": "Céftriaxone (Rocephine)",
+      "nom_generique": "Céftriaxone",
+      "dosage": "1 g",
+      "forme": "Flacon injectable",
+      "quantite": "1 flacon",
+      "famille": "Antibiotique - Céphalosporine de 3ème génération",
+      "code_cip": "3400934570090",
+      "prix": 18.9,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Pneumonie sévère",
+        "Méningite",
+        "Endocardite",
+        "Maladie de Lyme",
+        "Gonorrhée",
+        "Syphilis",
+        "Infections urinaires sévères",
+        "Infections nosocomiales"
+      ],
+      "substituts": [
+        {
+          "nom": "Céfotaxime (Claforan)",
+          "dosage": "1 g",
+          "forme": "Flacon injectable",
+          "quantite": "1 flacon",
+          "raison": "Céphalosporine de 3ème génération, alternative",
+          "confiance": 0.9,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Surveillance rénale",
+            "Administration IV lente"
+          ],
+          "instructions": "1-2 g IV 2-3 fois par jour",
+          "maladies_associees": [
+            "Méningite",
+            "Pneumonie",
+            "Infection sévère"
+          ]
+        },
+        {
+          "nom": "Céfépime (Maxipime)",
+          "dosage": "1 g",
+          "forme": "Flacon injectable",
+          "quantite": "1 flacon",
+          "raison": "Céphalosporine de 4ème génération, large spectre",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance rénale",
+            "Risque de neurotoxicité (fortes doses)",
+            "Administration IV lente"
+          ],
+          "instructions": "1-2 g IV 2 fois par jour",
+          "maladies_associees": [
+            "Infection sévère",
+            "Pneumonie",
+            "Infection urinaire compliquée"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux céphalosporines",
+        "Allergie aux pénicillines (5-10% de résistance croisée)",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Éruptions cutanées (1-5%)",
+        "Élévation des transaminases (10-20%)",
+        "Eosinophilie (5-10%)",
+        "Colite pseudo-membraneuse (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique)",
+        "Aminoglycosides (toxicité rénale majorée)",
+        "Probenecide (augmentation de la concentration)",
+        "Antiacides (diminution de l'absorption)"
+      ],
+      "posologie_standard": "1-2 g IV 1-2 fois par jour",
+      "duree_traitement": "7-14 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose",
+        "personne_agee": "Surveillance rénale",
+        "nouveau-ne": "25-50 mg/kg/jour"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Excrété dans le lait - Surveillance",
+      "stockage": "Réfrigérateur (2-8°C)"
+    },
+    {
+      "nom": "Céfuroxime (Zinnat)",
+      "nom_generique": "Céfuroxime axétil",
+      "dosage": "250 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "20 comprimés",
+      "famille": "Antibiotique - Céphalosporine de 2ème génération",
+      "code_cip": "3400934570100",
+      "prix": 13.6,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Sinusite aiguë",
+        "Otite moyenne",
+        "Bronchite aiguë",
+        "Infection urinaire",
+        "Infection cutanée",
+        "Pneumonie communautaire",
+        "Infection dentaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Céfaclor (Ceclor)",
+          "dosage": "250 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Céphalosporine de 2ème génération, alternative",
+          "confiance": 0.9,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Surveillance rénale",
+            "Risque de résistance croisée"
+          ],
+          "instructions": "Prendre 1 gélule 3 fois par jour",
+          "maladies_associees": [
+            "Infections ORL",
+            "Infections respiratoires",
+            "Infections urinaires"
+          ]
+        },
+        {
+          "nom": "Amoxicilline + Acide clavulanique",
+          "dosage": "500/125 mg",
+          "forme": "Comprimé",
+          "quantite": "16 comprimés",
+          "raison": "Alternative antibactérienne à large spectre",
+          "confiance": 0.85,
+          "precautions": [
+            "Vérifier les allergies aux pénicillines",
+            "Risque de diarrhée",
+            "Surveillance rénale"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Sinusite",
+            "Otite",
+            "Infection respiratoire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux céphalosporines",
+        "Allergie aux pénicillines",
+        "Insuffisance rénale sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Éruptions cutanées",
+        "Candidose (vulvo-vaginale)",
+        "Colite pseudo-membraneuse (rare)",
+        "Élévation des transaminases (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants oraux (risque hémorragique)",
+        "Méthotrexate (toxicité accrue)",
+        "Contraceptifs oraux (diminution de l'efficacité)",
+        "Probenecide (augmentation de la concentration)"
+      ],
+      "posologie_standard": "250 mg 2 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose",
+        "personne_agee": "Surveillance rénale"
+      },
+      "grossesse": "Classe B - Utilisation possible",
+      "allaitement": "Excrété dans le lait - Surveillance"
+    },
+    {
+      "nom": "Célestène (Bétaméthasone)",
+      "nom_generique": "Bétaméthasone",
+      "dosage": "0.5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Corticostéroïde - Glucocorticoïde",
+      "code_cip": "3400934570110",
+      "prix": 6.5,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Maladies auto-immunes (lupus, polyarthrite)",
+        "Asthme sévère",
+        "Maladie de Crohn (poussées)",
+        "Rectocolite hémorragique",
+        "Dermatomyosite",
+        "Rhumatisme inflammatoire",
+        "Sclérose en plaques (poussées)"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisolone (Solupred)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticostéroïde alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance glycémique",
+            "Surveillance de la pression artérielle",
+            "Risque d'ostéoporose (traitement prolongé)",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "5-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladies auto-immunes",
+            "Asthme sévère",
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux corticostéroïdes",
+        "Infection non contrôlée",
+        "Infection fongique systémique",
+        "Herpès simplex oculaire",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Ostéoporose (traitement prolongé)",
+        "Diabète (hyperglycémie)",
+        "Hypertension artérielle",
+        "Troubles digestifs (ulcère)",
+        "Cataracte (traitement prolongé)",
+        "Insomnie",
+        "Troubles de l'humeur"
+      ],
+      "interactions": [
+        "AINS (risque d'ulcère majoré)",
+        "Antidiabétiques (hyperglycémie)",
+        "Antihypertenseurs (hypotension)",
+        "Anticoagulants (risque hémorragique)"
+      ],
+      "posologie_standard": "0.5-2 mg 1 fois par jour",
+      "duree_traitement": "Variable",
+      "population_specifique": {
+        "personne_agee": "Risque d'ostéoporose majoré"
+      },
+      "grossesse": "Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Chlorthalidone (Hygroton)",
+      "nom_generique": "Chlorthalidone",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Diurétique - Thiazidique",
+      "code_cip": "3400934570120",
+      "prix": 4.9,
+      "stock_actuel": 7,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Hypertension artérielle",
+        "Œdèmes (insuffisance cardiaque, rénale)",
+        "Insuffisance cardiaque",
+        "Hypercalcémie (en association)",
+        "Prévention des AVC (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Hydrochlorothiazide (Esidrex)",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Diurétique thiazidique alternatif",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance de la kaliémie",
+            "Surveillance de la pression artérielle",
+            "Risque d'hypotension",
+            "Surveillance de la glycémie"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Œdèmes",
+            "Insuffisance cardiaque"
+          ]
+        },
+        {
+          "nom": "Indapamide (Fludex)",
+          "dosage": "1.5 mg",
+          "forme": "Comprimé à libération prolongée",
+          "quantite": "30 comprimés",
+          "raison": "Diurétique de type thiazidique, meilleure tolérance métabolique",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la kaliémie",
+            "Surveillance de la pression artérielle",
+            "Risque d'hypotension"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Hypertension",
+            "Œdèmes"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux thiazidiques",
+        "Allergie aux sulfamides",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Hyponatrémie",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Hypokaliémie",
+        "Hyponatrémie",
+        "Hyperglycémie",
+        "Hyperuricémie",
+        "Hypercalcémie",
+        "Hypotension",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "AINS (diminution de l'effet)",
+        "Lithium (toxicité augmentée)",
+        "Digitaliques (risque de toxicité)",
+        "Antidiabétiques (effet diminué)",
+        "Antihypertenseurs (effet additif)"
+      ],
+      "posologie_standard": "50 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 25 mg",
+        "insuffisant_renal": "Contre-indiqué si sévère",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Chlorpromazine (Largactil)",
+      "nom_generique": "Chlorpromazine",
+      "dosage": "25 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique - Neuroleptique phénothiazine",
+      "code_cip": "3400934570130",
+      "prix": 9.2,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Schizophrénie",
+        "Troubles bipolaires (phase maniaque)",
+        "Troubles psychotiques",
+        "Nausées (antiémétique)",
+        "Hoquet (en association)",
+        "Agitation sévère",
+        "Psychose aiguë"
+      ],
+      "substituts": [
+        {
+          "nom": "Lévomépromazine (Nozinan)",
+          "dosage": "25 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Neuroleptique phénothiazine alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de sédation",
+            "Risque de syndrome extrapyramidal",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "25-100 mg 2-3 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Psychose",
+            "Agitation sévère"
+          ]
+        },
+        {
+          "nom": "Halopéridol (Haldol)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Neuroleptique butyrophénone, efficace sur l'agitation",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de syndrome extrapyramidal",
+            "Risque de sédation",
+            "Surveillance cardiaque (QT)"
+          ],
+          "instructions": "2-5 mg 2 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Psychose",
+            "Agitation sévère",
+            "Délire"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux phénothiazines",
+        "Coma",
+        "Atteinte du SNC",
+        "Grossesse",
+        "Allaitement",
+        "Myasthénie"
+      ],
+      "effets_secondaires": [
+        "Syndrome extrapyramidal (parkinsonisme, akathisie)",
+        "Sédation",
+        "Hypotension orthostatique",
+        "Prise de poids",
+        "Hyperprolactinémie (galactorrhée)",
+        "Photosensibilité",
+        "Syndrome malin des neuroleptiques (rare)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Antihypertenseurs (hypotension)",
+        "Antiparkinsoniens (effets antagonistes)",
+        "Dépresseurs du SNC",
+        "Antidépresseurs (interactions)"
+      ],
+      "posologie_standard": "25-100 mg 2-3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 12.5 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Chlorhydrate de Cétylpyridinium (Cétyl)",
+      "nom_generique": "Chlorhydrate de Cétylpyridinium",
+      "dosage": "0.5%",
+      "forme": "Bain de bouche",
+      "quantite": "100 ml",
+      "famille": "Antiseptique buccal",
+      "code_cip": "3400934570140",
+      "prix": 5.8,
+      "stock_actuel": 12,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Aphtes",
+        "Gingivite",
+        "Stomatite",
+        "Muguet (en association)",
+        "Halitose",
+        "Irritation buccale",
+        "Prévention des infections dentaires"
+      ],
+      "substituts": [
+        {
+          "nom": "Chlorhexidine (Eludril)",
+          "dosage": "0.12%",
+          "forme": "Bain de bouche",
+          "quantite": "300 ml",
+          "raison": "Antiseptique buccal de référence",
+          "confiance": 0.95,
+          "precautions": [
+            "Ne pas avaler",
+            "Coloration des dents (usage prolongé)",
+            "Altération du goût"
+          ],
+          "instructions": "Rincer 1-2 fois par jour",
+          "maladies_associees": [
+            "Gingivite",
+            "Aphtes",
+            "Muguet",
+            "Halitose"
+          ]
+        },
+        {
+          "nom": "Hydroxyde de Magnésium (Stomatostop)",
+          "dosage": "N/A",
+          "forme": "Bain de bouche",
+          "quantite": "100 ml",
+          "raison": "Alternative apaisante pour les aphtes",
+          "confiance": 0.8,
+          "precautions": [
+            "Ne pas avaler",
+            "Usage externe uniquement"
+          ],
+          "instructions": "Rincer 2-3 fois par jour",
+          "maladies_associees": [
+            "Aphtes",
+            "Irritation buccale",
+            "Gingivite"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au cétylpyridinium",
+        "Allergie aux ammoniums quaternaires",
+        "Allaitement (usage prolongé)"
+      ],
+      "effets_secondaires": [
+        "Très rares",
+        "Irritation buccale (rare)",
+        "Coloration légère des dents (rare)"
+      ],
+      "interactions": [
+        "Autres antiseptiques (effets majorés)",
+        "Fluorure (effets antagonistes)"
+      ],
+      "posologie_standard": "Rincer 2-3 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "enfant": "Surveillance (risque d'ingestion)",
+        "personne_agee": "Surveillance de la déglutition"
+      },
+      "grossesse": "Utilisation possible",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Ciprofloxacine (Ciflox)",
+      "nom_generique": "Ciprofloxacine",
+      "dosage": "500 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "20 comprimés",
+      "famille": "Antibiotique - Fluoroquinolone",
+      "code_cip": "3400934570150",
+      "prix": 14.8,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections urinaires",
+        "Infections digestives (diarrhée du voyageur)",
+        "Infections cutanées",
+        "Infections pulmonaires",
+        "Infections prostatiques",
+        "Infections osseuses",
+        "Anthrax (inhalation)"
+      ],
+      "substituts": [
+        {
+          "nom": "Lévofloxacine (Tavanic)",
+          "dosage": "500 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "10 comprimés",
+          "raison": "Fluoroquinolone alternative, couverture élargie",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de tendinopathie",
+            "Surveillance cardiaque (QT)",
+            "Photosensibilité",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "Prendre 1 comprimé 1 fois par jour",
+          "maladies_associees": [
+            "Infection urinaire",
+            "Infection respiratoire",
+            "Infection cutanée"
+          ]
+        },
+        {
+          "nom": "Norfloxacine (Noroxine)",
+          "dosage": "400 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "20 comprimés",
+          "raison": "Fluoroquinolone alternative, bon pour les infections urinaires",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de tendinopathie",
+            "Photosensibilité",
+            "Ne pas prendre avec les produits laitiers"
+          ],
+          "instructions": "Prendre 1 comprimé 2 fois par jour",
+          "maladies_associees": [
+            "Infection urinaire",
+            "Infection digestive"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux fluoroquinolones",
+        "Allergie aux quinolones",
+        "Grossesse",
+        "Allaitement",
+        "Enfant de moins de 18 ans (sauf indication spécifique)",
+        "Antécédent de tendinopathie aux quinolones"
+      ],
+      "effets_secondaires": [
+        "Tendinopathie (risque de rupture du tendon d'Achille)",
+        "Troubles digestifs (diarrhée, nausées)",
+        "Photosensibilité",
+        "Céphalées",
+        "Neuropathie périphérique",
+        "Prolongation de l'intervalle QT"
+      ],
+      "interactions": [
+        "Antacides (diminution de l'absorption - décaler de 2h)",
+        "AINS (risque de convulsions)",
+        "Anticoagulants (risque hémorragique)",
+        "Méthotrexate (toxicité majorée)",
+        "Théophylline (toxicité majorée)"
+      ],
+      "posologie_standard": "500 mg 2 fois par jour",
+      "duree_traitement": "7-14 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose",
+        "personne_agee": "Surveillance cardiaque et tendineuse"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true
+    },
+    {
+      "nom": "Cisapride (Prépulsid)",
+      "nom_generique": "Cisapride",
+      "dosage": "5 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Prokinétique - Stimulant de la motricité digestive",
+      "code_cip": "3400934570160",
+      "prix": 12.3,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Reflux gastro-œsophagien",
+        "Gastropathie",
+        "Paupières (ernie hiatale)",
+        "Troubles de la motricité digestive",
+        "Nausées (en association)",
+        "Intolérance digestive"
+      ],
+      "substituts": [
+        {
+          "nom": "Domperidone (Motilium)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Prokinétique alternatif, action antiémétique",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance cardiaque (QT)",
+            "Risque de prolactinémie",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "Prendre 1 comprimé 3 fois par jour avant les repas",
+          "maladies_associees": [
+            "Reflux gastro-œsophagien",
+            "Nausées",
+            "Vomissements",
+            "Gastropathie"
+          ]
+        },
+        {
+          "nom": "Métoclopramide (Primpéran)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Prokinétique de référence",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de syndrome extrapyramidal (enfant)",
+            "Interactions médicamenteuses",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "Prendre 1 comprimé 3 fois par jour",
+          "maladies_associees": [
+            "Reflux gastro-œsophagien",
+            "Nausées",
+            "Vomissements",
+            "Gastropathie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au cisapride",
+        "Insuffisance hépatique sévère",
+        "Insuffisance rénale sévère",
+        "Grossesse",
+        "Allaitement",
+        "Troubles du rythme cardiaque"
+      ],
+      "effets_secondaires": [
+        "Diarrhée (fréquente)",
+        "Céphalées",
+        "Nausées",
+        "Troubles du sommeil",
+        "Prolongation de l'intervalle QT (rare)"
+      ],
+      "interactions": [
+        "Anticholinergiques (effets antagonistes)",
+        "Anticoagulants (risque hémorragique)",
+        "Antihistaminiques (effets majorés)"
+      ],
+      "posologie_standard": "5-10 mg 3 fois par jour",
+      "duree_traitement": "2-4 semaines",
+      "population_specifique": {
+        "personne_agee": "Surveillance cardiaque",
+        "insuffisant_renal": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Clarithromycine (Zéclar)",
+      "nom_generique": "Clarithromycine",
+      "dosage": "500 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "14 comprimés",
+      "famille": "Antibiotique - Macrolide",
+      "code_cip": "3400934570170",
+      "prix": 16.4,
+      "stock_actuel": 6,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Infections respiratoires",
+        "Sinusite",
+        "Otite",
+        "Infection à Helicobacter pylori (association)",
+        "Pneumonie",
+        "Infections cutanées",
+        "Infections ORL"
+      ],
+      "substituts": [
+        {
+          "nom": "Azithromycine",
+          "dosage": "250 mg",
+          "forme": "Gélule",
+          "quantite": "6 gélules",
+          "raison": "Macrolide alternatif, meilleure tolérance digestive",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance cardiaque (QT)",
+            "Interactions médicamenteuses",
+            "Risque de résistance"
+          ],
+          "instructions": "250 mg 1 fois par jour pendant 3-5 jours",
+          "maladies_associees": [
+            "Infections respiratoires",
+            "Infections cutanées"
+          ]
+        },
+        {
+          "nom": "Érythromycine",
+          "dosage": "250 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Macrolide de première génération",
+          "confiance": 0.8,
+          "precautions": [
+            "Troubles digestifs fréquents",
+            "Interactions médicamenteuses",
+            "Surveillance cardiaque"
+          ],
+          "instructions": "250 mg 4 fois par jour",
+          "maladies_associees": [
+            "Infections respiratoires",
+            "Infections cutanées"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux macrolides",
+        "Insuffisance hépatique sévère",
+        "Grossesse (1er trimestre)",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Céphalées",
+        "Altération du goût (goût métallique)",
+        "Élévation des transaminases",
+        "Prolongation de l'intervalle QT"
+      ],
+      "interactions": [
+        "Statines (risque de myopathie)",
+        "Anticoagulants oraux (risque hémorragique)",
+        "Digoxine (toxicité majorée)",
+        "Warfarine (risque hémorragique)",
+        "Alcool (toxicité hépatique)"
+      ],
+      "posologie_standard": "500 mg 2 fois par jour",
+      "duree_traitement": "7-10 jours",
+      "population_specifique": {
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Classe B - Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Excrété dans le lait - Surveillance"
+    },
+    {
+      "nom": "Clomipramine (Anafranil)",
+      "nom_generique": "Clomipramine",
+      "dosage": "25 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antidépresseur tricyclique",
+      "code_cip": "3400934570180",
+      "prix": 8.7,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Dépression sévère",
+        "Troubles obsessionnels compulsifs (TOC)",
+        "Narcolepsie",
+        "Enurésie nocturne",
+        "Douleurs neuropathiques",
+        "Anxiété (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Amitriptyline",
+          "dosage": "25 mg",
+          "forme": "Comprimé sécable",
+          "quantite": "30 comprimés",
+          "raison": "Tricyclique alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance cardiaque",
+            "Risque de sédation",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "25-50 mg le soir",
+          "maladies_associees": [
+            "Dépression",
+            "Douleurs neuropathiques",
+            "Troubles du sommeil"
+          ]
+        },
+        {
+          "nom": "Sertraline (Zoloft)",
+          "dosage": "50 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "ISRS alternatif, bon pour les TOC",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque d'hyponatrémie",
+            "Interactions avec les IMAO",
+            "Surveillance de l'anxiété"
+          ],
+          "instructions": "50-100 mg 1 fois par jour",
+          "maladies_associees": [
+            "Dépression",
+            "TOC",
+            "Anxiété",
+            "Trouble panique"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux tricycliques",
+        "Glaucome à angle fermé",
+        "Hypertrophie prostatique",
+        "Infarctus récent",
+        "Grossesse",
+        "Allaitement",
+        "Syndrome du QT long"
+      ],
+      "effets_secondaires": [
+        "Sécheresse buccale",
+        "Constipation",
+        "Troubles de l'accommodation",
+        "Somnolence (effet sédatif)",
+        "Troubles du rythme cardiaque",
+        "Prise de poids"
+      ],
+      "interactions": [
+        "IMAO (risque de syndrome sérotoninergique)",
+        "Anticholinergiques (effets majorés)",
+        "Antihypertenseurs (hypotension)",
+        "Alcool (sédation majorée)"
+      ],
+      "posologie_standard": "25-75 mg 2-3 fois par jour",
+      "duree_traitement": "4-6 semaines avant effet",
+      "population_specifique": {
+        "personne_agee": "Débuter à 10-25 mg",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Clonazépam (Rivotril)",
+      "nom_generique": "Clonazépam",
+      "dosage": "0.5 mg",
+      "forme": "Comprimé sécable",
+      "quantite": "30 comprimés",
+      "famille": "Anticonvulsivant - Benzodiazépine",
+      "code_cip": "3400934570190",
+      "prix": 10.2,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Épilepsie (crises généralisées)",
+        "Épilepsie partielle",
+        "Myoclonies",
+        "Spasmes infantiles",
+        "Troubles anxieux",
+        "Troubles paniques"
+      ],
+      "substituts": [
+        {
+          "nom": "Clobazam (Urbanyl)",
+          "dosage": "10 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine alternative, moins sédatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de dépendance",
+            "Interactions avec l'alcool",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "10-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Épilepsie",
+            "Anxiété",
+            "Spasmes"
+          ]
+        },
+        {
+          "nom": "Valproate de sodium (Dépakine)",
+          "dosage": "200 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antiépileptique de choix, bonne alternative",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hépatique",
+            "Surveillance hématologique",
+            "Grossesse (contre-indiqué)"
+          ],
+          "instructions": "200-600 mg 2 fois par jour",
+          "maladies_associees": [
+            "Épilepsie généralisée",
+            "Myoclonies",
+            "Troubles bipolaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire sévère",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement",
+        "Alcoolisme"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Troubles de la mémoire",
+        "Dépendance",
+        "Syndrome de sevrage",
+        "Ataxie",
+        "Troubles de la coordination"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Autres dépresseurs du SNC",
+        "Antihistaminiques",
+        "Opiacés"
+      ],
+      "posologie_standard": "0.5-2 mg 2-3 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 0.25 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Réduire la dose"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Clopidogrel (Plavix)",
+      "nom_generique": "Clopidogrel",
+      "dosage": "75 mg",
+      "forme": "Comprimé pelliculé",
+      "quantite": "30 comprimés",
+      "famille": "Antiagrégant plaquettaire",
+      "code_cip": "3400934570200",
+      "prix": 42.5,
+      "stock_actuel": 6,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Prévention des accidents ischémiques (AVC, AIT)",
+        "Prévention des infarctus du myocarde",
+        "Artériopathie des membres inférieurs",
+        "Angor instable",
+        "Prévention des thromboses (stent)",
+        "Prévention secondaire cardiovasculaire"
+      ],
+      "substituts": [
+        {
+          "nom": "Ticagrelor (Brilique)",
+          "dosage": "90 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "60 comprimés",
+          "raison": "Antiagrégant alternatif, plus puissant",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hémorragique",
+            "Risque de dyspnée (10-20%)",
+            "Interactions médicamenteuses",
+            "Utilisation en milieu spécialisé"
+          ],
+          "instructions": "90 mg 2 fois par jour",
+          "maladies_associees": [
+            "Prévention des AVC",
+            "Prévention des infarctus",
+            "Angor"
+          ]
+        },
+        {
+          "nom": "Aspirine 75 mg",
+          "dosage": "75 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antiagrégant de référence",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque hémorragique",
+            "Allergie aux salicylés",
+            "Risque d'ulcère gastrique",
+            "Ne pas utiliser chez l'enfant"
+          ],
+          "instructions": "75 mg 1 fois par jour",
+          "maladies_associees": [
+            "Prévention cardiovasculaire",
+            "Prévention des AVC"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au clopidogrel",
+        "Hémorragie active",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Risque hémorragique (1-2%)",
+        "Troubles digestifs (diarrhée, nausées)",
+        "Éruptions cutanées",
+        "Thrombocytopénie (rare)",
+        "Neutropénie (rare)"
+      ],
+      "interactions": [
+        "Anticoagulants (risque hémorragique majoré)",
+        "AINS (risque hémorragique majoré)",
+        "Aspirine (risque hémorragique majoré)",
+        "Héparine (risque hémorragique majoré)",
+        "Oméprazole (diminution de l'efficacité - éviter)"
+      ],
+      "posologie_standard": "75 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance hémorragique",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Clorazépate (Tranxène)",
+      "nom_generique": "Clorazépate",
+      "dosage": "5 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Anxiolytique - Benzodiazépine",
+      "code_cip": "3400934570210",
+      "prix": 6.8,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Anxiété",
+        "Troubles du sommeil",
+        "Angoisse",
+        "Spasmophilie",
+        "Troubles de l'adaptation",
+        "Anxiété pré-opératoire"
+      ],
+      "substituts": [
+        {
+          "nom": "Diazépam (Valium)",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Benzodiazépine de référence",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de dépendance",
+            "Interactions avec l'alcool",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "5-10 mg 2-3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Spasmophilie",
+            "Insomnie"
+          ]
+        },
+        {
+          "nom": "Lorazépam (Temesta)",
+          "dosage": "1 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Alternative à durée d'action courte",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Somnolence possible",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "1-2 mg 2-3 fois par jour",
+          "maladies_associees": [
+            "Anxiété",
+            "Insomnie",
+            "Angoisse"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux benzodiazépines",
+        "Insuffisance respiratoire sévère",
+        "Myasthénie",
+        "Grossesse",
+        "Allaitement",
+        "Alcoolisme"
+      ],
+      "effets_secondaires": [
+        "Somnolence",
+        "Troubles de la mémoire",
+        "Dépendance",
+        "Syndrome de sevrage",
+        "Ataxie"
+      ],
+      "interactions": [
+        "Alcool (effet sédatif majoré)",
+        "Autres dépresseurs du SNC",
+        "Antihistaminiques",
+        "Opiacés"
+      ],
+      "posologie_standard": "5-10 mg 2 fois par jour",
+      "duree_traitement": "4-6 semaines maximum",
+      "population_specifique": {
+        "personne_agee": "Débuter à 2.5 mg",
+        "insuffisant_renal": "Pas d'ajustement"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Clotrimazole (Canesten)",
+      "nom_generique": "Clotrimazole",
+      "dosage": "1%",
+      "forme": "Crème",
+      "quantite": "20 g",
+      "famille": "Antifongique - Imidazole",
+      "code_cip": "3400934570220",
+      "prix": 5.4,
+      "stock_actuel": 10,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Mycoses cutanées",
+        "Candidose (peau)",
+        "Pityriasis versicolor",
+        "Dermatophytose",
+        "Dermatophyte",
+        "Eczéma mycosique",
+        "Intertrigo"
+      ],
+      "substituts": [
+        {
+          "nom": "Miconazole (Daktarin)",
+          "dosage": "2%",
+          "forme": "Crème",
+          "quantite": "20 g",
+          "raison": "Antifongique imidazole alternatif",
+          "confiance": 0.9,
+          "precautions": [
+            "Application locale uniquement",
+            "Éviter le contact avec les yeux",
+            "Surveillance des allergies"
+          ],
+          "instructions": "Appliquer 2 fois par jour",
+          "maladies_associees": [
+            "Mycoses cutanées",
+            "Candidose",
+            "Intertrigo"
+          ]
+        },
+        {
+          "nom": "Econazole (Pevaryl)",
+          "dosage": "1%",
+          "forme": "Crème",
+          "quantite": "20 g",
+          "raison": "Alternative antifongique",
+          "confiance": 0.85,
+          "precautions": [
+            "Application locale",
+            "Éviter le contact avec les yeux",
+            "Surveillance des allergies"
+          ],
+          "instructions": "Appliquer 1-2 fois par jour",
+          "maladies_associees": [
+            "Mycoses cutanées",
+            "Candidose",
+            "Dermatophytose"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au clotrimazole",
+        "Allergie aux imidazoles",
+        "Grossesse (1er trimestre)",
+        "Allaitement (usage prolongé)"
+      ],
+      "effets_secondaires": [
+        "Irritation locale (rare)",
+        "Prurit",
+        "Brûlure",
+        "Réaction allergique (rare)"
+      ],
+      "interactions": [
+        "Autres antifongiques (effets majorés)",
+        "Corticostéroïdes topiques (effets antagonistes)"
+      ],
+      "posologie_standard": "Appliquer 2 fois par jour",
+      "duree_traitement": "7-14 jours",
+      "population_specifique": {
+        "enfant": "Surveillance des allergies"
+      },
+      "grossesse": "Utilisation possible (sauf 1er trimestre)",
+      "allaitement": "Utilisation possible (usage limité)"
+    },
+    {
+      "nom": "Clozapine (Leponex)",
+      "nom_generique": "Clozapine",
+      "dosage": "25 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antipsychotique atypique - Neuroleptique",
+      "code_cip": "3400934570230",
+      "prix": 38.6,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Schizophrénie résistante",
+        "Schizophrénie sévère",
+        "Troubles bipolaires (phase maniaque)",
+        "Psychose résistante",
+        "Troubles délirants (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Risperidone (Risperdal)",
+          "dosage": "2 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antipsychotique atypique alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance métabolique",
+            "Risque de syndrome extrapyramidal",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "2-6 mg 1 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires",
+            "Psychose"
+          ]
+        },
+        {
+          "nom": "Olanzapine",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Antipsychotique atypique alternatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Risque de prise de poids",
+            "Risque de diabète",
+            "Surveillance métabolique"
+          ],
+          "instructions": "5-10 mg 1 fois par jour",
+          "maladies_associees": [
+            "Schizophrénie",
+            "Troubles bipolaires"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la clozapine",
+        "Antécédent d'agranulocytose",
+        "Insuffisance cardiaque",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Agranulocytose (1-2%) - RISQUE MAJEUR",
+        "Prise de poids (significative)",
+        "Sédation",
+        "Hypersalivation",
+        "Hypotension orthostatique",
+        "Diabète",
+        "Myocardite (rare)"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Antihypertenseurs (hypotension)",
+        "Antiparkinsoniens (effets antagonistes)",
+        "Dépresseurs du SNC"
+      ],
+      "posologie_standard": "25-150 mg 2 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 12.5 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I",
+      "suivi_sanguin": "Obligatoire (NFS)"
+    },
+    {
+      "nom": "Codéine (Codéine 30 mg)",
+      "nom_generique": "Codéine",
+      "dosage": "30 mg",
+      "forme": "Comprimé",
+      "quantite": "20 comprimés",
+      "famille": "Antalgique - Opiacé - Antitussif",
+      "code_cip": "3400934570240",
+      "prix": 4.2,
+      "stock_actuel": 8,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Douleurs modérées",
+        "Douleurs post-opératoires",
+        "Toux grasse (comme antitussif)",
+        "Douleurs rhumatismales",
+        "Céphalées (en association)",
+        "Douleurs dentaires",
+        "Douleurs post-traumatiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Tramadol (Topalgic)",
+          "dosage": "50 mg",
+          "forme": "Gélule",
+          "quantite": "20 gélules",
+          "raison": "Antalgique opioïde alternatif, moins de constipation",
+          "confiance": 0.9,
+          "precautions": [
+            "Risque de dépendance",
+            "Risque de somnolence",
+            "Interactions avec les IMAO",
+            "Risque de convulsions"
+          ],
+          "instructions": "50-100 mg 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs sévères",
+            "Douleurs chroniques",
+            "Douleurs post-opératoires"
+          ]
+        },
+        {
+          "nom": "Paracétamol (Dafalgan)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Antalgique de première intention",
+          "confiance": 0.85,
+          "precautions": [
+            "Ne pas dépasser 4g par jour",
+            "Risque hépatique en cas de surdosage"
+          ],
+          "instructions": "500 mg 3-4 fois par jour",
+          "maladies_associees": [
+            "Douleurs légères à modérées",
+            "Fièvre"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la codéine",
+        "Allergie aux opiacés",
+        "Insuffisance respiratoire",
+        "Asthme sévère",
+        "Enfant de moins de 12 ans (sauf indication spécifique)",
+        "Grossesse",
+        "Allaitement",
+        "Alcoolisme"
+      ],
+      "effets_secondaires": [
+        "Constipation",
+        "Somnolence",
+        "Nausées",
+        "Vomissements",
+        "Dépendance (usage prolongé)",
+        "Syndrome de sevrage",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Dépresseurs du SNC",
+        "Antihistaminiques (effet sédatif majoré)",
+        "Opiacés (effets majorés)",
+        "Antidépresseurs (risque de syndrome sérotoninergique)"
+      ],
+      "posologie_standard": "30-60 mg 3-4 fois par jour",
+      "duree_traitement": "3-5 jours maximum",
+      "population_specifique": {
+        "personne_agee": "Débuter à 15 mg",
+        "insuffisant_renal": "Réduire la dose",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    },
+    {
+      "nom": "Colchicine (Colchimax)",
+      "nom_generique": "Colchicine",
+      "dosage": "1 mg",
+      "forme": "Comprimé",
+      "quantite": "10 comprimés",
+      "famille": "Anti-goutteux - Anti-inflammatoire",
+      "code_cip": "3400934570250",
+      "prix": 8.9,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Crise aiguë de goutte",
+        "Arthrite goutteuse",
+        "Maladie de Behçet (en association)",
+        "Péricardite (en association)",
+        "Famille (maladie de FMF - fièvre méditerranéenne)",
+        "Pseudo-goutte"
+      ],
+      "substituts": [
+        {
+          "nom": "Allopurinol",
+          "dosage": "100 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Prévention des crises de goutte (pas pour la crise aiguë)",
+          "confiance": 0.8,
+          "precautions": [
+            "Débuter après la crise aiguë",
+            "Surveillance rénale",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "100-300 mg 1 fois par jour",
+          "maladies_associees": [
+            "Goutte chronique",
+            "Hyperuricémie"
+          ]
+        },
+        {
+          "nom": "Ibuprofène (Brufen)",
+          "dosage": "400 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Alternative anti-inflammatoire",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque d'ulcère gastro-intestinal",
+            "Ne pas utiliser en cas d'insuffisance rénale",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "400 mg 3 fois par jour",
+          "maladies_associees": [
+            "Arthrite",
+            "Douleurs rhumatismales",
+            "Inflammation"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la colchicine",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement",
+        "Myasthénie"
+      ],
+      "effets_secondaires": [
+        "Troubles digestifs (diarrhée, nausées)",
+        "Vomissements",
+        "Douleurs abdominales",
+        "Myopathie (usage prolongé)",
+        "Toxicité neurologique (rare)"
+      ],
+      "interactions": [
+        "Cyclosporine (toxicité majorée)",
+        "Anticoagulants (risque hémorragique)",
+        "AINS (toxicité digestive majorée)",
+        "Digoxine (toxicité majorée)",
+        "Macrolides (toxicité majorée)"
+      ],
+      "posologie_standard": "1 mg toutes les 2 heures",
+      "duree_traitement": "Jusqu'à 3 jours",
+      "population_specifique": {
+        "personne_agee": "Surveillance rénale",
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Surveillance"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Colecalciférol (Vitamine D3)",
+      "nom_generique": "Colecalciférol",
+      "dosage": "1000 UI",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Vitamine D - Supplément",
+      "code_cip": "3400934570260",
+      "prix": 3.8,
+      "stock_actuel": 15,
+      "seuil_alerte": 5,
+      "maladies_associees": [
+        "Déficit en vitamine D",
+        "Prévention de l'ostéoporose",
+        "Rachitisme (enfant)",
+        "Ostéomalacie",
+        "Prévention des chutes (personne âgée)",
+        "Hypocalcémie",
+        "Déficit saisonnier (automne-hiver)"
+      ],
+      "substituts": [
+        {
+          "nom": "Ergocalciférol (Vitamine D2)",
+          "dosage": "1000 UI",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Alternative vitamine D d'origine végétale",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance de la calcémie",
+            "Utilisation en prévention",
+            "Interactions avec les suppléments calciques"
+          ],
+          "instructions": "1000-2000 UI 1 fois par jour",
+          "maladies_associees": [
+            "Déficit en vitamine D",
+            "Ostéoporose",
+            "Rachitisme"
+          ]
+        },
+        {
+          "nom": "Calcifediol (Dédrogyl)",
+          "dosage": "1000 UI",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Précurseur de la vitamine D active",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance de la calcémie",
+            "Utilisation en traitement des déficits sévères",
+            "Interactions avec les suppléments calciques"
+          ],
+          "instructions": "1000-2000 UI 1 fois par jour",
+          "maladies_associees": [
+            "Déficit en vitamine D sévère",
+            "Ostéoporose",
+            "Ostéomalacie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie au colecalciférol",
+        "Hypercalcémie",
+        "Lithiase rénale (néphrolithiase)",
+        "Sarcoïdose (risque d'hypercalcémie)"
+      ],
+      "effets_secondaires": [
+        "Rares",
+        "Hypercalcémie (surdosage)",
+        "Hyperphosphatémie",
+        "Constipation"
+      ],
+      "interactions": [
+        "Suppléments calciques (risque d'hypercalcémie)",
+        "Corticostéroïdes (effets majorés)",
+        "Anticonvulsivants (effets diminués)",
+        "Rifampicine (effets diminués)"
+      ],
+      "posologie_standard": "800-2000 UI 1 fois par jour",
+      "duree_traitement": "Traitement au long cours (prévention)",
+      "population_specifique": {
+        "personne_agee": "Risque accru de déficit",
+        "enfant": "Dose adaptée au poids",
+        "insuffisant_renal": "Surveillance de la calcémie"
+      },
+      "grossesse": "Utilisation possible (500-1000 UI)",
+      "allaitement": "Utilisation possible"
+    },
+    {
+      "nom": "Cortisone (Cortisone acétate)",
+      "nom_generique": "Cortisone",
+      "dosage": "25 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Corticostéroïde - Glucocorticoïde",
+      "code_cip": "3400934570270",
+      "prix": 5.2,
+      "stock_actuel": 5,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Polyarthrite rhumatoïde",
+        "Maladies auto-immunes",
+        "Asthme sévère",
+        "Rhumatisme inflammatoire",
+        "Lupus érythémateux",
+        "Maladie de Crohn",
+        "Dermatomyosite"
+      ],
+      "substituts": [
+        {
+          "nom": "Prednisone",
+          "dosage": "5 mg",
+          "forme": "Comprimé",
+          "quantite": "30 comprimés",
+          "raison": "Corticostéroïde alternatif",
+          "confiance": 0.95,
+          "precautions": [
+            "Surveillance glycémique",
+            "Surveillance de la pression artérielle",
+            "Risque d'ostéoporose",
+            "Ne pas arrêter brutalement"
+          ],
+          "instructions": "5-20 mg 1 fois par jour",
+          "maladies_associees": [
+            "Maladies auto-immunes",
+            "Asthme sévère",
+            "Polyarthrite rhumatoïde"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie aux corticostéroïdes",
+        "Infection non contrôlée",
+        "Infection fongique systémique",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Prise de poids",
+        "Ostéoporose (traitement prolongé)",
+        "Diabète (hyperglycémie)",
+        "Hypertension artérielle",
+        "Troubles digestifs (ulcère)",
+        "Cataracte",
+        "Insomnie",
+        "Troubles de l'humeur"
+      ],
+      "interactions": [
+        "AINS (risque d'ulcère majoré)",
+        "Antidiabétiques (hyperglycémie)",
+        "Antihypertenseurs (hypotension)",
+        "Anticoagulants (risque hémorragique)"
+      ],
+      "posologie_standard": "25-50 mg 1 fois par jour",
+      "duree_traitement": "Variable (courte ou longue)",
+      "population_specifique": {
+        "personne_agee": "Risque d'ostéoporose majoré"
+      },
+      "grossesse": "Utilisation possible (surveillance)",
+      "allaitement": "Passage dans le lait - Éviter"
+    },
+    {
+      "nom": "Cyclobenzaprine (Sirdalud)",
+      "nom_generique": "Cyclobenzaprine",
+      "dosage": "10 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Myorelaxant - Décontractant musculaire",
+      "code_cip": "3400934570280",
+      "prix": 7.6,
+      "stock_actuel": 4,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Spasmes musculaires",
+        "Lombalgie aiguë",
+        "Cervicalgie",
+        "Torticolis",
+        "Contracture musculaire",
+        "Douleurs musculaires post-traumatiques"
+      ],
+      "substituts": [
+        {
+          "nom": "Carisoprodol",
+          "dosage": "350 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Myorelaxant alternatif",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de dépendance",
+            "Interactions avec l'alcool",
+            "Somnolence possible"
+          ],
+          "instructions": "350 mg 3-4 fois par jour",
+          "maladies_associees": [
+            "Spasmes musculaires",
+            "Lombalgie",
+            "Contracture"
+          ]
+        },
+        {
+          "nom": "Méphénésine (Décontractyl)",
+          "dosage": "500 mg",
+          "forme": "Comprimé",
+          "quantite": "20 comprimés",
+          "raison": "Myorelaxant alternatif, sans effet sédatif",
+          "confiance": 0.8,
+          "precautions": [
+            "Troubles digestifs possibles",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "500 mg 3 fois par jour",
+          "maladies_associees": [
+            "Spasmes musculaires",
+            "Contracture",
+            "Lombalgie"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la cyclobenzaprine",
+        "Allergie aux tricycliques",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Somnolence (fréquente)",
+        "Sécheresse buccale",
+        "Céphalées",
+        "Vertiges",
+        "Troubles digestifs"
+      ],
+      "interactions": [
+        "Alcool (sédation majorée)",
+        "Dépresseurs du SNC",
+        "Antihistaminiques",
+        "Opiacés",
+        "IMAO (risque d'hypertension)"
+      ],
+      "posologie_standard": "10 mg 3 fois par jour",
+      "duree_traitement": "5-7 jours",
+      "population_specifique": {
+        "personne_agee": "Débuter à 5 mg",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué",
+      "allaitement": "Contre-indiqué"
+    },
+    {
+      "nom": "Cyclosporine (Néoral)",
+      "nom_generique": "Cyclosporine",
+      "dosage": "50 mg",
+      "forme": "Gélule",
+      "quantite": "30 gélules",
+      "famille": "Immunosuppresseur - Inhibiteur de calcineurine",
+      "code_cip": "3400934570290",
+      "prix": 125.0,
+      "stock_actuel": 2,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Transplantation rénale (prévention du rejet)",
+        "Transplantation hépatique",
+        "Transplantation cardiaque",
+        "Maladies auto-immunes (psoriasis, polyarthrite)",
+        "Syndrome néphrotique",
+        "Uvéite (en association)"
+      ],
+      "substituts": [
+        {
+          "nom": "Tacrolimus (Prograf)",
+          "dosage": "1 mg",
+          "forme": "Gélule",
+          "quantite": "30 gélules",
+          "raison": "Immunosuppresseur alternatif (inhibiteur de calcineurine)",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance des concentrations sanguines",
+            "Surveillance rénale",
+            "Surveillance hépatique",
+            "Interactions médicamenteuses nombreuses"
+          ],
+          "instructions": "1-3 mg 2 fois par jour",
+          "maladies_associees": [
+            "Transplantation",
+            "Maladies auto-immunes"
+          ]
+        },
+        {
+          "nom": "Mycophénolate mofétil (Cellcept)",
+          "dosage": "500 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "100 comprimés",
+          "raison": "Immunosuppresseur alternatif (inhibiteur de l'inosine monophosphate déshydrogénase)",
+          "confiance": 0.85,
+          "precautions": [
+            "Surveillance hématologique",
+            "Risque d'immunodépression",
+            "Grossesse (contre-indiqué)"
+          ],
+          "instructions": "500 mg 2 fois par jour",
+          "maladies_associees": [
+            "Transplantation",
+            "Maladies auto-immunes"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la cyclosporine",
+        "Insuffisance rénale sévère",
+        "Insuffisance hépatique sévère",
+        "Grossesse",
+        "Allaitement"
+      ],
+      "effets_secondaires": [
+        "Néphrotoxicité (toxique pour les reins)",
+        "Hypertension artérielle (20-30% des patients)",
+        "Hirsutisme (pilosité excessive)",
+        "Gingivite (hypertrophie des gencives)",
+        "Tremblements",
+        "Hépatotoxicité (rare)",
+        "Diabète (10-15%)"
+      ],
+      "interactions": [
+        "AINS (toxicité rénale majorée)",
+        "Antifongiques (augmentation de la concentration)",
+        "Macrolides (augmentation de la concentration)",
+        "Stimulants (diminution de la concentration)",
+        "Pamplemousse (augmentation de la concentration)"
+      ],
+      "posologie_standard": "5-10 mg/kg/jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "insuffisant_renal": "Contre-indiqué",
+        "insuffisant_hepatique": "Contre-indiqué",
+        "personne_agee": "Surveillance rénale renforcée"
+      },
+      "grossesse": "Contre-indiqué (contraception obligatoire)",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "stockage": "Réfrigérateur (2-8°C)",
+      "suivi_sanguin": "Obligatoire (dosage de la concentration)"
+    },
+    {
+      "nom": "Cyproterone (Androcur)",
+      "nom_generique": "Acétate de cyprotérone",
+      "dosage": "50 mg",
+      "forme": "Comprimé",
+      "quantite": "30 comprimés",
+      "famille": "Antiandrogène - Hormonothérapie",
+      "code_cip": "3400934570300",
+      "prix": 45.8,
+      "stock_actuel": 3,
+      "seuil_alerte": 3,
+      "maladies_associees": [
+        "Cancer de la prostate (métastatique)",
+        "Hirsutisme sévère (femme)",
+        "Acné sévère (femme)",
+        "Hypertrophie bénigne de la prostate (en association)",
+        "Syndrome de la PME (prémenstruel sévère)",
+        "Alopécie (femme)"
+      ],
+      "substituts": [
+        {
+          "nom": "Bicalutamide (Casodex)",
+          "dosage": "50 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Antiandrogène non stéroïdien",
+          "confiance": 0.9,
+          "precautions": [
+            "Surveillance hépatique",
+            "Risque de gynécomastie",
+            "Interactions médicamenteuses"
+          ],
+          "instructions": "50 mg 1 fois par jour",
+          "maladies_associees": [
+            "Cancer de la prostate",
+            "Hirsutisme"
+          ]
+        },
+        {
+          "nom": "Finastéride (Proscar)",
+          "dosage": "5 mg",
+          "forme": "Comprimé pelliculé",
+          "quantite": "30 comprimés",
+          "raison": "Inhibiteur de la 5-alpha réductase",
+          "confiance": 0.85,
+          "precautions": [
+            "Risque de troubles sexuels",
+            "Surveillance de la prostate",
+            "Ne pas manipuler par les femmes enceintes"
+          ],
+          "instructions": "5 mg 1 fois par jour",
+          "maladies_associees": [
+            "Hypertrophie bénigne de la prostate",
+            "Alopécie (homme)"
+          ]
+        }
+      ],
+      "contre_indications": [
+        "Allergie à la cyproterone",
+        "Insuffisance hépatique sévère",
+        "Tumeurs hépatiques",
+        "Grossesse",
+        "Allaitement",
+        "Dépression sévère"
+      ],
+      "effets_secondaires": [
+        "Dépression (risque)",
+        "Fatigue",
+        "Prise de poids",
+        "Gynécomastie (homme)",
+        "Diminution de la libido",
+        "Troubles de l'humeur",
+        "Hépatotoxicité (risque)"
+      ],
+      "interactions": [
+        "Antiandrogènes (effets majorés)",
+        "Anticoagulants (risque hémorragique)",
+        "Antidiabétiques (effets majorés)",
+        "Hépatotoxiques (toxicité majorée)"
+      ],
+      "posologie_standard": "50-100 mg 1 fois par jour",
+      "duree_traitement": "Traitement au long cours",
+      "population_specifique": {
+        "personne_agee": "Surveillance hépatique",
+        "insuffisant_renal": "Pas d'ajustement",
+        "insuffisant_hepatique": "Contre-indiqué"
+      },
+      "grossesse": "Contre-indiqué (contraception obligatoire)",
+      "allaitement": "Contre-indiqué",
+      "substance_controlee": true,
+      "ordonnance": "Liste I"
+    }
+  ],
+  "metadata": {
+    "version": "3.0",
+    "date_generation": "2024-01-15",
+    "nombre_medicaments": 55,
+    "nombre_substituts": 135,
+    "categories": [
+      "Antibiotique",
+      "Anti-inflammatoire",
+      "Antihypertenseur",
+      "Hypolipémiant",
+      "Anxiolytique",
+      "Antidépresseur",
+      "Antiviral",
+      "Diurétique",
+      "Antiparkinsonien",
+      "Anticoagulant",
+      "Antipsychotique",
+      "Bêta-bloquant",
+      "Antidiabétique",
+      "Immunosuppresseur",
+      "Dermocosmétique",
+      "Collyre",
+      "Myorelaxant",
+      "Corticostéroïde",
+      "Antiagrégant plaquettaire",
+      "Bronchodilatateur",
+      "Antifongique",
+      "Anti-goutteux",
+      "Vitamine D",
+      "Antinéoplasique",
+      "Antiandrogène"
+    ],
+    "auteur": "Assistant Pharmacie - Système RAG",
+    "source": "Base de données pharmaceutique complète",
+    "notes": "JSON optimisé pour RAG - Médicaments en A (complément), B et C",
+    "taille_totale": "55 médicaments uniques + 135 substituts",
+    "mise_a_jour": "2024-01-15"
+  }
+}
