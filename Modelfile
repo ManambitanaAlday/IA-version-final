@@ -1,2 +1,2 @@
 FROM qwen2.5:1.5b
-ADAPTER "E:/PYCHARM/IA-GROUPE/qwen_pharma_lora"
+ADAPTER "./qwen_pharma_lora"
