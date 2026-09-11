@@ -1,0 +1,14 @@
+# Dépendances de base
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+
+# Fine-Tuning & Quantification (QLoRA)
+peft>=0.10.0
+trl>=0.8.0
+bitsandbytes>=0.42.0
+
+# Remarque : tkinter est inclus par défaut dans les distributions Python standard sous Windows/macOS.
+# Sur Linux (Ubuntu/Debian), il s'installe via le gestionnaire de paquets du système :
+# sudo apt-get install python3-tk
