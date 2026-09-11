@@ -17,3 +17,4 @@ Attention layer => MLP => Unembedding
 3) Finetuning du modèle reentrainement (google collab - finetuning.py)
 4) Intregrer le modèle dans du logique métier (cas chatbot pharmacie assistant pharmacien et gestionnaire de pharmacie)
 
+APP PRINCIPALE: app_pharma.py (pharmacien chatbot)
